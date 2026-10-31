@@ -1,6 +1,6 @@
 {
-  "updated_at_utc": "2026-10-31T02:43:32Z",
-  "updated_at_vn": "2026-10-31 09:43",
+  "updated_at_utc": "2026-10-31T02:44:41Z",
+  "updated_at_vn": "2026-10-31 09:44",
   "source": "binance spot public klines via ccxt",
   "frames": {
     "15m": {
