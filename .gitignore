@@ -1,0 +1,6 @@
+*
+!.gitignore
+!README.md
+!data/
+!data/*.csv
+!data/_meta.json
