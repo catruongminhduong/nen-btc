@@ -1,32 +1,32 @@
 {
-  "updated_at_utc": "2026-11-08T09:00:59Z",
-  "updated_at_vn": "2026-11-08 16:00",
+  "updated_at_utc": "2026-11-08T10:00:59Z",
+  "updated_at_vn": "2026-11-08 17:00",
   "source": "binance spot public klines via ccxt",
   "frames": {
     "1m": {
       "rows": 1000,
-      "last_closed_open_time_vn": "2026-11-08 15:59",
+      "last_closed_open_time_vn": "2026-11-08 16:59",
       "file": "BTC_USDT-1min.csv"
     },
     "5m": {
       "rows": 1000,
-      "last_closed_open_time_vn": "2026-11-08 15:55"
+      "last_closed_open_time_vn": "2026-11-08 16:55"
     },
     "15m": {
       "rows": 500,
-      "last_closed_open_time_vn": "2026-11-08 15:45"
+      "last_closed_open_time_vn": "2026-11-08 16:45"
     },
     "30m": {
       "rows": 500,
-      "last_closed_open_time_vn": "2026-11-08 15:30"
+      "last_closed_open_time_vn": "2026-11-08 16:30"
     },
     "1h": {
       "rows": 500,
-      "last_closed_open_time_vn": "2026-11-08 15:00"
+      "last_closed_open_time_vn": "2026-11-08 16:00"
     },
     "2h": {
       "rows": 500,
-      "last_closed_open_time_vn": "2026-11-08 13:00"
+      "last_closed_open_time_vn": "2026-11-08 15:00"
     },
     "4h": {
       "rows": 500,
