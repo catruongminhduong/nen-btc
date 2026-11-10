@@ -1,0 +1,85 @@
+{
+ "phien_ban": 1,
+ "ma_ke_hoach": "KH-2026-11-10-1715",
+ "tao_luc": "2026-11-10T17:25:00+07:00",
+ "hieu_luc_den": "2026-11-10T21:55:00+07:00",
+ "huong": {
+  "nen_goc": "12h",
+  "chieu": "LEN",
+  "nhip_cua_nen": "Bộ 5 12h xuống (xuất phát 19:00 08/11) đang cuối nến #4 (07:00–19:00 10/11) = cuối cửa sổ đáy #3→#5; Đáy 4 mới 74.177 (16:10) giá thấp hơn Đáy 4 cũ 74.379 nhưng RSI 5m/15m/4h cao hơn (phân kỳ dương); nhịp HỒI chờ nến 12h #5 (từ 19:00 10/11) lên về M7 12h ~75.47; CPI Mỹ 20:30 nằm trong kỳ"
+ },
+ "tang": {
+  "8h": false,
+  "12h": true,
+  "Ngay": false,
+  "3D": true
+ },
+ "lane": {
+  "D7": true,
+  "D7_DAYDUNG": true,
+  "D7_HOI": false,
+  "DAY_CHUAN": false
+ },
+ "vung_mua_btc": [
+  {
+   "tu": 74100,
+   "den": 74480,
+   "gio_tu": "2026-11-10T17:25:00+07:00",
+   "gio_den": "2026-11-10T20:25:00+07:00",
+   "tang": "12h",
+   "loai": "Day3"
+  },
+  {
+   "tu": 71740,
+   "den": 73680,
+   "gio_tu": "2026-11-10T17:25:00+07:00",
+   "gio_den": "2026-11-10T21:55:00+07:00",
+   "tang": "3D",
+   "loai": "Day3",
+   "cham_m": true
+  }
+ ],
+ "diem_dung_btc": 71740,
+ "diem_sai_btc": 71740,
+ "thu_lua_btc": {
+  "so_day": 4,
+  "tang_mo": [
+   "1h",
+   "2h",
+   "4h",
+   "8h",
+   "12h"
+  ],
+  "tang_ban_toi_thieu": "4h",
+  "day_gia": 74177.37,
+  "day_luc": "2026-11-10T16:10:00+07:00",
+  "muc": [
+   {
+    "tang": "1h",
+    "gia": 74725.0,
+    "het_bo5": "2026-11-10T22:00:00+07:00"
+   },
+   {
+    "tang": "2h",
+    "gia": 74890.01,
+    "het_bo5": "2026-11-11T03:00:00+07:00"
+   },
+   {
+    "tang": "4h",
+    "gia": 74890.01,
+    "het_bo5": "2026-11-11T15:00:00+07:00"
+   },
+   {
+    "tang": "8h",
+    "gia": 74890.01,
+    "het_bo5": "2026-11-12T15:00:00+07:00"
+   },
+   {
+    "tang": "12h",
+    "gia": 75442.0,
+    "het_bo5": "2026-11-13T07:00:00+07:00"
+   }
+  ]
+ },
+ "ghi_chu": "(1) Dừng vì NÉN tam giác của nến 12h #4 (07:00–19:00 10/11) trong Bộ 5 12h xuống từ 19:00 08/11: đỉnh thấp dần 75.568 (22:45 09/11)→75.442 (07:05)→74.996 (14:45), đáy 74.379 (10:40) bị quét xuống 74.177,37 (16:10) rồi rút chân, đáy sau đó cao dần 74.286 (16:25)→74.300 (16:35); giá 74.518 lúc 17:00 dưới M7 1h 74.702/M25 1h 74.833/M7 2h 74.888/M25 2h 75.030, xa trên vùng M lớn (M99 3D lưới Ba 72.970, M7 Tháng 72.785, M25 Tuần 72.524) — nén nằm TRÊN vùng M lớn, Đáy 1 73.510 đã chạm vùng M cuối Tuần #5, nên nghiêng hồi lên, không phải nén để xuống. Nến 12h #4 đang đỏ −1,13%. (2) Đáy của nến nào: Đáy 1 73.510 (04:55 09/11) = đáy 12h #1 ⊂ Ngày 08/11 ⊂ 3D#28 ⊂ Tuần 02/11 (#5 Bộ 5 Tuần); Đáy 2 73.750 (15:00 09/11) ⊂ 12h #2; Đáy 3 74.356 (21:35 09/11) ⊂ 12h #3; Đáy 4 = 74.177,37 lúc 16:10 10/11 (thay 74.379 lúc 10:40) = đáy 5m 16:10 ⊂ 15m/30m/1h 16:00 ⊂ 2h/4h/8h 15:00 ⊂ 12h #4 07:00 ⊂ Ngày 10/11 ⊂ 3D#29 ⊂ Tuần 09/11 — đúng cuối nến 12h #4 (biên 19:00). Đang Đáy 4 (vẫn cao hơn Đáy 1/2). RSI tại 74.177 so 74.379: 5m 34,4 > 27,7; 15m 36,3 > 31,5; 4h 42,6 > 39,9; 30m 39,5 ≈ 40,2; 1m 27,6 < 31,2 → giá thấp hơn RSI cao hơn = sắp dừng. Cây Bộ 5 (script, nến đang chạy): tầng 4h→1h→15m xuất phát 23:00 09/11, nến dừng 4h 07:00 10/11 → Đi chợ dạng A 74.177,37 lúc 16:00 (RSI 15m 47,7/1h 43,2/4h 40,4); tầng 2h→30m→5m xuất phát 09:00 10/11, cửa sổ 13:00–17:00, nến dừng 2h 15:00 (RSI 43,1; 30m 39,49 lúc 16:00), đáy tham chiếu 74.177,37 — chờ đủ nến xác nhận. Đáy cuối tam giác: từ đỉnh 74.996 khung lớn nhất có nến dài cắt xuống M25 là 15m 16:00 (thân 4,3 lần TB) → cuối nến 4 = 17:00 10/11 (±15'); khung 12h: cuối nến #4 = 19:00 10/11. (3) Nến dài gánh %: nến 15m 16:00 10/11 xả 74.725→74.177 (−0,73%, volume 5m 286 ~7 lần nền) gánh trọn cú quét Đáy 4; % Tuần 09/11 từ đỉnh 81.196 tới 74.177 = 8,64% (Tuần sâu nhất 9,47% ở Đáy 1 đã gánh xong ở nến 4h 03:00 và 30m 04:30 09/11). Vùng 74.100–74.480 = quanh Đáy 4 tới dưới M7 1h, hết lúc 20:25 để tránh cú giật CPI 20:30; thủng dưới 74.100 kèm RSI 5m/15m thấp hơn 34/36 thì chuỗi đáy hỏng, chỉ chờ vùng chạm M. Vùng chạm M tính tại giá chạm ~73.000: M25 Tuần 72.464, M7 Tháng 72.568, M99 3D 72.954 → 71.740–73.680; điểm dừng 71.740 = M thấp nhất −1% (Tuần −11,6% từ đỉnh 81.196). (4) THU LÚA: sau Đáy 4 74.177 chưa tầng nào đạt RSI DH ≥ 70 (3m 51,9; 5m 48,6; 15m 43,9; 30m 41,2). Trước đó 3m 69,4 lúc 14:45 (đỉnh 74.996) suýt mở tầng 1h. Chuỗi Đáy 2/3/4 cao hơn Đáy 1 nên mở 1h–12h, bán tối thiểu 4h. Đỉnh nến xả chứa Đáy 4: 1h 16:00 = 74.725 (hết Bộ 5 22:00 10/11); 2h 15:00 = 74.890,01 (03:00 11/11); 4h 15:00 = 74.890,01 (15:00 11/11); 8h 15:00 = 74.890,01 (15:00 12/11); 12h 07:00 = 75.442 (07:00 13/11). Mục tiêu xa M25: 1h 74.833, 2h 75.030, 4h 75.511, 8h 76.552, 12h 77.397; M7 12h ~75.47; khung hồi 1,7–3,9% từ 73.510 = 74.760–76.380. (5) Không nới gấp khúc D7: biên dao động từ 13:00 là 74.177–74.996 = 1,10% (> 1%), D7 mặc định 1% đã đủ thấy nhịp. Kỳ trước KH-2026-11-10-1315: vùng 74.300–74.650 ĐÚNG phần lớn (giá vào 15:30, đáy 74.177 thủng biên dưới 0,16% rồi hồi về 74.518 trong vùng); cửa sổ đáy 2h 13:00–17:00 ĐÚNG (đáy 16:10); Thu lúa 1h 74.888,89 ĐẠT lúc 14:45 (74.996); Đáy 4 74.379 SAI (bị quét), hướng LEN chưa đúng (12h #4 đỏ) — mã B7 (biên dưới vùng hẹp)."
+}
