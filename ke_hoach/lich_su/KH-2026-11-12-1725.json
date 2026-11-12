@@ -1,0 +1,167 @@
+{
+ "phien_ban": 1,
+ "ma_ke_hoach": "KH-2026-11-12-1725",
+ "tao_luc": "2026-11-12T17:25:00+07:00",
+ "hieu_luc_den": "2026-11-12T21:55:00+07:00",
+ "huong": {
+  "nen_goc": "4h",
+  "chieu": "XUONG",
+  "nhip_cua_nen": "Bộ 5 4h xuống từ đỉnh 74.811,45 (04:33 12/11, nến 4h 03:00 = lên cao cuối 3D#29 → đầu 3D#30 xuống): 4 nến 4h đỏ liền 03:00/07:00/11:00/15:00, Cây Bộ 5 tầng 4h→1h→15m xuất phát 07:00 (nến cắt M7 4h), cửa sổ đáy 15:00–23:00, nến dừng CÓ ở 4h 15:00, đáy tham chiếu 73.260 lúc 16:22. Bộ 5 2h từ nến dài 05:00 đã hết ở #4 (73.529 lúc 12:34) nhưng kéo dài sang #6 (Bộ phụ). ĐÁY CUỐI TAM GIÁC dự kiến: cuối nến 4h #4 = 19:00 (±1 nến 4h: 15:00–23:00) — trùng cuối 12h #1 của 3D#30; giá ~73.180 (Bộ 5 4h trung vị 2,18% tính từ 74.811), sâu thì vùng M 72.80 (M99 3D) = test lại đáy Tháng 72.727. Sau đáy: 4h #5 (19:00–23:00) hồi về M7 4h ~73.75–73.90. Trung hạn: Tháng 11 xuống nối đã có đáy Tháng 72.727,27 → phần còn lại tháng lên, nhưng hướng 3D/Tuần theo công thức bot đều XUỐNG."
+ },
+ "tang": {
+  "2h": false,
+  "4h": true,
+  "8h": false,
+  "12h": true,
+  "Ngay": false,
+  "3D": true
+ },
+ "lane": {
+  "D7": true,
+  "D7_DAYDUNG": true,
+  "D7_HOI": false,
+  "DAY_CHUAN": false
+ },
+ "vung_mua_btc": [
+  {
+   "tu": 71731,
+   "den": 73524,
+   "gio_tu": "2026-11-12T17:25:00+07:00",
+   "gio_den": "2026-11-12T21:55:00+07:00",
+   "tang": "3D",
+   "loai": "Day2",
+   "cham_m": true
+  }
+ ],
+ "diem_dung_btc": 71731,
+ "diem_sai_btc": 71731,
+ "thu_lua_btc": {
+  "so_day": 2,
+  "tang_mo": [
+   "1h",
+   "2h"
+  ],
+  "tang_ban_toi_thieu": "1h",
+  "day_gia": 73260.0,
+  "day_luc": "2026-11-12T16:22:00+07:00",
+  "muc": [
+   {
+    "tang": "1h",
+    "gia": 73596.31,
+    "het_bo5": "2026-11-12T22:00:00+07:00"
+   },
+   {
+    "tang": "2h",
+    "gia": 73696.86,
+    "het_bo5": "2026-11-13T03:00:00+07:00"
+   }
+  ]
+ },
+ "lo_trinh": [
+  {
+   "moc": "+4h",
+   "den_luc": "2026-11-12T21:00:00+07:00",
+   "chieu": "XUONG",
+   "gia_tu": 72920,
+   "gia_den": 73880,
+   "nen": "hết nến 4h #4 lúc 19:00 = cuối 12h #1 của 3D#30 (đáy cuối tam giác 4h, cửa sổ 15:00–23:00); 4h #5 19:00 bắt đầu hồi",
+   "bot_se": "Giá 73.486 đang TRONG vùng chạm M 71.731–73.524 (nến lệnh 4h/12h/3D, tắt 2h): sẵn sàng mua khi D7 bóp cò (3D XUỐNG → bot chỉ mua trong vùng chạm M; bộ lọc phí 0,6% tự quyết). Đáy dự kiến ~73.180 quanh 19:00. Lệnh mua được bán Thu lúa tối thiểu 1h 73.596,31, tầng 2h 73.696,86. Phụ: thủng 72.700 (dưới đáy Tháng 72.727) → Đáy mới trong vùng M, chờ M25 Tuần 72.46; vượt 74.000 (trên M25 1h 73.94 / M7 4h) → đáy 4h đã xong sớm, kỳ 21:15 mở tầng lớn hơn",
+   "doi_neu_thung": 72700,
+   "doi_neu_vuot": 74000,
+   "tu_tin": "thap"
+  },
+  {
+   "moc": "+8h",
+   "den_luc": "2026-11-13T01:00:00+07:00",
+   "chieu": "LEN",
+   "gia_tu": 72850,
+   "gia_den": 74450,
+   "nen": "4h #5 (19:00–23:00) hồi chạm M7 4h = kết Bộ 5 4h; mở 8h 23:00 (8h #3 của 3D#30); hết Bộ 5 1h của nến xả 16:00 lúc 22:00",
+   "bot_se": "DỰ KIẾN (ngoài hiệu lực): lệnh mua ở đáy 4h bán tầng 1h/2h 73.596–73.697; nếu RSI 15m ≥70 thì kỳ sau mở tầng 4h (đỉnh nến xả 4h 15:00 cũng 73.697, M7 4h ~73.8). Phụ: thủng 72.400 (dưới M25 Tuần) → hỏng đáy Tháng, sát điểm dừng; vượt 74.600 (trên M25 4h 74.45 / M99 1h 74.47) → lên thẳng, mở 8h/12h",
+   "doi_neu_thung": 72400,
+   "doi_neu_vuot": 74600,
+   "tu_tin": "thap"
+  },
+  {
+   "moc": "+12h",
+   "den_luc": "2026-11-13T05:00:00+07:00",
+   "chieu": "LEN",
+   "gia_tu": 72950,
+   "gia_den": 74550,
+   "nen": "8h 23:00 (hết Ngày 12/11 lúc 07:00 13/11); 12h #2 của 3D#30 (19:00–07:00) lên sau đầu 3D xuống",
+   "bot_se": "DỰ KIẾN: giữ lệnh còn lại tới tầng 2h/4h theo RSI thật; về lại vùng chạm M thì mua lại khi D7 bóp cò. Phụ: thủng 72.400 → về điểm dừng 71.731, bot về công tắc tay; vượt 74.850 (trên đỉnh 74.811) → hồi 3D#30 thật, mở 12h",
+   "doi_neu_thung": 72400,
+   "doi_neu_vuot": 74850,
+   "tu_tin": "thap"
+  }
+ ],
+ "rut_kinh_nghiem": {
+  "cham": [
+   {
+    "ke_hoach": "KH-2026-11-12-1315",
+    "moc": "+4h",
+    "du": "17:00 LEN 73.750–74.250, đổi nếu thủng 73.480 / vượt 74.300",
+    "that": "đóng 1h 16:00 = 73.496,29; cao 73.738,36 (13:27), thấp 73.260 (16:22) — thủng 73.480 từ 13:55 (73.422) và không quay lại vùng",
+    "ket_qua": "SAI",
+    "ma_loi": "B2,B8"
+   },
+   {
+    "ke_hoach": "KH-2026-11-12-0915",
+    "moc": "+8h",
+    "du": "17:00 LEN 73.800–74.300, đổi nếu thủng 73.209 / vượt 74.556",
+    "that": "đóng 73.496,29 (dưới vùng nới 73.579), lúc tạo ~73.590 → đi ngược chiều nhẹ; thấp 73.260 chưa chạm 73.209",
+    "ket_qua": "SAI",
+    "ma_loi": "B2"
+   },
+   {
+    "ke_hoach": "KH-2026-11-12-0515",
+    "moc": "+12h",
+    "du": "17:00 NGANG 73.600–74.400, đổi nếu thủng 73.209 / vượt 75.000",
+    "that": "đóng 73.496,29 trong vùng nới ±0,3% (73.379–74.623); thấp 73.260 (cách 73.209 51 USD), cao 74.217 — không chạm mức đổi",
+    "ket_qua": "DUNG",
+    "ma_loi": ""
+   },
+   {
+    "ke_hoach": "KH-2026-11-12-1315",
+    "moc": "vung_mua",
+    "du": "chạm M 71.730–73.520 (mọi nến lệnh); thường 73.480–73.650 (2h/4h) tới 15:50",
+    "that": "giá vào vùng chạm M 13:55 (73.422) và 16:00–17:00 (đáy 73.260 lúc 16:22, RSI 1m 20,1 / 3m 27,4 ≤ 28 → D7 có thể bóp cò); vùng thường bị thủng 0,3% (đáy thật dưới vùng); từ 16:39 luật hướng 3D XUỐNG chạy thật nên chỉ vùng chạm M còn hiệu lực. Không có log bot",
+    "ket_qua": "MOT_PHAN",
+    "ma_loi": "B7"
+   },
+   {
+    "ke_hoach": "KH-2026-11-12-1315",
+    "moc": "thu_lua",
+    "du": "bán tối thiểu 8h 74.217,49 (mở 1h–8h)",
+    "that": "cao nhất 73.738,36 lúc 13:27 — chạm mức 1h 73.735,40 nhưng tầng tối thiểu 8h chặn bán; lệnh mua (nếu có) giờ đang lỗ nhẹ",
+    "ket_qua": "SAI",
+    "ma_loi": "B10"
+   },
+   {
+    "ke_hoach": "KH-2026-11-12-1315",
+    "moc": "diem_dung",
+    "du": "71.730 không thủng",
+    "that": "thấp nhất 73.260",
+    "ket_qua": "DUNG",
+    "ma_loi": ""
+   }
+  ],
+  "nguyen_nhan": "KH-1315 coi đáy cuối nến 2h #4 (73.529, 12:34) là đáy xong nên dự LÊN, nhưng chỉ RSI 1m–15m phân kỳ tăng, còn RSI 30m/1h/2h/4h vẫn thấp dần (2h 41,2→40,4; 4h 42,2→37,9) — đáy của nến nhỏ, không phải đáy nến 4h. Đọc Bộ 5 ở khung 2h mà không lên khung 4h: 4h có 4 nến đỏ liền từ 03:00, Bộ 5 4h chưa hết nên đáy phải dời về cuối 4h #4 (19:00); nến 2h kéo sang #6 (Bộ phụ) (B2 — hướng theo Bộ 5 nến lớn; B8 — RSI khung lớn chưa có đáy cao hơn). KH-0915 +8h cùng lỗi. Thu lúa: nâng tối thiểu lên 8h khi chưa tầng nào đạt RSI DH ≥ 70 là lặp lỗi B10 của KH-0115 (đã có luật cấm) — giá đã chạm mức 1h 73.735 lúc 13:27 mà không bán được. Vùng thường đặt trên đáy thật 0,3% (B7).",
+  "da_sua": "(1) Đổi chiều: huong và mốc +4h sang XUONG theo Bộ 5 4h (đáy cuối nến 4h #4 ~19:00, cửa sổ 15:00–23:00), +8h/+12h chỉ LEN khi 4h #5 hồi, tự tin thấp. (2) Bỏ vùng thường (3D XUỐNG bot chặn), chỉ giữ vùng chạm M tính lại 71.731–73.524. (3) Thu lúa hạ về luật: đáy 73.260 thấp hơn Đáy 1 (không phải cao dần), chưa tầng nào đạt RSI ≥70 → mở 1h/2h, tối thiểu 1h 73.596,31. (4) Tắt nến lệnh 2h (hồi tầng 2h chỉ 0,46–0,6%, sát bộ lọc phí). (5) Bỏ zigzag_d7_pct (nhịp xuống từ 74.811 đã 2,07% > 1%, không cần nới). Không áp luật chống lỳ (mốc +4h KH-0915 DUNG, chỉ KH-1315 SAI) nhưng vẫn hạ tự tin xuống thấp.",
+  "thong_ke": {
+   "so_moc": 42,
+   "dung": 28,
+   "mot_phan": 10,
+   "sai": 4,
+   "loi_hay_gap": {
+    "B7": 10,
+    "B6": 1,
+    "B2": 2,
+    "B8": 1,
+    "B10": 1
+   }
+  }
+ },
+ "do_tu_tin": "thap",
+ "ghi_chu": "HƯỚNG THEO CÔNG THỨC BOT: huong_3d = XUỐNG (3D đã đóng 09/11 close 74.015 < M7 3D 77.277, M7 giảm từ 78.717); huong_tuan = XUỐNG (Tuần 02/11 close 74.851 < M7 Tuần 81.464, M7 giảm). Luật bot: 3D XUỐNG → CHỈ mua trong vùng chạm M (vùng chạm M thắng luật 3D). Nhận định Bộ 5 của con: Tháng 11 xuống nối đã có đáy Tháng 72.727,27 → trung hạn lên, nhưng ngắn hạn đầu 3D#30 còn xuống test vùng M. (1) XUỐNG VÌ NẾN NÀO: vì nến 4h — Bộ 5 4h xuống từ nến 4h 03:00 (chứa đỉnh 74.811,45 lúc 04:33, lên cao cuối 3D#29/Ngày 11/11/12h 19:00 → qua đầu 3D#30 07:00 xuống); 4 nến 4h đỏ liền, RSI 4h 42,2→40,5→39,3→37,9; nến dài gánh %: 1h 05:00 (thân 2,27 lần TB, cắt M25 1h) + 2h 05:00 (1,64 lần, cắt M25 2h). (2) ĐÁY CỦA NHỮNG NẾN NÀO: 73.260 lúc 16:22 = 1m⊂5m 16:20⊂15m 16:15⊂30m 16:00⊂1h 16:00⊂2h 15:00 (#6, Bộ phụ của Bộ 5 2h từ 05:00)⊂4h 15:00 (#4 Bộ 5 4h từ 03:00)⊂8h 15:00⊂12h 07:00⊂Ngày 12/11⊂3D#30⊂Tuần 09/11⊂Tháng 11. Đáy Tháng? KHÔNG (72.727 giữ). Tuần? KHÔNG. 3D? đáy tạm đầu 3D#30, chưa chốt. Ngày/12h? đáy tạm, 12h đóng 19:00. Nhịp xuống dài 81.196→72.727 đã xong ở Đáy 4; nhịp xuống nhỏ từ 74.811: Đáy 1 73.480 (06:14, RSI 1m 16,8/5m 15,0), Đáy 2 THẤP HƠN 73.422 (13:55) rồi 73.260 (16:22) với RSI 1m/3m/5m/15m cao hơn (20,1/27,4/28,8/34,6 — phân kỳ tăng khung nhỏ) nhưng RSI 30m 38,0/1h 41,0/2h 40,4/4h 37,9 thấp hơn → chưa dừng tầng 4h. Đáy cuối tam giác dự kiến: khung 4h, cuối nến #4 = 19:00 (±1 nến: 15:00–23:00, cửa sổ Cây Bộ 5 4h→1h→15m), giá ~73.180 (Bộ 5 4h 2,18% từ 74.811), q75 3,02% → 72.552 ≈ vùng M. (3) NÉN CỦA NẾN NÀO, HƯỚNG SAU NÉN: Tháng — Bộ 5 Tháng ngang giữa M7 Tháng 72.637 và M25 Tháng 87.588, Tháng 11 xuống nối chạm M7 Tháng ở 72.727; Tuần 09/11 biên độ 3,95% (< Bộ 5 Ngày q25 5,05%) = nén; 3D#30 mới 1,29% (< Bộ 5 12h q25 2,97%) = nén. Nén nằm ngay trên cụm M lớn (M25 Tuần 72.483, M7 Tháng 72.637, M99 3D 72.803) mà giá chưa chạm lại M99 3D → nén để XUỐNG test vùng M trước, sau đó LÊN (phần lên của Tháng xuống nối). (4) ĐIỂM NỐI: đỉnh 74.811 nối cuối 3D#29 + cuối Ngày 11/11 + cuối 12h 19:00 11/11 → đầu 3D#30 xuống; đáy dự kiến 19:00 = cuối 4h #4 + cuối 12h #1 3D#30 (trùng 2 biên); kế tiếp 23:00 cuối 8h 15:00 / 4h #5. Đáy Tháng 72.727 (23:37 10/11) nối cuối 3D#29 với đầu Tuần 09/11. VÙNG CHẠM M (cham_m, tang 3D chỉ để Ba đọc, bot nhận mọi nến lệnh đang bật 4h/12h/3D): M tại lúc chạm ~72.80: M25 Tuần 72.456, M7 Tháng 72.539, M99 3D 72.796 → 71.731–73.524; giá 73.486 đang trong vùng. ĐIỂM DỪNG 71.731 = M thấp nhất ×0,99 (thủng cả M25 Tuần quá biên 1%: hỏng đáy Tháng). THU LÚA: đáy gần nhất 73.260 (16:22), chưa khung DH nào đạt RSI ≥70 (5m tối đa 50, 3m ~50) → tầng mở 1h/2h, tối thiểu 1h; 1h = đỉnh nến xả 1h 16:00 73.596,31 (hết Bộ 5 22:00); 2h = đỉnh nến xả 2h 15:00 73.696,86 (hết Bộ 5 03:00 13/11); mục tiêu xa M7 4h ~73.8–73.9, M25 1h 73.94. Nếu đáy thật thấp hơn (73.18 hoặc vùng M) thì các mức này cho lời cao hơn; lời tối thiểu vẫn do bot tính theo ETH/DOGE. Nến lệnh: bật 4h/12h/3D, tắt 2h (hồi tầng 2h 0,46–0,6% sát phí), tắt 8h/Ngày. Không nới gấp khúc D7 (nhịp xuống từ 74.811 đã 2,07%). BIÊN 1 NGÀY (Bộ 5 4h 2,18% ×0,7): 72.360–74.610. BIÊN 3D (Bộ 5 12h 3,93% ×0,7): 71.470–75.510 — ĐIỂM DỪNG SÁT trong biên 3D. Bộ 5 trung vị 60 bộ (đo 12/11 17:20): 1h 0,93%, 2h 1,56%, 4h 2,18%, 12h 3,93%, Ngày 6,28%, 3D 13,22%, Tuần 23,43%. Dữ liệu tới nến 1m 17:00 12/11, giá 73.486,01."
+}
