@@ -4,3 +4,6 @@
 !data/
 !data/*.csv
 !data/_meta.json
+!ke_hoach/
+!ke_hoach/**
+lich_su
