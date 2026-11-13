@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-13T22:25:00+07:00",
+ "cap_nhat": "2026-11-14T01:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -520,6 +520,16 @@
    "that": "đóng 69.558,99; thủng 69.900 lúc 09:52 (đáy 67.568 lúc 12:56), không quay lại",
    "nguyen_nhan": "xả vì nến Tuần cắt M25 Tuần, lấy % Bộ 5 Ngày",
    "da_sua": "giữ LT-B1-1 (vì nến Tuần/Tháng)"
+  },
+  {
+   "luc": "2026-11-14T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-1325",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "01:00 NGANG 67.554–69.046, vượt 69.950 thì đổi",
+   "that": "đóng 68.944 trong vùng nhưng chạm 69.950 lúc 20:33 (đỉnh 70.214) rồi quay lại",
+   "nguyen_nhan": "doi_neu_vuot đặt ngay dưới M7 4h (~70,1k) và đỉnh hết Bộ 20 2h; nến 2h 19:00 bung râu chạm M7 4h rồi rơi",
+   "da_sua": "KH-0125: mức đổi đặt ngoài mốc chặn M (69.750 trên M7 4h; 70.300/70.700 trên đỉnh nến xả 4h 70.214)"
   }
  ],
  "luat_tam": [
@@ -537,7 +547,8 @@
    },
    "ghi_nhan": [
     "17:25 13/11: KH-1325 +4h ép NGANG theo luật, thật lên +1,6% (SAI B2) → khong_giup +1",
-    "22:25 13/11: KH-1325 +8h ép NGANG theo luật, thật lên 69.559 (SAI B2) → khong_giup +1"
+    "22:25 13/11: KH-1325 +8h ép NGANG theo luật, thật lên 69.559 (SAI B2) → khong_giup +1",
+    "01:25 14/11 (đã bỏ, chỉ ghi nhận): KH-1725 +8h DUNG — không cộng vì luật đã bỏ"
    ],
    "ly_do_bo": "22:25 13/11: khong_giup 2, giup 0 — ép NGANG/không LEN sau khi tầng 2h đã dừng làm sai 2 mốc liền (KH-1325 +4h, +8h)"
   },
@@ -583,12 +594,13 @@
    "het_han": "2026-11-16T09:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 1,
+    "giup": 2,
     "khong_giup": 1
    },
    "ghi_nhan": [
     "17:25 13/11: KH-1325 thu_lua DUNG (1h 68.877 chạm 13:31, 2h 69.146 chạm 14:00) → giup +1",
-    "22:25 13/11: KH-1725 thu_lua MOT_PHAN (B10, mức tính từ đáy 68.516 nằm dưới giá lúc lập) → khong_giup +1; kỳ này thêm: mức tầng tối thiểu phải TRÊN giá lúc lập"
+    "22:25 13/11: KH-1725 thu_lua MOT_PHAN (B10, mức tính từ đáy 68.516 nằm dưới giá lúc lập) → khong_giup +1; kỳ này thêm: mức tầng tối thiểu phải TRÊN giá lúc lập",
+    "01:25 14/11: KH-2225 vung_mua DUNG (mép trên 68.850 đặt theo mức 1h, giá vào vùng, đáy 68.103) → giup +1"
    ]
   },
   {
@@ -634,11 +646,12 @@
    "trang_thai": "hieu_luc",
    "ket_qua": {
     "giup": 2,
-    "khong_giup": 1
+    "khong_giup": 2
    },
    "ghi_nhan": [
     "17:25 13/11: KH-1325 vung_mua SAI (B7, giá không về vùng hạ sâu) → khong_giup +1; diem_dung 66.400 DUNG → giup +1; từ kỳ này chỉ dùng cho điểm dừng",
-    "22:25 13/11: KH-1725 diem_dung 66.400 DUNG → giup +1; vung_mua SAI (B7) không tính vì kỳ đó luật chỉ áp cho điểm dừng (vùng đặt theo LT-B10-1)"
+    "22:25 13/11: KH-1725 diem_dung 66.400 DUNG → giup +1; vung_mua SAI (B7) không tính vì kỳ đó luật chỉ áp cho điểm dừng (vùng đặt theo LT-B10-1)",
+    "01:25 14/11: KH-1325 +12h MOT_PHAN (B7, mức vượt 69.950 kẹp dưới M7 4h) → khong_giup +1 (giup 2, khong_giup 2 — giữ vì giup > 0)"
    ]
   },
   {
@@ -667,7 +680,9 @@
     "giup": 0,
     "khong_giup": 0
    },
-   "ghi_nhan": []
+   "ghi_nhan": [
+    "01:25 14/11: Đáy 2 68.103 tới 22:41, TRƯỚC cửa sổ 03:00–11:00 (không có mốc tới hạn của kỳ áp luật để chấm) — theo dõi; kỳ này +4h trong cửa sổ ghi NGANG nghiêng xuống"
+   ]
   }
  ]
 }
