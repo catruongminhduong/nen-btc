@@ -410,6 +410,56 @@
    "that": "thủng 69.900 lúc 09:52, thấp 67.568 — bot về công tắc tay từ 09:52",
    "nguyen_nhan": "% và điểm dừng lấy theo Bộ 5 Ngày/12h (70.557 / 69.994) trong khi nến Tuần đã là nến dài (10,6% > q75 Bộ 5 Ngày) → phải lấy Bộ 5 Tuần/3D (66.784 / 67.011)",
    "da_sua": "KH-1325: hạ vùng mua 66.800–67.950, điểm dừng 66.400, 3 mốc NGANG, đặt LT-B1-1 và LT-B7-2"
+  },
+  {
+   "luc": "2026-11-13T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-1325",
+   "moc": "+4h",
+   "ma_loi": "B2",
+   "du": "17:00 NGANG 67.673–68.627, đổi nếu thủng 67.300 / vượt 69.150",
+   "that": "nến 1h đóng 17:00 = 69.108,17; chạm 69.150 lúc 14:00 (cao 69.371,19 lúc 14:01), thấp nhất 68.516,29 (15:21)",
+   "nguyen_nhan": "Đáy 4 tầng 2h/4h 67.568 đã dừng; hồi râu chạy hết đỉnh nến xả 2h 69.146 trong nến 1h 13:00–14:00, rút chỉ tới 68.516 (đáy cao dần) — con ép NGANG theo LT-B2-1, tâm quá thấp",
+   "da_sua": "+4h đổi NGANG → XUONG (chống lỳ), +8h/+12h LEN; tâm theo Bộ 20 2h"
+  },
+  {
+   "luc": "2026-11-13T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-1325",
+   "moc": "chieu",
+   "ma_loi": "B2",
+   "du": "XUONG cấp lớn, ngắn hạn hồi râu rồi thử đáy",
+   "that": "cấp Tuần/Tháng vẫn dưới M; 13:25→17:00 giá 67.998 → 69.108 (+1,6%), không thử đáy lại",
+   "nguyen_nhan": "cấp Tuần đúng XUONG nhưng 4h tới là nhịp hồi lên",
+   "da_sua": "tách chiều cấp lớn (XUONG) với lộ trình ngắn hạn hồi tầng 4h"
+  },
+  {
+   "luc": "2026-11-13T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-1325",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "66.800–67.950 (nến lệnh 2h/4h/12h), 13:25–17:55",
+   "that": "thấp nhất từ 13:25 là 68.516,29 (15:21) — giá không vào vùng, bot không có lệnh mới trong nhịp hồi +2,7% từ đáy 67.568. Kho chỉ có nến, không có log bot",
+   "nguyen_nhan": "LT-B7-2 hạ vùng theo Bộ 5 Tuần khi tầng 2h đã dừng — Đáy 2 cao dần không về sâu",
+   "da_sua": "vùng 67.300–68.480 bám Đáy 2 cao dần; LT-B7-2 chỉ dùng cho điểm dừng"
+  },
+  {
+   "luc": "2026-11-13T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0925",
+   "moc": "+8h",
+   "ma_loi": "B1",
+   "du": "17:00 NGANG 70.390–71.910, đổi nếu thủng 70.000 / vượt 72.300",
+   "that": "đóng 17:00 = 69.108,17; thủng 70.000 lúc 09:52, không quay lại",
+   "nguyen_nhan": "xả vì nến Tuần 09/11 cắt M25 Tuần, con lấy % theo Bộ 5 Ngày (đã sửa từ kỳ 13:25)",
+   "da_sua": "đã sửa từ KH-1325 (vì nến Tuần, % theo Bộ 5 Tuần/3D)"
+  },
+  {
+   "luc": "2026-11-13T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0525",
+   "moc": "+12h",
+   "ma_loi": "B2",
+   "du": "17:00 LEN 70.920–72.480, đổi nếu thủng 70.500 / vượt 72.900",
+   "that": "đóng 69.108,17; thủng 70.500 lúc 09:17 — đi ngược chiều",
+   "nguyen_nhan": "dự LEN trong khi Tuần đang cắt M25 Tuần; nén 70,7–71,2k là nén để xuống",
+   "da_sua": "đã sửa từ KH-1325 (vì nến Tuần, % theo Bộ 5 Tuần/3D)"
   }
  ],
  "luat_tam": [
@@ -423,8 +473,11 @@
    "trang_thai": "hieu_luc",
    "ket_qua": {
     "giup": 0,
-    "khong_giup": 0
-   }
+    "khong_giup": 1
+   },
+   "ghi_nhan": [
+    "17:25 13/11: KH-1325 +4h ép NGANG theo luật, thật lên +1,6% (SAI B2) → khong_giup +1"
+   ]
   },
   {
    "id": "LT-B7-1",
@@ -453,7 +506,8 @@
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "13:25 13/11: KH-0925 +4h ghi NGANG theo luật (thật XUỐNG) — chấm mã B1, không cộng/trừ; luật cho phép XUONG, kỳ sau ưu tiên XUONG khi Tuần/Tháng đang cắt M"
+    "13:25 13/11: KH-0925 +4h ghi NGANG theo luật (thật XUỐNG) — chấm mã B1, không cộng/trừ; luật cho phép XUONG, kỳ sau ưu tiên XUONG khi Tuần/Tháng đang cắt M",
+    "17:25 13/11: KH-1325 +4h ghi NGANG/thử đáy, thật hồi lên — chấm mã B2, không cộng/trừ; kỳ này RSI 2h/4h đã cao hơn lúc đáy nên luật không ép"
    ]
   },
   {
@@ -465,9 +519,12 @@
    "het_han": "2026-11-16T09:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 0,
+    "giup": 1,
     "khong_giup": 0
-   }
+   },
+   "ghi_nhan": [
+    "17:25 13/11: KH-1325 thu_lua DUNG (1h 68.877 chạm 13:31, 2h 69.146 chạm 14:00) → giup +1"
+   ]
   },
   {
    "id": "LT-B8-1",
@@ -478,9 +535,12 @@
    "het_han": "2026-11-16T09:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 0,
+    "giup": 1,
     "khong_giup": 0
-   }
+   },
+   "ghi_nhan": [
+    "17:25 13/11: KH-1325 thu_lua DUNG (1h 68.877 chạm 13:31, 2h 69.146 chạm 14:00) → giup +1"
+   ]
   },
   {
    "id": "LT-B1-1",
@@ -491,9 +551,12 @@
    "het_han": "2026-11-16T13:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 0,
+    "giup": 1,
     "khong_giup": 0
-   }
+   },
+   "ghi_nhan": [
+    "17:25 13/11: KH-1325 diem_dung 66.400 DUNG (đặt dưới trung vị Bộ 5 Tuần) → giup +1"
+   ]
   },
   {
    "id": "LT-B7-2",
@@ -504,9 +567,12 @@
    "het_han": "2026-11-16T13:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 0,
-    "khong_giup": 0
-   }
+    "giup": 1,
+    "khong_giup": 1
+   },
+   "ghi_nhan": [
+    "17:25 13/11: KH-1325 vung_mua SAI (B7, giá không về vùng hạ sâu) → khong_giup +1; diem_dung 66.400 DUNG → giup +1; từ kỳ này chỉ dùng cho điểm dừng"
+   ]
   }
  ]
 }
