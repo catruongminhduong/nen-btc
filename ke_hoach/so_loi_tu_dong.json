@@ -1,0 +1,422 @@
+{
+ "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
+ "cap_nhat": "2026-11-13T09:25:00+07:00",
+ "loi": [
+  {
+   "luc": "2026-11-11T17:20:00+07:00",
+   "ke_hoach": "KH-2026-11-11-1315",
+   "moc": "chieu",
+   "ma_loi": "B6",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-11T17:20:00+07:00",
+   "ke_hoach": "KH-2026-11-11-0515",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-11T21:25:00+07:00",
+   "ke_hoach": "KH-2026-11-11-1315",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T01:20:00+07:00",
+   "ke_hoach": "KH-2026-11-11-2115",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T01:20:00+07:00",
+   "ke_hoach": "KH-2026-11-11-1715",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T05:20:00+07:00",
+   "ke_hoach": "KH-2026-11-12-0115",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T05:20:00+07:00",
+   "ke_hoach": "KH-2026-11-12-0115",
+   "moc": "thu_lua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T05:20:00+07:00",
+   "ke_hoach": "KH-2026-11-11-2115",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T09:20:00+07:00",
+   "ke_hoach": "KH-2026-11-12-0515",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T13:20:00+07:00",
+   "ke_hoach": "KH-2026-11-12-0915",
+   "moc": "thu_lua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1315",
+   "moc": "+4h",
+   "ma_loi": "B2,B8",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-0915",
+   "moc": "+8h",
+   "ma_loi": "B2",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1315",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1315",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T21:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1725",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T21:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1315",
+   "moc": "+8h",
+   "ma_loi": "B2",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T21:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-0915",
+   "moc": "+12h",
+   "ma_loi": "B2",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-12T21:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1725",
+   "moc": "thu_lua",
+   "ma_loi": "B8",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-2125",
+   "moc": "+4h",
+   "ma_loi": "B5",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1725",
+   "moc": "+8h",
+   "ma_loi": "B2",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1315",
+   "moc": "+12h",
+   "ma_loi": "B2",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-2125",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-2125",
+   "moc": "thu_lua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T01:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-2125",
+   "moc": "diem_dung",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0125",
+   "moc": "+4h",
+   "ma_loi": "B5",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-2125",
+   "moc": "+8h",
+   "ma_loi": "B5",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-1725",
+   "moc": "+12h",
+   "ma_loi": "B2",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0125",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0125",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "xem rut_kinh_nghiem trong lich_su/",
+   "that": "xem rut_kinh_nghiem trong lich_su/",
+   "nguyen_nhan": "chép lại từ phần chấm của kế hoạch kỳ đó (lập sổ ngày 13/11)",
+   "da_sua": "đã sửa trong kỳ chấm",
+   "nguon": "chep_lai"
+  },
+  {
+   "luc": "2026-11-13T09:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0125",
+   "moc": "+8h",
+   "ma_loi": "B2",
+   "du": "09:00 LEN 71.550–73.050, đổi nếu thủng 71.200 / vượt 73.300",
+   "that": "đóng 70.947,40 (dưới vùng nới 71.335); thủng 71.200 lúc 06:xx (thấp 71.113) rồi 70.688 — đi ngược chiều",
+   "nguyen_nhan": "dự LEN khi RSI 2h/4h/12h vẫn thấp hơn đáy trước, chỉ nến nhỏ 15m/30m có đáy cao hơn; nến 2h 05:00–07:00 13/11 xả tiếp tới 70.688",
+   "da_sua": "đặt LT-B2-1, cả 3 mốc kỳ này NGANG"
+  },
+  {
+   "luc": "2026-11-13T09:25:00+07:00",
+   "ke_hoach": "KH-2026-11-12-2125",
+   "moc": "+12h",
+   "ma_loi": "B2",
+   "du": "09:00 LEN 72.270–73.830, đổi nếu thủng 71.950 / vượt 74.050",
+   "that": "đóng 70.947,40; thủng 71.950 từ 21:xx ngày 12/11, không quay lại — đi ngược chiều",
+   "nguyen_nhan": "dự LEN khi RSI 2h/4h/12h vẫn thấp hơn đáy trước, chỉ nến nhỏ 15m/30m có đáy cao hơn; nến 2h 05:00–07:00 13/11 xả tiếp tới 70.688",
+   "da_sua": "đặt LT-B2-1, cả 3 mốc kỳ này NGANG"
+  },
+  {
+   "luc": "2026-11-13T09:25:00+07:00",
+   "ke_hoach": "KH-2026-11-13-0525",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "tối thiểu 1h 71.734,01 (tính từ đáy cũ 71.255)",
+   "that": "sau đáy 70.688 hồi cao nhất 71.234 (08:29, +0,77%) — chưa tới 71.734; mức 1h không tính lại theo đáy mới (đỉnh nến xả 1h 07:00 = 71.514)",
+   "nguyen_nhan": "mức Thu lúa 1h tính từ đáy cũ 71.255 (nến 1h 22:00), không tính lại khi đáy mới 70.688 ở nến 1h 07:00 13/11",
+   "da_sua": "đặt LT-B10-1, Thu lúa tính lại từ 70.688 (1h 71.514)"
+  }
+ ],
+ "luat_tam": [
+  {
+   "id": "LT-B2-1",
+   "tu": "2026-11-13T09:25:00+07:00",
+   "ma_loi": "B2",
+   "luat": "Mốc lo_trinh KHÔNG được ghi LEN khi (a) RSI 4h của nến 4h đang chạy ≤ RSI 4h tại đáy trước của nhịp (khung 4h chưa phân kỳ tăng) VÀ (b) chưa có nến 2h ĐÓNG trên M7 2h; khi đó tối đa NGANG, tu_tin thap",
+   "can_cu": "9 mốc SAI chiều LEN trong 48h: KH-0915 +8h/+12h, KH-1315 +4h/+8h/+12h, KH-1725 +8h/+12h, KH-2125 +12h, KH-0125 +8h",
+   "het_han": "2026-11-16T09:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   }
+  },
+  {
+   "id": "LT-B7-1",
+   "tu": "2026-11-13T09:25:00+07:00",
+   "ma_loi": "B7",
+   "luat": "Vùng mua THƯỜNG: mép trên ≤ đáy gần nhất × (1 + 0,5 × trung vị biên độ Bộ 5 1h) và mép dưới ≤ giá đủ % trung vị Bộ 5 Ngày tính từ đỉnh Tuần; doi_neu_thung/vuot của lộ trình đặt cách mép biên ≥ 0,25%",
+   "can_cu": "≥14 lần B7 trong 48h (vùng mua/Thu lúa/biên lộ trình lệch: KH-0115, KH-0515, KH-0915, KH-1315, KH-1725, KH-2125, KH-0125)",
+   "het_han": "2026-11-16T09:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   }
+  },
+  {
+   "id": "LT-B5-1",
+   "tu": "2026-11-13T09:25:00+07:00",
+   "ma_loi": "B5",
+   "luat": "Nén sau đáy mà RSI 2h và 4h nến đang chạy vẫn thấp hơn RSI lúc đáy trước (khung lớn chưa dừng) thì HƯỚNG SAU NÉN ghi 'thử đáy' (XUONG/NGANG), không ghi LEN cho mốc +4h; ghi số RSI 2h/4h so sánh trong ghi_chu",
+   "can_cu": "KH-2125 +4h SAI, KH-2125 +8h SAI, KH-0125 +4h MOT_PHAN — nén đọc thành lên nhưng là nén để xuống",
+   "het_han": "2026-11-16T09:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   }
+  },
+  {
+   "id": "LT-B10-1",
+   "tu": "2026-11-13T09:25:00+07:00",
+   "ma_loi": "B10",
+   "luat": "Mức Thu lúa tầng tối thiểu tính lại từ ĐÁY MỚI NHẤT mỗi kỳ và phải ≥ mép trên vùng mua × 1,006; không đạt thì hạ mép trên vùng mua cho tới khi đạt",
+   "can_cu": "KH-1315 thu_lua SAI, KH-0125 thu_lua SAI (mức 1h dưới mép trên vùng), KH-0525 thu_lua MOT_PHAN (mức 1h tính từ đáy cũ 71.255)",
+   "het_han": "2026-11-16T09:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   }
+  },
+  {
+   "id": "LT-B8-1",
+   "tu": "2026-11-13T09:25:00+07:00",
+   "ma_loi": "B8",
+   "luat": "Sau đáy, chưa tầng nào có RSI DH ≥ 70 (1m/3m/5m/15m/30m) thì tang_ban_toi_thieu = 1h, không nâng; RSI 1h có ≥ 2 đỉnh hồi giảm dần mà giá chưa vượt M7 2h thì mốc +4h không LEN",
+   "can_cu": "KH-1315 +4h SAI (B2,B8), KH-1725 thu_lua MOT_PHAN (B8)",
+   "het_han": "2026-11-16T09:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   }
+  }
+ ]
+}
