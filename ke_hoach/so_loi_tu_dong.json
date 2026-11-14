@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-14T01:25:00+07:00",
+ "cap_nhat": "2026-11-14T17:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -650,6 +650,36 @@
    "that": "sau khi vào vùng 67.900–68.500 giá cao nhất 68.446, không tới 68.914",
    "nguyen_nhan": "mức bán tính từ Đáy 3/Đáy 4 bị đáy mới 66.456 làm xa",
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
+  },
+  {
+   "luc": "2026-11-14T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-14-0925",
+   "moc": "+8h",
+   "ma_loi": "B2",
+   "du": "LEN 68.084–69.646 lúc 17:00",
+   "that": "đóng 67.412, thủng 67.800 không quay lại",
+   "nguyen_nhan": "coi Đáy 4 67.865 là đáy dừng trong khi 12h #20 ở ngày cuối 3D #4, RSI 12h còn giảm",
+   "da_sua": "đã sửa từ kỳ 13:25: bỏ LEN, các mốc NGANG"
+  },
+  {
+   "luc": "2026-11-14T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-14-0525",
+   "moc": "+12h",
+   "ma_loi": "B2",
+   "du": "LEN 68.534–70.066 lúc 17:00",
+   "that": "đóng 67.412, thủng 68.000 không quay lại",
+   "nguyen_nhan": "như trên — tầng 12h chưa dừng",
+   "da_sua": "như trên"
+  },
+  {
+   "luc": "2026-11-14T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-14-1325",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "tầng 1h 67.758, hết Bộ 5 16:00",
+   "that": "cao nhất 67.523, thiếu 0,35%",
+   "nguyen_nhan": "mức 1h nằm trên M7 2h đang giảm (mốc chặn) — hồi râu sau Đáy 1 bị M7 2h chặn",
+   "da_sua": "giữ 1h nhưng ghi M7 2h là mốc chặn; mở thêm 4h; mép trên vùng theo LT-B10-1"
   }
  ],
  "luat_tam": [
@@ -715,7 +745,7 @@
    "trang_thai": "hieu_luc",
    "ket_qua": {
     "giup": 3,
-    "khong_giup": 5
+    "khong_giup": 6
    },
    "ghi_nhan": [
     "17:25 13/11: KH-1325 thu_lua DUNG (1h 68.877 chạm 13:31, 2h 69.146 chạm 14:00) → giup +1",
@@ -725,7 +755,8 @@
     "09:25 14/11: KH-0525 vung_mua DUNG (mép trên đặt theo mức 1h, giá trong vùng, đáy 67.865) → giup +1",
     "09:25 14/11: KH-0125 thu_lua MOT_PHAN (B10, mức 69.120 tính từ Đáy 2, chạm trước khi vào vùng) → khong_giup +1 (giup 3, khong_giup 3 — giữ vì giup > 0)",
     "13:25 14/11: KH-0925 thu_lua SAI (B10, mức 68.332 từ Đáy 4 bị đáy mới làm xa) → khong_giup +1",
-    "13:25 14/11: KH-0525 thu_lua SAI (B10, mức 68.914 từ Đáy 3) → khong_giup +1 (giup 3, khong_giup 5 — giữ theo luật vì giup > 0, nhưng kết quả nghiêng không giúp; Ba cân nhắc trước khi duyệt)"
+    "13:25 14/11: KH-0525 thu_lua SAI (B10, mức 68.914 từ Đáy 3) → khong_giup +1 (giup 3, khong_giup 5 — giữ theo luật vì giup > 0, nhưng kết quả nghiêng không giúp; Ba cân nhắc trước khi duyệt)",
+    "17:25 14/11: KH-1325 thu_lua 1h SAI (B10, M7 2h chặn) → khong_giup +1 (giup 3, khong_giup 6)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -738,11 +769,12 @@
    "het_han": "2026-11-16T09:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 1,
+    "giup": 2,
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "17:25 13/11: KH-1325 thu_lua DUNG (1h 68.877 chạm 13:31, 2h 69.146 chạm 14:00) → giup +1"
+    "17:25 13/11: KH-1325 thu_lua DUNG (1h 68.877 chạm 13:31, 2h 69.146 chạm 14:00) → giup +1",
+    "17:25 14/11: KH-1325 +4h không LEN, DUNG → giup +1 (giup 2, khong_giup 0)"
    ]
   },
   {
@@ -754,7 +786,7 @@
    "het_han": "2026-11-16T13:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 6,
+    "giup": 7,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -764,7 +796,8 @@
     "05:25 14/11: giup 3, khong_giup 0 → ĐỀ XUẤT BA DUYỆT (phần điểm dừng dưới trung vị Bộ 5 Tuần đúng 3 kỳ)",
     "09:25 14/11: KH-0125 diem_dung 66.400 DUNG → giup +1 (đã đề xuất Ba duyệt)",
     "13:25 14/11: KH-0525 diem_dung 66.400 DUNG → giup +1",
-    "13:25 14/11: KH-0925 diem_dung 66.400 DUNG (thấp nhất 66.456) → giup +1"
+    "13:25 14/11: KH-0925 diem_dung 66.400 DUNG (thấp nhất 66.456) → giup +1",
+    "17:25 14/11: KH-1325 vung_mua DUNG (đáy 2 cao dần 66.967 có RSI 30m/1h cao hơn) → giup +1 (giup 7, khong_giup 0)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -777,7 +810,7 @@
    "het_han": "2026-11-16T13:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 6,
+    "giup": 7,
     "khong_giup": 4
    },
    "ghi_nhan": [
@@ -790,7 +823,8 @@
     "09:25 14/11: KH-0125 diem_dung 66.400 DUNG → giup +1",
     "13:25 14/11: KH-0525 diem_dung 66.400 DUNG → giup +1",
     "13:25 14/11: KH-0925 diem_dung DUNG → giup +1",
-    "13:25 14/11: KH-0925 vung_mua MOT_PHAN (B7, mép dưới 67.600 cách điểm dừng 1,8% nhưng đáy thật 66.456) → khong_giup +1"
+    "13:25 14/11: KH-0925 vung_mua MOT_PHAN (B7, mép dưới 67.600 cách điểm dừng 1,8% nhưng đáy thật 66.456) → khong_giup +1",
+    "17:25 14/11: KH-1325 diem_dung 65.600 DUNG → giup +1 (giup 7, khong_giup 4)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -803,7 +837,7 @@
    "het_han": "2026-11-16T22:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 3,
+    "giup": 4,
     "khong_giup": 1
    },
    "ghi_nhan": [
@@ -811,7 +845,8 @@
     "05:25 14/11: KH-0125 +4h NGANG DUNG (đóng 68.398 trong vùng) → giup +1",
     "09:25 14/11: KH-0525 +4h NGANG DUNG (đóng 68.290 trong vùng) → giup +1",
     "09:25 14/11: giup 3, khong_giup 0 → ĐỀ XUẤT BA DUYỆT",
-    "13:25 14/11: KH-0925 +4h NGANG theo luật, thật XUỐNG thủng 67.800 (SAI B2) → khong_giup +1"
+    "13:25 14/11: KH-0925 +4h NGANG theo luật, thật XUỐNG thủng 67.800 (SAI B2) → khong_giup +1",
+    "17:25 14/11: KH-1325 +4h NGANG DUNG → giup +1 (giup 4, khong_giup 1)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -824,7 +859,7 @@
    "het_han": "2026-11-16T22:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 5,
+    "giup": 6,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -836,7 +871,8 @@
     "09:25 14/11: KH-0525 +4h (09:00, trong cửa sổ) NGANG nghiêng xuống DUNG → giup +1",
     "09:25 14/11: KH-2225 +8h (06:00, trong cửa sổ) XUONG thử đáy DUNG → giup +1",
     "09:25 14/11 (không cộng/trừ): KH-0125 +8h SAI (B5) — mốc 09:00 trong cửa sổ mà KH-0125 ghi LEN, trái luật; lỗi áp luật, luật không sai",
-    "13:25 14/11 (không cộng/trừ): KH-0925 +4h (13:00, sau cửa sổ 4h 03:00–11:00) ghi NGANG theo luật, thật XUỐNG — chấm mã B2, không cùng mã"
+    "13:25 14/11 (không cộng/trừ): KH-0925 +4h (13:00, sau cửa sổ 4h 03:00–11:00) ghi NGANG theo luật, thật XUỐNG — chấm mã B2, không cùng mã",
+    "17:25 14/11: KH-1325 +4h NGANG (trước cửa sổ) DUNG → giup +1 (giup 6, khong_giup 0)"
    ],
    "de_xuat_ba_duyet": true
   }
