@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-16T09:25:00+07:00",
+ "cap_nhat": "2026-11-16T13:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1110,6 +1110,16 @@
    "that": "sau khi vào vùng (07:41) cao nhất chỉ 65.056,97 (07:52) — dừng ở M7 1h ~65.047; tới 09:00 không chạm 65.206",
    "nguyen_nhan": "mức 1h lấy đỉnh nến xả 1h 03:00 nằm trên M7 1h đang chạy; hồi sau vào vùng dừng tại M7 1h 65.047",
    "da_sua": "LT-B10-2: Thu lúa tối thiểu = min(đỉnh nến xả 1h, max(M7 1h, M7 2h)) = 64.983"
+  },
+  {
+   "luc": "2026-11-16T13:25:00+07:00",
+   "ke_hoach": "KH-2026-11-16-0925",
+   "moc": "chieu",
+   "ma_loi": "B6",
+   "du": "LEN (ghi theo LT-B6-2), lộ trình NGANG nghiêng xuống",
+   "that": "09:25 64.658 → râu lên 65.362,01 (09:39, đầu nến 2h 09:00) → xuống 64.351,86 (12:57), dưới giá lúc lập 0,47%",
+   "nguyen_nhan": "nến 2h 09:00 (#2 Bộ 5 2h xuống từ 07:00) lên râu tới dưới M25 2h 65.312 rồi nến 2h 11:00 (#3) xuống; đỉnh thấp dần 65.508 → 65.392 → 65.362 = tam giác nén đỉnh hạ, đầu Tuần #2 theo Tháng; huong LEN chỉ do LT-B6-2 ép",
+   "da_sua": "giữ huong LEN theo LT-B6-2 nhưng lộ trình NGANG, vùng mua đặt cho đáy cuối nến #4 Bộ 5 2h (13:00–15:00) 64.000–64.530"
   }
  ],
  "luat_tam": [
@@ -1235,9 +1245,9 @@
    "luat": "Khi nến Tuần đang chạy mở TRÊN M25 Tuần mà giá đang DƯỚI M25 Tuần (hoặc Tháng mở trên M7 Tháng mà giá dưới): (1) câu 'vì nến nào' phải nêu nến Tuần/Tháng; (2) đáy 2h/4h chỉ ghi 'đáy dừng' khi RSI 30m VÀ RSI 1h tại đáy mới đều cao hơn đáy trước, không thì 'đáy tạm', tang_mo chỉ 1h/2h, tối thiểu 1h; (3) điểm dừng đặt DƯỚI mức trung vị Bộ 5 Tuần tính từ đỉnh nhịp Tháng",
    "can_cu": "KH-0925 +4h SAI, KH-0925 thu_lua SAI (13/11): đáy 70.688 bị phá vì Tuần 09/11 cắt M25 Tuần",
    "het_han": "2026-11-16T13:25:00+07:00",
-   "trang_thai": "hieu_luc",
+   "trang_thai": "het_han",
    "ket_qua": {
-    "giup": 14,
+    "giup": 15,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -1257,7 +1267,8 @@
     "21:25 15/11: KH-1725 diem_dung 61.250 DUNG → giup +1",
     "01:25 16/11: KH-2125 diem_dung 61.250 DUNG → giup +1 (giup 12, khong_giup 0)",
     "05:25 16/11: KH-0125 diem_dung 61.250 DUNG → giup +1 (giup 13, khong_giup 0)",
-    "09:25 16/11: KH-0525 điểm dừng 61.250 dưới trung vị Bộ 5 Tuần không thủng, DUNG → giup +1"
+    "09:25 16/11: KH-0525 điểm dừng 61.250 dưới trung vị Bộ 5 Tuần không thủng, DUNG → giup +1",
+    "13:25 16/11: KH-0925 điểm dừng 61.250 (dưới trung vị Bộ 5 Tuần) không thủng, DUNG → giup +1 (giup 15, khong_giup 0); hết hạn 13:25 16/11 → het_han, vẫn đề xuất Ba duyệt"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1268,9 +1279,9 @@
    "luat": "Khi % nến lớn đang chạy (Tuần hoặc 3D) đã vượt q75 biên độ Bộ 5 của khung nhỏ kế tiếp (Tuần > q75 Bộ 5 Ngày; 3D > q75 Bộ 5 12h), mục tiêu đáy và điểm dừng lấy theo Bộ 5 khung lớn hơn một bậc (Tuần → trung vị Bộ 5 Tuần từ đỉnh nhịp Tháng; 3D → q75 Bộ 5 3D từ đỉnh nhịp xuống dài); mép dưới vùng mua thường cách điểm dừng ≥ 0,6%",
    "can_cu": "B7 ≥ 17 lần/48h; KH-0925 vung_mua SAI + diem_dung SAI (13/11): lấy % Bộ 5 Ngày/12h khi Tuần đã dài 10,6%",
    "het_han": "2026-11-16T13:25:00+07:00",
-   "trang_thai": "hieu_luc",
+   "trang_thai": "het_han",
    "ket_qua": {
-    "giup": 14,
+    "giup": 15,
     "khong_giup": 12
    },
    "ghi_nhan": [
@@ -1294,7 +1305,8 @@
     "21:25 15/11: KH-1725 diem_dung 61.250 DUNG → giup +1",
     "01:25 16/11: KH-2125 diem_dung 61.250 DUNG → giup +1 (giup 12, khong_giup 11)",
     "05:25 16/11: KH-0125 diem_dung 61.250 DUNG → giup +1; KH-1725 +12h MOT_PHAN cùng mã B7 (mức thủng 64.300 kẹp sát đáy nén) → khong_giup +1 (giup 13, khong_giup 12) — giữ vì giup > 0, con đề xuất Ba chỉ duyệt phần điểm dừng",
-    "09:25 16/11: KH-0525 vùng mua Hoi có giá vào (07:41), mép dưới cách điểm dừng ≥0,6%, DUNG → giup +1"
+    "09:25 16/11: KH-0525 vùng mua Hoi có giá vào (07:41), mép dưới cách điểm dừng ≥0,6%, DUNG → giup +1",
+    "13:25 16/11: KH-0925 vùng Hoi 64.150–64.590 có giá vào (12:50, thấp nhất 64.351,86), mép dưới cách điểm dừng ≥ 0,6%, DUNG → giup +1 (giup 15, khong_giup 12); hết hạn 13:25 16/11 → het_han; B7 vẫn lặp 10 lần/48h → đặt LT-B7-3"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1307,7 +1319,7 @@
    "het_han": "2026-11-16T22:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 7,
+    "giup": 8,
     "khong_giup": 2
    },
    "ghi_nhan": [
@@ -1326,7 +1338,8 @@
     "21:25 15/11: KH-1725 +4h NGANG DUNG (đóng 65.442 trong 64.640–65.800) → giup +1",
     "01:25 16/11: không có mốc vừa chấm cùng mã → không cộng/trừ",
     "05:25 16/11: không có mốc vừa chấm cùng mã (KH-0125 +4h NGANG MOT_PHAN chấm mã B5) → không cộng/trừ",
-    "09:25 16/11: KH-0525 +4h NGANG tâm nghiêng ≤0,3%, DUNG → giup +1"
+    "09:25 16/11: KH-0525 +4h NGANG tâm nghiêng ≤0,3%, DUNG → giup +1",
+    "13:25 16/11: KH-0925 +4h NGANG tâm nghiêng xuống 0,17%, đóng 64.474,70 trong biên, DUNG → giup +1 (giup 8, khong_giup 2)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1362,7 +1375,8 @@
     "21:25 15/11: KH-1725 chiều MOT_PHAN cùng mã B5 (nén chưa lên) → khong_giup +1 — giữ vì giup > 0",
     "01:25 16/11: KH-2125 +4h SAI cùng mã B5 (nén dưới đỉnh đọc là quãng nghỉ lên) → khong_giup +1 (giup 7, khong_giup 7) — giữ vì giup > 0",
     "05:25 16/11: KH-0125 +4h MOT_PHAN và vung_mua SAI cùng mã B5 (nén đáy cao dần đọc thành nén để xuống trong cửa sổ 03:00–11:00) → khong_giup +2 (giup 7, khong_giup 9) — giữ vì giup > 0; kết quả nghiêng không giúp, con đề xuất Ba KHÔNG duyệt",
-    "09:25 16/11: KH-0525 +4h (09:00 trong cửa sổ 03:00–11:00) ghi NGANG vì Bộ 5 4h chưa có nến dừng, DUNG → giup +1"
+    "09:25 16/11: KH-0525 +4h (09:00 trong cửa sổ 03:00–11:00) ghi NGANG vì Bộ 5 4h chưa có nến dừng, DUNG → giup +1",
+    "13:25 16/11: KH-0925 +4h (13:00) nằm SAU cửa sổ 03:00–11:00, luật không ép chiều → không chấm (giup 8, khong_giup 9)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1394,15 +1408,16 @@
    "het_han": "2026-11-18T17:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 4,
-    "khong_giup": 4
+    "giup": 5,
+    "khong_giup": 5
    },
    "ghi_nhan": [
     "17:25 15/11: áp lần đầu cho KH-1725 (huong LEN, +8h LEN, mức vượt 66.250/66.900/67.300)",
     "21:25 15/11: KH-1725 +4h không XUONG, mức vượt 66.250 trên đỉnh 66.132 không bị chạm → DUNG → giup +1",
     "01:25 16/11: KH-1725 +8h SAI và KH-2125 chiều SAI cùng mã B6 — luật ép LEN tới cuối nến #4 trong khi đỉnh 3D đã có sớm ở nến #1 → khong_giup +2 (giup 1, khong_giup 2) — giữ theo luật vì giup > 0; con đề xuất Ba KHÔNG duyệt, kỳ này luật chỉ còn tác dụng tới biên Tuần 07:00",
     "05:25 16/11: KH-0125 chiều LEN (ghi theo luật) DUNG → giup +1; KH-2125 +8h MOT_PHAN cùng mã B6 (LEN tới cuối nến #4 trong khi đỉnh 3D có sớm) → khong_giup +1 (giup 2, khong_giup 3) — giữ vì giup > 0",
-    "09:25 16/11: KH-0525 +4h không XUONG DUNG (+1), KH-2125 +12h NGANG DUNG (+1); KH-0525 chiều LEN MOT_PHAN cùng mã B6 (khong_giup +1); KH-0125 +8h ghi XUONG không theo luật → không chấm luật. giup 4, khong_giup 4 → đủ giup ≥ 3 nên đánh dấu de_xuat_ba_duyet theo luật, nhưng con KHÔNG khuyên Ba duyệt: phần \"không ghi XUONG\" giúp, phần \"ép huong.chieu LEN tới cuối nến #4\" là phần sai"
+    "09:25 16/11: KH-0525 +4h không XUONG DUNG (+1), KH-2125 +12h NGANG DUNG (+1); KH-0525 chiều LEN MOT_PHAN cùng mã B6 (khong_giup +1); KH-0125 +8h ghi XUONG không theo luật → không chấm luật. giup 4, khong_giup 4 → đủ giup ≥ 3 nên đánh dấu de_xuat_ba_duyet theo luật, nhưng con KHÔNG khuyên Ba duyệt: phần \"không ghi XUONG\" giúp, phần \"ép huong.chieu LEN tới cuối nến #4\" là phần sai",
+    "13:25 16/11: KH-0925 +4h không XUONG, DUNG (+1); KH-0925 chiều LEN ép theo luật MOT_PHAN B6 (khong_giup +1) → giup 5, khong_giup 5; phần \"không XUONG cho lộ trình\" giúp, phần \"huong.chieu LEN\" không giúp — con vẫn KHÔNG khuyên Ba duyệt phần huong.chieu"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1419,7 +1434,8 @@
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "09:25 16/11: áp lần đầu cho KH-0925 — 1h = min(64.996, max(64.983, 64.836)) = 64.983; mép trên Hoi 64.590"
+    "09:25 16/11: áp lần đầu cho KH-0925 — 1h = min(64.996, max(64.983, 64.836)) = 64.983; mép trên Hoi 64.590",
+    "13:25 16/11: KH-0925 thu_lua 1h 64.983 (hết Bộ 5 14:00) chưa tới hạn — giá vào vùng 12:50, cao nhất sau đó 64.520 → kỳ 17:25 chấm; kỳ này áp: 1h = min(đỉnh nến xả 1h 12:00 64.922,69, max(M7 1h 64.921, M7 2h 64.862)) = 64.921"
    ]
   },
   {
@@ -1431,11 +1447,28 @@
    "het_han": "2026-11-19T09:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
+    "giup": 1,
+    "khong_giup": 0
+   },
+   "ghi_nhan": [
+    "09:25 16/11: áp cho KH-0925 — chưa tầng nào RSI DH ≥ 70 sau đáy 64.530 → tối thiểu 1h; +4h không LEN (giá 64.658 dưới M7 2h 64.836)",
+    "13:25 16/11: KH-0925 +4h không LEN (NGANG), DUNG → giup +1 (giup 1, khong_giup 0); kỳ này áp: đáy 64.352 RSI 30m/1h thấp hơn đáy 64.530 → đáy tạm, tối thiểu 1h, +4h không LEN (RSI 1h đỉnh hồi 52,0 → 50,6 giảm, giá dưới M7 2h 64.862)"
+   ]
+  },
+  {
+   "id": "LT-B7-3",
+   "tu": "2026-11-16T13:25:00+07:00",
+   "ma_loi": "B7",
+   "luat": "(a) doi_neu_thung của mọi mốc lộ trình đặt DƯỚI đáy gần nhất của nén/tam giác ít nhất 0,3% VÀ dưới gia_tu của mốc đó; doi_neu_vuot đặt TRÊN đỉnh gần nhất của nén ít nhất 0,2%; (b) diem_dung_btc phải nằm dưới đích % riêng của nến 3D đang chạy = đỉnh nến 3D × (1 − q75 biên độ Bộ 5 12h); (c) mép dưới vùng mua thường cách điểm dừng ≥ 0,6%",
+   "can_cu": "B7 10 lần/48h: KH-2125 14/11 +4h (mức đổi kẹp sát đáy dự kiến), KH-2125 14/11 diem_dung, KH-0125 15/11 vung_mua+diem_dung, KH-0525 15/11 vung_mua+diem_dung+12h (chưa tính % riêng nến 3D mới), KH-1725 15/11 +12h (mức thủng 64.300 kẹp sát cạnh nén 64.258); LT-B7-2 hết hạn 13:25 16/11",
+   "het_han": "2026-11-19T13:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
     "giup": 0,
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "09:25 16/11: áp cho KH-0925 — chưa tầng nào RSI DH ≥ 70 sau đáy 64.530 → tối thiểu 1h; +4h không LEN (giá 64.658 dưới M7 2h 64.836)"
+    "13:25 16/11: áp lần đầu cho KH-1325 — đáy nén 64.258/64.352, đỉnh nén 65.508/65.392/65.362; thủng +4h 63.600 / +8h 63.450 / +12h 63.200 (đều dưới 64.258 ≥ 0,3% và dưới gia_tu); vượt 65.650 / 65.850 / 66.200 (trên đỉnh nén 65.508 ≥ 0,2%); đích % riêng 3D 15/11 = 66.132 × (1 − 5,24%) = 62.667 → điểm dừng 61.250 nằm dưới; mép dưới Day1 62.100 cách điểm dừng 1,39%"
    ]
   }
  ]
