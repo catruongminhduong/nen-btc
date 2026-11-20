@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-20T13:25:00+07:00",
+ "cap_nhat": "2026-11-20T17:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1270,6 +1270,36 @@
    "that": "đi ngang xuống rồi 3D 18/11 xả 5,7%",
    "nguyen_nhan": "theo nối nến: Tuần 16/11 là #2 Bộ 5 Tuần xuống (Tuần 09/11 cắt M25 = #1), 3D 15/11 hồi xong lên râu cuối nến → 3D 18/11 xuống; ghi LEN theo nhịp hồi 2h nhỏ thay vì hướng nến lớn",
    "da_sua": "KH-0925: huong.chieu = XUONG theo Tuần/Tháng; hồi nến 5 4h chỉ là nhịp phụ"
+  },
+  {
+   "luc": "2026-11-20T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-20-1325",
+   "moc": "+4h",
+   "ma_loi": "B6",
+   "du": "LEN 61.485–62.815 lúc 17:00 (tâm 62.150), đổi nếu 61.000/63.300",
+   "that": "đóng 61.643,10 trong biên nhưng NGƯỢC chiều (−0,46% từ 61.926); cao 62.068,99 (15:38), thấp 61.467,54 (14:32); không chạm mức đổi",
+   "nguyen_nhan": "theo nối nến: đỉnh hồi của nến 12h #5 (07:00–19:00) đã hình thành SỚM ở 62.404 (10:00) — đỉnh/đáy của nến hình thành sớm thì phần còn lại là râu/đi ngang (Bước 6); đỉnh hồi thấp dần 62.404→62.066→62.069 trong khi đáy cao dần 61.290→61.389→61.467→61.552 = nén tam giác, không phải hồi lên nến 5",
+   "da_sua": "KH-1725: +4h ghi NGANG tâm 61.600 (nghiêng xuống 0,07%), +8h/+12h NGANG nghiêng xuống cho 12h #6 cuối 3D; Thu lúa hạ về mốc chặn M7 1h"
+  },
+  {
+   "luc": "2026-11-20T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-20-1325",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "tối thiểu 1h 62.285 (hết Bộ 5 15:00)",
+   "that": "sau 13:25 cao nhất 62.068,99 (15:38) — thiếu 216 USD; lệnh mua trong Day2 (đáy 61.467 lúc 14:32) không bán được trước hạn",
+   "nguyen_nhan": "Thu lúa lấy đỉnh nến xả 1h 09:00 (62.285) là đỉnh đã qua, không lấy mốc chặn M7 1h/2h khi đỉnh hồi thấp dần; LT-B10-2 đã hết hạn nên không áp",
+   "da_sua": "KH-1725: đặt lại LT-B10-3 — 1h = min(đỉnh nến xả, max(M7 1h, M7 2h)) = 61.854, tính từ đáy mới nhất 61.552; hạ mép trên Day2 còn 61.480"
+  },
+  {
+   "luc": "2026-11-20T17:25:00+07:00",
+   "ke_hoach": "KH-2026-11-20-0925",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "tối thiểu 1h 62.639,5 (hết Bộ 5 14:00)",
+   "that": "cao nhất sau đáy 61.290,58 là 62.403,62 (10:00) — thiếu 236 USD, hết hạn không tới",
+   "nguyen_nhan": "mức 1h đặt bằng đỉnh nến xả 4h 08:00 (trước đáy), cao hơn đỉnh nến xả 1h của chính đáy; hồi nến 5 12h yếu",
+   "da_sua": "như dòng trên (LT-B10-3)"
   }
  ],
  "luat_tam": [
@@ -1688,13 +1718,31 @@
    "het_han": "2026-11-23T09:25:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 1,
+    "giup": 2,
     "khong_giup": 0
    },
    "ghi_nhan": [
     "09:25 20/11: áp lần đầu cho KH-0925 — Bộ 5 1h 1,70%, 2h 1,79% → +4h thủng 60.540/vượt 63.070; +8h 60.570/63.240; +12h 60.180/62.840",
-    "13:25 20/11: KH-0925 +4h DUNG (đóng 61.916 trong biên, không chạm 60.540/63.070) → giup +1; áp tiếp cho KH-1325 — Bộ 5 1h 1,53%, 2h 1,94% → +4h 61.000/63.300; +8h 60.600/63.500; +12h 60.300/63.200"
+    "13:25 20/11: KH-0925 +4h DUNG (đóng 61.916 trong biên, không chạm 60.540/63.070) → giup +1; áp tiếp cho KH-1325 — Bộ 5 1h 1,53%, 2h 1,94% → +4h 61.000/63.300; +8h 60.600/63.500; +12h 60.300/63.200",
+    "17:25 20/11: KH-0925 +8h DUNG (đóng 61.643 trong 61.126–62.674, không chạm 60.570/63.240) → giup +1 (giup 2); KH-1325 +4h MOT_PHAN nhưng mã B6 (mức đổi 61.000/63.300 không bị chạm) → không tính; áp tiếp cho KH-1725 — Bộ 5 1h 1,55%, 2h 1,79% → +4h 60.450/62.760; +8h 60.030/62.680; +12h 60.080/62.730"
    ]
+  },
+  {
+   "id": "LT-B10-3",
+   "tu": "2026-11-20T17:25:00+07:00",
+   "ma_loi": "B10",
+   "luat": "Mức Thu lúa tầng tối thiểu = min(đỉnh nến xả của tầng đó, max(M7 1h, M7 2h) lúc lập), tính từ ĐÁY MỚI NHẤT (kể cả đáy cao dần); mép trên vùng mua thường ≤ mức đó ÷ 1,006 — không đạt thì hạ mép trên vùng; het_bo5 tính từ nến chứa đáy mới nhất",
+   "can_cu": "B10 2 lần trong 48h: KH-0925 20/11 thu_lua SAI (1h 62.639,5 không tới), KH-1325 20/11 thu_lua SAI (1h 62.285 không tới, đỉnh hồi thấp dần dừng dưới đỉnh nến xả); đặt lại nội dung LT-B10-2 (giup 18, khong_giup 1, đã đề xuất Ba duyệt) vì luật cũ hết hạn",
+   "het_han": "2026-11-23T17:25:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   },
+   "ghi_nhan": [
+    "17:25 20/11: áp lần đầu cho KH-1725 — đáy mới nhất 61.552 (16:40); 1h = min(61.874,88, max(M7 1h 61.854, M7 2h 61.812)) = 61.854; mép trên Day2 = 61.480 (≤ 61.854/1,006 = 61.485)"
+   ],
+   "de_xuat_ba_duyet": true
   }
  ]
 }
