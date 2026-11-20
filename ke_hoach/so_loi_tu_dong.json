@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-20T17:25:00+07:00",
+ "cap_nhat": "2026-11-20T21:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1716,16 +1716,18 @@
    "luat": "Mỗi mốc lộ trình: doi_neu_thung ≤ gia_tu × (1 − 0,5 × trung vị biên độ Bộ 5 của khung mốc: 1h cho +4h, 2h cho +8h/+12h) VÀ ≤ đáy gần nhất × 0,997; doi_neu_vuot ≥ gia_den × (1 + 0,5 × cùng trung vị) VÀ ≥ đỉnh gần nhất × 1,002",
    "can_cu": "B7 lặp 2 lần trong 48h: KH-0525 17/11 +12h SAI (thủng 64.300 sát biên), KH-1325 17/11 +12h MOT_PHAN (râu 63.336 chạm mức thủng 63.400 chỉ dưới gia_tu 0,18% rồi quay lại)",
    "het_han": "2026-11-23T09:25:00+07:00",
-   "trang_thai": "hieu_luc",
+   "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 2,
+    "giup": 8,
     "khong_giup": 0
    },
    "ghi_nhan": [
     "09:25 20/11: áp lần đầu cho KH-0925 — Bộ 5 1h 1,70%, 2h 1,79% → +4h thủng 60.540/vượt 63.070; +8h 60.570/63.240; +12h 60.180/62.840",
     "13:25 20/11: KH-0925 +4h DUNG (đóng 61.916 trong biên, không chạm 60.540/63.070) → giup +1; áp tiếp cho KH-1325 — Bộ 5 1h 1,53%, 2h 1,94% → +4h 61.000/63.300; +8h 60.600/63.500; +12h 60.300/63.200",
-    "17:25 20/11: KH-0925 +8h DUNG (đóng 61.643 trong 61.126–62.674, không chạm 60.570/63.240) → giup +1 (giup 2); KH-1325 +4h MOT_PHAN nhưng mã B6 (mức đổi 61.000/63.300 không bị chạm) → không tính; áp tiếp cho KH-1725 — Bộ 5 1h 1,55%, 2h 1,79% → +4h 60.450/62.760; +8h 60.030/62.680; +12h 60.080/62.730"
-   ]
+    "17:25 20/11: KH-0925 +8h DUNG (đóng 61.643 trong 61.126–62.674, không chạm 60.570/63.240) → giup +1 (giup 2); KH-1325 +4h MOT_PHAN nhưng mã B6 (mức đổi 61.000/63.300 không bị chạm) → không tính; áp tiếp cho KH-1725 — Bộ 5 1h 1,55%, 2h 1,79% → +4h 60.450/62.760; +8h 60.030/62.680; +12h 60.080/62.730",
+    "21:25 20/11: chấm +4h KH-1725, +8h KH-1325, +12h KH-0925, vung_mua/thu_lua/diem_dung KH-1725 đều DUNG → giup +6 (= 8); đủ ≥ 3 → đề xuất Ba duyệt, vẫn áp tới hết hạn"
+   ],
+   "de_xuat_ba_duyet": true
   },
   {
    "id": "LT-B10-3",
@@ -1734,13 +1736,14 @@
    "luat": "Mức Thu lúa tầng tối thiểu = min(đỉnh nến xả của tầng đó, max(M7 1h, M7 2h) lúc lập), tính từ ĐÁY MỚI NHẤT (kể cả đáy cao dần); mép trên vùng mua thường ≤ mức đó ÷ 1,006 — không đạt thì hạ mép trên vùng; het_bo5 tính từ nến chứa đáy mới nhất",
    "can_cu": "B10 2 lần trong 48h: KH-0925 20/11 thu_lua SAI (1h 62.639,5 không tới), KH-1325 20/11 thu_lua SAI (1h 62.285 không tới, đỉnh hồi thấp dần dừng dưới đỉnh nến xả); đặt lại nội dung LT-B10-2 (giup 18, khong_giup 1, đã đề xuất Ba duyệt) vì luật cũ hết hạn",
    "het_han": "2026-11-23T17:25:00+07:00",
-   "trang_thai": "hieu_luc",
+   "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 0,
+    "giup": 4,
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "17:25 20/11: áp lần đầu cho KH-1725 — đáy mới nhất 61.552 (16:40); 1h = min(61.874,88, max(M7 1h 61.854, M7 2h 61.812)) = 61.854; mép trên Day2 = 61.480 (≤ 61.854/1,006 = 61.485)"
+    "17:25 20/11: áp lần đầu cho KH-1725 — đáy mới nhất 61.552 (16:40); 1h = min(61.874,88, max(M7 1h 61.854, M7 2h 61.812)) = 61.854; mép trên Day2 = 61.480 (≤ 61.854/1,006 = 61.485)",
+    "21:25 20/11: KH-1725 +4h, vung_mua, thu_lua (1h 61.854 tới lúc 20:51, đỉnh 61.990), diem_dung đều DUNG → giup +4 (= 4) → đề xuất Ba duyệt; áp tiếp cho KH-2125: đáy mới nhất 61.230 (19:07), 1h = min(61.844,72, max(61.806, 61.835)) = 61.835, mép trên Day2 61.460"
    ],
    "de_xuat_ba_duyet": true
   }
