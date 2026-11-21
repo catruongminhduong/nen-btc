@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-21T10:15:00+07:00",
+ "cap_nhat": "2026-11-21T11:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1420,6 +1420,26 @@
    "that": "tính từ đáy thật 57.778 thì +2,82% (đủ %), nhưng mức giá 60.360 không tới vì đáy mới thấp hơn",
    "nguyen_nhan": "mức tính từ đáy 58.894 cũ; nến 1h 01:00 xả tiếp tạo đáy 57.778, hồi dừng ở đỉnh nến 1h 04:00 59.410",
    "da_sua": "KH-0525: mục tiêu 3,5% = ½ nhịp 12h #6 62.179 → 57.778 (~59.80 ≈ M7 2h)"
+  },
+  {
+   "luc": "2026-11-21T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1015",
+   "moc": "diem_dung",
+   "ma_loi": "B10",
+   "du": "56.620 không thủng",
+   "that": "10:30 nến 15m xả −2,9%, 10:44 thấp 56.584, đáy 56.400 lúc 10:45 — thủng",
+   "nguyen_nhan": "KH-1015 ghi day_sau 'mo' + Đáy 2 cao dần khi Tháng 🔴 chưa dừng và 4h/12h chưa có nến dừng; nến 4h #4–5 xả tiếp (lặp bài học 21:25 ngày 20/11). RSI 2h dừng không thắng được tầng trên đang xả.",
+   "da_sua": "day_sau 'chay'; vùng mua dời xuống 54.300–56.200 (Đáy 1 mới 56.400, xả thêm 1,4–3,8% → ~54.300–55.600); điểm dừng 54.300; bán khẩn cấp lệnh tự động; hạ mục tiêu về đỉnh nến xả 1h."
+  },
+  {
+   "luc": "2026-11-21T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1015",
+   "moc": "vung_mua/cua_so_day",
+   "ma_loi": "B2",
+   "du": "Đáy 2 cao dần 58.200, hồi ngắn 59.400",
+   "that": "không hồi, đáy mới thấp hơn 57.778; RSI 1h 21,1 < 22,6 và 4h 18,9 < 20,5 (cực trị mới)",
+   "nguyen_nhan": "KH-1015 ghi day_sau 'mo' + Đáy 2 cao dần khi Tháng 🔴 chưa dừng và 4h/12h chưa có nến dừng; nến 4h #4–5 xả tiếp (lặp bài học 21:25 ngày 20/11). RSI 2h dừng không thắng được tầng trên đang xả.",
+   "da_sua": "day_sau 'chay'; vùng mua dời xuống 54.300–56.200 (Đáy 1 mới 56.400, xả thêm 1,4–3,8% → ~54.300–55.600); điểm dừng 54.300; bán khẩn cấp lệnh tự động; hạ mục tiêu về đỉnh nến xả 1h."
   }
  ],
  "luat_tam": [

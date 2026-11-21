@@ -1,0 +1,253 @@
+{
+ "phien_ban": 1,
+ "ma_ke_hoach": "KH-2026-11-21-1115",
+ "tao_luc": "2026-11-21T11:15:00+07:00",
+ "lap_luc_vn": "11:15 ngày 21/11",
+ "hieu_luc_den": "2026-11-21T12:45:00+07:00",
+ "ke_hoach_dai": "KHD-2026-11-21-1025",
+ "huong": {
+  "nen_goc": "Tháng",
+  "chieu": "XUONG",
+  "nhip_cua_nen": "Theo KHD-1025: Tháng 🔴 chưa dừng, gia_dung 62.500 chưa thủng. Đáy 1 mới 56.400 (10:45) phá 57.778; xả 10:30 gánh bởi nến 4h #4–5 Bộ 5 4h (từ 19:00 20/11); RSI 1h/2h/4h cực trị mới → chưa dừng."
+ },
+ "bo_nen": {
+  "4h": {
+   "nen_thu": 5,
+   "bo": "5",
+   "huong": "XUONG",
+   "den": "do"
+  },
+  "2h": {
+   "nen_thu": 6,
+   "bo": "10",
+   "huong": "XUONG",
+   "den": "do"
+  },
+  "1h": {
+   "nen_thu": 7,
+   "bo": "10",
+   "huong": "XUONG",
+   "den": "do"
+  },
+  "30m": {
+   "nen_thu": 14,
+   "bo": "15",
+   "huong": "XUONG",
+   "den": "do"
+  },
+  "15m": {
+   "nen_thu": 25,
+   "bo": "20",
+   "huong": "XUONG",
+   "den": "do"
+  }
+ },
+ "tang": {
+  "2h": true,
+  "4h": true,
+  "8h": true,
+  "12h": true,
+  "Ngay": true,
+  "3D": true
+ },
+ "lane": {
+  "D7": true,
+  "D7_DAYDUNG": true,
+  "D7_HOI": true,
+  "DAY_CHUAN": false
+ },
+ "vung_mua_btc": [
+  {
+   "tu": 55000,
+   "den": 56200,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "2h",
+   "loai": "Day1",
+   "cham_m": false
+  },
+  {
+   "tu": 55000,
+   "den": 56200,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "4h",
+   "loai": "Day1",
+   "cham_m": false
+  },
+  {
+   "tu": 55000,
+   "den": 56200,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "8h",
+   "loai": "Day1",
+   "cham_m": false
+  },
+  {
+   "tu": 55000,
+   "den": 56200,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "12h",
+   "loai": "Day1",
+   "cham_m": false
+  },
+  {
+   "tu": 54300,
+   "den": 55000,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "4h",
+   "loai": "Day2",
+   "cham_m": false
+  },
+  {
+   "tu": 54300,
+   "den": 55000,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "8h",
+   "loai": "Day2",
+   "cham_m": false
+  },
+  {
+   "tu": 54300,
+   "den": 55000,
+   "gio_tu": "2026-11-21T11:15:00+07:00",
+   "gio_den": "2026-11-21T12:45:00+07:00",
+   "tang": "12h",
+   "loai": "Day2",
+   "cham_m": false
+  }
+ ],
+ "diem_dung_btc": 54300,
+ "diem_sai_btc": 54300,
+ "day_sau": "chay",
+ "ban_khan_cap": {
+  "ly_do": "BTC thủng diem_dung 56.620 (đáy 56.400 lúc 10:45), RSI 1h/2h/4h thấp hơn Đáy 1 cũ, Tháng chưa dừng — còn xuống tiếp",
+  "ap_dung": "tu_dong"
+ },
+ "nen_dang_xay": "12h",
+ "cua_so_day": {
+  "tu": "2026-11-21T11:15:00+07:00",
+  "den": "2026-11-21T12:45:00+07:00"
+ },
+ "kieu_hoi": "giua_quang",
+ "muc_tieu_hoi_pct": 2.3,
+ "thu_lua_btc": {
+  "so_day": 1,
+  "tang_mo": [
+   "1h",
+   "2h"
+  ],
+  "tang_ban_toi_thieu": "1h",
+  "day_gia": 56400.0,
+  "day_luc": "2026-11-21T10:45:00+07:00",
+  "muc": [
+   {
+    "tang": "1h",
+    "gia": 58589.23,
+    "het_bo5": "2026-11-21T15:00:00+07:00"
+   },
+   {
+    "tang": "2h",
+    "gia": 59081.17,
+    "het_bo5": "2026-11-21T19:00:00+07:00"
+   }
+  ]
+ },
+ "lo_trinh": [
+  {
+   "moc": "+4h",
+   "den_luc": "2026-11-21T15:15:00+07:00",
+   "chieu": "XUONG",
+   "gia_tu": 55300,
+   "gia_den": 57100,
+   "nen": "4h #5 (11:00–15:00) xả tiếp/hồi râu; chặn dưới ~55.300",
+   "bot_se": "Bot chờ vùng Day1 55.000–56.200; bán RSI 1m ≥ 70",
+   "doi_neu_thung": 54300,
+   "doi_neu_vuot": 57600,
+   "tu_tin": "thap"
+  },
+  {
+   "moc": "+8h",
+   "den_luc": "2026-11-21T19:15:00+07:00",
+   "chieu": "NGANG",
+   "gia_tu": 55500,
+   "gia_den": 57100,
+   "nen": "4h #5 hết, 12h #7 cuối; nén sau xả",
+   "bot_se": "DỰ KIẾN: tính lại điểm vào kỳ sau",
+   "doi_neu_thung": 54300,
+   "doi_neu_vuot": 57800,
+   "tu_tin": "thap"
+  },
+  {
+   "moc": "+12h",
+   "den_luc": "2026-11-21T23:15:00+07:00",
+   "chieu": "NGANG",
+   "gia_tu": 55700,
+   "gia_den": 57300,
+   "nen": "3D #33 đầu; râu hồi cuối Tuần",
+   "bot_se": "DỰ KIẾN: Thu lúa 1h/2h",
+   "doi_neu_thung": 54300,
+   "doi_neu_vuot": 58000,
+   "tu_tin": "thap"
+  }
+ ],
+ "rut_kinh_nghiem": {
+  "cham": [
+   {
+    "ke_hoach": "KH-2026-11-21-1015",
+    "moc": "diem_dung",
+    "du": "56.620 không thủng",
+    "that": "10:30 nến 15m xả −2,9%, 10:44 thấp 56.584, đáy 56.400 lúc 10:45 — thủng",
+    "ket_qua": "SAI",
+    "ma_loi": "B10"
+   },
+   {
+    "ke_hoach": "KH-2026-11-21-1015",
+    "moc": "vung_mua/cua_so_day",
+    "du": "Đáy 2 cao dần 58.200, hồi ngắn 59.400",
+    "that": "không hồi, đáy mới thấp hơn 57.778; RSI 1h 21,1 < 22,6 và 4h 18,9 < 20,5 (cực trị mới)",
+    "ket_qua": "SAI",
+    "ma_loi": "B2"
+   }
+  ],
+  "nguyen_nhan": "KH-1015 ghi day_sau 'mo' + Đáy 2 cao dần khi Tháng 🔴 chưa dừng và 4h/12h chưa có nến dừng; nến 4h #4–5 xả tiếp (lặp bài học 21:25 ngày 20/11). RSI 2h dừng không thắng được tầng trên đang xả.",
+  "da_sua": "day_sau 'chay'; vùng mua dời xuống 54.300–56.200 (Đáy 1 mới 56.400, xả thêm 1,4–3,8% → ~54.300–55.600); điểm dừng 54.300; bán khẩn cấp lệnh tự động; hạ mục tiêu về đỉnh nến xả 1h.",
+  "luat_tam_dang_ap": [
+   "LT-B7-4",
+   "LT-B10-3",
+   "LT-B8-3",
+   "LT-B6-3"
+  ],
+  "thong_ke": {
+   "so_moc": 290,
+   "dung": 149,
+   "mot_phan": 54,
+   "sai": 87,
+   "loi_hay_gap": {
+    "B7": 39,
+    "B2": 24,
+    "B6": 23,
+    "B10": 22,
+    "B5": 19,
+    "B8": 13,
+    "B1": 4
+   }
+  }
+ },
+ "do_tu_tin": "thap",
+ "tom_tat": [
+  "📋 KẾ HOẠCH NGẮN — lập lúc 11:15 ngày 21/11 · hiệu lực tới 12:45 · theo kế hoạch dài KHD-2026-11-21-1025",
+  "🚨 BÁN KHẨN CẤP lệnh tự động — BTC thủng 56.620 (đáy 56.400), RSI 1h/2h/4h cực trị mới, Tháng chưa dừng. Điểm vào mới: **54.300–56.200**, dừng **54.300**",
+  "Bộ nến: 4h #5/Bộ 5 🔴 XUỐNG · 2h #6/Bộ 10 🔴 XUỐNG · 1h #7/Bộ 10 🔴 XUỐNG · 30m #14/Bộ 15 🔴 XUỐNG · 15m #25/Bộ 20 🔴 XUỐNG",
+  "Giá BTC 56.795 TRÊN vùng mua → bot chờ, day_sau chạy (khoá nhánh nhỏ)",
+  "🗺️🛒 D7_KH: nến 12h · cửa sổ đáy 11:15–12:45 · giữa quãng · mục tiêu hồi 2,3%",
+  "🌾 Thu lúa: tối thiểu 1h · **58.589**",
+  "Chấm kỳ trước: SAI (thủng 56.620, ghi 'mo' sớm khi Tháng chưa dừng) — đã sửa: 'chay', vùng mua hạ xuống",
+  "Hành động: bán lệnh tự động ngay, chờ giá xuống vùng 54.300–56.200."
+ ],
+ "ghi_chu": "Vì nến: Tháng 11 xuống nối (KHD-1025 🔴), nhịp trực tiếp 4h #4–5 Bộ 5 4h từ nến dài 19:00 20/11. Đáy 1 mới 56.400 (10:45), phá 57.778 (nến dừng 2h không đủ vì tầng trên xả). RSI thấp vì nến nào: 10:45 · 15m 16,4 · 1h 21,1/4h 18,9 → nến 4h #5 chưa dừng; 10:32 RSI 1m 12,5 = đáy nến 30m → bỏ. Nén sau xả chưa có. Điểm nối: biên 4h 11:00. Luật tạm áp: LT-B7-4, LT-B10-3, LT-B8-3, LT-B6-3. Chi tiết: ke_hoach/chi_tiet/KH-2026-11-21-1115.md"
+}
