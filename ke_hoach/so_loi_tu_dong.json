@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-21T22:15:00+07:00",
+ "cap_nhat": "2026-11-21T23:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1610,6 +1610,36 @@
    "that": "giá 60.309, chạm 60.400 (đỉnh 60.996) rồi quay lại dưới",
    "nguyen_nhan": "tâm thấp theo Tháng 🔴, chưa tính nến 5m 20:35 +1,5% sau đáy dừng 55.130",
    "da_sua": "tâm quanh giá hiện tại, biên ±0,7×Bộ 5 (LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-21T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1915",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 57.520–58.880",
+   "that": "giá 59.944, vượt mức đổi 59.370 không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, đánh giá thấp độ lớn hồi sau nến 5m 20:35 (+1,5%)",
+   "da_sua": "lộ trình NGANG tâm 59,97k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-21T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1515",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "XUONG 56.200–58.300",
+   "that": "giá 59.944, vượt mức đổi 59.400 không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, đánh giá thấp độ lớn hồi sau nến 5m 20:35 (+1,5%)",
+   "da_sua": "lộ trình NGANG tâm 59,97k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-21T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1115",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 55.700–57.300",
+   "that": "giá 59.944, vượt mức đổi 58.000 không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, đánh giá thấp độ lớn hồi sau nến 5m 20:35 (+1,5%)",
+   "da_sua": "lộ trình NGANG tâm 59,97k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
   }
  ],
  "luat_tam": [
@@ -2029,7 +2059,7 @@
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
     "giup": 8,
-    "khong_giup": 5
+    "khong_giup": 6
    },
    "ghi_nhan": [
     "09:25 20/11: áp lần đầu cho KH-0925 — Bộ 5 1h 1,70%, 2h 1,79% → +4h thủng 60.540/vượt 63.070; +8h 60.570/63.240; +12h 60.180/62.840",
@@ -2042,7 +2072,8 @@
     "16:15 21/11: áp cho KH-1615 — thung 56.400/55.000/55.000, vuot 59.000/58.800/58.950 (chưa tới hạn, chưa tính)",
     "17:15 21/11: áp cho KH-1715 — Bộ 5 1h 1,80%, 2h 1,97% → +4h thủng 56.600/vượt 59.150; +8h 56.300/59.100; +12h 56.350/59.150 (mốc chưa tới hạn, chưa cộng/trừ)",
     "21:15 21/11: 3 mốc 1715/1315/0915 SAI dù thung/vuot theo luật — vuot đặt thấp hơn xung lực; áp lại cho KH-2115 + thêm LT-B7-5",
-    "22:15 21/11: KH-1815 +4h và KH-1415 +8h SAI (mức vượt đặt đúng công thức nhưng tâm quá thấp) → khong_giup +2; KH-1015 +12h MOT_PHAN không cộng; áp tiếp cho KH-2215 (+4h thủng 58.850/vượt 61.700; +8h 58.750/61.800; +12h 58.650/61.850)"
+    "22:15 21/11: KH-1815 +4h và KH-1415 +8h SAI (mức vượt đặt đúng công thức nhưng tâm quá thấp) → khong_giup +2; KH-1015 +12h MOT_PHAN không cộng; áp tiếp cho KH-2215 (+4h thủng 58.850/vượt 61.700; +8h 58.750/61.800; +12h 58.650/61.850)",
+    "23:15 21/11: 3 mốc cũ (1915 +4h, 1515 +8h, 1115 +12h) SAI B7 do hồi +8,8% — mức vượt đặt thấp so xung lực → khong_giup +1"
    ],
    "de_xuat_ba_duyet": true
   },
