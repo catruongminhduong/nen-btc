@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-21T23:15:00+07:00",
+ "cap_nhat": "2026-11-22T00:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1640,6 +1640,36 @@
    "that": "giá 59.944, vượt mức đổi 58.000 không quay lại",
    "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, đánh giá thấp độ lớn hồi sau nến 5m 20:35 (+1,5%)",
    "da_sua": "lộ trình NGANG tâm 59,97k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T00:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-2015",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 58.020–59.380 (mức vượt 59.880)",
+   "that": "giá 60.102 (+1,2% trên biên), vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước nến 5m 20:35, đánh giá thấp độ lớn hồi",
+   "da_sua": "lộ trình NGANG tâm 60,1k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T00:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1615",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "XUONG 56.550–58.050 (mức vượt 58.800)",
+   "that": "giá 60.102 ngược chiều, vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước nến 5m 20:35, đánh giá thấp độ lớn hồi",
+   "da_sua": "lộ trình NGANG tâm 60,1k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T00:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1215",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 55.300–56.900 (mức vượt 57.460)",
+   "that": "giá 60.102 (+5,6% trên biên), vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước nến 5m 20:35, đánh giá thấp độ lớn hồi",
+   "da_sua": "lộ trình NGANG tâm 60,1k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
   }
  ],
  "luat_tam": [
