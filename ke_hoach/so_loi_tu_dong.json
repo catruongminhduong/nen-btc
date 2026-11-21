@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T01:15:00+07:00",
+ "cap_nhat": "2026-11-22T03:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1690,6 +1690,46 @@
    "that": "giá 60.083 (+6,7% trên biên), vượt mức đổi không quay lại",
    "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước nến 5m 20:35 và nến 1h 20:00 (+2,9%), đánh giá thấp độ lớn hồi",
    "da_sua": "lộ trình NGANG tâm 60,03k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T03:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1815",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "XUONG 56.960–58.560 (mức vượt 59.140)",
+   "that": "giá ~60.31k lúc 02:15, ngược chiều, vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước hồi +9% (nến 5m 20:35)",
+   "da_sua": "lộ trình NGANG tâm 60,3k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T03:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1415",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 56.000–58.500 (mức vượt 59.500)",
+   "that": "giá ~60.31k lúc 02:15, +3,1% trên biên, vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước hồi +9% (nến 5m 20:35)",
+   "da_sua": "lộ trình NGANG tâm 60,3k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T03:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1915",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "XUONG 57.280–58.920 (mức vượt 59.510)",
+   "that": "giá 60.364 lúc 03:15, ngược chiều, vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước hồi +9% (nến 5m 20:35)",
+   "da_sua": "lộ trình NGANG tâm 60,3k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T03:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1515",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 56.000–58.200 (mức vượt 59.400)",
+   "that": "giá 60.364 lúc 03:15, +3,7% trên biên, vượt mức đổi không quay lại",
+   "nguyen_nhan": "tâm lộ trình thấp theo Tháng 🔴, lập trước hồi +9% (nến 5m 20:35)",
+   "da_sua": "lộ trình NGANG tâm 60,3k, biên theo Bộ 5 1h/2h, mức đổi ngoài biên (LT-B7-4/LT-B7-5)"
   }
  ],
  "luat_tam": [
@@ -2206,13 +2246,14 @@
    "het_han": "2026-11-24T21:15:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 1,
+    "giup": 3,
     "khong_giup": 0
    },
    "ghi_nhan": [
     "21:15 21/11: áp lần đầu cho KH-2115 — tâm 60.450/60.300/60.400, vuot 61.700–61.800 ≥ M7 12h 61.224",
     "22:15 21/11: áp cho KH-2215 — tâm 60.25k nghiêng ≤0,3%, vượt ≥ M7 12h 61.182, kiểu giua_quang, vùng retest mép trên 55.600 ≤ 58.589/1,006; chưa có mốc tới hạn để chấm",
-    "01:15 22/11: KH-2115 +4h NGANG tâm 60,1k, biên ngoài mức đổi → DUNG → giup +1"
+    "01:15 22/11: KH-2115 +4h NGANG tâm 60,1k, biên ngoài mức đổi → DUNG → giup +1",
+    "03:15 22/11: KH-2215 +4h và KH-2315 +4h (tâm ~60,1k) DUNG → giup +2; áp tiếp cho KH-0315 (tâm 60,3k, RSI 15m 65 <75 nên chỉ áp phần tâm theo giá + vượt ≥ M7 12h)"
    ]
   }
  ]
