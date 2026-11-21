@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-21T16:15:00+07:00",
+ "cap_nhat": "2026-11-21T17:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1909,7 +1909,8 @@
     "01:25 21/11: chấm +4h KH-2125, +8h KH-1725, +12h KH-1325 SAI mã B8 (mức đổi đặt ngoài biên đã báo đúng cú xả thật — không cộng/trừ vì khác mã); diem_dung KH-2125 SAI mã B7 → khong_giup +1 (giup 8, khong_giup 1) — giữ de_xuat_ba_duyet, áp tiếp KH-0125",
     "05:25 21/11: KH-0125 +4h MOT_PHAN mã B7 (mức thủng 57.780 theo luật bị râu 57.778 chạm rồi quay lại) → khong_giup +1 (giup 8, khong_giup 2) — giữ de_xuat_ba_duyet; kỳ này bổ sung: mức thủng còn phải dưới điểm nối lớn gần nhất",
     "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)",
-    "16:15 21/11: áp cho KH-1615 — thung 56.400/55.000/55.000, vuot 59.000/58.800/58.950 (chưa tới hạn, chưa tính)"
+    "16:15 21/11: áp cho KH-1615 — thung 56.400/55.000/55.000, vuot 59.000/58.800/58.950 (chưa tới hạn, chưa tính)",
+    "17:15 21/11: áp cho KH-1715 — Bộ 5 1h 1,80%, 2h 1,97% → +4h thủng 56.600/vượt 59.150; +8h 56.300/59.100; +12h 56.350/59.150 (mốc chưa tới hạn, chưa cộng/trừ)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1922,7 +1923,7 @@
    "het_han": "2026-11-23T17:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 7,
+    "giup": 8,
     "khong_giup": 2
    },
    "ghi_nhan": [
@@ -1931,7 +1932,8 @@
     "01:25 21/11: KH-2125 thu_lua DUNG (lệnh vào Day2 21:44–21:52 tới 61.835 lúc 22:00, mép trên Day2 theo luật) → giup +1 (= 5); vung_mua MOT_PHAN mã B8 (khác mã, không trừ); áp tiếp KH-0125: đáy mới nhất 58.894,29 (00:48), 1h = min(59.584,02, max(60.359, 60.706)) = 59.584, mép trên Day2 59.220",
     "05:25 21/11: KH-0125 vung_mua DUNG (mép trên theo luật) → giup +1; thu_lua 1h 59.584 SAI + muc_tieu MOT_PHAN mã B10 (đáy mới 57.778 làm mức xa) → khong_giup +2 (giup 6, khong_giup 2) — giữ de_xuat_ba_duyet; áp tiếp KH-0525: đáy mới nhất 58.200 (04:17), 1h = min(59.410,63, max(58.882, 59.844)) = 59.410,63, mép trên Day2 58.950 ≤ 59.056",
     "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)",
-    "16:15 21/11: KH-1515 thu_lua 1h 58.100 chạm 58.142 DUNG → giup +1"
+    "16:15 21/11: KH-1515 thu_lua 1h 58.100 chạm 58.142 DUNG → giup +1",
+    "17:15 21/11: KH-1615 thu_lua 1h 58.100 chạm 16:25 (58.128) DUNG → giup +1; áp tiếp KH-1715 (đáy mới nhất 55.130, 1h 58.100 giữ vì M7 1h/2h nằm dưới giá)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -1950,7 +1952,8 @@
    "ghi_nhan": [
     "01:25 21/11: áp lần đầu cho KH-0125 — RSI Ngày tại đáy 58.768,73 = 17,2 < 19,67 → XUONG, +4h tâm 58.930 (−0,3%), +8h 58.990 (−0,2%), tu_tin thap; đích 65.696 × (1 − 12,17%) = 57.701 cách đáy 1,8% → Day3 57.950–58.700, điểm dừng 57.600",
     "05:25 21/11: KH-0125 vung_mua DUNG + diem_dung DUNG (đáy 57.778 dừng sát đích 57.701, điểm dừng 57.600 dưới đích giữ được) → giup +2 (= 2); +4h MOT_PHAN mã B7 (khác mã). Áp tiếp KH-0525: RSI Ngày tại đáy 57.778 = 16,4 < 17,2 → XUONG, +4h tâm 58.827 (−0,3%), +8h 58.886 (−0,2%), tu_tin thap; đích đã chạm, Day3 56.800–58.300 bao đáy + mẫu phá đáy đầu #7, điểm dừng 56.620",
-    "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)"
+    "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)",
+    "17:15 21/11: áp cho KH-1715 — +8h XUONG nghiêng xuống, tu_tin thap, không mở Day3 vì CẤM trục dài a0"
    ]
   },
   {
@@ -1968,7 +1971,8 @@
    "ghi_nhan": [
     "05:25 21/11: áp lần đầu cho KH-0525 — nến dài 4h 19:00 20/11 (thân 2.333 = 4,8 lần TB, cắt M7 4h) = nến 1; #3 03:00 đã qua → tu 05:25; cuối #4 11:00 (ôm biên 07:00 + mẫu đáy 08:45 ngày 15/11) → den 11:00",
     "12:15 21/11: KH-1115 cửa sổ không ôm biên 11:00, đáy sớm 7 phút (B6) — chưa tính giúp/không giúp; KH-1215 áp lại đúng luật",
-    "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)"
+    "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)",
+    "17:15 21/11: áp cho KH-1715 — cua_so_day bảo hiểm 17:15–18:45 (cuối #4 Bộ 5 4h đã qua, đáy 13:17 nằm trong nến #5)"
    ]
   }
  ]
