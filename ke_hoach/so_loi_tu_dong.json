@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-21T14:15:00+07:00",
+ "cap_nhat": "2026-11-21T15:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1470,6 +1470,16 @@
    "that": "RSI 30m/1h/2h/4h cao hơn đáy cũ, hồi mạnh",
    "nguyen_nhan": "không áp B3 (giá thấp hơn, RSI không thấp hơn) ở cuối nến 4h #5",
    "da_sua": "bộ nến LÊN, nến 4h dừng"
+  },
+  {
+   "luc": "2026-11-21T15:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1415",
+   "moc": "muc_tieu_hoi",
+   "ma_loi": "B7",
+   "du": "hồi 3,4%",
+   "that": "hồi +6,4% (58.672)",
+   "nguyen_nhan": "râu nến 4h #5 sau đáy dừng hồi mạnh hơn ½ nhịp",
+   "da_sua": "mục tiêu 2,4% + thêm tầng Thu lúa 2h/4h"
   }
  ],
  "luat_tam": [
