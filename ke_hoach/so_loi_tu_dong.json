@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-21T17:15:00+07:00",
+ "cap_nhat": "2026-11-21T18:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1480,6 +1480,16 @@
    "that": "hồi +6,4% (58.672)",
    "nguyen_nhan": "râu nến 4h #5 sau đáy dừng hồi mạnh hơn ½ nhịp",
    "da_sua": "mục tiêu 2,4% + thêm tầng Thu lúa 2h/4h"
+  },
+  {
+   "luc": "2026-11-21T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-21-1715",
+   "moc": "trh_4h_x",
+   "ma_loi": "B3",
+   "du": "x TRH 4h 19:00 20/11 nến #6",
+   "that": "x 19:00 19/11 nến #12 (KHD, mẫu Ba)",
+   "nguyen_nhan": "đếm x từ nến dài 19:00 20/11 thay vì x theo mẫu Ba",
+   "da_sua": "đếm lại từ x 19:00 19/11, khớp KHD"
   }
  ],
  "luat_tam": [
@@ -1923,7 +1933,7 @@
    "het_han": "2026-11-23T17:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 8,
+    "giup": 9,
     "khong_giup": 2
    },
    "ghi_nhan": [
@@ -1933,7 +1943,8 @@
     "05:25 21/11: KH-0125 vung_mua DUNG (mép trên theo luật) → giup +1; thu_lua 1h 59.584 SAI + muc_tieu MOT_PHAN mã B10 (đáy mới 57.778 làm mức xa) → khong_giup +2 (giup 6, khong_giup 2) — giữ de_xuat_ba_duyet; áp tiếp KH-0525: đáy mới nhất 58.200 (04:17), 1h = min(59.410,63, max(58.882, 59.844)) = 59.410,63, mép trên Day2 58.950 ≤ 59.056",
     "13:15 21/11: áp cho KH-1315 — tâm nghiêng xuống 0,3%, thung/vuot theo biên 1h 1,8%/2h 1,97%, Thu lúa 58.179, cửa sổ 11:00–15:00; KH-1215 vung_mua + diem_dung DUNG (chưa tính giúp/không giúp riêng luật)",
     "16:15 21/11: KH-1515 thu_lua 1h 58.100 chạm 58.142 DUNG → giup +1",
-    "17:15 21/11: KH-1615 thu_lua 1h 58.100 chạm 16:25 (58.128) DUNG → giup +1; áp tiếp KH-1715 (đáy mới nhất 55.130, 1h 58.100 giữ vì M7 1h/2h nằm dưới giá)"
+    "17:15 21/11: KH-1615 thu_lua 1h 58.100 chạm 16:25 (58.128) DUNG → giup +1; áp tiếp KH-1715 (đáy mới nhất 55.130, 1h 58.100 giữ vì M7 1h/2h nằm dưới giá)",
+    "18:15 21/11: KH-1715 thu_lua 1h 58.100 DUNG (chạm 58.222) → giup +1"
    ],
    "de_xuat_ba_duyet": true
   },
