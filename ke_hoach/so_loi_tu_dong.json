@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T14:15:00+07:00",
+ "cap_nhat": "2026-11-22T15:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1840,6 +1840,26 @@
    "that": "1h đóng 59.160 dưới gia_tu 0,4%; đáy 58.768 chạm mức đổi rồi quay lại",
    "nguyen_nhan": "lập trước nhịp xả 09:00–12:45, tâm cao 0,4%",
    "da_sua": "tâm theo giá hiện tại (LT-B7-4), thu hẹp mép trên vùng mua"
+  },
+  {
+   "luc": "2026-11-22T15:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0715",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.420–61.180 (đổi 58.800/61.850)",
+   "that": "1h đóng 59.170 dưới gia_tu 0,42%; đáy 58.768 chạm mức đổi rồi quay lại",
+   "nguyen_nhan": "lập trước nhịp xả 09:00–12:45, tâm cao 0,4–0,56%",
+   "da_sua": "tâm theo giá hiện tại (LT-B7-4)"
+  },
+  {
+   "luc": "2026-11-22T15:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0315",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.500–61.100 (đổi 58.900/61.700)",
+   "that": "1h đóng 59.170 dưới gia_tu 0,56%; đáy 58.768 chạm mức đổi rồi quay lại",
+   "nguyen_nhan": "lập trước nhịp xả 09:00–12:45, tâm cao 0,4–0,56%",
+   "da_sua": "tâm theo giá hiện tại (LT-B7-4)"
   }
  ],
  "luat_tam": [
@@ -2258,7 +2278,7 @@
    "het_han": "2026-11-23T09:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 21,
+    "giup": 22,
     "khong_giup": 10
    },
    "ghi_nhan": [
@@ -2282,7 +2302,8 @@
     "10:15 22/11: KH-0615 +4h, KH-2215 +12h DUNG → giup +2; áp cho KH-1015 (+4h thủng 58.300/vượt 61.150; +8h/+12h 58.170/61.150)",
     "11:15 22/11: 3 mốc DUNG (KH-2315 +12h, KH-0315 +8h, KH-0715 +4h), mức đổi không bị chạm → giup +3",
     "12:15 22/11: KH-0015 +12h DUNG, KH-0815 +4h DUNG (không chạm mức đổi) → giup +2; KH-0415 +8h MOT_PHAN (B7, không chạm mức đổi) — trung tính; áp cho KH-1215: +4h 58.350/60.650, +8h 58.300/61.000, +12h 58.200/61.100",
-    "13:15 22/11: KH-0115 +12h giup +1 (chưa chạm mức đổi); KH-0515 +8h và KH-0915 +4h khong_giup +2 (mức đổi bị chạm/thủng)"
+    "13:15 22/11: KH-0115 +12h giup +1 (chưa chạm mức đổi); KH-0515 +8h và KH-0915 +4h khong_giup +2 (mức đổi bị chạm/thủng)",
+    "15:15 22/11: KH-1115 +4h DUNG (1h đóng 59.170 trong 58.800–60.200, không chạm 58.300/60.720) → giup +1; áp cho KH-1515"
    ],
    "de_xuat_ba_duyet": true
   },
