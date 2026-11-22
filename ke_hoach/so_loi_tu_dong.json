@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T19:15:00+07:00",
+ "cap_nhat": "2026-11-22T20:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1929,6 +1929,46 @@
    "du": "vùng 59.700–60.100 cửa sổ 18:45–19:15",
    "that": "giá thấp nhất 60.868, không vào vùng (M7 1h/4h chạy lên theo giá)",
    "nguyen_nhan": "lập trước nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1615",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.100–60.550 (đổi 58.550/61.110)",
+   "that": "1h 19:00 đóng 60.852 trên biên +0,5%; đỉnh 61.670 (19:15) chạm mức đổi 61.110 rồi quay lại dưới",
+   "nguyen_nhan": "lập khi giá thấp hơn nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1215",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "NGANG 58.900–60.350 (đổi 58.300/61.000)",
+   "that": "đóng 60.852 trên biên +0,8%; chạm 61.000 (đỉnh 61.670) rồi quay lại",
+   "nguyen_nhan": "lập khi giá thấp hơn nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0815",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.340–61.040 (đổi 58.700/61.650)",
+   "that": "đóng 60.852 trong biên; đỉnh 61.670 vượt mức đổi 61.650 đúng 20 USD rồi quay lại",
+   "nguyen_nhan": "lập khi giá thấp hơn nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1915",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "vùng 60.050–60.450 (19:15–20:45)",
+   "that": "đáy nghỉ 60.464 (19:25), trượt mép trên 14 USD; còn hiệu lực tới 20:45 — chưa chốt",
+   "nguyen_nhan": "lập khi giá thấp hơn nhịp bật / sàn nghỉ nâng theo M7",
    "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
   }
  ],
