@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T08:15:00+07:00",
+ "cap_nhat": "2026-11-22T09:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2198,7 +2198,7 @@
    "het_han": "2026-11-23T09:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 12,
+    "giup": 13,
     "khong_giup": 8
    },
    "ghi_nhan": [
@@ -2217,7 +2217,8 @@
     "01:15 22/11: KH-2115 +4h NGANG tâm 60,1k, biên ngoài mức đổi → DUNG → giup +1",
     "04:15 22/11: KH-0015 +4h NGANG trong biên, DUNG → giup +1",
     "06:15 22/11: KH-1815 +12h SAI B7 (lập trước hồi +9%) → khong_giup +1; KH-2215 +8h DUNG → giup +1; áp cho KH-0615 (+4h thủng 59.200/vượt 61.500)",
-    "07:15 22/11: KH-0315 +4h DUNG → giup +1; KH-1915 +12h SAI B7 (lập trước hồi +9%) → khong_giup +1; áp cho KH-0715 (Bộ 5 1h 1,84%, 2h 2,08% → +4h thủng 58.900/vượt 61.600; +8h/+12h 58.800/61.850)"
+    "07:15 22/11: KH-0315 +4h DUNG → giup +1; KH-1915 +12h SAI B7 (lập trước hồi +9%) → khong_giup +1; áp cho KH-0715 (Bộ 5 1h 1,84%, 2h 2,08% → +4h thủng 58.900/vượt 61.600; +8h/+12h 58.800/61.850)",
+    "09:15 22/11: áp cho KH-0915 — KH-2115 +12h, KH-0115 +8h, KH-0515 +4h đều DUNG → giup +1"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -2303,7 +2304,7 @@
    "het_han": "2026-11-24T21:15:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 8,
+    "giup": 9,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -2313,7 +2314,8 @@
     "03:15 22/11: KH-2215 +4h và KH-2315 +4h (tâm ~60,1k) DUNG → giup +2; áp tiếp cho KH-0315 (tâm 60,3k, RSI 15m 65 <75 nên chỉ áp phần tâm theo giá + vượt ≥ M7 12h)",
     "05:15 22/11: KH-0115 +4h, KH-2115 +8h NGANG tâm giá hiện tại DUNG → giup +2",
     "06:15 22/11: KH-2215 +8h NGANG tâm giá hiện tại DUNG → giup +1; áp cho KH-0615 (tâm 60,1k, vượt ≥ 61.500)",
-    "07:15 22/11: KH-0315 +4h và KH-2315 +8h NGANG tâm giá hiện tại DUNG → giup +2; áp cho KH-0715 (tâm 60,2–60,3k, vượt ≥ M7 12h 60.759)"
+    "07:15 22/11: KH-0315 +4h và KH-2315 +8h NGANG tâm giá hiện tại DUNG → giup +2; áp cho KH-0715 (tâm 60,2–60,3k, vượt ≥ M7 12h 60.759)",
+    "09:15 22/11: áp cho KH-0915 — KH-2115 +12h, KH-0115 +8h, KH-0515 +4h đều DUNG → giup +1"
    ]
   }
  ]
