@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T18:15:00+07:00",
+ "cap_nhat": "2026-11-22T19:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1900,6 +1900,36 @@
    "that": "1h 17:00 đóng 60.876 trên biên +0,7%, chưa chạm mức đổi 61.150 (đỉnh 61.365 đã chạm lúc 16:56 rồi lùi)",
    "nguyen_nhan": "lập trước nhịp bật sau Đáy cao-RSI, tâm thấp hơn giá thật",
    "da_sua": "tâm theo giá hiện tại (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T19:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1515",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 58.370–59.870 (đổi 57.800/60.450)",
+   "that": "1h 18:00 đóng 61.063 vượt biên trên và mức đổi 60.450, không quay lại",
+   "nguyen_nhan": "lập trước nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T19:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1115",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "NGANG 58.850–60.540 (đổi 58.250/61.150)",
+   "that": "1h 18:00 đóng 61.063 trên biên +0,9%, chạm 61.150 rồi quay lại",
+   "nguyen_nhan": "lập trước nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
+  },
+  {
+   "luc": "2026-11-22T19:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1815",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "vùng 59.700–60.100 cửa sổ 18:45–19:15",
+   "that": "giá thấp nhất 60.868, không vào vùng (M7 1h/4h chạy lên theo giá)",
+   "nguyen_nhan": "lập trước nhịp bật / sàn nghỉ nâng theo M7",
+   "da_sua": "tâm theo giá, vùng theo M7 4h/1h (LT-B7-4/LT-B7-5)"
   }
  ],
  "luat_tam": [
@@ -2438,7 +2468,7 @@
    "het_han": "2026-11-24T21:15:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 9,
+    "giup": 10,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -2452,7 +2482,8 @@
     "09:15 22/11: áp cho KH-0915 — KH-2115 +12h, KH-0115 +8h, KH-0515 +4h đều DUNG → giup +1",
     "10:15 22/11: không áp cho KH-1015 (điều kiện giá +1% trên M7 4h và RSI 15m ≥ 75 không đạt)",
     "17:15 22/11: KÍCH lần 2 — giá 60.892 trên M7 4h +1,9%, RSI 15m 80,7 ≥75: áp cho KH-1715 (tâm 60.700, vượt ≥ 61.990, giua_quang, không mở vùng retest mép trên > 59.970/1,006); chưa có mốc chấm",
-    "18:15 22/11: KÍCH lần 3 — giá 60.864 trên M7 4h +1,9%, RSI 15m 70,8 (<75 nhưng vẫn giữ tâm 60.680); chưa có mốc chấm"
+    "18:15 22/11: KÍCH lần 3 — giá 60.864 trên M7 4h +1,9%, RSI 15m 70,8 (<75 nhưng vẫn giữ tâm 60.680); chưa có mốc chấm",
+    "19:15 22/11: KH-0715 +12h NGANG tâm giá hiện tại DUNG → giup +1; áp cho KH-1915 (tâm 60,8k)"
    ]
   }
  ]
