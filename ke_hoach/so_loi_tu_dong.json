@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T13:15:00+07:00",
+ "cap_nhat": "2026-11-22T14:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1830,6 +1830,16 @@
    "that": "giá vào vùng, thủng 58.800 nhẹ (đáy 58.768 lúc 12:45, −0,05%) rồi hồi 59.082; RSI 5m/15m lần chạm 28,3/23,3 cao hơn cực trị 16,8/20,1; 1h/2h/4h chưa cực trị",
    "nguyen_nhan": "tâm/mép cao 0,5–0,9%, điểm dừng sát đáy cũ; Bộ 5 2h/1h chưa nến dừng",
    "da_sua": "hạ vùng, điểm dừng 58.450, tâm theo giá hiện tại (LT-B7-4)"
+  },
+  {
+   "luc": "2026-11-22T14:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0615",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.400–61.200 (đổi 59.000/61.800)",
+   "that": "1h đóng 59.160 dưới gia_tu 0,4%; đáy 58.768 chạm mức đổi rồi quay lại",
+   "nguyen_nhan": "lập trước nhịp xả 09:00–12:45, tâm cao 0,4%",
+   "da_sua": "tâm theo giá hiện tại (LT-B7-4), thu hẹp mép trên vùng mua"
   }
  ],
  "luat_tam": [
