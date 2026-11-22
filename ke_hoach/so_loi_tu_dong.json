@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-23T01:15:00+07:00",
+ "cap_nhat": "2026-11-23T02:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2011,6 +2011,17 @@
    "nguyen_nhan": "lập trước nhịp bật 16:45 (đỉnh 61.365)",
    "da_sua": "tâm theo giá hiện tại, LT-B7-4",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1415",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 58.380–60.020",
+   "that": "1h đóng 60.764, vượt mức đổi 60.600 không quay lại",
+   "nguyen_nhan": "lập trước nhịp bật 16:45",
+   "da_sua": "tâm theo giá hiện tại, LT-B7-4",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2429,8 +2440,8 @@
    "het_han": "2026-11-23T09:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 30,
-    "khong_giup": 14
+    "giup": 32,
+    "khong_giup": 15
    },
    "ghi_nhan": [
     "09:25 20/11: áp lần đầu cho KH-0925 — Bộ 5 1h 1,70%, 2h 1,79% → +4h thủng 60.540/vượt 63.070; +8h 60.570/63.240; +12h 60.180/62.840",
@@ -2458,7 +2469,8 @@
     "16:15 22/11: KH-1215 +4h DUNG, KH-0815 +8h DUNG → giup +2; KH-0415 +12h MOT_PHAN (B7) → khong_giup +1",
     "17:15 22/11: KH-0915 +8h, KH-0515 +12h DUNG → giup +2; KH-1315 +4h SAI (B7, bật mạnh) → khong_giup +1; áp cho KH-1715 (thủng 58.590, vượt 61.990–62.410)",
     "23:15 22/11: KH-1915 +4h DUNG (giup +1); KH-1515 +8h SAI B7 (khong_giup +1)",
-    "00:15 23/11: KH-2015 +4h DUNG (giup +1); KH-1215 +12h SAI B7 (khong_giup +1); KH-1615 +8h MOT_PHAN không cộng"
+    "00:15 23/11: KH-2015 +4h DUNG (giup +1); KH-1215 +12h SAI B7 (khong_giup +1); KH-1615 +8h MOT_PHAN không cộng",
+    "02:15 23/11: KH-2215 +4h DUNG, KH-1815 +8h DUNG (giup +2); KH-1415 +12h SAI B7 lập trước nhịp bật (khong_giup +1)"
    ],
    "de_xuat_ba_duyet": true
   },
