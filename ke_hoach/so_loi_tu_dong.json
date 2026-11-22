@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-23T04:15:00+07:00",
+ "cap_nhat": "2026-11-23T05:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2451,7 +2451,7 @@
    "het_han": "2026-11-23T09:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 35,
+    "giup": 38,
     "khong_giup": 16
    },
    "ghi_nhan": [
@@ -2483,7 +2483,8 @@
     "00:15 23/11: KH-2015 +4h DUNG (giup +1); KH-1215 +12h SAI B7 (khong_giup +1); KH-1615 +8h MOT_PHAN không cộng",
     "02:15 23/11: KH-2215 +4h DUNG, KH-1815 +8h DUNG (giup +2); KH-1415 +12h SAI B7 lập trước nhịp bật (khong_giup +1)",
     "03:15 23/11: KH-2315 +4h DUNG, KH-1915 +8h DUNG (giup +2); KH-1515 +12h SAI B7 lập trước nhịp bật 16:45 (khong_giup +1)",
-    "04:15 23/11: tâm lộ trình theo giá, KH-0015 +4h / KH-2015 +8h / KH-1615 +12h đều DUNG → giup"
+    "04:15 23/11: tâm lộ trình theo giá, KH-0015 +4h / KH-2015 +8h / KH-1615 +12h đều DUNG → giup",
+    "05:15 23/11: KH-0115 +4h, KH-2115 +8h, KH-1715 +12h DUNG (đóng 60.954 trong biên, không chạm mức đổi) → giup +3; áp cho KH-0515 (thung 59.650/59.700/59.800, vuot 62.350/62.700/62.900)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -2518,7 +2519,8 @@
     "12:15 22/11: áp cho KH-1215 — 1h = min(đỉnh xả 60.186, max(M7 1h 59.837, M7 2h ~59.990)) = 59.990; mép trên vùng 59.500 ≤ 59.990/1,006",
     "17:15 22/11: áp cho KH-1715 — đáy mới nhất 58.768; 1h/2h = M7 2h 59.970 < đỉnh xả; mép trên vùng 59.000 ≤ 59.970/1,006",
     "18:15 22/11: xung đột vùng a0-2c (M7 2h 59,97k < mép trên vùng M 60.100/1,006) → ưu tiên điều Ba chốt 22/11, Thu lúa 1h 60.480; chưa chấm giup/khong_giup",
-    "03:15 23/11: áp cho KH-0315 — Thu lúa 1h 60.880 = min(đỉnh xả, max(M7 1h 60.879, M7 2h 60.650)); mép trên vùng 60.515 ≤ 60.880/1,006; chưa chấm"
+    "03:15 23/11: áp cho KH-0315 — Thu lúa 1h 60.880 = min(đỉnh xả, max(M7 1h 60.879, M7 2h 60.650)); mép trên vùng 60.515 ≤ 60.880/1,006; chưa chấm",
+    "05:15 23/11: áp cho KH-0515 — 1h 61.120 (trên giá lúc lập, đỉnh nến 1h 04:00), 2h 61.647; mép trên vùng rũ 60.520 ≤ 61.120/1,006"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -2593,7 +2595,8 @@
     "17:15 22/11: KÍCH lần 2 — giá 60.892 trên M7 4h +1,9%, RSI 15m 80,7 ≥75: áp cho KH-1715 (tâm 60.700, vượt ≥ 61.990, giua_quang, không mở vùng retest mép trên > 59.970/1,006); chưa có mốc chấm",
     "18:15 22/11: KÍCH lần 3 — giá 60.864 trên M7 4h +1,9%, RSI 15m 70,8 (<75 nhưng vẫn giữ tâm 60.680); chưa có mốc chấm",
     "19:15 22/11: KH-0715 +12h NGANG tâm giá hiện tại DUNG → giup +1; áp cho KH-1915 (tâm 60,8k)",
-    "00:15 23/11: KH-2015 +4h NGANG tâm theo giá DUNG → giup +1; không kích kỳ này (RSI 15m 64)"
+    "00:15 23/11: KH-2015 +4h NGANG tâm theo giá DUNG → giup +1; không kích kỳ này (RSI 15m 64)",
+    "05:15 23/11: áp cho KH-0515 — tâm 60.980 (không nghiêng xuống vì RSI 15m 55 <75), vượt ≥ M7 12h, kiểu giua_quang"
    ]
   }
  ]
