@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-22T12:15:00+07:00",
+ "cap_nhat": "2026-11-22T13:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -1790,6 +1790,46 @@
    "that": "1h đóng 59.313, dưới gia_tu 0,6%, chưa chạm mức đổi 59.111",
    "nguyen_nhan": "tâm cao 0,6% vì lập trước nhịp xả 09:15 (MOT_PHAN)",
    "da_sua": "tâm theo giá hiện tại, biên Bộ 5 1h/2h (LT-B7-4)"
+  },
+  {
+   "luc": "2026-11-22T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0115",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.230–60.820 (đổi 58.650/61.500)",
+   "that": "1h đóng 58.924 dưới gia_tu 0,52% (ngoài ±0,3%), chưa chạm 58.650",
+   "nguyen_nhan": "tâm/mép cao 0,5–0,9%, điểm dừng sát đáy cũ; Bộ 5 2h/1h chưa nến dừng",
+   "da_sua": "hạ vùng, điểm dừng 58.450, tâm theo giá hiện tại (LT-B7-4)"
+  },
+  {
+   "luc": "2026-11-22T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0515",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.620–61.300 (đổi 59.110/61.800)",
+   "that": "đáy 58.768 thủng mức đổi 59.110, giá 59.070 vẫn dưới mức đổi (không quay lại)",
+   "nguyen_nhan": "tâm/mép cao 0,5–0,9%, điểm dừng sát đáy cũ; Bộ 5 2h/1h chưa nến dừng",
+   "da_sua": "hạ vùng, điểm dừng 58.450, tâm theo giá hiện tại (LT-B7-4)"
+  },
+  {
+   "luc": "2026-11-22T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-0915",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 59.450–60.870 (đổi 58.940/61.390)",
+   "that": "1h đóng 58.924 (−0,9% so gia_tu); chạm mức đổi 58.940 (đáy 58.768) rồi hồi 59.070 > mức đổi",
+   "nguyen_nhan": "tâm/mép cao 0,5–0,9%, điểm dừng sát đáy cũ; Bộ 5 2h/1h chưa nến dừng",
+   "da_sua": "hạ vùng, điểm dừng 58.450, tâm theo giá hiện tại (LT-B7-4)"
+  },
+  {
+   "luc": "2026-11-22T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-22-1215",
+   "moc": "vung_mua+diem_dung",
+   "ma_loi": "B7",
+   "du": "vùng Day2 59.000–59.500, dừng 58.800",
+   "that": "giá vào vùng, thủng 58.800 nhẹ (đáy 58.768 lúc 12:45, −0,05%) rồi hồi 59.082; RSI 5m/15m lần chạm 28,3/23,3 cao hơn cực trị 16,8/20,1; 1h/2h/4h chưa cực trị",
+   "nguyen_nhan": "tâm/mép cao 0,5–0,9%, điểm dừng sát đáy cũ; Bộ 5 2h/1h chưa nến dừng",
+   "da_sua": "hạ vùng, điểm dừng 58.450, tâm theo giá hiện tại (LT-B7-4)"
   }
  ],
  "luat_tam": [
@@ -2208,8 +2248,8 @@
    "het_han": "2026-11-23T09:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 20,
-    "khong_giup": 8
+    "giup": 21,
+    "khong_giup": 10
    },
    "ghi_nhan": [
     "09:25 20/11: áp lần đầu cho KH-0925 — Bộ 5 1h 1,70%, 2h 1,79% → +4h thủng 60.540/vượt 63.070; +8h 60.570/63.240; +12h 60.180/62.840",
@@ -2231,7 +2271,8 @@
     "09:15 22/11: áp cho KH-0915 — KH-2115 +12h, KH-0115 +8h, KH-0515 +4h đều DUNG → giup +1",
     "10:15 22/11: KH-0615 +4h, KH-2215 +12h DUNG → giup +2; áp cho KH-1015 (+4h thủng 58.300/vượt 61.150; +8h/+12h 58.170/61.150)",
     "11:15 22/11: 3 mốc DUNG (KH-2315 +12h, KH-0315 +8h, KH-0715 +4h), mức đổi không bị chạm → giup +3",
-    "12:15 22/11: KH-0015 +12h DUNG, KH-0815 +4h DUNG (không chạm mức đổi) → giup +2; KH-0415 +8h MOT_PHAN (B7, không chạm mức đổi) — trung tính; áp cho KH-1215: +4h 58.350/60.650, +8h 58.300/61.000, +12h 58.200/61.100"
+    "12:15 22/11: KH-0015 +12h DUNG, KH-0815 +4h DUNG (không chạm mức đổi) → giup +2; KH-0415 +8h MOT_PHAN (B7, không chạm mức đổi) — trung tính; áp cho KH-1215: +4h 58.350/60.650, +8h 58.300/61.000, +12h 58.200/61.100",
+    "13:15 22/11: KH-0115 +12h giup +1 (chưa chạm mức đổi); KH-0515 +8h và KH-0915 +4h khong_giup +2 (mức đổi bị chạm/thủng)"
    ],
    "de_xuat_ba_duyet": true
   },
