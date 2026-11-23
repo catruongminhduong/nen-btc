@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-23T10:15:00+07:00",
+ "cap_nhat": "2026-11-23T12:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2055,6 +2055,28 @@
    "nguyen_nhan": "mức 1h cao hơn M7 1h/30m 61.014–61.022",
    "da_sua": "LT-B10-3, mức 1h 61.010",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T12:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-1015",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "Hoi 60.440–60.640 (giá nến 15m 60.658)",
+   "that": "giá 1m lúc lập 61.088 rồi 61.960; không vào vùng, bỏ lỡ hồi +2,1%",
+   "nguyen_nhan": "LOI_MOI BO_LO: lấy giá nến 15m cuối thay giá 1m mới nhất khi giá nhảy",
+   "da_sua": "LT-B7-6 + mốc giá 1m",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T12:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-1015",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "vùng Đỉnh 61.352–61.652",
+   "that": "đỉnh 61.960 vượt 0,5%",
+   "nguyen_nhan": "đích KHD cao hơn mức 75%",
+   "da_sua": "vùng bán tới mức 90% + tầng 4h",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2520,7 +2542,7 @@
    "het_han": "2026-11-23T17:25:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 15,
+    "giup": 16,
     "khong_giup": 2
    },
    "ghi_nhan": [
@@ -2544,7 +2566,8 @@
     "18:15 22/11: xung đột vùng a0-2c (M7 2h 59,97k < mép trên vùng M 60.100/1,006) → ưu tiên điều Ba chốt 22/11, Thu lúa 1h 60.480; chưa chấm giup/khong_giup",
     "03:15 23/11: áp cho KH-0315 — Thu lúa 1h 60.880 = min(đỉnh xả, max(M7 1h 60.879, M7 2h 60.650)); mép trên vùng 60.515 ≤ 60.880/1,006; chưa chấm",
     "05:15 23/11: áp cho KH-0515 — 1h 61.120 (trên giá lúc lập, đỉnh nến 1h 04:00), 2h 61.647; mép trên vùng rũ 60.520 ≤ 61.120/1,006",
-    "09:15 23/11: KH-0515 Thu lúa 1h 61.120 và KH-0615 Thu lúa 1h 61.250 đều chạm (đỉnh 61.464 lúc 07:30) → giup +2; áp cho KH-0915 — 1h 61.030 = max(M7 1h 61.031, M7 2h 60.900), mép trên vùng 60.620 ≤ 61.030/1,006"
+    "09:15 23/11: KH-0515 Thu lúa 1h 61.120 và KH-0615 Thu lúa 1h 61.250 đều chạm (đỉnh 61.464 lúc 07:30) → giup +2; áp cho KH-0915 — 1h 61.030 = max(M7 1h 61.031, M7 2h 60.900), mép trên vùng 60.620 ≤ 61.030/1,006",
+    "12:15 23/11: KH-1015 thu_lua 1h 61.010/2h 61.250 chạm (đỉnh 61.960) → giup +1; áp KH-1215: 1h 61.490 (đỉnh nến 11:15)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -2592,7 +2615,8 @@
     "10:15 22/11: áp cho KH-1015 — Bộ 5 2h mới (x 09:00): cuối nến 4 = 17:00, biên 19:00 trong ±1 nến → cua_so_day 13:00–19:00; tu = đầu nến #3 (13:00)",
     "12:15 22/11: KH-1015 đáy thật 59.130 (10:49) nằm đúng cửa sổ cuối nến 4 4h 10:30–11:15 → giup +1; KH-1215 cua_so_day 13:00–19:00 (cuối nến 4 Bộ 5 2h ±1 nến)",
     "17:15 22/11: áp cho KH-1715 — Bộ 5 2h mới (nến 1 15:00): cuối nến 4 = 23:00, biên 23:00 trong cửa sổ → cua_so_day 22:30–00:00",
-    "09:15 23/11: áp cho KH-0915 — Bộ 5 2h (nến 1 07:00), cua_so_day 09:15–19:00 chứa cuối nến 4 (15:00)"
+    "09:15 23/11: áp cho KH-0915 — Bộ 5 2h (nến 1 07:00), cua_so_day 09:15–19:00 chứa cuối nến 4 (15:00)",
+    "12:15 23/11: áp cho KH-1215 — cua_so_day 12:15–19:00"
    ]
   },
   {
@@ -2634,9 +2658,11 @@
    "trang_thai": "hieu_luc",
    "ket_qua": {
     "giup": 0,
-    "khong_giup": 0
+    "khong_giup": 1
    },
-   "ghi_nhan": []
+   "ghi_nhan": [
+    "12:15 23/11: áp cho KH-1215 — Hoi 61.060–61.330 bao giá 1m 61.274; KH-1015 vung_mua SAI (bỏ lỡ) → khong_giup +1"
+   ]
   }
  ],
  "phat_huy": [
@@ -2659,6 +2685,12 @@
    "tu": "2026-11-23T10:15:00+07:00",
    "het_han": "2026-11-26T10:15:00+07:00",
    "de_xuat_ba_chot": true
+  },
+  {
+   "cach": "Hoi/Day1 mở sau khi RSI 5m/3m/1m đã bật ở đáy → hồi 1,29–2,31% không thủng dừng 3/3",
+   "so_lan_dung": 3,
+   "tu": "2026-11-23T12:15:00+07:00",
+   "het_han": "2026-11-26T12:15:00+07:00"
   }
  ]
 }
