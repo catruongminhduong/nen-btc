@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-23T20:15:00+07:00",
+ "cap_nhat": "2026-11-23T21:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2099,6 +2099,17 @@
    "nguyen_nhan": "Hoi mép trên sát đỉnh cục bộ",
    "da_sua": "Hoi kéo xuống điểm chạm lại + lệnh chờ",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T21:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-2015",
+   "moc": "thu_lua",
+   "ma_loi": "B7",
+   "du": "vùng bán 61.830–62.175, trần M99 2h 62.500",
+   "that": "đỉnh 63.899 lúc 20:59",
+   "nguyen_nhan": "giữ trần M99 2h như cứng + cực trị RSI 30m cũ khi nén thoát mạnh (LOI_MOI: tran_M99_bi_pha)",
+   "da_sua": "tính lại từ cực trị RSI 20:59 → 64.2–64.5; mục tiêu 2,0%",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2690,7 +2701,7 @@
  "phat_huy": [
   {
    "cach": "Hướng thoát nén 15m theo nến U 1h (vừa cắt M7, vị trí cùng chiều) → đúng 4/4",
-   "so_lan_dung": 4,
+   "so_lan_dung": 5,
    "tu": "2026-11-23T10:15:00+07:00",
    "het_han": "2026-11-26T10:15:00+07:00"
   },
@@ -2755,15 +2766,21 @@
    "so_lan_dung": 1,
    "tu": "2026-11-23T20:15:00+07:00",
    "het_han": "2026-11-26T20:15:00+07:00"
+  },
+  {
+   "cach": "Lệnh chờ cụm M sau đáy cao dần + rũ nhỏ bật (A1/A3/A4) hồi ≥+4% không thủng 3/3",
+   "so_lan_dung": 3,
+   "tu": "2026-11-23T21:15:00+07:00",
+   "het_han": "2026-11-26T21:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "den": "2026-11-23T20:15:00+07:00",
-  "tong": 16,
-  "dung": 10,
-  "sai": 1,
+  "den": "2026-11-23T21:15:00+07:00",
+  "tong": 17,
+  "dung": 13,
+  "sai": 2,
   "bo_lo": 1,
-  "cho": 4,
-  "ty_le_dung_pct": 83
+  "cho": 1,
+  "ty_le_dung_pct": 76
  }
 }
