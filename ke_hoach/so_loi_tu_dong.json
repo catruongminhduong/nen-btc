@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T03:15:00+07:00",
+ "cap_nhat": "2026-11-24T04:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2209,6 +2209,16 @@
    "nguyen_nhan": "sau Đỉnh chính Bộ 5 Ngày không tính lùi về M7 8h",
    "da_sua": "KH-0215/0315 đã đổi hướng lùi rồi hồi",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T04:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0015",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 61.650–62.800",
+   "that": "61.239, thủng 61.200",
+   "nguyen_nhan": "biên lộ trình đặt sát Đỉnh Bộ 5 Ngày, không tính lùi chạm M7 8h",
+   "da_sua": "lộ trình kỳ này tâm quanh giá, mức đổi ở dừng Bộ 5 4h"
   }
  ],
  "luat_tam": [
@@ -2902,6 +2912,13 @@
    "so_lan_dung": 1,
    "tu": "2026-11-24T03:15:00+07:00",
    "het_han": "2026-11-27T03:15:00+07:00"
+  },
+  {
+   "cach": "Mua ở cụm M7 8h / M lớn sau khi RSI đã bật (A2 0115 khớp ~61,2k, giữ trên đáy, đáy cao dần)",
+   "so_lan_dung": 11,
+   "tu": "2026-11-24T04:15:00+07:00",
+   "het_han": "2026-11-27T04:15:00+07:00",
+   "de_xuat_ba_chot": true
   }
  ],
  "thong_ke_12h": {
