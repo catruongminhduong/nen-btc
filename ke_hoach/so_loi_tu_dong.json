@@ -2121,6 +2121,17 @@
    "nguyen_nhan": "LOI_MOI BO_LO: ước nhịp còn lại quá thấp khi xung lực còn mạnh trước Đỉnh 2",
    "da_sua": "xung lực trước Đỉnh chính → mở Hoi nhỏ quanh giá; sau Đỉnh chính chỉ chờ cụm M",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-2215",
+   "moc": "vung_mua",
+   "ma_loi": "B10",
+   "du": "không mở Hoi quanh 62,9k (chỉ chờ cụm M)",
+   "that": "62.94→63.666 (+1,15%)",
+   "nguyen_nhan": "BO_LO lặp lần 2 trong 2 giờ: nén biên rộng sau đỉnh mà không mua biên dưới",
+   "da_sua": "mở Hoi biên dưới nén 62.550–62.900 (áp LT-B7-6)",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2705,7 +2716,8 @@
     "khong_giup": 1
    },
    "ghi_nhan": [
-    "12:15 23/11: áp cho KH-1215 — Hoi 61.060–61.330 bao giá 1m 61.274; KH-1015 vung_mua SAI (bỏ lỡ) → khong_giup +1"
+    "12:15 23/11: áp cho KH-1215 — Hoi 61.060–61.330 bao giá 1m 61.274; KH-1015 vung_mua SAI (bỏ lỡ) → khong_giup +1",
+    "23:15 23/11: áp cho KH-2315 — Hoi 62.550–62.900 mép trên sát giá 62.897, mép dưới biên nén; KH-2215 không áp (bỏ lỡ) → chưa chấm"
    ]
   }
  ],
@@ -2782,7 +2794,8 @@
    "cach": "Lệnh chờ cụm M sau đáy cao dần + rũ nhỏ bật (A1/A3/A4) hồi ≥+4% không thủng 3/3",
    "so_lan_dung": 3,
    "tu": "2026-11-23T21:15:00+07:00",
-   "het_han": "2026-11-26T21:15:00+07:00"
+   "het_han": "2026-11-26T21:15:00+07:00",
+   "ghi_nhan_2315": "áp lại A1 cụm M 62,0–62,3k"
   },
   {
    "cach": "Vùng bán tính từ RSI cực trị mới khung lớn nhất (2h → Bộ 5 Ngày 64.211–64.518) chứa Đỉnh 2 64.603",
@@ -2792,12 +2805,12 @@
   }
  ],
  "thong_ke_12h": {
-  "den": "2026-11-23T22:15:00+07:00",
-  "tong": 19,
-  "dung": 14,
+  "den": "2026-11-23T23:15:00+07:00",
+  "tong": 21,
+  "dung": 15,
   "sai": 2,
   "bo_lo": 2,
-  "cho": 1,
-  "ty_le_dung_pct": 78
+  "cho": 2,
+  "ty_le_dung_pct": 79
  }
 }
