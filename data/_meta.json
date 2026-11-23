@@ -1,33 +1,33 @@
 {
-  "updated_at_utc": "2026-11-23T10:01:01Z",
-  "updated_at_vn": "2026-11-23 17:01",
+  "updated_at_utc": "2026-11-23T11:01:00Z",
+  "updated_at_vn": "2026-11-23 18:01",
   "source": "binance spot public klines via ccxt",
   "frames": {
     "1m": {
       "rows": 43200,
-      "last_closed_open_time_vn": "2026-11-23 17:00",
+      "last_closed_open_time_vn": "2026-11-23 18:00",
       "file": "BTC_USDT-1min.csv"
     },
     "3m": {
       "rows": 60000,
-      "last_closed_open_time_vn": "2026-11-23 16:57",
+      "last_closed_open_time_vn": "2026-11-23 17:57",
       "file": "BTC_USDT-3m.csv"
     },
     "5m": {
       "rows": 52000,
-      "last_closed_open_time_vn": "2026-11-23 16:55"
+      "last_closed_open_time_vn": "2026-11-23 17:55"
     },
     "15m": {
       "rows": 35040,
-      "last_closed_open_time_vn": "2026-11-23 16:45"
+      "last_closed_open_time_vn": "2026-11-23 17:45"
     },
     "30m": {
       "rows": 17520,
-      "last_closed_open_time_vn": "2026-11-23 16:30"
+      "last_closed_open_time_vn": "2026-11-23 17:30"
     },
     "1h": {
       "rows": 17520,
-      "last_closed_open_time_vn": "2026-11-23 16:00"
+      "last_closed_open_time_vn": "2026-11-23 17:00"
     },
     "2h": {
       "rows": 8760,
@@ -69,12 +69,12 @@
     },
     "ETH_15m": {
       "rows": 672,
-      "last_closed_open_time_vn": "2026-11-23 16:45",
+      "last_closed_open_time_vn": "2026-11-23 17:45",
       "file": "ETH_USDT-15m.csv"
     },
     "DOGE_15m": {
       "rows": 672,
-      "last_closed_open_time_vn": "2026-11-23 16:45",
+      "last_closed_open_time_vn": "2026-11-23 17:45",
       "file": "DOGE_USDT-15m.csv"
     }
   }
