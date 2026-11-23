@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-23T16:15:00+07:00",
+ "cap_nhat": "2026-11-23T17:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2088,6 +2088,17 @@
    "nguyen_nhan": "vùng Hoi đặt thấp hơn giá",
    "da_sua": "Hoi bám giá quanh điểm chạm lại gần nhất",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T17:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-1315",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "Hoi 61.7xx sát đỉnh nén",
+   "that": "hồi 0%, không đủ 0,6%",
+   "nguyen_nhan": "Hoi mép trên sát đỉnh cục bộ",
+   "da_sua": "Hoi kéo xuống điểm chạm lại + lệnh chờ",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2726,6 +2737,12 @@
    "so_lan_dung": 6,
    "tu": "2026-11-23T16:15:00+07:00",
    "het_han": "2026-11-26T16:15:00+07:00"
+  },
+  {
+   "cach": "Mở Hoi/Day1 sau khi RSI 5m/3m/1m đã bật, đáy cao dần → hồi ≥0,6% không thủng dừng 4/5 (0915,1215,1415,1515)",
+   "so_lan_dung": 4,
+   "tu": "2026-11-23T17:15:00+07:00",
+   "het_han": "2026-11-26T17:15:00+07:00"
   }
  ]
 }
