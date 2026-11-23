@@ -1,37 +1,37 @@
 {
-  "updated_at_utc": "2026-11-23T05:01:01Z",
-  "updated_at_vn": "2026-11-23 12:01",
+  "updated_at_utc": "2026-11-23T06:01:01Z",
+  "updated_at_vn": "2026-11-23 13:01",
   "source": "binance spot public klines via ccxt",
   "frames": {
     "1m": {
       "rows": 43200,
-      "last_closed_open_time_vn": "2026-11-23 12:00",
+      "last_closed_open_time_vn": "2026-11-23 13:00",
       "file": "BTC_USDT-1min.csv"
     },
     "3m": {
       "rows": 60000,
-      "last_closed_open_time_vn": "2026-11-23 11:57",
+      "last_closed_open_time_vn": "2026-11-23 12:57",
       "file": "BTC_USDT-3m.csv"
     },
     "5m": {
       "rows": 52000,
-      "last_closed_open_time_vn": "2026-11-23 11:55"
+      "last_closed_open_time_vn": "2026-11-23 12:55"
     },
     "15m": {
       "rows": 35040,
-      "last_closed_open_time_vn": "2026-11-23 11:45"
+      "last_closed_open_time_vn": "2026-11-23 12:45"
     },
     "30m": {
       "rows": 17520,
-      "last_closed_open_time_vn": "2026-11-23 11:30"
+      "last_closed_open_time_vn": "2026-11-23 12:30"
     },
     "1h": {
       "rows": 17520,
-      "last_closed_open_time_vn": "2026-11-23 11:00"
+      "last_closed_open_time_vn": "2026-11-23 12:00"
     },
     "2h": {
       "rows": 8760,
-      "last_closed_open_time_vn": "2026-11-23 09:00"
+      "last_closed_open_time_vn": "2026-11-23 11:00"
     },
     "4h": {
       "rows": 6570,
@@ -39,7 +39,7 @@
     },
     "6h": {
       "rows": 4380,
-      "last_closed_open_time_vn": "2026-11-23 01:00",
+      "last_closed_open_time_vn": "2026-11-23 07:00",
       "file": "BTC_USDT-6h.csv"
     },
     "8h": {
@@ -69,12 +69,12 @@
     },
     "ETH_15m": {
       "rows": 672,
-      "last_closed_open_time_vn": "2026-11-23 11:45",
+      "last_closed_open_time_vn": "2026-11-23 12:45",
       "file": "ETH_USDT-15m.csv"
     },
     "DOGE_15m": {
       "rows": 672,
-      "last_closed_open_time_vn": "2026-11-23 11:45",
+      "last_closed_open_time_vn": "2026-11-23 12:45",
       "file": "DOGE_USDT-15m.csv"
     }
   }
