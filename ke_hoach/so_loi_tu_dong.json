@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T00:15:00+07:00",
+ "cap_nhat": "2026-11-24T01:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2143,6 +2143,28 @@
    "nguyen_nhan": "nén sau Đỉnh chính, U 1h đã nến #4 → không giữ biên",
    "da_sua": "bỏ LT-B7-6, chỉ mua cụm M lớn sau đáy RSI bật",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T01:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0015",
+   "moc": "vung_mua",
+   "ma_loi": "B8",
+   "du": "Day1 61.800–62.200 theo RSI 3m (Bộ 5 1h)",
+   "that": "đáy 61.257 dưới vùng 0,9%; cực trị dịch lên 5m/15m",
+   "nguyen_nhan": "sai khung DH sau Đỉnh chính — nến 5 Bộ 5 12h còn lùi",
+   "da_sua": "vùng theo RSI 15m → Bộ 5 4h 61,0–61,6k",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T01:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-2115",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 62.850–64.100",
+   "that": "61.674, chạm mức đổi 62.600",
+   "nguyen_nhan": "Đỉnh 64.603 là Đỉnh chính Bộ 5 Ngày, lùi sâu hơn biên",
+   "da_sua": "biên lộ trình theo giá hiện tại",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2682,7 +2704,8 @@
     "12:15 22/11: KH-1015 đáy thật 59.130 (10:49) nằm đúng cửa sổ cuối nến 4 4h 10:30–11:15 → giup +1; KH-1215 cua_so_day 13:00–19:00 (cuối nến 4 Bộ 5 2h ±1 nến)",
     "17:15 22/11: áp cho KH-1715 — Bộ 5 2h mới (nến 1 15:00): cuối nến 4 = 23:00, biên 23:00 trong cửa sổ → cua_so_day 22:30–00:00",
     "09:15 23/11: áp cho KH-0915 — Bộ 5 2h (nến 1 07:00), cua_so_day 09:15–19:00 chứa cuối nến 4 (15:00)",
-    "12:15 23/11: áp cho KH-1215 — cua_so_day 12:15–19:00"
+    "12:15 23/11: áp cho KH-1215 — cua_so_day 12:15–19:00",
+    "01:15 24/11: cửa sổ đếm theo 4h (nến cắt M7 4h 23:00) — chưa chấm"
    ]
   },
   {
@@ -2820,30 +2843,37 @@
    "so_lan_dung": 4,
    "tu": "2026-11-24T00:15:00+07:00",
    "het_han": "2026-11-27T00:15:00+07:00"
+  },
+  {
+   "cach": "Vùng Hoi/lệnh chờ ở cụm M7 4h khi đáy RSI 5m/3m đã bật (Bộ 5 12h LÊN) đúng 8/8",
+   "so_lan_dung": 8,
+   "tu": "2026-11-24T01:15:00+07:00",
+   "het_han": "2026-11-27T01:15:00+07:00",
+   "de_xuat_ba_chot": true
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-23T12:15:00+07:00",
-  "den": "2026-11-24T00:15:00+07:00",
-  "tong": 24,
-  "dung": 15,
-  "sai": 3,
+  "tu": "2026-11-23T13:15:00+07:00",
+  "den": "2026-11-24T01:15:00+07:00",
+  "tong": 34,
+  "dung": 24,
+  "sai": 6,
   "bo_lo": 2,
-  "cho": 4,
+  "cho": 2,
   "ty_le_dung_pct": 75,
   "theo_loai": {
-   "mo_vung_mua": "8/10 (sai 1315, Hoi biên dưới 2315; chờ A5-2115, A1-2215, A1-2315)",
+   "mo_vung_mua": "11/15 (vùng 8/10, lệnh chờ 3/5; sai 2215 Hoi+A1, 2315 Hoi+A1 — ước bị cắt lỗ khi xuống 61.257; chờ 0015 vùng + A1)",
    "khong_mo": "0/2 (bỏ lỡ 2115, 2215)",
    "vung_ban": "6/8",
    "ban_khan_cap": "0/0",
    "huong_nen": "3/3",
-   "huong_dau_ngay": "3/3"
+   "huong_dau_ngay": "4/4"
   },
   "phat_huy": [
-   "Lệnh chờ ở cụm M (M7 1h ≈ M25 15m ≈ M99 3m/5m) sau đáy cao dần: khớp 4/4, chưa thủng dừng → kỳ này đặt A1 ở M99 5m ≈ M7 4h"
+   "Vùng Hoi/lệnh chờ ở cụm M7 4h ~61,0–61,35k khi đáy RSI 5m/3m đã bật: đúng 8/8 (1315→2015, hồi ≥4%) → kỳ này đặt A1 ở M7 4h ≈ M99 15m, A2 ở M7 8h"
   ],
   "tu_sua": [
-   "Hoi biên dưới nén 15m sau Đỉnh chính SAI (nén thoát xuống, U 1h đã sang nến #4) · LT-B7-6 khong_giup 2 → bỏ · kỳ này không mua biên dưới nén sau Đỉnh chính, chỉ mua ở cụm M lớn khi đáy RSI đã bật"
+   "Mua 62,0–62,9k sau Đỉnh chính 64.603 SAI 4 lần (2215, 2315, 0015) · vì lấy cực trị 1m/3m (Bộ 5 1h) trong khi nến 5 Bộ 5 12h còn lùi, cực trị dịch lên 5m/15m · kỳ này vùng theo RSI 15m → Bộ 5 4h, hạ về 61,0–61,6k (cụm M7 4h/M99 15m/M7 8h)"
   ]
  }
 }
