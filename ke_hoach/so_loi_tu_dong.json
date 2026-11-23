@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T02:15:00+07:00",
+ "cap_nhat": "2026-11-24T03:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2187,6 +2187,28 @@
    "nguyen_nhan": "cực trị 15m chưa xong khi đặt lệnh chờ ở M7 4h",
    "da_sua": "bỏ A1, chỉ chờ M7 8h",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T03:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0215",
+   "moc": "vung_mua Day1/A2",
+   "ma_loi": "B7",
+   "du": "đáy trong 60.800–61.250",
+   "that": "đáy 60.763 (37 USD dưới đầu dưới)",
+   "nguyen_nhan": "cực trị 15m dịch thấp hơn (36,8) sau khi đặt vùng",
+   "da_sua": "KH-0315 hạ vùng Đáy theo cực trị mới tới 60.500",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T03:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-2315",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 62.150–63.400",
+   "that": "61.330 thủng 61.800",
+   "nguyen_nhan": "sau Đỉnh chính Bộ 5 Ngày không tính lùi về M7 8h",
+   "da_sua": "KH-0215/0315 đã đổi hướng lùi rồi hồi",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2874,30 +2896,37 @@
    "tu": "2026-11-24T01:15:00+07:00",
    "het_han": "2026-11-27T01:15:00+07:00",
    "de_xuat_ba_chot": true
+  },
+  {
+   "cach": "Bán khẩn cấp khi mức chạm dự kiến (M7 8h) thấp hơn mức cắt lỗ lệnh đang giữ → giá còn xuống 1% sau khi bán",
+   "so_lan_dung": 1,
+   "tu": "2026-11-24T03:15:00+07:00",
+   "het_han": "2026-11-27T03:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-23T14:15:00+07:00",
-  "den": "2026-11-24T02:15:00+07:00",
-  "tong": 44,
-  "dung": 27,
-  "sai": 8,
+  "tu": "2026-11-23T15:15:00+07:00",
+  "den": "2026-11-24T03:15:00+07:00",
+  "tong": 45,
+  "dung": 28,
+  "sai": 9,
   "bo_lo": 1,
-  "cho": 8,
-  "ty_le_dung_pct": 75,
+  "cho": 7,
+  "ty_le_dung_pct": 74,
   "theo_loai": {
-   "mo_vung_mua": "16/21 (vùng + lệnh chờ 1415→2015 đúng 16/16; sai 2215 Hoi+A1, 2315 Hoi×2+A1; chờ 0015×2, 0115×3)",
+   "mo_vung_mua": "13/20 (1515→2015 + Day1 0115 đúng 13; sai 2215 Hoi+A1, 2315 Hoi×2+A1, 0015 Day1+A1; chờ 0115 Hoi/A1/A2, 0215 Day1)",
    "khong_mo": "0/1 (bỏ lỡ 2115)",
-   "vung_ban": "7/10 (chờ 0015, 0115)",
-   "ban_khan_cap": "0/0",
-   "huong_nen": "0/0",
-   "huong_dau_ngay": "4/4 (chờ 0115)"
+   "vung_ban": "8/10 (sai 2315, 0015; chờ 0115, 0215)",
+   "ban_khan_cap": "1/1",
+   "huong_nen": "1/1",
+   "huong_dau_ngay": "5/5"
   },
   "phat_huy": [
-   "Vùng Hoi/lệnh chờ ở cụm M7 4h ~61,0–61,35k khi đáy RSI 5m/3m đã bật: đúng 16/16 (1415→2015) → kỳ này chờ khớp ở M7 8h 61,04k (mức chạm kế tiếp)"
+   "Mua ở cụm M7 4h/M7 8h khi RSI đã bật: 13 lần đúng → kỳ này Hồi/Đáy chỉ ở chạm lại M7 8h–M7 5m",
+   "Bán khẩn cấp khi mức chạm dự kiến thấp hơn mức cắt lỗ lệnh đang giữ: 1/1 (61,37k → đáy 60,76k)"
   ],
   "tu_sua": [
-   "Lệnh mua 62,0k (0015) sát cắt lỗ mà kỳ 0115 đã đoán điểm chạm M7 8h ~61,08k thấp hơn mức cắt lỗ nhưng không bán khẩn cấp · LOI_MOI · kỳ này: bán khẩn cấp trước khi chạm cắt lỗ, mua lại ở mức chạm; không mua giữa đường 61,3–61,6k"
+   "Hoi/lệnh chờ 61,85–62,9k (2215→0015) sai 7 lần · đặt theo khung nhỏ ngay sau Đỉnh chính Bộ 5 Ngày, giá còn xa M7 4h/M7 8h · kỳ này: sau đỉnh lớn chỉ mở vùng ở mức chạm M lớn (M7 8h 61,02k), trần vùng Hồi 61.300"
   ]
  }
 }
