@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-23T09:15:00+07:00",
+ "cap_nhat": "2026-11-23T10:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2033,6 +2033,28 @@
    "nguyen_nhan": "lập trước nhịp bật 16:45",
    "da_sua": "tâm theo giá hiện tại, LT-B7-4",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-0215..0615",
+   "moc": "vung_mua",
+   "ma_loi": "B7",
+   "du": "Hoi 60.13–60.52k (phần thấp)",
+   "that": "giá nghỉ 60,58–60,95k rồi lên 61.464, không vào vùng, bỏ lỡ hồi ≥0,6% (5 kỳ)",
+   "nguyen_nhan": "LOI_MOI BO_LO: coi RSI 5m chưa bật là chưa có đáy, đặt vùng sâu hơn",
+   "da_sua": "LT-B7-6",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-23T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-0015..0215",
+   "moc": "thu_lua",
+   "ma_loi": "B10",
+   "du": "tầng 1h 61.000–61.250",
+   "that": "Đỉnh 3 hạ dần, giá chưa tới mức trong hiệu lực (3 kỳ)",
+   "nguyen_nhan": "mức 1h cao hơn M7 1h/30m 61.014–61.022",
+   "da_sua": "LT-B10-3, mức 1h 61.010",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -2601,6 +2623,42 @@
     "00:15 23/11: KH-2015 +4h NGANG tâm theo giá DUNG → giup +1; không kích kỳ này (RSI 15m 64)",
     "05:15 23/11: áp cho KH-0515 — tâm 60.980 (không nghiêng xuống vì RSI 15m 55 <75), vượt ≥ M7 12h, kiểu giua_quang"
    ]
+  },
+  {
+   "id": "LT-B7-6",
+   "tu": "2026-11-23T10:15:00+07:00",
+   "ma_loi": "B7",
+   "luat": "Khi đã có đáy (RSI cực trị khung DH lớn nhất dưới M99 đã bật lên) vùng mua Hoi phải có mép trên sát giá hiện tại (trong giới hạn LT-B10-3) và mép dưới tới điểm chạm lại gần nhất (M7 NH/M99 15m); không được đặt vùng sâu hơn chạm lại khi nhịp hồi tính ra ≥0,6%",
+   "can_cu": "5 lần bỏ lỡ nhịp hồi trong 12h (KH-0215..0615), Ba chốt ĐI CHỢ MẠNH DẠN 23/11",
+   "het_han": "2026-11-26T10:15:00+07:00",
+   "trang_thai": "hieu_luc",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   },
+   "ghi_nhan": []
+  }
+ ],
+ "phat_huy": [
+  {
+   "cach": "Hướng thoát nén 15m theo nến U 1h (vừa cắt M7, vị trí cùng chiều) → đúng 4/4",
+   "so_lan_dung": 4,
+   "tu": "2026-11-23T10:15:00+07:00",
+   "het_han": "2026-11-26T10:15:00+07:00"
+  },
+  {
+   "cach": "Vùng bán tầng 1h theo RSI 15m → Bộ 5 4h chạm 6/9 (hạ mức khi Đỉnh hạ dần)",
+   "so_lan_dung": 6,
+   "tu": "2026-11-23T10:15:00+07:00",
+   "het_han": "2026-11-26T10:15:00+07:00",
+   "de_xuat_ba_chot": true
+  },
+  {
+   "cach": "Mốc lộ trình tâm = giá hiện tại ±0,7×Bộ 5 (LT-B7-4) đúng liên tiếp 12 mốc gần nhất",
+   "so_lan_dung": 12,
+   "tu": "2026-11-23T10:15:00+07:00",
+   "het_han": "2026-11-26T10:15:00+07:00",
+   "de_xuat_ba_chot": true
   }
  ]
 }
