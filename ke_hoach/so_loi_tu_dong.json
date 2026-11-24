@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T11:15:00+07:00",
+ "cap_nhat": "2026-11-24T14:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2385,6 +2385,24 @@
    "ke_hoach": "KH-2026-11-24-0515/0115",
    "ma_loi": "B7",
    "mo_ta": "lộ trình +8h/+12h tâm 60,95–62,3k, thật 60.629, thủng mức đổi"
+  },
+  {
+   "luc": "2026-11-24T14:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0215…0915",
+   "ma_loi": "B7",
+   "mo_ta": "vùng bán 61,6–61,95k trượt đỉnh thật 61.682 (8 kỳ) — đặt theo % xa, không theo M gần phía trên"
+  },
+  {
+   "luc": "2026-11-24T14:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1315",
+   "ma_loi": "B5",
+   "mo_ta": "vùng Hồi 60.400–60.620 giữa nén 15m <1% (trái luật nén khung nhỏ) — khớp nhưng chỉ +0,27%"
+  },
+  {
+   "luc": "2026-11-24T14:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1315",
+   "ma_loi": "B3",
+   "mo_ta": "đếm TRH 4h nến #9 tại 11:00 24/11, đúng là #7 (x 11:00 23/11)"
   }
  ],
  "luat_tam": [
@@ -2534,7 +2552,8 @@
     "05:25 16/11: KH-0125 diem_dung 61.250 DUNG → giup +1 (giup 13, khong_giup 0)",
     "09:25 16/11: KH-0525 điểm dừng 61.250 dưới trung vị Bộ 5 Tuần không thủng, DUNG → giup +1",
     "13:25 16/11: KH-0925 điểm dừng 61.250 (dưới trung vị Bộ 5 Tuần) không thủng, DUNG → giup +1 (giup 15, khong_giup 0); hết hạn 13:25 16/11 → het_han, vẫn đề xuất Ba duyệt",
-    "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)"
+    "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)",
+    "14:15 24/11: KH-1315 A1 khớp 60.460, chưa thủng 59.630 — chờ chấm; kỳ này áp lại dừng 59.620"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -2995,8 +3014,23 @@
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)"
+    "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)",
+    "14:15 24/11: KH-1315 A1 khớp 60.460, chưa thủng 59.630 — chờ chấm; kỳ này áp lại dừng 59.620"
    ]
+  },
+  {
+   "id": "LT-B7-6",
+   "tu": "2026-11-24T14:15:00+07:00",
+   "ma_loi": "B7",
+   "luat": "Khi chưa có RSI cực trị trên M99 ở khung DH ≥5m: đầu dưới vùng bán / mức Thu lúa tầng tối thiểu = M gần nhất phía trên giá lúc chạm (M99 5m / M7 1h / M25 30m, tính M lúc chạm), không đặt theo % vùng xa hơn",
+   "can_cu": "B7 vùng bán trượt đỉnh 8 kỳ trong 12h (0215–0915, đặt 61,6–61,95k, đỉnh thật 61.682)",
+   "het_han": "2026-11-27T14:15:00+07:00",
+   "trang_thai": "dang_ap",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   },
+   "ghi_nhan": []
   }
  ],
  "phat_huy": [
@@ -3149,6 +3183,12 @@
    "so_lan_dung": 0,
    "tu": "2026-11-24T13:15:00+07:00",
    "het_han": "2026-11-27T13:15:00+07:00"
+  },
+  {
+   "cach": "Chỉ mua rũ biên dưới nén 15m <1% trùng cụm M (M99 1h/M7 12h/M25 4h), không mua giữa biên",
+   "so_lan_dung": 0,
+   "tu": "2026-11-24T14:15:00+07:00",
+   "het_han": "2026-11-27T14:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
