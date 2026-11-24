@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T17:15:00+07:00",
+ "cap_nhat": "2026-11-24T18:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2451,6 +2451,18 @@
    "ke_hoach": "KH-2026-11-24-0515",
    "ma_loi": "B7",
    "mo_ta": "+12h 17:15 LEN 61.050–62.300, thật 60.004, thủng mức đổi 60.100"
+  },
+  {
+   "luc": "2026-11-24T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1415",
+   "ma_loi": "B7",
+   "mo_ta": "+4h 18:15 NGANG 60.150–60.850, thật 59.787, chạm mức đổi 59.620 rồi quay lại (MOT_PHAN)"
+  },
+  {
+   "luc": "2026-11-24T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0615",
+   "ma_loi": "B7",
+   "mo_ta": "+12h 18:15 LEN 61.050–62.300, thật 59.787, thủng mức đổi 60.100"
   }
  ],
  "luat_tam": [
@@ -3253,35 +3265,43 @@
   },
   {
    "cach": "Bộ 5 Ngày cuối nhịp (đã đi ~8%): Đáy 2 cao dần ở 1h → giữ lệnh, chỉ mở vùng Đáy 2 dưới 60.050, không mở Hồi lưng chừng",
-   "so_lan_dung": 0,
+   "so_lan_dung": 1,
    "tu": "2026-11-24T17:15:00+07:00",
-   "het_han": "2026-11-27T17:15:00+07:00"
+   "het_han": "2026-11-27T17:15:00+07:00",
+   "ghi_chu": "1815: Đáy 3 59.391 trong vùng, không bán khẩn cấp, chưa thủng dừng (chờ chấm hồi 0,6%)"
+  },
+  {
+   "cach": "Lệnh chờ ở mức chạm lại Đáy 1 ≈ mức 75% Bộ 5 Ngày khớp đúng Đáy 3 rũ; điểm dừng theo mức Bộ 5 12h (không sát dưới đáy giá)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-24T18:15:00+07:00",
+   "het_han": "2026-11-27T18:15:00+07:00",
+   "ghi_chu": "1615-A1 khớp 17:46, đáy 59.391 lúc 17:53 (chờ chấm hồi)"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T04:15:00+07:00",
-  "den": "2026-11-24T16:15:00+07:00",
-  "tong": 28,
-  "dung": 11,
-  "sai": 10,
+  "tu": "2026-11-24T06:15:00+07:00",
+  "den": "2026-11-24T18:15:00+07:00",
+  "tong": 32,
+  "dung": 10,
+  "sai": 15,
   "bo_lo": 2,
   "cho": 5,
-  "ty_le_dung_pct": 48,
+  "ty_le_dung_pct": 37,
   "theo_loai": {
-   "mo_vung_mua": "2/4 (đúng A2 0415–0715, Hoi 1115; sai 0815, 0915; chờ 1315, 1415, 1515)",
+   "mo_vung_mua": "1/5 (đúng 1115; sai 0815, 0915, 1315, 1415; chờ 1515, 1615, 1715)",
    "khong_mo": "0/2 (1015, 1215 bỏ lỡ)",
-   "vung_ban": "3/7 (đúng 1015, 1115, 1515; sai 0415–0715, 0815, 0915, 1215; chờ 1315, 1415)",
+   "vung_ban": "3/10 (đúng 1015, 1115, 1515; chờ 1615, 1715)",
    "ban_khan_cap": "0/1 (1015 sát đáy)",
    "huong_nen": "4/5",
    "huong_dau_ngay": "2/4"
   },
   "phat_huy": [
-   "Hướng thoát nén theo nến U vừa cắt M7 + vị trí cùng chiều — đúng 6 lần (1515 thoát xuống đúng) → đề xuất Ba chốt; kỳ này dùng: hết nén, mua Đáy 2 sau thoát",
-   "Lệnh chờ ở Đáy 2 sau thoát nén (1515-A1 chạm đúng vùng) — giữ id, thêm tầng thấp A1 mới"
+   "Lệnh chờ ở mức chạm lại Đáy 1 ≈ mức 75% Bộ 5 Ngày (1615-A1 59.480–59.760) khớp đúng Đáy 3 59.391 — kỳ này dùng lại cho lần chạm lại kế (1815-A1)",
+   "Đọc CUỐI nhịp theo % nến Ngày đã đủ (8%) → không bán khẩn cấp khi giá rũ nhẹ dưới Đáy 1"
   ],
   "tu_sua": [
-   "Vùng bán sai 4/7 · đặt theo vùng % xa (61,6–62,3k) khi chưa có cực trị trên M99 · kỳ này đặt ở M gần nhất 60.340–60.560 (LT-B7-6)",
-   "Bỏ lỡ 2 lần ngay sau đáy rõ · kỳ này có 2 lệnh chờ khớp thẳng phủ cả Đáy 2 cao dần và chạm lại Đáy 1"
+   "Điểm dừng 59.250 sát dưới Đáy 1 (−0,35%) suýt bị rũ (Đáy 3 59.391 chỉ cách 0,24%) · đặt theo đáy giá thay vì mức Bộ 5 của nến NH · kỳ này dừng 58.700 (Bộ 5 12h, ≈ trần cắt lỗ bot)",
+   "DOGE không theo BTC (kế hoạch dài cảnh báo) · lệnh chờ kỳ này chỉ ETH"
   ]
  }
 }
