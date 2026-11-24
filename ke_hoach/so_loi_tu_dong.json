@@ -2373,6 +2373,18 @@
    "ke_hoach": "KH-2026-11-24-1115",
    "ma": "B7",
    "mo_ta": "lệnh chờ A1 trượt 2 USD (đầu trên 60.280, đáy 60.282), sau đó hồi +0,68% — bỏ lỡ sát"
+  },
+  {
+   "luc": "2026-11-24T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1215",
+   "ma_loi": "B5",
+   "mo_ta": "nén 15m <1% đoán thoát XUỐNG theo U 1h #4 nửa dưới, thật thoát lên +0,74% (đáy Bộ 5 12h đã bật) — bỏ lỡ"
+  },
+  {
+   "luc": "2026-11-24T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0515/0115",
+   "ma_loi": "B7",
+   "mo_ta": "lộ trình +8h/+12h tâm 60,95–62,3k, thật 60.629, thủng mức đổi"
   }
  ],
  "luat_tam": [
@@ -2521,7 +2533,8 @@
     "01:25 16/11: KH-2125 diem_dung 61.250 DUNG → giup +1 (giup 12, khong_giup 0)",
     "05:25 16/11: KH-0125 diem_dung 61.250 DUNG → giup +1 (giup 13, khong_giup 0)",
     "09:25 16/11: KH-0525 điểm dừng 61.250 dưới trung vị Bộ 5 Tuần không thủng, DUNG → giup +1",
-    "13:25 16/11: KH-0925 điểm dừng 61.250 (dưới trung vị Bộ 5 Tuần) không thủng, DUNG → giup +1 (giup 15, khong_giup 0); hết hạn 13:25 16/11 → het_han, vẫn đề xuất Ba duyệt"
+    "13:25 16/11: KH-0925 điểm dừng 61.250 (dưới trung vị Bộ 5 Tuần) không thủng, DUNG → giup +1 (giup 15, khong_giup 0); hết hạn 13:25 16/11 → het_han, vẫn đề xuất Ba duyệt",
+    "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -2947,7 +2960,8 @@
     "05:15 23/11: áp cho KH-0515 — tâm 60.980 (không nghiêng xuống vì RSI 15m 55 <75), vượt ≥ M7 12h, kiểu giua_quang",
     "02:15 24/11: không kích (giá dưới M7 4h −0,2%)",
     "06:15 24/11: không kích (giá dưới M7 4h −0,3%)",
-    "09:15 24/11: không kích (giá dưới M7 4h −0,8%); KH-0515 +4h, KH-0115 +8h tâm theo giá DUNG → giup +2"
+    "09:15 24/11: không kích (giá dưới M7 4h −0,8%); KH-0515 +4h, KH-0115 +8h tâm theo giá DUNG → giup +2",
+    "13:15 24/11: không kích (giá dưới M7 4h −1,35%)"
    ]
   },
   {
@@ -2979,7 +2993,10 @@
    "ket_qua": {
     "giup": 0,
     "khong_giup": 0
-   }
+   },
+   "ghi_nhan": [
+    "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)"
+   ]
   }
  ],
  "phat_huy": [
@@ -3126,6 +3143,12 @@
    "so_lan_dung": 1,
    "tu": "2026-11-24T12:15:00+07:00",
    "het_han": "2026-11-27T12:15:00+07:00"
+  },
+  {
+   "cach": "Đáy khung lớn (RSI 1h → Bộ 5 12h) đã bật + giá trên M99 1h → vùng Hồi sát giá tới M99 1h + lệnh chờ ở M99 1h (thay vì chỉ chờ rũ dưới nén)",
+   "so_lan_dung": 0,
+   "tu": "2026-11-24T13:15:00+07:00",
+   "het_han": "2026-11-27T13:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
