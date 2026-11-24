@@ -2367,6 +2367,12 @@
    "du": "XUONG 61.900–63.200, đổi 61.200",
    "that": "60.338 đúng chiều, thủng mức đổi không quay lại",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T12:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1115",
+   "ma": "B7",
+   "mo_ta": "lệnh chờ A1 trượt 2 USD (đầu trên 60.280, đáy 60.282), sau đó hồi +0,68% — bỏ lỡ sát"
   }
  ],
  "luat_tam": [
@@ -3114,31 +3120,38 @@
    "tu": "2026-11-24T11:15:00+07:00",
    "het_han": "2026-11-27T11:15:00+07:00",
    "de_xuat_ba_chot": true
+  },
+  {
+   "cach": "Vùng Hồi bao cụm M sau phân kỳ RSI khung lớn nhất (KH-1115 vào 60.282, hồi +0,68%)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-24T12:15:00+07:00",
+   "het_han": "2026-11-27T12:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-23T23:15:00+07:00",
-  "den": "2026-11-24T11:15:00+07:00",
-  "tong": 18,
-  "dung": 9,
-  "sai": 8,
-  "bo_lo": 1,
+  "tu": "2026-11-24T00:15:00+07:00",
+  "den": "2026-11-24T12:15:00+07:00",
+  "tong": 19,
+  "dung": 11,
+  "sai": 6,
+  "bo_lo": 2,
   "cho": 0,
-  "ty_le_dung_pct": 50,
+  "ty_le_dung_pct": 58,
   "theo_loai": {
-   "mo_vung_mua": "7/11",
+   "mo_vung_mua": "8/12",
    "khong_mo": "0/1",
-   "vung_ban": "chưa chấm",
+   "vung_ban": "1/1",
    "ban_khan_cap": "1/2",
    "huong_nen": "chưa chấm",
-   "huong_dau_ngay": "1/4"
+   "huong_dau_ngay": "1/3"
   },
   "phat_huy": [
-   "Lệnh chờ khớp thẳng ở M99 30m / biên dưới nén sau khi RSI đã bật: 0115–0715 trúng (hồi +0,6–0,8%) — kỳ này dùng lại ở M7 15m/M25 3m sau đáy 59.455"
+   "Vùng Hồi bao cụm M (M7 15m/M25 3m/M99 1h) sau phân kỳ RSI khung lớn nhất: KH-1115 vào 60.282 hồi +0,68% — dùng lại ở vùng rũ dưới nén",
+   "Không mua giữa nén 15m <1%, chờ rũ biên dưới (0415/0515/0615 đúng 3/3) — áp lại nén 60.188–60.691"
   ],
   "tu_sua": [
-   "KH-1015 bỏ lỡ: đáy dự đúng giá (59,3–59,6k) nhưng chỉ ghi chữ, đáy tới sớm 10:15 → sửa: kỳ có phân kỳ RSI ở khung lớn nhất (1h) là mở ngay vùng Hồi bao giá hiện tại + lệnh chờ ở điểm chạm lại, không đợi đủ giờ dự kiến",
-   "KH-0815/0915 SAI (vùng 60,5–61,08k thủng 60.100): đã sửa bằng LT-B1-1; kỳ này vùng theo khung 1h (Bộ 5 12h), không còn M99 khung lớn hơn sát dưới"
+   "A1 KH-1115 trượt 2 USD (đầu trên 60.280, đáy thật 60.282) · vì đặt đúng M7 15m mà không cộng biên M lúc chạm · từ kỳ này đầu trên vùng chờ = cụm M lúc chạm + ~0,05%",
+   "Kỳ này không ghi lệnh chờ khớp thẳng vì nén 15m <1% đòi phân kỳ RSI — để vùng cò RSI làm"
   ]
  }
 }
