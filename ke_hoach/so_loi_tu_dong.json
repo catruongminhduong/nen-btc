@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T23:15:00+07:00",
+ "cap_nhat": "2026-11-25T00:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2539,6 +2539,30 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "chạm mức đổi 59.400 rồi quay lại"
+  },
+  {
+   "luc": "2026-11-25T00:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-2015",
+   "moc": "+4h 00:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "59.417, thủng 59.450 (59.318) không quay lại"
+  },
+  {
+   "luc": "2026-11-25T00:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1615",
+   "moc": "+8h 00:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "59.417 (xuống, dưới biên −0,5%)"
+  },
+  {
+   "luc": "2026-11-25T00:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1215",
+   "moc": "+12h 00:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "59.417, đã chạm 59.318 dưới mức đổi"
   }
  ],
  "luat_tam": [
@@ -3180,7 +3204,8 @@
     "19:15 24/11: vùng bán 1815 đầu dưới 60.270 (cụm M) chứa đỉnh 60.454 → giup +1",
     "21:15 24/11: áp cho KH-2115 — vùng bán 60.260 (M99 1h) → 60.560 (M7 4h chiếu); 2015 vùng bán 60.870 chưa tới (chờ)",
     "22:15 24/11: 2115 vùng bán 60.260–60.560 (M99 1h → M7 4h) trúng đường lên 60.687 → giup +1; áp cho KH-2215 — 60.650 → 60.950",
-    "23:15 24/11: 2215 vùng bán 60.650 (M7 4h chiếu) không tới — đầu dưới lấy M chiếu xa, không phải M gần nhất → khong_giup +1"
+    "23:15 24/11: 2215 vùng bán 60.650 (M7 4h chiếu) không tới — đầu dưới lấy M chiếu xa, không phải M gần nhất → khong_giup +1",
+    "00:15 25/11: 2315 vùng bán 60.080 chưa tới (hiệu lực tới 00:45) → chờ; kỳ này áp 59.850"
    ]
   },
   {
@@ -3192,12 +3217,26 @@
    "het_han": "2026-11-27T23:15:00+07:00",
    "trang_thai": "dang_ap",
    "ket_qua": {
-    "giup": 0,
+    "giup": 1,
     "khong_giup": 0
    },
    "ghi_nhan": [
-    "23:15 24/11: áp lần đầu — lệnh chờ 2315-A1 59.330–59.570"
+    "23:15 24/11: áp lần đầu — lệnh chờ 2315-A1 59.330–59.570",
+    "00:15 25/11: 2315 lệnh chờ ở đáy Bộ 5 2h 59.330–59.570 → đáy thật 59.318 trong vùng, không thủng → giup +1"
    ]
+  },
+  {
+   "id": "LT-B7-7",
+   "tu": "2026-11-25T00:15:00+07:00",
+   "ma_loi": "B7",
+   "luat": "Khi Ngày đang kiểm đáy (giá dưới M99 1h, RSI 2h còn sát cực trị quãng): biên dưới lộ trình +4h/+8h tới trung vị đáy Bộ 5 Ngày/12h tính từ giá lúc RSI 2h/1h thấp nhất (−0,52/−0,56%), mức đổi đặt dưới mức 75% (−1,09/−1,28%); không cấm mua",
+   "can_cu": "3 mốc lộ trình 00:15 25/11 (1215, 1615, 2015) SAI vì mức đổi sát Đáy 1/Đáy 3 Ngày, giá làm Đáy 6 59.318; B7 lặp ≥2 lần trong 48h",
+   "het_han": "2026-11-28T00:15:00+07:00",
+   "trang_thai": "dang_ap",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   }
   }
  ],
  "phat_huy": [
@@ -3410,36 +3449,43 @@
   },
   {
    "cach": "Vùng Day ở vùng Bộ 5 Ngày 59,15–60,05k khớp rồi hồi ≥0,6% không thủng dừng 6/6 (1615–2115)",
-   "so_lan_dung": 6,
+   "so_lan_dung": 16,
    "tu": "2026-11-24T23:15:00+07:00",
    "het_han": "2026-11-27T23:15:00+07:00",
-   "de_xuat_ba_chot": true
+   "de_xuat_ba_chot": true,
+   "ghi_chu_0015": "đếm lại 12:15–00:15 bằng giá 1m: 16 vùng/lệnh chờ ở đáy Bộ 5 2h/Ngày đúng (1615–2215)"
+  },
+  {
+   "cach": "Lệnh chờ ở đáy Bộ 5 2h tính từ giá lúc RSI 5m cực trị (trung vị→mức 75%) trùng đáy Ngày — đáy thật 59.318 rơi trong vùng (2315-A1)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-25T00:15:00+07:00",
+   "het_han": "2026-11-28T00:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T11:15:00+07:00",
-  "den": "2026-11-24T23:15:00+07:00",
-  "tong": 45,
-  "dung": 25,
-  "sai": 19,
-  "bo_lo": 1,
-  "cho": 4,
-  "ty_le_dung_pct": 56,
+  "tu": "2026-11-24T12:15:00+07:00",
+  "den": "2026-11-25T00:15:00+07:00",
+  "tong": 77,
+  "dung": 31,
+  "sai": 41,
+  "bo_lo": 0,
+  "cho": 5,
+  "ty_le_dung_pct": 43,
   "theo_loai": {
-   "mo_vung_mua": "13/20 (+4 chờ)",
+   "mo_vung_mua": "16/23 (+4 chờ; 4 vùng không chạm)",
    "khong_mo": "0/0",
-   "vung_ban": "8/12",
+   "vung_ban": "4/11 (+1 chờ)",
    "ban_khan_cap": "0/0",
-   "huong_nen": "4/12",
+   "huong_nen": "10/36 (8 một phần)",
    "huong_dau_ngay": "1/2"
   },
   "phat_huy": [
-   "Vùng Day ở vùng Bộ 5 Ngày 59,15–60,05k (1615, 1715, 1815, 1915, 2015, 2115) khớp rồi hồi ≥0,6% không thủng dừng 6/6 — kỳ này dùng lại 59.150–59.700",
-   "Không bán khẩn cấp ở cuối nhịp xuống nhỏ khi giá trong vùng đáy Ngày (1815, 2115, 2315)"
+   "Vùng Day/lệnh chờ ở đáy Bộ 5 2h trùng vùng Bộ 5 Ngày 59,15–59,80k (1615–2215) khớp rồi hồi ≥0,6% không thủng dừng 16 lần — kỳ này dùng lại 59.230–59.500 + vùng Ngày 58.700–59.150",
+   "Không bán khẩn cấp ở cuối nhịp xuống nhỏ khi giá trong vùng đáy Ngày (1815, 2115, 2315, 0015)"
   ],
   "tu_sua": [
-   "Hướng nến SAI 8/12: trong quãng Ngày kiểm đáy 59,39–60,77k vẫn ghi LEN · kỳ này ghi NGANG, chỉ mua đáy quãng / bán đỉnh quãng",
-   "Hồi/lệnh chờ ở cụm M phía trên đáy sau đỉnh nhỏ (1315, 1415, 1515, 2215) thủng dừng 4 lần · kỳ này lệnh chờ đặt ở vùng đáy Bộ 5 2h trùng đáy Ngày 59,33–59,57k (luật tạm LT-B1-2)"
+   "Vùng bán SAI 7/11: đầu dưới đặt ở M chiếu xa (M7 4h 60,65–60,88k) · kỳ này đầu dưới = M gần nhất 59.850 (M7 1h chiếu 01:00), đầu trên 60.020 (M99 5m)",
+   "Lộ trình hướng SAI 18/36 (mốc 00:15 cả 3 SAI vì giá xuống 59.318 dưới mức đổi 59,38–59,45k) · kỳ này biên dưới lộ trình tới trung vị đáy Ngày/12h ~59,1k, mức đổi dưới mức 75% (58.600)"
   ]
  }
 }
