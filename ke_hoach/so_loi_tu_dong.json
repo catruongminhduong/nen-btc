@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T10:15:00+07:00",
+ "cap_nhat": "2026-11-24T11:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2322,6 +2322,51 @@
    "du": "XUONG 61.600–63.300, đổi 61.000",
    "that": "60.075 đúng chiều nhưng thủng mức đổi không quay lại",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1015",
+   "moc": "không mở vùng mua (chưa có đáy), đáy dự 59.300–59.600 ~11:00–15:00",
+   "ma_loi": "B10 (bỏ lỡ)",
+   "du": "chờ RSI bật rồi mới mở",
+   "that": "đáy 59.455 lúc 10:15, hồi 60.410 (+1,6%) trong hiệu lực",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1015",
+   "moc": "ban_khan_cap",
+   "ma_loi": "B10",
+   "du": "giá còn xuống",
+   "that": "bot đọc ~10:20 giá ~59,9k, sau đó lên 60,41k",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0715",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 60.900–61.750, đổi 60.100",
+   "that": "1h 10:00 đóng 60.338, thủng 60.100 rồi quay lại",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0315",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "du": "NGANG 61.000–62.100, đổi 60.100",
+   "that": "60.338, thủng rồi quay lại",
+   "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-2315",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "XUONG 61.900–63.200, đổi 61.200",
+   "that": "60.338 đúng chiều, thủng mức đổi không quay lại",
+   "nguon": "tu_cham"
   }
  ],
  "luat_tam": [
@@ -3062,32 +3107,38 @@
    "so_lan_dung": 1,
    "tu": "2026-11-24T10:15:00+07:00",
    "het_han": "2026-11-27T10:15:00+07:00"
+  },
+  {
+   "cach": "Lệnh chờ khớp thẳng ở M99 30m / biên dưới nén sau khi RSI đã bật (0115–0715 hồi +0,6–0,8%) — dùng lại ở điểm chạm lại sau đáy 59.455",
+   "so_lan_dung": 6,
+   "tu": "2026-11-24T11:15:00+07:00",
+   "het_han": "2026-11-27T11:15:00+07:00",
+   "de_xuat_ba_chot": true
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T22:15:00+07:00",
-  "den": "2026-11-24T10:15:00+07:00",
-  "tong": 40,
-  "dung": 22,
-  "sai": 12,
+  "tu": "2026-11-23T23:15:00+07:00",
+  "den": "2026-11-24T11:15:00+07:00",
+  "tong": 18,
+  "dung": 9,
+  "sai": 8,
   "bo_lo": 1,
-  "cho": 5,
-  "ty_le_dung_pct": 63,
+  "cho": 0,
+  "ty_le_dung_pct": 50,
   "theo_loai": {
-   "mo_vung_mua": "7/13",
-   "khong_mo": "0/1 (bỏ lỡ 0715)",
-   "vung_ban": "5/7",
-   "ban_khan_cap": "1/1",
-   "huong_nen": "3/4",
-   "huong_dau_ngay": "3/5"
+   "mo_vung_mua": "7/11",
+   "khong_mo": "0/1",
+   "vung_ban": "chưa chấm",
+   "ban_khan_cap": "1/2",
+   "huong_nen": "chưa chấm",
+   "huong_dau_ngay": "1/4"
   },
   "phat_huy": [
-   "Bán khẩn cấp ngay khi BTC thủng điểm dừng kỳ trước (KH-0215: bán 61,4k, sau đó xuống 60.763) → kỳ này dùng lại",
-   "Lệnh chờ ở cụm M99 30m/biên dưới nén sau khi RSI đã bật (0415-A1, 0115-A2 hồi ≥0,9%) → giữ cách, nhưng thêm điều kiện khung lớn hơn"
+   "Lệnh chờ khớp thẳng ở M99 30m / biên dưới nén sau khi RSI đã bật: 0115–0715 trúng (hồi +0,6–0,8%) — kỳ này dùng lại ở M7 15m/M25 3m sau đáy 59.455"
   ],
   "tu_sua": [
-   "Mở vùng mua/lệnh chờ theo RSI 15m (Bộ 5 4h, cực trị nến #1) trong khi M99 1h 60.45k chỉ cách vùng ~0,5% chưa thủng → 09:00 phá M99 1h, cực trị dịch lên 30m/1h/2h, thủng 60.100 (6 lần sai: 2215, 2315, 0015, 0115-A1, 0715-A1, 0915) · sửa: khi M99 khung DH lớn hơn kế tiếp nằm dưới vùng ≤0,8% thì điểm dừng đặt dưới mức 75% Bộ 5 của khung đó (1h → −1,28% từ M99 1h), vùng mua kéo xuống phần thấp sát M99 đó; không đủ trần −1,5% thì chỉ mua phần thấp (LT-B1-1)",
-   "Lộ trình NGANG giữ tâm cũ khi đã có xả 1h (3 mốc SAI B7) · áp LT-B7-4, nghiêng XUỐNG theo nến 1h xả"
+   "KH-1015 bỏ lỡ: đáy dự đúng giá (59,3–59,6k) nhưng chỉ ghi chữ, đáy tới sớm 10:15 → sửa: kỳ có phân kỳ RSI ở khung lớn nhất (1h) là mở ngay vùng Hồi bao giá hiện tại + lệnh chờ ở điểm chạm lại, không đợi đủ giờ dự kiến",
+   "KH-0815/0915 SAI (vùng 60,5–61,08k thủng 60.100): đã sửa bằng LT-B1-1; kỳ này vùng theo khung 1h (Bộ 5 12h), không còn M99 khung lớn hơn sát dưới"
   ]
  }
 }
