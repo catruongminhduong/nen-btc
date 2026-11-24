@@ -2579,6 +2579,38 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "60.120, chạm 59.260 dưới mức đổi 59.630 rồi quay lại"
+  },
+  {
+   "luc": "2026-11-25T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0115",
+   "moc": "vùng Hồi 59.850–60.120 + A1 59.850–60.050",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "khớp ~60,0k từ ~01:18; đỉnh sau đó 60.197; giá 59.874, chưa thủng 59.200"
+  },
+  {
+   "luc": "2026-11-25T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0115",
+   "moc": "vùng bán 60.450–60.580",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "đỉnh 60.294 lúc 01:03, dừng ở M99 1h 60.203"
+  },
+  {
+   "luc": "2026-11-25T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-2215",
+   "moc": "+4h 02:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "59.874, đã chạm 59.260 dưới mức đổi rồi quay lại"
+  },
+  {
+   "luc": "2026-11-25T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1415",
+   "moc": "+12h 02:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "59.874, đã chạm 59.260 dưới mức đổi rồi quay lại"
   }
  ],
  "luat_tam": [
@@ -3484,7 +3516,14 @@
    "so_lan_dung": 0,
    "tu": "2026-11-25T01:15:00+07:00",
    "het_han": "2026-11-28T01:15:00+07:00",
-   "ghi_chu": "tự sửa từ bỏ lỡ 0015, chờ chấm"
+   "ghi_chu": "0115-A1 đã khớp ~60,0k, chưa thủng dừng — chờ chấm hồi ≥0,6%"
+  },
+  {
+   "cach": "Đầu dưới vùng bán = M99 của khung lớn hơn gần nhất mà giá còn dưới (M99 1h) — tự sửa từ 0115 trượt 60.450",
+   "so_lan_dung": 0,
+   "tu": "2026-11-25T02:15:00+07:00",
+   "het_han": "2026-11-28T02:15:00+07:00",
+   "ghi_chu": "tự sửa, chờ chấm"
   }
  ],
  "thong_ke_12h": {
