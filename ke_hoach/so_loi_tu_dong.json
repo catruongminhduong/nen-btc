@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-24T19:15:00+07:00",
+ "cap_nhat": "2026-11-24T20:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2475,6 +2475,12 @@
    "ke_hoach": "KH-2026-11-24-0715",
    "ma_loi": "B7",
    "mo_ta": "+12h 19:15 LEN 60.900–62.100, thật 60.395, thủng mức đổi 60.100"
+  },
+  {
+   "luc": "2026-11-24T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0815",
+   "ma_loi": "B7",
+   "mo_ta": "+12h 20:15 LEN 60.900–62.100, thật 60.461, thủng mức đổi 60.100 (gọi nhầm Bộ 5 12h LÊN)"
   }
  ],
  "luat_tam": [
@@ -3293,40 +3299,48 @@
   },
   {
    "cach": "Vùng bán đầu dưới = cụm M gần nhất trúng đỉnh nhỏ 60.454 (1515/1615/1715/1815)",
-   "so_lan_dung": 4,
+   "so_lan_dung": 5,
    "tu": "2026-11-24T19:15:00+07:00",
-   "het_han": "2026-11-27T19:15:00+07:00"
+   "het_han": "2026-11-27T19:15:00+07:00",
+   "de_xuat_ba_chot": true,
+   "ghi_nhan_2015": "1915 trúng đỉnh 60.643 trong 60.610–60.830"
   },
   {
    "cach": "Lệnh chờ chạm lại Đáy 1/Đáy 3 Bộ 5 Ngày khớp rồi hồi ≥1,5% (1615-A1, 1815-A1)",
    "so_lan_dung": 2,
    "tu": "2026-11-24T19:15:00+07:00",
    "het_han": "2026-11-27T19:15:00+07:00"
+  },
+  {
+   "cach": "Lệnh chờ ở cụm M chạm lại sau đỉnh nhỏ Bộ 5 2h (M7 1h ≈ M99 1h ≈ M99 5m) khớp rồi lên ≥0,6% (1915-A1: 60.167 → 60.643)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-24T20:15:00+07:00",
+   "het_han": "2026-11-27T20:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T07:15:00+07:00",
-  "den": "2026-11-24T19:15:00+07:00",
-  "tong": 33,
-  "dung": 19,
+  "tu": "2026-11-24T08:15:00+07:00",
+  "den": "2026-11-24T20:15:00+07:00",
+  "tong": 37,
+  "dung": 23,
   "sai": 12,
   "bo_lo": 2,
   "cho": 0,
-  "ty_le_dung_pct": 58,
+  "ty_le_dung_pct": 62,
   "theo_loai": {
-   "mo_vung_mua": "5/10 (đúng 1115, 1615, 1715, 1815, 1815-A1; sai 0815, 0915, 1315, 1415, 1515 thủng dừng 59.400 9 USD)",
+   "mo_vung_mua": "7/12 (thêm 1915 Hồi + 1915-A1 đúng)",
    "khong_mo": "0/2 (1015, 1215 bỏ lỡ)",
-   "vung_ban": "6/10 (đúng 1015, 1115, 1515, 1615, 1715, 1815)",
-   "ban_khan_cap": "1/2 (1015 sát đáy sai; 1815 không bán đúng)",
-   "huong_nen": "5/6",
+   "vung_ban": "7/11 (thêm 1915 đúng)",
+   "ban_khan_cap": "1/2",
+   "huong_nen": "6/7",
    "huong_dau_ngay": "2/3"
   },
   "phat_huy": [
-   "Vùng bán đầu dưới = cụm M gần nhất (LT-B7-6): 1515/1615/1715/1815 trúng đỉnh 60.454 — 4 lần, kỳ này dùng lại (60.610 sát M7 2h 60.597)",
-   "Lệnh chờ ở mức chạm lại Đáy 1/Đáy 3 của Bộ 5 Ngày khớp rồi hồi ≥1,5% — 2 lần (1615-A1, 1815-A1); kỳ này áp cùng cách cho mức chạm lại M7 1h/M99 1h"
+   "Vùng bán đầu dưới = cụm M gần nhất (LT-B7-6) trúng đỉnh 5 lần (1515–1915) — kỳ này dùng lại: 60.870 = M7 12h",
+   "Lệnh chờ ở cụm M chạm lại sau đỉnh nhỏ Bộ 5 2h (1915-A1) khớp rồi lên +0,7% — kỳ này đặt lại 2015-A1 cùng cụm"
   ],
   "tu_sua": [
-   "Mở vùng mua sai 5 lần (0815–1415 đầu nhịp chưa có đáy, 1515 dừng sát đáy giá) · gọi nhầm nến/đặt dừng theo đáy giá · đã sửa từ 1815: dừng theo mức của nến NH (58.700), lệnh Hồi dừng dưới đáy vừa tạo 59.300"
+   "Mở vùng mua sai 5 lần sáng (0815–1515, đầu nhịp chưa có đáy / dừng sát đáy giá) · gọi nhầm nến · từ 1815 dừng theo mức 90% của nến NH; lệnh Hồi kỳ này dừng 59.450 (mức 90% Bộ 5 2h dưới đáy chạm 60.167)"
   ]
  }
 }
