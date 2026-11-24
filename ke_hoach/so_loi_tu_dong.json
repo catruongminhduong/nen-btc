@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T04:15:00+07:00",
+ "cap_nhat": "2026-11-25T06:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2651,6 +2651,30 @@
    "ma_loi": "B10",
    "ket_qua": "MOT_PHAN",
    "ghi": "đỉnh 59.970 hụt 30 USD — làm tròn trên M7 2h 59.976"
+  },
+  {
+   "luc": "2026-11-25T06:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0515",
+   "moc": "Thu lúa 2h 60.250",
+   "ma_loi": "B10",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "đỉnh 60.106 hụt 144 USD — tầng 2h đặt trên cụm M khi đỉnh thấp dần (lặp 10/11 kỳ)"
+  },
+  {
+   "luc": "2026-11-25T06:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-2215",
+   "moc": "+8h 06:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "dự LEN, thật 59.960 ngang"
+  },
+  {
+   "luc": "2026-11-25T06:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1815",
+   "moc": "+12h 06:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "dự LEN, thật +0,65% ngoài vùng"
   }
  ],
  "luat_tam": [
@@ -3586,35 +3610,28 @@
   },
   {
    "cach": "Mức Thu lúa tầng tối thiểu ngay dưới M gần nhất phía trên (không làm tròn lên) khi hồi yếu",
-   "so_lan_dung": 0,
+   "so_lan_dung": 1,
    "tu": "2026-11-25T05:15:00+07:00",
    "het_han": "2026-11-28T05:15:00+07:00",
-   "ghi_chu": "tự sửa từ 0415 hụt 30 USD, chờ chấm"
+   "ghi_chu": "tự sửa từ 0415 hụt 30 USD, chờ chấm",
+   "ghi_chu_0615": "0515 mức 1h 59.950 đạt (đỉnh 60.106) → ĐÚNG; dùng lại 1h 60.180 dưới M25 4h"
+  },
+  {
+   "cach": "Tầng bán 2h đặt sát dưới trần M99 khung DH lớn hơn kế tiếp khi đỉnh hồi thấp dần (không đặt trên trần)",
+   "so_lan_dung": 0,
+   "tu": "2026-11-25T06:15:00+07:00",
+   "het_han": "2026-11-28T06:15:00+07:00",
+   "ghi_chu": "tự sửa từ 2h hụt 10/11 kỳ, chờ chấm"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T17:15:00+07:00",
-  "den": "2026-11-25T05:15:00+07:00",
-  "tong": 42,
-  "dung": 25,
-  "sai": 5,
+  "tu": "2026-11-24T18:15:00+07:00",
+  "den": "2026-11-25T06:15:00+07:00",
+  "tong": 53,
+  "dung": 31,
+  "sai": 17,
   "bo_lo": 1,
-  "cho": 11,
-  "ty_le_dung_pct": 81,
-  "theo_loai": {
-   "mo_vung_mua": "18/20 (+8 chờ: 0115 Hồi+A1, 0215 Hồi+A1, 0315 Hồi, 0415 Hồi+Day2+A1)",
-   "khong_mo": "0/1 (0015 bỏ lỡ)",
-   "vung_ban": "6/9 (+3 chờ 0215, 0315, 0415)",
-   "ban_khan_cap": "0/0",
-   "huong_nen": "1/1",
-   "huong_dau_ngay": "0/0 (chờ 07:00)"
-  },
-  "phat_huy": [
-   "Vùng/lệnh chờ ở đáy Bộ 5 Ngày/2h (18 lần khớp rồi hồi ≥0,6% không thủng, 1715–0315) — kỳ này lệnh chờ ở Đáy 2 59.500–59.660"
-  ],
-  "tu_sua": [
-   "Vùng bán đặt tròn lên 60.000–60.450 trên M gần nhất → hụt đỉnh 3 lần (0115, 0315, 0415; hồi yếu dừng ở M7 2h 59.970) · mức Thu lúa 1h = ngay dưới M gần nhất phía trên (M7 2h 59.976 → 59.950), không làm tròn lên",
-   "Vùng Hồi đặt ở cụm M ngay dưới giá (0115, 0215) → hồi chỉ +0,35–0,45% · kỳ này vùng Hồi phải cách đầu dưới vùng bán ≥0,6% (mép trên 59.680)"
-  ]
+  "cho": 4,
+  "ty_le_dung_pct": 63
  }
 }
