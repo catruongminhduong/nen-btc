@@ -2263,6 +2263,20 @@
    "nguyen_nhan": "mức đổi đặt trong vùng rũ Bộ 5 4h",
    "da_sua": "mốc đổi dưới đặt ở điểm dừng 60.100",
    "nguon": "tu_cham"
+  },
+  {
+   "luc": "2026-11-24T09:15:00+07:00",
+   "ke_hoach": "KH-2026-11-23-2115",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "mo_ta": "dự NGANG 62,3–64,4k, đóng 61.091"
+  },
+  {
+   "luc": "2026-11-24T09:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-0715",
+   "moc": "khong_mo",
+   "ma_loi": "B10",
+   "mo_ta": "bỏ lỡ: mép vùng 61.030 thiếu 11 USD, hồi +1,05%"
   }
  ],
  "luat_tam": [
@@ -2817,7 +2831,7 @@
    "het_han": "2026-11-24T21:15:00+07:00",
    "trang_thai": "hieu_luc",
    "ket_qua": {
-    "giup": 11,
+    "giup": 13,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -2836,7 +2850,8 @@
     "00:15 23/11: KH-2015 +4h NGANG tâm theo giá DUNG → giup +1; không kích kỳ này (RSI 15m 64)",
     "05:15 23/11: áp cho KH-0515 — tâm 60.980 (không nghiêng xuống vì RSI 15m 55 <75), vượt ≥ M7 12h, kiểu giua_quang",
     "02:15 24/11: không kích (giá dưới M7 4h −0,2%)",
-    "06:15 24/11: không kích (giá dưới M7 4h −0,3%)"
+    "06:15 24/11: không kích (giá dưới M7 4h −0,3%)",
+    "09:15 24/11: không kích (giá dưới M7 4h −0,8%); KH-0515 +4h, KH-0115 +8h tâm theo giá DUNG → giup +2"
    ]
   },
   {
@@ -2977,32 +2992,38 @@
    "so_lan_dung": 4,
    "tu": "2026-11-24T07:15:00+07:00",
    "het_han": "2026-11-27T07:15:00+07:00"
+  },
+  {
+   "cach": "Lệnh chờ khớp thẳng ở cụm M99 30m / biên dưới nén sau khi RSI đã bật (A1 0415 khớp 61.005 lúc 09:00) — chờ chấm hồi",
+   "so_lan_dung": 0,
+   "tu": "2026-11-24T09:15:00+07:00",
+   "het_han": "2026-11-27T09:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-23T20:15:00+07:00",
-  "den": "2026-11-24T08:15:00+07:00",
-  "tong": 49,
-  "dung": 24,
+  "tu": "2026-11-23T21:15:00+07:00",
+  "den": "2026-11-24T09:15:00+07:00",
+  "tong": 48,
+  "dung": 23,
   "sai": 10,
-  "bo_lo": 1,
-  "cho": 14,
-  "ty_le_dung_pct": 69,
+  "bo_lo": 2,
+  "cho": 13,
+  "ty_le_dung_pct": 66,
   "theo_loai": {
-   "mo_vung_mua": "10/17 (sai 2215, 2315, 0015; chờ 0415–0715)",
-   "khong_mo": "2/3 (bỏ lỡ 2115)",
-   "vung_ban": "6/8 (sai 2315, 0015)",
+   "mo_vung_mua": "10/16",
+   "khong_mo": "2/4 (bỏ lỡ 2115, 0715)",
+   "vung_ban": "6/8",
    "ban_khan_cap": "1/1",
-   "huong_nen": "3/3",
+   "huong_nen": "3/4",
    "huong_dau_ngay": "5/5"
   },
   "phat_huy": [
-   "Không mua giữa nén 15m <1%, chỉ chờ rũ dưới biên (0415–0715 đúng 4/4) → giữ",
-   "Lệnh chờ cụm M sau RSI đã bật (M7 8h/M25 2h/M99 30m/M7 12h) → giữ nguyên id"
+   "Lệnh chờ ở cụm M99 30m / biên dưới nén sau khi RSI đã bật (A1 0415 khớp 61.005 sát M99 30m 61.020) → giữ",
+   "Không mua giữa nén 15m <1% (0415–0815) → giữ"
   ],
   "tu_sua": [
-   "Lộ trình +8h/+12h tâm quanh giá (lỗi B7 cũ KH-2215/2315) · giữ cách sửa từ KH-0215",
-   "Mốc đổi lộ trình đặt ngoài vùng rũ Bộ 5 4h (KH-0015 +8h đổi ở 61.000 bị rũ chạm) → kỳ này mốc đổi dưới đặt 60.100"
+   "KH-0715 bỏ lỡ: mép trên vùng 61.030 thiếu 11 USD so đáy cao dần 61.041, sau đó hồi +1,05% · kỳ này mép trên vùng mua = đáy cao dần gần nhất + ~0,1% (61.080)",
+   "Lộ trình +12h của KH-2115 lệch tâm (B7) · giữ tâm theo giá hiện tại như từ KH-0215"
   ]
  }
 }
