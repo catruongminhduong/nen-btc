@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T15:15:00+07:00",
+ "cap_nhat": "2026-11-25T16:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2885,6 +2885,30 @@
    "ma_loi": "G5",
    "ket_qua": "SAI",
    "ghi": "#144 (mua 1115-A1 khi RSI 12h ở đáy) đóng force_exit 14:24 −0,78%, giá còn xuống 58.633 — cổng G5 bắt được"
+  },
+  {
+   "luc": "2026-11-25T16:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1515",
+   "moc": "không mở vùng",
+   "ma_loi": "BO_LO",
+   "ket_qua": "SAI",
+   "ghi": "từ 58.900 hồi tới 59.490 (15:31, +1,0%)"
+  },
+  {
+   "luc": "2026-11-25T16:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0815",
+   "moc": "+8h 16:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "chạm 58.633 rồi về 59.432"
+  },
+  {
+   "luc": "2026-11-25T16:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0415",
+   "moc": "+12h 16:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "59.432, thủng 59.000"
   }
  ],
  "luat_tam": [
@@ -3910,11 +3934,11 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T03:15:00+07:00",
-  "den": "2026-11-25T15:15:00+07:00",
-  "tong": 51,
-  "dung": 19,
-  "sai": 30,
+  "tu": "2026-11-25T04:15:00+07:00",
+  "den": "2026-11-25T16:15:00+07:00",
+  "tong": 12,
+  "dung": 5,
+  "sai": 5,
   "bo_lo": 2,
   "cho": 0,
   "ty_le_dung_pct": 33,
