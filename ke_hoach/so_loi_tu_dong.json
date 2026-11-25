@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T01:15:00+07:00",
+ "cap_nhat": "2026-11-26T02:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3125,6 +3125,54 @@
    "ma_loi": "B7",
    "ket_qua": "SAI",
    "ghi": "NGANG 57.600–58.400, vượt 58.950 · thật 59.603, vượt không quay lại"
+  },
+  {
+   "luc": "2026-11-26T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0115",
+   "moc": "quyết định không mở / cuối hồi",
+   "ma_loi": "-",
+   "ket_qua": "DUNG",
+   "ghi": "cuối hồi, râu Ngày tối đa ~60.108, vùng bán 59.850–59.943 · thật đỉnh 60.112 lúc 01:17 rồi về 59.728"
+  },
+  {
+   "luc": "2026-11-26T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0115",
+   "moc": "vùng bán",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "59.850–59.943 (dưới trần M99 30m) · thật đỉnh 60.112 (+0,3% trên vùng)"
+  },
+  {
+   "luc": "2026-11-26T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1415",
+   "moc": "+12h 02:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "NGANG 58.600–59.600, vượt 60.100 · thật 59.728; chạm 60.112 rồi quay lại"
+  },
+  {
+   "luc": "2026-11-26T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1815",
+   "moc": "+8h 02:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 58.550–59.300, vượt 59.700 · thật 59.728, vượt không quay lại"
+  },
+  {
+   "luc": "2026-11-26T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-2215",
+   "moc": "+4h 02:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 57.400–58.700, vượt 58.950 · thật 59.728, vượt không quay lại"
+  },
+  {
+   "luc": "2026-11-26T02:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0115",
+   "moc": "không mở",
+   "ma_loi": "G1 (bỏ lỡ)",
+   "ket_qua": "BO_LO",
+   "ghi": "59.538→60.112 +0,96% bị G1 chặn đúng luật (cuối hồi, trần 0,5%)"
   }
  ],
  "luat_tam": [
@@ -4156,11 +4204,18 @@
    "so_lan_dung": 2,
    "tu": "2026-11-25T23:15:00+07:00",
    "het_han": "2026-11-28T23:15:00+07:00"
+  },
+  {
+   "cach": "Râu hồi Ngày = đáy × (1 + 4,9%) khi Ngày đã dừng → dự 60.108, thật 60.112",
+   "so_lan_dung": 1,
+   "tu": "2026-11-26T02:15:00+07:00",
+   "het_han": "2026-11-29T02:15:00+07:00",
+   "ghi_chu": "chỉ dùng cho vùng bán/mức đổi lộ trình, không nới cổng mua"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T13:15:00+07:00",
-  "den": "2026-11-26T01:15:00+07:00",
+  "tu": "2026-11-25T14:15:00+07:00",
+  "den": "2026-11-26T02:15:00+07:00",
   "lenh_that": {
    "so_lenh": 1,
    "thang": 0,
@@ -4175,29 +4230,30 @@
     "LOI_MOI": 0
    }
   },
-  "tong": 22,
-  "dung": 12,
-  "sai": 4,
-  "bo_lo": 5,
+  "tong": 26,
+  "dung": 11,
+  "sai": 8,
+  "bo_lo": 6,
   "cho": 1,
   "ty_le_dung_pct": 0,
   "theo_loai": {
    "mo_vung_mua": "0/1 (#144 −0,78% G5)",
-   "khong_mo": "6/11 (bỏ lỡ 1515, 1815, 2115, 2315, 0015)",
-   "vung_ban": "2/2",
+   "khong_mo": "5/11 (bỏ lỡ 1515, 1815, 2115, 2315, 0015, 0115)",
+   "vung_ban": "2/3",
    "ban_khan_cap": "0/0",
    "huong_nen": "3/7",
-   "huong_dau_ngay": "1/1"
+   "huong_dau_ngay": "2/2"
   },
   "phat_huy": [
-   "Đọc dừng Ngày bằng RSI 2h ĐÓNG nến (36,1 > 32,9) → hồi +4,6% xác nhận, 2 lần — dùng lại (vẫn qua 5 cổng)",
-   "Vùng bán sát trần M99 khung DH lớn hơn kế tiếp (00:15: 59.200 ≈ M99 15m chạm; nay M99 30m 59.943 có râu đâm qua)"
+   "Râu hồi Ngày = đáy × (1 + 4,9%) khi Ngày đã dừng → 60.108 dự, thật 60.112 (1 lần) — dùng lại cho mức đổi trên/vùng bán (không dùng để nới cổng mua)",
+   "Đỉnh 2 phân kỳ RSI mọi khung + râu qua trần M99 khung DH kế trên rồi đóng dưới = đỉnh (00:42 và 01:17)"
   ],
   "tu_sua": [
-   "Lộ trình 2115 +4h SAI (biên 57,6–58,4k, giá 59,6k) · vì Ngày đã dừng mà mức đổi trên chỉ đặt sát M7 4h · SIẾT cách tính: khi Ngày đã dừng, mức đổi trên lộ trình đặt ở râu hồi Ngày (đáy × 1,049) / M7 8h (hạn 13:15 26/11)"
+   "Lộ trình 1815 +8h / 2215 +4h SAI B7 (mức đổi trên 59,7k/58,95k bị vượt) · đã có tự sửa 01:15 (mức đổi trên theo râu Ngày / M7 8h, hạn 13:15 26/11) — kỳ này áp: mức đổi trên 60.200"
   ],
   "de_xuat_ba": [
-   "Bỏ lỡ 5 lần trong 12h (G1/G5) khi Ngày đã dừng; hồi thật +4,6% ≈ râu hồi Ngày bảng 4,9% trong khi G1 lấy HOI theo K_len (5m→2h 1,6%) nên gọi 'hồi hết' từ 58,6k — Ba xem có chốt: Ngày đã dừng thì HOI lấy theo râu Ngày (con không tự nới)"
+   "Bỏ lỡ 6 lần trong 12h (G1/G5) khi Ngày đã dừng; hồi thật +4,9% = râu Ngày bảng 4,9% trong khi G1 lấy HOI theo K_len — Ba xem có chốt: Ngày đã dừng thì HOI lấy theo râu Ngày (con không tự nới)",
+   "Vùng bán sát trần M99 khung DH kế trên trượt đỉnh 0,3% (râu qua trần) — Ba xem có chốt vùng bán = trần → trần + phần vượt trung vị khung đó"
   ]
  },
  "tu_sua": [
