@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T00:15:00+07:00",
+ "cap_nhat": "2026-11-26T01:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3093,6 +3093,38 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "NGANG 58.400–59.000 · thật chạm 57.300 về 58.605 trong vùng"
+  },
+  {
+   "luc": "2026-11-26T01:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0015",
+   "moc": "quyết định không mở",
+   "ma_loi": "G1 (bỏ lỡ)",
+   "ket_qua": "SAI",
+   "ghi": "hồi 2h hết, không mua · thật 58.605 → 59.950 (+2,3%)"
+  },
+  {
+   "luc": "2026-11-26T01:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1315",
+   "moc": "+12h 01:15",
+   "ma_loi": "-",
+   "ket_qua": "DUNG",
+   "ghi": "NGANG 58.500–59.600 · thật 59.603"
+  },
+  {
+   "luc": "2026-11-26T01:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1715",
+   "moc": "+8h 01:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "NGANG 58.750–59.450, vượt 59.800 · thật chạm 59.950 rồi về 59.603"
+  },
+  {
+   "luc": "2026-11-26T01:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-2115",
+   "moc": "+4h 01:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 57.600–58.400, vượt 58.950 · thật 59.603, vượt không quay lại"
   }
  ],
  "luat_tam": [
@@ -4121,14 +4153,14 @@
   },
   {
    "cach": "Đọc tín hiệu dừng Ngày bằng RSI 2h ĐÓNG nến (lần chạm thấp hơn mà RSI cao hơn cực trị) — 2215 dự, 23:00 đúng",
-   "so_lan_dung": 1,
+   "so_lan_dung": 2,
    "tu": "2026-11-25T23:15:00+07:00",
    "het_han": "2026-11-28T23:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T12:15:00+07:00",
-  "den": "2026-11-26T00:15:00+07:00",
+  "tu": "2026-11-25T13:15:00+07:00",
+  "den": "2026-11-26T01:15:00+07:00",
   "lenh_that": {
    "so_lenh": 1,
    "thang": 0,
@@ -4143,29 +4175,29 @@
     "LOI_MOI": 0
    }
   },
-  "tong": 19,
-  "dung": 10,
+  "tong": 22,
+  "dung": 12,
   "sai": 4,
-  "bo_lo": 4,
+  "bo_lo": 5,
   "cho": 1,
   "ty_le_dung_pct": 0,
   "theo_loai": {
-   "mo_vung_mua": "0/2 (1215 → #144 −0,78% G5; 2215 không chạm)",
-   "khong_mo": "6/10 (bỏ lỡ 1515, 1815, 2115, 2315)",
-   "vung_ban": "1/1",
+   "mo_vung_mua": "0/1 (#144 −0,78% G5)",
+   "khong_mo": "6/11 (bỏ lỡ 1515, 1815, 2115, 2315, 0015)",
+   "vung_ban": "2/2",
    "ban_khan_cap": "0/0",
-   "huong_nen": "2/5",
+   "huong_nen": "3/7",
    "huong_dau_ngay": "1/1"
   },
   "phat_huy": [
-   "Không mở vùng đáy khi G5 chặn (RSI 8h/12h ở đáy) — giá xuống tiếp tới 57.300; dùng lại (vẫn qua 5 cổng)",
-   "Đọc dừng Ngày bằng RSI 2h đóng nến (36,1 > 32,9 ở đáy thấp hơn)"
+   "Đọc dừng Ngày bằng RSI 2h ĐÓNG nến (36,1 > 32,9) → hồi +4,6% xác nhận, 2 lần — dùng lại (vẫn qua 5 cổng)",
+   "Vùng bán sát trần M99 khung DH lớn hơn kế tiếp (00:15: 59.200 ≈ M99 15m chạm; nay M99 30m 59.943 có râu đâm qua)"
   ],
   "tu_sua": [
-   "Lộ trình 1215 +12h gọi LEN 59.100–60.000, thật 58.605 (SAI B7) · giữ SIẾT 18:15: RSI 12h còn cực trị thì mốc không LEN, tâm ≤ giá"
+   "Lộ trình 2115 +4h SAI (biên 57,6–58,4k, giá 59,6k) · vì Ngày đã dừng mà mức đổi trên chỉ đặt sát M7 4h · SIẾT cách tính: khi Ngày đã dừng, mức đổi trên lộ trình đặt ở râu hồi Ngày (đáy × 1,049) / M7 8h (hạn 13:15 26/11)"
   ],
   "de_xuat_ba": [
-   "G5 chặn đúng luật nhưng bỏ lỡ hồi ≥ 0,6% 4 lần trong 12h (1515, 1815, 2115, 2315: 58.103→58.612 +0,9%) — Ba xem có chốt ngoại lệ khi Ngày đã dừng mà 8h/12h chưa (con không tự nới)"
+   "Bỏ lỡ 5 lần trong 12h (G1/G5) khi Ngày đã dừng; hồi thật +4,6% ≈ râu hồi Ngày bảng 4,9% trong khi G1 lấy HOI theo K_len (5m→2h 1,6%) nên gọi 'hồi hết' từ 58,6k — Ba xem có chốt: Ngày đã dừng thì HOI lấy theo râu Ngày (con không tự nới)"
   ]
  },
  "tu_sua": [
@@ -4215,6 +4247,12 @@
    "cach": "Lộ trình 1015 +12h / 1415 +8h / 1815 +4h SAI B7 (biên NGANG quanh 58,6–59,4k, giá xả tới 57.300) · SIẾT: khi RSI 8h/12h còn cực trị, biên dưới mốc lộ trình đặt tới mức 90% Bộ 5 chuẩn của khung lớn nhất có cực trị, mức đổi ngoài đó (hạn 10:15 26/11)",
    "tu": "2026-11-25T22:15:00+07:00",
    "het_han": "2026-11-26T10:15:00+07:00"
+  },
+  {
+   "tu": "2026-11-26T01:15:00+07:00",
+   "het_han": "2026-11-26T13:15:00+07:00",
+   "sua": "Lộ trình 2115 +4h SAI (biên 57,6–58,4k, giá 59,6k) · vì Ngày đã dừng mà mức đổi trên chỉ đặt sát M7 4h · SIẾT cách tính: khi Ngày đã dừng, mức đổi trên lộ trình đặt ở râu hồi Ngày (đáy × 1,049) / M7 8h (hạn 13:15 26/11)",
+   "kieu": "SIET"
   }
  ]
 }
