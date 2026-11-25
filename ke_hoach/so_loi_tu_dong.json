@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T12:15:00+07:00",
+ "cap_nhat": "2026-11-25T14:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2845,6 +2845,22 @@
    "ke_hoach": "KH-2026-11-25-0115",
    "ma_loi": "B2",
    "mo_ta": "+12h LEN sai, thủng 59.200"
+  },
+  {
+   "luc": "2026-11-25T14:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0615",
+   "moc": "+8h 14:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "59.236, thủng 59.000"
+  },
+  {
+   "luc": "2026-11-25T14:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0215",
+   "moc": "+12h 14:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "LEN 60.000–60.900, thật 59.236, thủng 59.200"
   }
  ],
  "luat_tam": [
@@ -3517,7 +3533,8 @@
     "03:15 25/11: 0215 vùng/A1 đặt ở Đáy 2, giá vào vùng chưa thủng (giup +1); áp cho KH-0315",
     "05:15 25/11: áp — lệnh chờ ở Đáy 2 Bộ 5 2h 59.500–59.660",
     "07:15 25/11: không kích (RSI 2h 43,2 > cực trị 41,0+1) — vẫn đặt vùng ở Đáy 2 Bộ 5 2h",
-    "12:15 25/11: áp cho KH-1215"
+    "12:15 25/11: áp cho KH-1215",
+    "14:15 25/11: áp — không vùng Hồi ở M99 5m/15m (Ngày kiểm đáy, 1h dưới M99 1h)"
    ]
   },
   {
@@ -3529,7 +3546,7 @@
    "het_han": "2026-11-28T00:15:00+07:00",
    "trang_thai": "dang_ap",
    "ket_qua": {
-    "giup": 4,
+    "giup": 5,
     "khong_giup": 0
    },
    "ghi_nhan": [
@@ -3537,7 +3554,8 @@
     "04:15 25/11: KH-0015 +4h NGANG mức đổi 58.600 dưới mức 75% Bộ 5 Ngày → DUNG (giup +1)",
     "05:15 25/11: KH-0115 +4h mức đổi 59.200 DUNG → giup +1; áp cho KH-0515 (mức đổi 59.000)",
     "07:15 25/11: KH-0315 +4h mức đổi 59.000 không chạm, DUNG → giup +1; áp cho KH-0715 (mức đổi 59.000)",
-    "12:15 25/11: áp cho KH-1215"
+    "12:15 25/11: áp cho KH-1215",
+    "14:15 25/11: KH-1015 +4h XUONG 58.550–59.650 đổi 57.950 → DUNG (giup +1); áp cho KH-1415"
    ]
   }
  ],
@@ -3856,23 +3874,30 @@
    "het_han": "2026-11-28T09:15:00+07:00",
    "ghi_chu_1115": "#143 (lane T2, cuối nhịp Ngày) +0,34% → 3 lần theo lệnh thật; dùng lại cho 1115-A1",
    "ghi_chu_1215": "#144 (1115-A1) khớp 11:26 BTC 59.328, đáy thật 58.938 trong vùng — chờ chấm lời/lỗ; giữ A1"
+  },
+  {
+   "cach": "Không mở vùng khi G1 (5m dưới M99) và G5 (RSI 12h ở đáy) cùng chặn ở cuối nhịp Ngày — chờ nến 2h/12h đóng",
+   "so_lan_dung": 1,
+   "tu": "2026-11-25T14:15:00+07:00",
+   "het_han": "2026-11-28T14:15:00+07:00",
+   "ghi_chu": "1315 đúng: hồi chỉ +0,57% (58.994→59.331), không lệnh lỗ"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T00:15:00+07:00",
-  "den": "2026-11-25T12:15:00+07:00",
-  "tong": 16,
-  "dung": 6,
-  "sai": 8,
+  "tu": "2026-11-25T02:15:00+07:00",
+  "den": "2026-11-25T14:15:00+07:00",
+  "tong": 19,
+  "dung": 7,
+  "sai": 7,
   "bo_lo": 2,
-  "cho": 2,
-  "ty_le_dung_pct": 67,
-  "ty_le_quyet_dinh_pct": 38,
+  "cho": 3,
+  "ty_le_dung_pct": 50,
+  "ty_le_quyet_dinh_pct": 44,
   "lenh_that": {
-   "so_lenh": 3,
-   "thang": 2,
+   "so_lenh": 2,
+   "thang": 1,
    "thua": 1,
-   "tong_pct": -0.93,
+   "tong_pct": -1.3,
    "loi_theo_cong": {
     "G1": 1,
     "G2": 0,
