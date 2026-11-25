@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T22:15:00+07:00",
+ "cap_nhat": "2026-11-25T23:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3037,6 +3037,38 @@
    "ma_loi": "B7",
    "ket_qua": "SAI",
    "ghi": "NGANG 58.650–59.350 (đổi 58.400) · thật 58.171, thủng 58.400"
+  },
+  {
+   "luc": "2026-11-25T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-2215",
+   "moc": "vùng hồi ngắn 57.050–57.650 (22:30–23:30)",
+   "ma_loi": "bỏ lỡ hồi +1,6% (không nới)",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "chạm quanh biên 23:00 · thật thấp nhất 57.690 (22:15), sau 22:30 thấp nhất 57.910 — không chạm, không lệnh"
+  },
+  {
+   "luc": "2026-11-25T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1115",
+   "moc": "+12h 23:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "LEN 59.000–60.200 (đổi 58.550) · thật 58.470, chạm 57.300"
+  },
+  {
+   "luc": "2026-11-25T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1515",
+   "moc": "+8h 23:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "NGANG 58.200–59.200 (đổi 57.700) · thật chạm 57.300 rồi về 58.470 trong vùng"
+  },
+  {
+   "luc": "2026-11-25T23:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1915",
+   "moc": "+4h 23:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "NGANG 58.350–59.050 (đổi 58.000) · thật chạm 57.300 rồi về 58.470 trong vùng"
   }
  ],
  "luat_tam": [
@@ -4061,11 +4093,17 @@
    "ghi_chu": "1315 đúng: hồi chỉ +0,57% (58.994→59.331), không lệnh lỗ",
    "ghi_chu_1515": "1415 đúng: không mở, giá còn xuống 58.633, hồi +0,52% <0,6%",
    "ghi_chu_1715": "1615 đúng: không mở, giá xuống 58.805, hồi +0,54% <0,6%"
+  },
+  {
+   "cach": "Đọc tín hiệu dừng Ngày bằng RSI 2h ĐÓNG nến (lần chạm thấp hơn mà RSI cao hơn cực trị) — 2215 dự, 23:00 đúng",
+   "so_lan_dung": 1,
+   "tu": "2026-11-25T23:15:00+07:00",
+   "het_han": "2026-11-28T23:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T10:15:00+07:00",
-  "den": "2026-11-25T22:15:00+07:00",
+  "tu": "2026-11-25T11:15:00+07:00",
+  "den": "2026-11-25T23:15:00+07:00",
   "lenh_that": {
    "so_lenh": 1,
    "thang": 0,
@@ -4080,29 +4118,29 @@
     "LOI_MOI": 0
    }
   },
-  "tong": 20,
+  "tong": 19,
   "dung": 10,
-  "sai": 7,
+  "sai": 5,
   "bo_lo": 3,
-  "cho": 0,
+  "cho": 1,
   "ty_le_dung_pct": 0,
   "theo_loai": {
-   "mo_vung_mua": "0/1 (lệnh thật #144)",
-   "khong_mo": "7/10 (bỏ lỡ 1515, 1815, 2115)",
+   "mo_vung_mua": "0/2 (1115, 1215 → lệnh thật #144 −0,78%; 2215 chưa chạm = chờ)",
+   "khong_mo": "6/9 (bỏ lỡ 1515, 1815, 2115)",
    "vung_ban": "1/1",
    "ban_khan_cap": "0/0",
    "huong_nen": "2/5",
    "huong_dau_ngay": "1/1"
   },
   "phat_huy": [
-   "Không mở vùng đáy khi G5 chặn / RSI 2h còn cực trị — 1015…2015 đúng (giá xuống tới 57.300), dùng lại (vẫn qua 5 cổng)",
-   "Hướng Ngày XUỐNG kiểm đáy Bộ 5 chuẩn 2h — đáy 57.300 nằm giữa mức 75% và 90%, không thủng dừng 56.400"
+   "Không mở vùng đáy khi G5 chặn (RSI 8h/12h ở đáy) — giá xuống tiếp tới 57.300, dùng lại (vẫn qua 5 cổng)",
+   "Đọc tín hiệu dừng Ngày bằng RSI 2h đóng nến (36,1 > 32,9 ở đáy thấp hơn) — kỳ 2215 dự đúng"
   ],
   "tu_sua": [
-   "Lộ trình 1015 +12h / 1415 +8h / 1815 +4h SAI B7 (biên NGANG quanh 58,6–59,4k, giá xả tới 57.300) · SIẾT: khi RSI 8h/12h còn cực trị, biên dưới mốc lộ trình đặt tới mức 90% Bộ 5 chuẩn của khung lớn nhất có cực trị, mức đổi ngoài đó (hạn 10:15 26/11)"
+   "Lộ trình KH-1115 +12h gọi LEN 59.000–60.200, thật 58,47k (SAI B7/B2) · đã có SIẾT 18:15: RSI 12h còn cực trị thì mốc không LEN, tâm ≤ giá — kỳ này giữ"
   ],
   "de_xuat_ba": [
-   "G5 chặn đúng luật nhưng bỏ lỡ hồi ≥ 0,6% 4 lần trong 12–14h (0915, 1515, 1815, 2115: 57.300 lúc 21:45 cách biên 21:00 45 phút, quãng 5,6 giờ → +1,9%) — Ba xem có cần chốt thêm cho đáy có phân kỳ 15m/30m/1h (con không tự nới)"
+   "G5 chặn đúng luật nhưng bỏ lỡ hồi ≥ 0,6% 5 lần trong ~14h (0915, 1515, 1815, 2115, 2215: 57.690→58.618 +1,6%) — Ba xem có chốt ngoại lệ khi Ngày đã dừng (RSI 2h phân kỳ đóng nến) mà 8h/12h chưa dừng (con không tự nới)"
   ]
  },
  "tu_sua": [
