@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T20:15:00+07:00",
+ "cap_nhat": "2026-11-25T21:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2973,6 +2973,30 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "dự NGANG 58.900–59.500, thật 58.667 (chạm 58.456 rồi quay lại trên 58.550)"
+  },
+  {
+   "luc": "2026-11-25T21:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0915",
+   "moc": "+12h 21:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "NGANG 58.600–59.900 (đổi 58.000) · thật 58.081, chạm 57.990 rồi quay lại trên 58.000"
+  },
+  {
+   "luc": "2026-11-25T21:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1315",
+   "moc": "+8h 21:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "XUONG 58.500–59.400 (đổi 58.100) · thật 58.081, dưới mức đổi 58.100"
+  },
+  {
+   "luc": "2026-11-25T21:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1715",
+   "moc": "+4h 21:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 58.800–59.500 (đổi 58.550) · thật 58.081, thủng 58.550"
   }
  ],
  "luat_tam": [
@@ -3624,7 +3648,8 @@
     "05:15 25/11: KH-0415 đầu dưới 60.000 làm tròn trên M7 2h 59.976, đỉnh 59.970 hụt → khong_giup +1; áp cho KH-0515: mức 1h 59.950 ngay dưới M",
     "07:15 25/11: áp — mức 1h 59.960 ngay dưới M25 30m 59.976; KH-0615 1h 60.180 chưa chấm (chờ)",
     "08:15 25/11: áp — 1h 59.850 dưới M99 5m/M25 30m; 0615 1h 60.180 hụt (đỉnh 60.065) → khong_giup +1",
-    "12:15 25/11: áp cho KH-1215"
+    "12:15 25/11: áp cho KH-1215",
+    "21:15 25/11: 2015 mức 1h 58.990 không tới (đỉnh 58.858) → chờ/không chấm (không có lệnh); áp cho KH-2115: 58.800 (M7 1h)"
    ]
   },
   {
@@ -3999,15 +4024,15 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T08:15:00+07:00",
-  "den": "2026-11-25T20:15:00+07:00",
+  "tu": "2026-11-25T09:15:00+07:00",
+  "den": "2026-11-25T21:15:00+07:00",
   "lenh_that": {
-   "so_lenh": 3,
+   "so_lenh": 2,
    "thang": 1,
-   "thua": 2,
-   "tong_pct": -2.08,
+   "thua": 1,
+   "tong_pct": -0.44,
    "loi_theo_cong": {
-    "G1": 1,
+    "G1": 0,
     "G2": 0,
     "G3": 0,
     "G4": 0,
@@ -4016,11 +4041,11 @@
    }
   },
   "tong": 18,
-  "dung": 10,
-  "sai": 5,
+  "dung": 11,
+  "sai": 4,
   "bo_lo": 3,
   "cho": 0,
-  "ty_le_dung_pct": 33
+  "ty_le_dung_pct": 50
  },
  "tu_sua": [
   {
@@ -4057,6 +4082,12 @@
    "tu": "2026-11-25T18:15:00+07:00",
    "het_han": "2026-11-26T06:15:00+07:00",
    "sua": "Mốc +12h gọi LEN khi Ngày kiểm đáy sai 3 lần liền (0415/0515/0615) · SIẾT: RSI 2h/12h còn cực trị thì mọi mốc lộ trình không LEN, tâm ≤ giá",
+   "kieu": "SIET"
+  },
+  {
+   "tu": "2026-11-25T21:15:00+07:00",
+   "het_han": "2026-11-26T09:15:00+07:00",
+   "sua": "Lộ trình biên dưới hẹp khi RSI 2h còn ra cực trị (1315 +8h, 1715 +4h) · SIẾT: biên dưới mốc lộ trình tới đáy Bộ 5 chuẩn dự kiến của khung DH lớn nhất, không LEN",
    "kieu": "SIET"
   }
  ]
