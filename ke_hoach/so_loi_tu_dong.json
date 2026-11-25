@@ -2827,6 +2827,24 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "59.268 sát biên dưới, chiều xuống"
+  },
+  {
+   "luc": "2026-11-25T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1215",
+   "ma_loi": "B8",
+   "mo_ta": "gọi 'đã dừng' từ RSI nến 2h đang chạy (39,5); nến đóng 38,6 < 39,0 → chưa dừng"
+  },
+  {
+   "luc": "2026-11-25T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0515",
+   "ma_loi": "B2",
+   "mo_ta": "+8h LEN sai, giá chạm 58.938"
+  },
+  {
+   "luc": "2026-11-25T13:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0115",
+   "ma_loi": "B2",
+   "mo_ta": "+12h LEN sai, thủng 59.200"
   }
  ],
  "luat_tam": [
@@ -3888,6 +3906,12 @@
    "tu": "2026-11-25T10:15:00+07:00",
    "het_han": "2026-11-25T22:15:00+07:00",
    "kieu": "SIET"
+  },
+  {
+   "tu": "2026-11-25T13:15:00+07:00",
+   "het_han": "2026-11-26T01:15:00+07:00",
+   "sua": "da_dung và tín hiệu dừng chỉ tính trên nến 2h/12h ĐÃ ĐÓNG (siết)",
+   "vi": "KH-1215 đọc nến 2h đang chạy"
   }
  ]
 }
