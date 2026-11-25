@@ -2675,6 +2675,14 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "dự LEN, thật +0,65% ngoài vùng"
+  },
+  {
+   "luc": "2026-11-25T07:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-1915",
+   "moc": "+12h 07:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 60.200–61.000, thật 59.765"
   }
  ],
  "luat_tam": [
@@ -3319,7 +3327,8 @@
     "22:15 24/11: 2115 vùng bán 60.260–60.560 (M99 1h → M7 4h) trúng đường lên 60.687 → giup +1; áp cho KH-2215 — 60.650 → 60.950",
     "23:15 24/11: 2215 vùng bán 60.650 (M7 4h chiếu) không tới — đầu dưới lấy M chiếu xa, không phải M gần nhất → khong_giup +1",
     "00:15 25/11: 2315 vùng bán 60.080 chưa tới (hiệu lực tới 00:45) → chờ; kỳ này áp 59.850",
-    "05:15 25/11: KH-0415 đầu dưới 60.000 làm tròn trên M7 2h 59.976, đỉnh 59.970 hụt → khong_giup +1; áp cho KH-0515: mức 1h 59.950 ngay dưới M"
+    "05:15 25/11: KH-0415 đầu dưới 60.000 làm tròn trên M7 2h 59.976, đỉnh 59.970 hụt → khong_giup +1; áp cho KH-0515: mức 1h 59.950 ngay dưới M",
+    "07:15 25/11: áp — mức 1h 59.960 ngay dưới M25 30m 59.976; KH-0615 1h 60.180 chưa chấm (chờ)"
    ]
   },
   {
@@ -3338,7 +3347,8 @@
     "23:15 24/11: áp lần đầu — lệnh chờ 2315-A1 59.330–59.570",
     "00:15 25/11: 2315 lệnh chờ ở đáy Bộ 5 2h 59.330–59.570 → đáy thật 59.318 trong vùng, không thủng → giup +1",
     "03:15 25/11: 0215 vùng/A1 đặt ở Đáy 2, giá vào vùng chưa thủng (giup +1); áp cho KH-0315",
-    "05:15 25/11: áp — lệnh chờ ở Đáy 2 Bộ 5 2h 59.500–59.660"
+    "05:15 25/11: áp — lệnh chờ ở Đáy 2 Bộ 5 2h 59.500–59.660",
+    "07:15 25/11: không kích (RSI 2h 43,2 > cực trị 41,0+1) — vẫn đặt vùng ở Đáy 2 Bộ 5 2h"
    ]
   },
   {
@@ -3350,13 +3360,14 @@
    "het_han": "2026-11-28T00:15:00+07:00",
    "trang_thai": "dang_ap",
    "ket_qua": {
-    "giup": 3,
+    "giup": 4,
     "khong_giup": 0
    },
    "ghi_nhan": [
     "03:15 25/11: 2315 +4h mức đổi 58.900 dưới đáy, giá 59.260 không chạm → DUNG (giup +1); áp cho KH-0315 (mức đổi 59.000)",
     "04:15 25/11: KH-0015 +4h NGANG mức đổi 58.600 dưới mức 75% Bộ 5 Ngày → DUNG (giup +1)",
-    "05:15 25/11: KH-0115 +4h mức đổi 59.200 DUNG → giup +1; áp cho KH-0515 (mức đổi 59.000)"
+    "05:15 25/11: KH-0115 +4h mức đổi 59.200 DUNG → giup +1; áp cho KH-0515 (mức đổi 59.000)",
+    "07:15 25/11: KH-0315 +4h mức đổi 59.000 không chạm, DUNG → giup +1; áp cho KH-0715 (mức đổi 59.000)"
    ]
   }
  ],
@@ -3622,16 +3633,23 @@
    "tu": "2026-11-25T06:15:00+07:00",
    "het_han": "2026-11-28T06:15:00+07:00",
    "ghi_chu": "tự sửa từ 2h hụt 10/11 kỳ, chờ chấm"
+  },
+  {
+   "cach": "Không mở Hồi sát giá ngay sau đỉnh nhỏ khi vừa mở quãng dưới M99 5m; chỉ đặt lệnh chờ ở Đáy 2 Bộ 5 2h",
+   "so_lan_dung": 0,
+   "tu": "2026-11-25T07:15:00+07:00",
+   "het_han": "2026-11-28T07:15:00+07:00",
+   "ghi_chu": "tự sửa từ 2115/0115/0215/0615 hồi <0,6%, chờ chấm"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T18:15:00+07:00",
-  "den": "2026-11-25T06:15:00+07:00",
-  "tong": 53,
-  "dung": 31,
+  "tu": "2026-11-24T19:15:00+07:00",
+  "den": "2026-11-25T07:15:00+07:00",
+  "tong": 34,
+  "dung": 16,
   "sai": 17,
   "bo_lo": 1,
   "cho": 4,
-  "ty_le_dung_pct": 63
+  "ty_le_dung_pct": 47
  }
 }
