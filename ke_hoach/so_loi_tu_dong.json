@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T06:15:00+07:00",
+ "cap_nhat": "2026-11-25T08:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2683,6 +2683,14 @@
    "ma_loi": "B7",
    "ket_qua": "SAI",
    "ghi": "dự LEN 60.200–61.000, thật 59.765"
+  },
+  {
+   "luc": "2026-11-25T08:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-2015",
+   "moc": "+12h 08:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 60.400–61.150, thật 59.597"
   }
  ],
  "luat_tam": [
@@ -2834,7 +2842,8 @@
     "13:25 16/11: KH-0925 điểm dừng 61.250 (dưới trung vị Bộ 5 Tuần) không thủng, DUNG → giup +1 (giup 15, khong_giup 0); hết hạn 13:25 16/11 → het_han, vẫn đề xuất Ba duyệt",
     "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)",
     "14:15 24/11: KH-1315 A1 khớp 60.460, chưa thủng 59.630 — chờ chấm; kỳ này áp lại dừng 59.620",
-    "22:15 24/11: không kích — dừng Hồi 59.700 dưới Đáy 4"
+    "22:15 24/11: không kích — dừng Hồi 59.700 dưới Đáy 4",
+    "08:15 25/11: không kích — M99 1h 60.264 trên giá"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -3276,13 +3285,14 @@
    "trang_thai": "da_bo",
    "ket_qua": {
     "giup": 1,
-    "khong_giup": 3
+    "khong_giup": 4
    },
    "ghi_nhan": [
     "12:15 23/11: áp cho KH-1215 — Hoi 61.060–61.330 bao giá 1m 61.274; KH-1015 vung_mua SAI (bỏ lỡ) → khong_giup +1",
     "23:15 23/11: áp cho KH-2315 — Hoi 62.550–62.900 mép trên sát giá 62.897, mép dưới biên nén; KH-2215 không áp (bỏ lỡ) → chưa chấm",
     "19:15 24/11: vùng bán 1815 đầu dưới 60.270 (cụm M) chứa đỉnh 60.454 → giup +1",
-    "23:15 24/11: 2215 vùng bán 60.650 (M7 4h chiếu) không tới — đầu dưới lấy M chiếu xa, không phải M gần nhất → khong_giup +1"
+    "23:15 24/11: 2215 vùng bán 60.650 (M7 4h chiếu) không tới — đầu dưới lấy M chiếu xa, không phải M gần nhất → khong_giup +1",
+    "08:15 25/11: áp — 1h 59.850 dưới M99 5m/M25 30m; 0615 1h 60.180 hụt (đỉnh 60.065) → khong_giup +1"
    ],
    "ly_do_bo": "00:15 24/11: khong_giup 2, giup 0 — mua biên dưới nén 15m sau Đỉnh chính bị thủng (KH-2315)"
   },
@@ -3304,7 +3314,8 @@
     "15:15 24/11: không kích — vùng Đáy 2 dưới M99 1h",
     "21:15 24/11: không kích — vùng mua dưới M99 1h",
     "22:15 24/11: không kích — dừng Hồi 59.700 dưới Đáy 4",
-    "05:15 25/11: áp — không có M99 khung lớn hơn trong vùng (M99 1h 60.225 trên giá)"
+    "05:15 25/11: áp — không có M99 khung lớn hơn trong vùng (M99 1h 60.225 trên giá)",
+    "08:15 25/11: không kích — M99 1h 60.264 trên giá"
    ]
   },
   {
@@ -3317,7 +3328,7 @@
    "trang_thai": "dang_ap",
    "ket_qua": {
     "giup": 2,
-    "khong_giup": 2
+    "khong_giup": 3
    },
    "ghi_nhan": [
     "15:15 24/11: áp cho KH-1515 — vùng bán 60.360 (biên dưới nén/M99 1h)",
@@ -3328,7 +3339,8 @@
     "23:15 24/11: 2215 vùng bán 60.650 (M7 4h chiếu) không tới — đầu dưới lấy M chiếu xa, không phải M gần nhất → khong_giup +1",
     "00:15 25/11: 2315 vùng bán 60.080 chưa tới (hiệu lực tới 00:45) → chờ; kỳ này áp 59.850",
     "05:15 25/11: KH-0415 đầu dưới 60.000 làm tròn trên M7 2h 59.976, đỉnh 59.970 hụt → khong_giup +1; áp cho KH-0515: mức 1h 59.950 ngay dưới M",
-    "07:15 25/11: áp — mức 1h 59.960 ngay dưới M25 30m 59.976; KH-0615 1h 60.180 chưa chấm (chờ)"
+    "07:15 25/11: áp — mức 1h 59.960 ngay dưới M25 30m 59.976; KH-0615 1h 60.180 chưa chấm (chờ)",
+    "08:15 25/11: áp — 1h 59.850 dưới M99 5m/M25 30m; 0615 1h 60.180 hụt (đỉnh 60.065) → khong_giup +1"
    ]
   },
   {
@@ -3632,24 +3644,26 @@
    "so_lan_dung": 0,
    "tu": "2026-11-25T06:15:00+07:00",
    "het_han": "2026-11-28T06:15:00+07:00",
-   "ghi_chu": "tự sửa từ 2h hụt 10/11 kỳ, chờ chấm"
+   "ghi_chu": "tự sửa từ 2h hụt 10/11 kỳ, chờ chấm",
+   "ghi_chu_0815": "áp: 2h 59.980 ngay dưới M7 4h 60.004"
   },
   {
    "cach": "Không mở Hồi sát giá ngay sau đỉnh nhỏ khi vừa mở quãng dưới M99 5m; chỉ đặt lệnh chờ ở Đáy 2 Bộ 5 2h",
    "so_lan_dung": 0,
    "tu": "2026-11-25T07:15:00+07:00",
    "het_han": "2026-11-28T07:15:00+07:00",
-   "ghi_chu": "tự sửa từ 2115/0115/0215/0615 hồi <0,6%, chờ chấm"
+   "ghi_chu": "tự sửa từ 2115/0115/0215/0615 hồi <0,6%, chờ chấm",
+   "ghi_chu_0815": "0715 không mở Hồi, chỉ lệnh chờ Đáy 2 → khớp đúng đáy 59.450 (chờ hồi ≥0,6%)"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T19:15:00+07:00",
-  "den": "2026-11-25T07:15:00+07:00",
-  "tong": 34,
-  "dung": 16,
+  "tu": "2026-11-24T20:15:00+07:00",
+  "den": "2026-11-25T08:15:00+07:00",
+  "tong": 36,
+  "dung": 12,
   "sai": 17,
   "bo_lo": 1,
-  "cho": 4,
-  "ty_le_dung_pct": 47
+  "cho": 6,
+  "ty_le_dung_pct": 40
  }
 }
