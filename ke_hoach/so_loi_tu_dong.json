@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T18:15:00+07:00",
+ "cap_nhat": "2026-11-25T19:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2925,6 +2925,30 @@
    "ma_loi": "B2",
    "ket_qua": "SAI",
    "ghi": "dự LEN 59.800–60.650, thật 58.893, thủng 59.000"
+  },
+  {
+   "luc": "2026-11-25T19:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1115",
+   "moc": "+8h 19:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 58.900–60.100, thật 58.597, thủng 58.550"
+  },
+  {
+   "luc": "2026-11-25T19:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0715",
+   "moc": "+12h 19:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 59.600–60.450, thật 58.597, thủng 59.000"
+  },
+  {
+   "luc": "2026-11-25T19:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1815",
+   "moc": "không mở (G5)",
+   "ma_loi": "BO_LO",
+   "ket_qua": "BO_LO",
+   "ghi": "đáy mới 58.456 18:31 rồi hồi 0,62% tới 58.820 — G5 chặn đúng luật, chỉ ghi + đề xuất Ba"
   }
  ],
  "luat_tam": [
@@ -3942,7 +3966,7 @@
   },
   {
    "cach": "Không mở vùng khi G1 (5m dưới M99) và G5 (RSI 12h ở đáy) cùng chặn ở cuối nhịp Ngày — chờ nến 2h/12h đóng",
-   "so_lan_dung": 3,
+   "so_lan_dung": 4,
    "tu": "2026-11-25T14:15:00+07:00",
    "het_han": "2026-11-28T14:15:00+07:00",
    "ghi_chu": "1315 đúng: hồi chỉ +0,57% (58.994→59.331), không lệnh lỗ",
@@ -3951,14 +3975,8 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T06:15:00+07:00",
-  "den": "2026-11-25T18:15:00+07:00",
-  "tong": 12,
-  "dung": 6,
-  "sai": 4,
-  "bo_lo": 2,
-  "cho": 0,
-  "ty_le_dung_pct": 33,
+  "tu": "2026-11-25T07:15:00+07:00",
+  "den": "2026-11-25T19:15:00+07:00",
   "lenh_that": {
    "so_lenh": 3,
    "thang": 1,
@@ -3972,7 +3990,13 @@
     "G5": 1,
     "LOI_MOI": 0
    }
-  }
+  },
+  "tong": 18,
+  "dung": 9,
+  "sai": 6,
+  "bo_lo": 3,
+  "cho": 0,
+  "ty_le_dung_pct": 33
  },
  "tu_sua": [
   {
