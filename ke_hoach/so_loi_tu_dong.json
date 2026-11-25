@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T19:15:00+07:00",
+ "cap_nhat": "2026-11-25T20:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2949,6 +2949,30 @@
    "ma_loi": "BO_LO",
    "ket_qua": "BO_LO",
    "ghi": "đáy mới 58.456 18:31 rồi hồi 0,62% tới 58.820 — G5 chặn đúng luật, chỉ ghi + đề xuất Ba"
+  },
+  {
+   "luc": "2026-11-25T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1215",
+   "moc": "+8h 20:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 59.100–59.900, thật 58.667, thủng 58.550"
+  },
+  {
+   "luc": "2026-11-25T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0815",
+   "moc": "+12h 20:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 59.500–60.300, thật 58.667, thủng 58.750"
+  },
+  {
+   "luc": "2026-11-25T20:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1615",
+   "moc": "+4h 20:15",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "dự NGANG 58.900–59.500, thật 58.667 (chạm 58.456 rồi quay lại trên 58.550)"
   }
  ],
  "luat_tam": [
@@ -3975,8 +3999,8 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T07:15:00+07:00",
-  "den": "2026-11-25T19:15:00+07:00",
+  "tu": "2026-11-25T08:15:00+07:00",
+  "den": "2026-11-25T20:15:00+07:00",
   "lenh_that": {
    "so_lenh": 3,
    "thang": 1,
@@ -3992,8 +4016,8 @@
    }
   },
   "tong": 18,
-  "dung": 9,
-  "sai": 6,
+  "dung": 10,
+  "sai": 5,
   "bo_lo": 3,
   "cho": 0,
   "ty_le_dung_pct": 33
