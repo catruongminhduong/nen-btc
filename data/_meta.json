@@ -1,59 +1,59 @@
 {
-  "updated_at_utc": "2026-11-24T23:01:00Z",
-  "updated_at_vn": "2026-11-25 06:01",
+  "updated_at_utc": "2026-11-25T00:01:00Z",
+  "updated_at_vn": "2026-11-25 07:01",
   "source": "binance spot public klines via ccxt",
   "frames": {
     "1m": {
       "rows": 43200,
-      "last_closed_open_time_vn": "2026-11-25 06:00",
+      "last_closed_open_time_vn": "2026-11-25 07:00",
       "file": "BTC_USDT-1min.csv"
     },
     "3m": {
       "rows": 60000,
-      "last_closed_open_time_vn": "2026-11-25 05:57",
+      "last_closed_open_time_vn": "2026-11-25 06:57",
       "file": "BTC_USDT-3m.csv"
     },
     "5m": {
       "rows": 52000,
-      "last_closed_open_time_vn": "2026-11-25 05:55"
+      "last_closed_open_time_vn": "2026-11-25 06:55"
     },
     "15m": {
       "rows": 35040,
-      "last_closed_open_time_vn": "2026-11-25 05:45"
+      "last_closed_open_time_vn": "2026-11-25 06:45"
     },
     "30m": {
       "rows": 17520,
-      "last_closed_open_time_vn": "2026-11-25 05:30"
+      "last_closed_open_time_vn": "2026-11-25 06:30"
     },
     "1h": {
       "rows": 17520,
-      "last_closed_open_time_vn": "2026-11-25 05:00"
+      "last_closed_open_time_vn": "2026-11-25 06:00"
     },
     "2h": {
       "rows": 8760,
-      "last_closed_open_time_vn": "2026-11-25 03:00"
+      "last_closed_open_time_vn": "2026-11-25 05:00"
     },
     "4h": {
       "rows": 6570,
-      "last_closed_open_time_vn": "2026-11-24 23:00"
+      "last_closed_open_time_vn": "2026-11-25 03:00"
     },
     "6h": {
       "rows": 4380,
-      "last_closed_open_time_vn": "2026-11-24 19:00",
+      "last_closed_open_time_vn": "2026-11-25 01:00",
       "file": "BTC_USDT-6h.csv"
     },
     "8h": {
       "rows": 3285,
-      "last_closed_open_time_vn": "2026-11-24 15:00",
+      "last_closed_open_time_vn": "2026-11-24 23:00",
       "file": "BTC_USDT-8h.csv"
     },
     "12h": {
       "rows": 2190,
-      "last_closed_open_time_vn": "2026-11-24 07:00"
+      "last_closed_open_time_vn": "2026-11-24 19:00"
     },
     "1d": {
       "rows": 2000,
-      "last_closed_open_time_vn": "2026-11-23 07:00"
+      "last_closed_open_time_vn": "2026-11-24 07:00"
     },
     "3d": {
       "rows": 500,
@@ -69,12 +69,12 @@
     },
     "ETH_15m": {
       "rows": 672,
-      "last_closed_open_time_vn": "2026-11-25 05:45",
+      "last_closed_open_time_vn": "2026-11-25 06:45",
       "file": "ETH_USDT-15m.csv"
     },
     "DOGE_15m": {
       "rows": 672,
-      "last_closed_open_time_vn": "2026-11-25 05:45",
+      "last_closed_open_time_vn": "2026-11-25 06:45",
       "file": "DOGE_USDT-15m.csv"
     }
   }
