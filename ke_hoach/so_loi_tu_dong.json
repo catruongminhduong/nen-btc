@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T21:15:00+07:00",
+ "cap_nhat": "2026-11-25T22:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2997,6 +2997,46 @@
    "ma_loi": "B2",
    "ket_qua": "SAI",
    "ghi": "NGANG 58.800–59.500 (đổi 58.550) · thật 58.081, thủng 58.550"
+  },
+  {
+   "luc": "2026-11-25T22:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-2115",
+   "moc": "không mở vùng",
+   "ma_loi": "G5 (bỏ lỡ đúng luật)",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "C/G5/G1 chặn; đáy 57.780–57.448 trước 07:00 26/11 · thật đáy 57.300 lúc 21:45 (dưới mức 75% 0,26%, trên dừng 56.400), hồi +1,88% tới 58.378"
+  },
+  {
+   "luc": "2026-11-25T22:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-2115",
+   "moc": "+4h đổi 57.400",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "NGANG 57.600–58.400 · thật chạm 57.300 (thủng mức đổi) rồi quay về 58.171"
+  },
+  {
+   "luc": "2026-11-25T22:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1015",
+   "moc": "+12h 22:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 58.700–60.000 (đổi 58.050) · thật 58.171, chạm 57.300"
+  },
+  {
+   "luc": "2026-11-25T22:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1415",
+   "moc": "+8h 22:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 58.550–59.400 (đổi 58.200) · thật 58.171, thủng 58.200"
+  },
+  {
+   "luc": "2026-11-25T22:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-1815",
+   "moc": "+4h 22:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 58.650–59.350 (đổi 58.400) · thật 58.171, thủng 58.400"
   }
  ],
  "luat_tam": [
@@ -4024,13 +4064,13 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T09:15:00+07:00",
-  "den": "2026-11-25T21:15:00+07:00",
+  "tu": "2026-11-25T10:15:00+07:00",
+  "den": "2026-11-25T22:15:00+07:00",
   "lenh_that": {
-   "so_lenh": 2,
-   "thang": 1,
+   "so_lenh": 1,
+   "thang": 0,
    "thua": 1,
-   "tong_pct": -0.44,
+   "tong_pct": -0.78,
    "loi_theo_cong": {
     "G1": 0,
     "G2": 0,
@@ -4040,12 +4080,30 @@
     "LOI_MOI": 0
    }
   },
-  "tong": 18,
-  "dung": 11,
-  "sai": 4,
+  "tong": 20,
+  "dung": 10,
+  "sai": 7,
   "bo_lo": 3,
   "cho": 0,
-  "ty_le_dung_pct": 50
+  "ty_le_dung_pct": 0,
+  "theo_loai": {
+   "mo_vung_mua": "0/1 (lệnh thật #144)",
+   "khong_mo": "7/10 (bỏ lỡ 1515, 1815, 2115)",
+   "vung_ban": "1/1",
+   "ban_khan_cap": "0/0",
+   "huong_nen": "2/5",
+   "huong_dau_ngay": "1/1"
+  },
+  "phat_huy": [
+   "Không mở vùng đáy khi G5 chặn / RSI 2h còn cực trị — 1015…2015 đúng (giá xuống tới 57.300), dùng lại (vẫn qua 5 cổng)",
+   "Hướng Ngày XUỐNG kiểm đáy Bộ 5 chuẩn 2h — đáy 57.300 nằm giữa mức 75% và 90%, không thủng dừng 56.400"
+  ],
+  "tu_sua": [
+   "Lộ trình 1015 +12h / 1415 +8h / 1815 +4h SAI B7 (biên NGANG quanh 58,6–59,4k, giá xả tới 57.300) · SIẾT: khi RSI 8h/12h còn cực trị, biên dưới mốc lộ trình đặt tới mức 90% Bộ 5 chuẩn của khung lớn nhất có cực trị, mức đổi ngoài đó (hạn 10:15 26/11)"
+  ],
+  "de_xuat_ba": [
+   "G5 chặn đúng luật nhưng bỏ lỡ hồi ≥ 0,6% 4 lần trong 12–14h (0915, 1515, 1815, 2115: 57.300 lúc 21:45 cách biên 21:00 45 phút, quãng 5,6 giờ → +1,9%) — Ba xem có cần chốt thêm cho đáy có phân kỳ 15m/30m/1h (con không tự nới)"
+  ]
  },
  "tu_sua": [
   {
@@ -4089,6 +4147,11 @@
    "het_han": "2026-11-26T09:15:00+07:00",
    "sua": "Lộ trình biên dưới hẹp khi RSI 2h còn ra cực trị (1315 +8h, 1715 +4h) · SIẾT: biên dưới mốc lộ trình tới đáy Bộ 5 chuẩn dự kiến của khung DH lớn nhất, không LEN",
    "kieu": "SIET"
+  },
+  {
+   "cach": "Lộ trình 1015 +12h / 1415 +8h / 1815 +4h SAI B7 (biên NGANG quanh 58,6–59,4k, giá xả tới 57.300) · SIẾT: khi RSI 8h/12h còn cực trị, biên dưới mốc lộ trình đặt tới mức 90% Bộ 5 chuẩn của khung lớn nhất có cực trị, mức đổi ngoài đó (hạn 10:15 26/11)",
+   "tu": "2026-11-25T22:15:00+07:00",
+   "het_han": "2026-11-26T10:15:00+07:00"
   }
  ]
 }
