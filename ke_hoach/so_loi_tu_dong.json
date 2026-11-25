@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T17:15:00+07:00",
+ "cap_nhat": "2026-11-25T18:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2917,6 +2917,14 @@
    "ma_loi": "B2",
    "ket_qua": "SAI",
    "ghi": "dự LEN 59.800–60.600, thật 59.053, thủng 59.000"
+  },
+  {
+   "luc": "2026-11-25T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0615",
+   "moc": "+12h 18:15",
+   "ma_loi": "B2",
+   "ket_qua": "SAI",
+   "ghi": "dự LEN 59.800–60.650, thật 58.893, thủng 59.000"
   }
  ],
  "luat_tam": [
@@ -3943,8 +3951,8 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T05:15:00+07:00",
-  "den": "2026-11-25T17:15:00+07:00",
+  "tu": "2026-11-25T06:15:00+07:00",
+  "den": "2026-11-25T18:15:00+07:00",
   "tong": 12,
   "dung": 6,
   "sai": 4,
@@ -3996,6 +4004,12 @@
    "het_han": "2026-11-26T01:15:00+07:00",
    "sua": "da_dung và tín hiệu dừng chỉ tính trên nến 2h/12h ĐÃ ĐÓNG (siết)",
    "vi": "KH-1215 đọc nến 2h đang chạy"
+  },
+  {
+   "tu": "2026-11-25T18:15:00+07:00",
+   "het_han": "2026-11-26T06:15:00+07:00",
+   "sua": "Mốc +12h gọi LEN khi Ngày kiểm đáy sai 3 lần liền (0415/0515/0615) · SIẾT: RSI 2h/12h còn cực trị thì mọi mốc lộ trình không LEN, tâm ≤ giá",
+   "kieu": "SIET"
   }
  ]
 }
