@@ -1,10 +1,10 @@
 {
  "phien_ban": 1,
- "ma_ke_hoach": "KH-2026-11-25-1115",
- "tao_luc": "2026-11-25T11:15:00+07:00",
- "lap_luc_vn": "11:15 ngày 25/11",
- "hieu_luc_den": "2026-11-25T12:45:00+07:00",
- "t_du_lieu": "2026-11-25T11:01:00+07:00",
+ "ma_ke_hoach": "KH-2026-11-25-1215",
+ "tao_luc": "2026-11-25T12:15:00+07:00",
+ "lap_luc_vn": "12:15 ngày 25/11",
+ "hieu_luc_den": "2026-11-25T13:45:00+07:00",
+ "t_du_lieu": "2026-11-25T12:01:00+07:00",
  "ke_hoach_dai": "KHD-2026-11-25-0554",
  "nhip_lon": {
   "huong": "xuong",
@@ -23,75 +23,74 @@
   "con_lai_pct": 0,
   "tran_m99": {
    "khung": "5m",
-   "gia": 59635
+   "gia": 59580
   },
-  "da_di_nhip_lon_pct": 8.75,
-  "ket_luan": "G4 qua (8,75% ≥ 6,1%, Ngày đã dừng) · G2 qua (nến 2h 09:00 đóng 59.422 dưới M99 2h 61.656) · G3 qua (không nến 2h xả dài cắt M99 2h; nến 5m 11:00 thân 1,7×TB20) · G1 chặn Hồi (5m 59.422 dưới M99 5m 59.640, không K_len) → chỉ lệnh chờ/vùng loại day"
+  "da_di_nhip_lon_pct": 8.77,
+  "ket_luan": "G4 qua (8,77% ≥ 6,1%, Ngày đã dừng) · G2 qua (nến 2h 11:00 59.268 dưới M99 2h 61.600) · G3 qua (thân 2h 153 = 0,33×TB20; 5m 11:50 thân 1,4×TB20, không cắt M99) · G1 chặn Hồi (5m 59.223 dưới M99 5m 59.584) → chỉ lệnh chờ/vùng loại day"
  },
  "truc_dai": {
-  "goc_re": "(1) nến Ngày vì RSI 2h 39,0 (07:00, giá 59.272) — khung lớn nhất có cực trị dưới M99; 4h 39,2 không cực trị (quãng 15,9), giá dưới M99 4h 65.943 = trần, 3D chưa đổi hướng · (2) Ngày 25/11 = nến #2 Bộ 5 Ngày xuống trong 3D#34 (#5 Bộ 5 3D); Tháng đã dừng, Ngày ĐÃ DỪNG (2h 09:00 đóng RSI 40,6 > 39,0 với đáy thấp hơn 58.952) · (3) nhịp Ngày 8,0% (6,1–10,2) → 59.435, thật 58.952 (8,75%); nhịp kế = râu hồi Ngày, trước mắt Đáy 2 ~59.060–59.260 rồi về M7 4h ~59.830–59.950 ~19:00–23:00 · (4) CUỐI nhịp xuống (đã 8,75% / 8,0%) · (5) MUA Đáy 2 Bộ 5 Ngày (lệnh chờ day), không bán",
-  "dau_ngay": "Ngày/12h xuất phát 07:00 nối từ đáy 59.260 (00:03) + hồi 60.106 · hướng XUONG kiểm đáy → đáy 58.952 (09:08) đã dừng · tìm Đáy 2 theo RSI 2h · Đáy 2 ~59.060–59.260, rồi lên ~1,3% tới 59.830–59.950",
-  "nen_3d": "3D#34 mở 07:00 24/11 · nến #5 Bộ 5 3D xuống · đầu nến XUONG vì nến Ngày (nhịp từ 64.603) · đáy Tuần mới 58.952 (09:08 25/11), đáy 3D dự kiến đã có — phần còn lại hồi tới 07:00 27/11",
-  "m7_4h": 59828,
-  "gia_cach_m7_4h_pct": -0.91,
-  "gap_m7_4h_du_kien": "19:00–23:00 25/11 (nến 12h 19:00) — chiếu giá ngang 59.283: 59.828 → 59.664 → 59.501 → 59.438 → 59.381",
-  "m7_8h": 60700,
-  "gia_cach_m7_8h_pct": -2.33,
-  "bo5_12h": "XUONG từ 07:00 24/11 · nến 12h #3 · chưa kết → kết dự kiến ~23:00 25/11–07:00 26/11 quanh 59,6–59,9k (M7 8h chiếu 60.700 → 60.389 → 59.873 → 59.589)",
-  "bo5_chuan": "RSI cực trị khung DH 2h = 39,0 lúc 07:00 (giá 59.272) → Bộ 5 nến Ngày XUONG · nến 1 07:00 24/11 · cực trị ở nến #2 · đáy 58.952 (−0,54%, ≈ trung vị) đã dừng · vùng 59.272–58.626 (mức 75%) → ghi 58.700–59.270 · dừng 58.550 (siết, trong mức 90% 57.570) · hạn 07:00 30/11",
-  "mua_hay_khong": "mua mất ~1,0% (tới dừng 58.550; bot cắt trần −1,5% gồm phí) · không mua mất ~1,3% (Đáy 2 → M7 4h) — chỉ thông tin",
-  "ky_truoc": "ĐÚNG (chờ nến 2h đóng bật, nay đã bật) nhưng BỎ LỠ hồi +1,08% 59.032→59.671 → kỳ này đặt lệnh chờ Đáy 2 (không nới luật)",
-  "dinh": "chưa có cực trị trên M99 — đỉnh nhỏ 59.671 (10:21) râu chạm M99 5m rồi đóng dưới; mục tiêu hồi Ngày: M7 4h 59.828 ≈ M99 15m 59.971 → vùng bán 59.830–59.970, trần đầu M99 5m 59.635",
-  "nen": "không nén (biên 5 nến 15m 10:00–11:00 = 1,08%, không kẹp M7–M25)",
+  "goc_re": "(1) nến Ngày vì RSI 2h 39,0 (07:00, giá 59.272); Đáy 2 58.938 (11:51) RSI 2h 39,5 · 1h 38,2 · 30m 38,4 · 15m 32,8 · 5m 35,0 · 3m 33,0 đều cao hơn → dừng; 4h dưới M99 65.775 = trần · (2) Ngày 25/11 = nến #2 Bộ 5 Ngày xuống trong 3D#34 (#5 Bộ 5 3D); Tháng và Ngày đã dừng · (3) nhịp Ngày 8,0% → 59.435, thật 58.938 (8,77%); nhịp kế = râu hồi Ngày, trước mắt M99 5m 59.580 rồi M7 4h ~59.5–59.8k ~19:00–23:00 · (4) CUỐI nhịp xuống (đã 8,77% / 8,0%) · (5) giữ #144, lệnh chờ day Đáy 2/3, không bán",
+  "dau_ngay": "Ngày/12h xuất phát 07:00 nối từ đáy 59.260 (00:03) + hồi 60.106 · hướng XUONG kiểm đáy → 58.952 (09:08), Đáy 2 58.938 (11:51) đã dừng · tìm Đỉnh hồi theo RSI 2h · còn ~0,5–0,9% tới 59.580–59.830",
+  "nen_3d": "3D#34 mở 07:00 24/11 · nến #5 Bộ 5 3D xuống · đầu nến XUONG vì nến Ngày (nhịp từ 64.603) · đáy Tuần 58.938 (11:51 25/11) — phần còn lại hồi tới 07:00 27/11",
+  "m7_4h": 59826,
+  "gia_cach_m7_4h_pct": -0.93,
+  "gap_m7_4h_du_kien": "19:00–23:00 25/11 (nến 12h 19:00) — chiếu giá ngang 59.268: 59.826 → 59.659 → 59.494 → 59.429 → 59.371",
+  "m7_8h": 60698,
+  "gia_cach_m7_8h_pct": -2.36,
+  "bo5_12h": "XUONG từ 07:00 24/11 · nến 12h #3 · chưa kết → kết dự kiến ~23:00 25/11–07:00 26/11 quanh 59,6–59,9k (M7 8h chiếu 60.698 → 60.385 → 59.866 → 59.580)",
+  "bo5_chuan": "RSI cực trị khung DH 2h = 39,0 lúc 07:00 (giá 59.272) → Bộ 5 nến Ngày XUONG · nến 1 07:00 24/11 · cực trị ở nến #2 · đáy 58.952 rồi Đáy 2 58.938 (−0,56%, ≈ trung vị) đã dừng · vùng 59.272–58.626 (mức 75%) → ghi 58.700–59.270 · dừng 58.550 · hạn 07:00 30/11",
+  "mua_hay_khong": "mua mất ~1,0% (tới dừng 58.550; bot cắt trần −1,5% gồm phí) · không mua mất ~1,1% (Đáy 2 → M7 4h) — chỉ thông tin",
+  "ky_truoc": "ĐÚNG — lệnh chờ A1 khớp #144 (BTC 59.328), đáy thật 58.938 trong vùng Day1, chưa thủng dừng",
+  "dinh": "chưa có cực trị trên M99 — mục tiêu hồi Ngày bị trần: M99 5m 59.580, rồi M7 4h 59.826 ≈ M99 15m 59.923 → vùng bán 59.580–59.830",
+  "nen": "không nén (biên 5 nến 15m 11:00–12:00 = 0,82%, không kẹp M7–M25)",
   "trh_4h": "x 11:00 23/11 · nến #13 (11:00 25/11) · Bộ 15 19:00 25/11 · Bộ 20 15:00 26/11",
-  "quang_m99_5m": "cắt xuống M99 5m 06:35 · CUỐI quãng (4,7h; râu 10:21 chạm M99 5m 59.670 rồi đóng dưới) · DH 5m 20,7 lúc 07:15 = đáy Bộ 5 2h; đáy 58.952 RSI 5m 23,9 cao hơn, 59.032 (10:03) RSI 39,9 = đáy cao dần"
+  "quang_m99_5m": "cắt xuống M99 5m 06:35 (lần cuối 11:00 sau râu 10:21) · CUỐI quãng (5,7h) · DH 5m 20,7 lúc 07:15 = đáy Bộ 5 2h; 58.952 RSI 5m 23,9, 58.938 RSI 5m 35,0 = đáy giá thấp hơn RSI cao hơn"
  },
  "rut_kinh_nghiem_12h": {
-  "tu": "2026-11-24T23:15:00+07:00",
-  "den": "2026-11-25T11:15:00+07:00",
+  "tu": "2026-11-25T00:15:00+07:00",
+  "den": "2026-11-25T12:15:00+07:00",
   "lenh_that": {
-   "so_lenh": 4,
+   "so_lenh": 3,
    "thang": 2,
-   "thua": 2,
-   "tong_pct": -1.04,
+   "thua": 1,
+   "tong_pct": -0.93,
    "loi_theo_cong": {
     "G1": 1,
     "G2": 0,
-    "G3": 1,
+    "G3": 0,
     "G4": 0,
     "LOI_MOI": 0
    }
   },
-  "tong": 23,
-  "dung": 5,
-  "sai": 16,
+  "tong": 16,
+  "dung": 6,
+  "sai": 8,
   "bo_lo": 2,
-  "cho": 0,
-  "ty_le_dung_pct": 50,
+  "cho": 2,
+  "ty_le_dung_pct": 67,
   "theo_loai": {
-   "mo_vung_mua": "3/13",
+   "mo_vung_mua": "3/8 (chờ 2: 0015 không chạm, 1115 đang giữ #144)",
    "khong_mo": "0/2 (0915, 1015 bỏ lỡ)",
-   "vung_ban": "2/2 (1015: 1h 59.300, 2h 59.600 đạt — đỉnh 59.671)",
+   "vung_ban": "2/2",
    "ban_khan_cap": "0/0",
-   "huong_nen": "0/5",
+   "huong_nen": "1/3",
    "huong_dau_ngay": "0/1"
   },
   "phat_huy": [
-   "Lệnh chờ/vùng 'day' Bộ 5 Ngày khi nhịp Ngày ≥ 6,1% (G4): #137 +0,57%, #141 +0,37%, #143 +0,34% (3 lần) — kỳ này dùng lại cho Đáy 2 (qua G2–G4)",
-   "Lệnh chờ ở Đáy 2 theo % Bộ 5 Ngày (Đáy 1 +0,3–0,6%, ≈78,6% phần hồi) khi Ngày đã dừng — áp: 59.060–59.260"
+   "Lệnh chờ/vùng 'day' Bộ 5 Ngày khi nhịp ≥ 6,1% và Ngày đã dừng: #141 +0,37%, #143 +0,34% thắng; #144 khớp đúng vùng Đáy 2 (chờ) — kỳ này giữ A1 (qua G2–G4)"
   ],
   "tu_sua": [
-   "Lộ trình sai 4/5 (đặt LEN khi 2h còn cực trị) · luật siết 1015 hết điều kiện vì 2h đã bật · kỳ này tâm = giá ±0,7×Bộ 5, +4h NGANG",
-   "Giữ siết 0915: lệnh chờ 'day' chỉ sau nến 2h ĐÓNG có RSI không thấp hơn cực trị — kỳ này đã thoả (40,6 > 39,0)"
+   "Vùng mua sai 5/8 (0115–0715: Hồi/Day2 khi 2h còn làm cực trị, thủng 59.200/59.000) · đã siết từ 0915 (lệnh chờ day chỉ sau nến 2h ĐÓNG bật; Hồi chỉ qua G1) — giữ tới 21:15",
+   "Lộ trình +8h 0415 LEN sai · giữ siết: RSI 2h còn sát cực trị thì +4h không LEN, tâm ≈ giá"
   ],
   "de_xuat_ba": [
-   "BỎ LỠ lặp 2 lần trong 2 kỳ (0915 +0,70%, 1015 +1,08%): đáy Ngày đã ở vùng trung vị, 1h đã phân kỳ nhưng 2h chưa đóng nên luật C chặn — Ba xem có cho đặt lệnh chờ 'day' khi nến 2h ĐANG CHẠY đã có RSI cao hơn cực trị và nhịp Ngày ≥ trung vị không; con KHÔNG tự nới"
+   "Bỏ lỡ lặp 2 lần (0915 +0,70%, 1015 +1,08%) — đã nêu kỳ 1115, chờ Ba chốt; con không tự nới"
   ]
  },
  "huong": {
-  "nen_goc": "KHD-0554: Tháng 🟡 NGANG, Tuần 🟡 NGANG, 3D 🟡 LEN, Ngày 🟡 LEN, 12h 🟡 NGANG — đáy Ngày 58.952 trên gia_dung 58.000",
+  "nen_goc": "KHD-0554: Tháng 🟡 NGANG, Tuần 🟡 NGANG, 3D 🟡 LEN, Ngày 🟡 LEN, 12h 🟡 NGANG — đáy 58.938 trên gia_dung Ngày 58.000",
   "chieu": "LEN",
-  "nhip_cua_nen": "râu hồi Bộ 5 Ngày sau đáy 58.952 (đã dừng), trước mắt Đáy 2"
+  "nhip_cua_nen": "râu hồi Bộ 5 Ngày sau Đáy 2 58.938 (đã dừng)"
  },
  "bo_nen": {
   "4h": {
@@ -101,28 +100,28 @@
    "den": "vang"
   },
   "2h": {
-   "nen_thu": 14,
+   "nen_thu": 15,
    "bo": "15",
    "huong": "NGANG",
    "den": "vang"
   },
   "1h": {
-   "nen_thu": 14,
+   "nen_thu": 15,
    "bo": "15",
    "huong": "NGANG",
    "den": "vang"
   },
   "30m": {
-   "nen_thu": 10,
-   "bo": "10",
+   "nen_thu": 12,
+   "bo": "15",
    "huong": "NGANG",
    "den": "vang"
   },
   "15m": {
-   "nen_thu": 19,
-   "bo": "20",
-   "huong": "NGANG",
-   "den": "vang"
+   "nen_thu": 2,
+   "bo": "5",
+   "huong": "LEN",
+   "den": "xanh"
   }
  },
  "tang": {
@@ -143,8 +142,8 @@
   {
    "tu": 58700,
    "den": 59270,
-   "gio_tu": "2026-11-25T11:15:00+07:00",
-   "gio_den": "2026-11-25T12:45:00+07:00",
+   "gio_tu": "2026-11-25T12:15:00+07:00",
+   "gio_den": "2026-11-25T13:45:00+07:00",
    "tang": "Ngay",
    "loai": "Day1",
    "cham_m": false
@@ -162,14 +161,14 @@
    ],
    "btc_vung_tu": 59060,
    "btc_vung_den": 59260,
-   "gio_tu": "2026-11-25T11:15:00+07:00",
-   "gio_den": "2026-11-25T12:45:00+07:00",
+   "gio_tu": "2026-11-25T12:15:00+07:00",
+   "gio_den": "2026-11-25T13:45:00+07:00",
    "diem_dung_btc": 58550,
    "bop_co": "khop_thang",
    "loai": "day",
    "khung_dh": "2h",
-   "muc_tieu_hoi_pct": 1.3,
-   "ly_do": "Đáy 2 Bộ 5 Ngày (Đáy 1 58.952 +0,2–0,5%, ≈ 78,6% phần hồi 59.671 = 59.106; trên đáy cao dần 59.032) sau khi 2h đóng bật RSI 40,6 > 39,0 · G1 không áp · G2 qua · G3 qua · G4 qua (8,75% ≥ 6,1%) · đã soát mẫu #135/#136 (G4) — nay nhịp đã đủ"
+   "muc_tieu_hoi_pct": 1.1,
+   "ly_do": "Đáy 2/3 Bộ 5 Ngày (Đáy 1 58.952, Đáy 2 58.938 RSI mọi khung cao hơn) · ghi lại id cũ · G1 không áp · G2 qua (2h dưới M99 2h 61.600) · G3 qua (không nến 2h xả cắt M99) · G4 qua (8,77% ≥ 6,1%, đã dừng) · đã soát mẫu #135/#136 (G4)"
   }
  ],
  "day_sau": "mo",
@@ -179,138 +178,138 @@
   "den": "2026-11-30T07:00:00+07:00"
  },
  "kieu_hoi": "rau_nen_lon",
- "muc_tieu_hoi_pct": 1.3,
+ "muc_tieu_hoi_pct": 0.85,
  "thu_lua_btc": {
-  "so_day": 11,
+  "so_day": 12,
   "tang_mo": [
    "1h",
    "2h"
   ],
   "tang_ban_toi_thieu": "1h",
-  "day_gia": 58952.48,
-  "day_luc": "2026-11-25T09:08:00+07:00",
+  "day_gia": 58937.5,
+  "day_luc": "2026-11-25T11:51:00+07:00",
   "muc": [
    {
     "tang": "1h",
-    "gia": 59620,
-    "het_bo5": "2026-11-25T14:00:00+07:00"
+    "gia": 59580,
+    "het_bo5": "2026-11-25T16:00:00+07:00"
    },
    {
     "tang": "2h",
-    "gia": 59830,
-    "het_bo5": "2026-11-25T19:00:00+07:00"
+    "gia": 59820,
+    "het_bo5": "2026-11-25T21:00:00+07:00"
    }
   ]
  },
  "lo_trinh": [
   {
    "moc": "+4h",
-   "den_luc": "2026-11-25T15:15:00+07:00",
+   "den_luc": "2026-11-25T16:15:00+07:00",
    "chieu": "NGANG",
-   "gia_tu": 58900,
-   "gia_den": 59800,
-   "nen": "12h 07:00 #3: Đáy 2 Bộ 5 Ngày 59,06–59,26k rồi hồi về M99 5m/M7 2h",
-   "bot_se": "khớp lệnh chờ A1 ở Đáy 2; bán 1h ~59.620",
+   "gia_tu": 59000,
+   "gia_den": 59700,
+   "nen": "12h 07:00 #3 cuối nến: hồi từ Đáy 2 về M99 5m/M7 2h ~59,6k",
+   "bot_se": "giữ #144, bán tầng 1h ~59.580; lệnh chờ A1 cho DOGE nếu chạm",
    "doi_neu_thung": 58550,
-   "doi_neu_vuot": 60000,
+   "doi_neu_vuot": 59950,
    "tu_tin": "vua"
   },
   {
    "moc": "+8h",
-   "den_luc": "2026-11-25T19:15:00+07:00",
+   "den_luc": "2026-11-25T20:15:00+07:00",
    "chieu": "LEN",
-   "gia_tu": 58900,
-   "gia_den": 60100,
-   "nen": "12h 19:00 #4 mở: hồi Ngày gặp M7 4h ~59,5–59,8k",
-   "bot_se": "DỰ KIẾN: bán 2h ~59.830; tính lại kỳ sau",
+   "gia_tu": 59100,
+   "gia_den": 59900,
+   "nen": "12h 19:00 #4 mở: hồi Ngày gặp M7 4h ~59,5k (Bộ 15 TRH 4h)",
+   "bot_se": "DỰ KIẾN: bán tầng 2h ~59.820; tính lại kỳ sau",
    "doi_neu_thung": 58550,
-   "doi_neu_vuot": 60400,
+   "doi_neu_vuot": 60300,
    "tu_tin": "thap"
   },
   {
    "moc": "+12h",
-   "den_luc": "2026-11-25T23:15:00+07:00",
+   "den_luc": "2026-11-26T00:15:00+07:00",
    "chieu": "LEN",
-   "gia_tu": 59000,
-   "gia_den": 60200,
-   "nen": "Bộ 15 TRH 4h 19:00; M7 8h hạ ~59,9k → kết Bộ 5 12h",
+   "gia_tu": 59100,
+   "gia_den": 60000,
+   "nen": "M7 8h hạ ~59,9k → kết Bộ 5 12h",
    "bot_se": "DỰ KIẾN: tính lại kỳ sau",
    "doi_neu_thung": 58550,
-   "doi_neu_vuot": 60500,
+   "doi_neu_vuot": 60400,
    "tu_tin": "thap"
   }
  ],
  "rut_kinh_nghiem": {
   "cham": [
    {
-    "ke_hoach": "KH-2026-11-25-1015",
-    "moc": "không mở vùng mua",
-    "du": "chưa có đáy 2h, chờ nến 2h 09:00 đóng bật",
-    "that": "2h 09:00 đóng RSI 40,6 > 39,0 (đã dừng); hồi 59.032→59.671 (+1,08%) lúc 10:03→10:21 trước khi 2h đóng",
-    "ket_qua": "MOT_PHAN",
-    "ma_loi": "BO_LO"
+    "ke_hoach": "KH-2026-11-25-1115",
+    "moc": "lệnh chờ A1 + vùng Day1",
+    "du": "Đáy 2 Bộ 5 Ngày 59.060–59.260, vùng 58.700–59.270, dừng 58.550",
+    "that": "khớp #144 11:26 BTC 59.328; đáy thật 58.938 (11:51) trong vùng; đang −0,3% (chờ)",
+    "ket_qua": "DUNG",
+    "ma_loi": ""
    },
    {
-    "ke_hoach": "KH-2026-11-25-0715",
-    "moc": "+4h 11:15",
-    "du": "NGANG 59.400–60.100 (đổi 59.000)",
-    "that": "59.283, chạm 58.952 rồi quay lại",
-    "ket_qua": "MOT_PHAN",
-    "ma_loi": "B7"
+    "ke_hoach": "KH-2026-11-25-0815",
+    "moc": "+4h 12:15",
+    "du": "NGANG 59.300–59.950 (đổi 58.750)",
+    "that": "59.268, không chạm 58.750",
+    "ket_qua": "DUNG",
+    "ma_loi": ""
    },
    {
-    "ke_hoach": "KH-2026-11-25-0315",
-    "moc": "+8h 11:15",
-    "du": "LEN 59.700–60.500 (đổi 59.000)",
-    "that": "59.283, thủng 59.000",
+    "ke_hoach": "KH-2026-11-25-0415",
+    "moc": "+8h 12:15",
+    "du": "LEN 59.700–60.400 (đổi 59.000)",
+    "that": "59.268, thủng 59.000",
     "ket_qua": "SAI",
     "ma_loi": "B7"
    },
    {
-    "ke_hoach": "KH-2026-11-24-2315",
-    "moc": "+12h 11:15",
-    "du": "LEN 59.600–60.600",
-    "that": "59.283 dưới biên",
-    "ket_qua": "SAI",
+    "ke_hoach": "KH-2026-11-25-0015",
+    "moc": "+12h 12:15",
+    "du": "LEN 59.300–60.300",
+    "that": "59.268 sát biên dưới, chiều xuống",
+    "ket_qua": "MOT_PHAN",
     "ma_loi": "B7"
    }
   ],
-  "nguyen_nhan": "Lộ trình cũ đặt LEN khi Ngày còn kiểm đáy; kỳ 1015 đúng luật nhưng hồi đến trước khi nến 2h đóng",
-  "da_sua": "Ngày đã dừng → lệnh chờ Đáy 2 + vùng Day1 + day_sau mo; lộ trình tâm ≈ giá, +4h NGANG",
+  "nguyen_nhan": "Lộ trình cũ (0015, 0415) đặt LEN khi Ngày còn kiểm đáy; đã siết từ 1015",
+  "da_sua": "Không sửa thêm — kỳ trước đúng; giữ lệnh chờ A1, vùng Day1, day_sau mo; hạ mục tiêu hồi 0,85% cho #144 (trần M99 5m → M7 4h)",
   "luat_tam_dang_ap": [
    "tu_sua 0915: lệnh chờ day chỉ sau nến 2h ĐÓNG bật (đã thoả)",
-   "LT-B7-4 biên lộ trình",
-   "LT-B7-6 (24/11 14:15) đầu dưới vùng bán = M gần nhất phía trên"
+   "LT-B1-2 (2h 39,5 ≤ 40): không đặt Hồi/lệnh chờ ở cụm M phía trên",
+   "LT-B7-6: đầu dưới vùng bán = M99 5m 59.580",
+   "LT-B7-7: biên dưới lộ trình 59.000, mức đổi 58.550"
   ],
   "thong_ke": {
    "so_moc": 4,
-   "dung": 0,
-   "mot_phan": 2,
-   "sai": 2,
+   "dung": 2,
+   "mot_phan": 1,
+   "sai": 1,
    "loi_hay_gap": {
-    "B7": 3,
-    "BO_LO": 1
+    "B7": 2
    }
   }
  },
  "do_tu_tin": "vua",
  "tom_tat": [
-  "📋 KẾ HOẠCH NGẮN — lập lúc 11:15 ngày 25/11 · hiệu lực tới 12:45 · theo kế hoạch dài KHD-2026-11-25-0554",
-  "🧠 Nến Ngày (RSI 2h 39,0 lúc 07:00) · nến #2 của Bộ 5 Ngày trong 3D#34 · nhịp Ngày ~8,0% → 59.435 đã qua, đáy 58.952 (09:08) · CUỐI nhịp (đã 8,75% / 8,0%) → MUA Đáy 2 Bộ 5 Ngày",
-  "🚦 Nhịp lớn Ngày từ 64.603 đã 8,75% / mức thấp 6,1% · ĐÃ DỪNG (nến 2h 09:00 đóng: giá thấp hơn, RSI 40,6 > 39,0) · thang M99: chưa có (5m dưới M99 59.635) → không mua hồi · cổng: lệnh chờ day qua G2·G3·G4, Hồi chặn G1",
-  "🔎 Kỳ trước: ĐÚNG hướng (chờ 2h đóng bật) nhưng BỎ LỠ hồi +1,08% 59.032→59.671 (10:03→10:21) · kỳ này đặt lệnh chờ Đáy 2",
-  "📊 12h qua: lệnh thật 4 (thắng 2 · thua 2 · tổng −1,04%) · quyết định: đúng 5 · sai 16 · bỏ lỡ 2 · siết: giữ luật lệnh chờ day chỉ sau nến 2h ĐÓNG bật · đề xuất Ba: bỏ lỡ lặp 2 lần (0915, 1015) khi 1h đã phân kỳ và nhịp Ngày ≥ trung vị",
-  "🌅 Ngày từ 07:00 XUỐNG kiểm đáy → đáy 58.952 đã dừng · tìm Đáy 2 theo RSI 2h · Đáy 2 ~59.060–59.260 rồi hồi về M7 4h ~59.830–59.950",
-  "🧭 3D#34 đầu nến XUỐNG vì nến Ngày (64.603) · M7 4h 59.828 (giá cách −0,9%) · gặp M7 4h ~19:00–23:00 ngày 25/11 · TRH 4h nến #13 → Bộ 15 19:00 ngày 25/11",
-  "📐 M7 8h ~60.700 (giá cách −2,3%) · Bộ 5 12h XUỐNG nến #3 · chưa kết → kết ~23:00 ngày 25/11–07:00 ngày 26/11 quanh 59,6–59,9k",
-  "🎯 Bộ 5 chuẩn: RSI 2h 39,0 lúc 07:00 (giá 59.272) → Bộ 5 Ngày (nến #2) · vùng 58.700–59.270 · dừng 58.550 · hạn 12:45",
-  "⏳ Chờ khớp KH-2026-11-25-1115-A1 (day, DH 2h): BTC 59.060–59.260 · 11:15–12:45 · dừng 58.550 · mục tiêu 1,3% (khớp thẳng)",
-  "4h #5/Bộ 5 🟡 XUỐNG · 2h #14/Bộ 15 🟡 NGANG · 1h #14/Bộ 15 🟡 NGANG · 30m #10/Bộ 10 🟡 NGANG · 15m #19/Bộ 20 🟡 NGANG",
-  "Giá BTC 59.283 sát trên vùng → bot sẵn sàng · vùng **58.700–59.270** · dừng 58.550 · day_sau mở",
-  "🗺️🛒 D7_KH: nến 1d · cửa sổ 07:00 24/11–07:00 30/11 · râu nến lớn · mục tiêu 1,3%",
-  "🌾 Thu lúa: vùng bán 59.830–59.970 (M7 4h / M99 15m; chưa có cực trị trên M99) · trần M99 5m 59.635 trước · tầng tối thiểu 1h",
-  "Chấm kỳ trước: không mở → bỏ lỡ +1,08% (chỉ ghi) · lộ trình 11:15: 2 SAI, 1 một phần",
-  "➡️ Đặt lệnh chờ Đáy 2 Bộ 5 Ngày 59.060–59.260, mở vùng Day1, không mua hồi (chưa có 5m trên M99), không bán khẩn cấp."
+  "📋 KẾ HOẠCH NGẮN — lập lúc 12:15 ngày 25/11 · hiệu lực tới 13:45 · theo kế hoạch dài KHD-2026-11-25-0554",
+  "🧠 Nến Ngày (RSI 2h 39,0 lúc 07:00) · nến #2 Bộ 5 Ngày trong 3D#34 · nhịp Ngày ~8,0% đã xong (đáy 58.952 → Đáy 2 58.938 lúc 11:51, RSI mọi khung cao hơn) · CUỐI nhịp (đã 8,77% / 8,0%) → GIỮ lệnh, mua Đáy 2/3 Bộ 5 Ngày, không bán",
+  "🚦 Nhịp lớn Ngày từ 64.603 đã 8,77% / mức thấp 6,1% · ĐÃ DỪNG · thang M99: chưa có (5m 59.223 dưới M99 5m 59.584) → không mua hồi · cổng: lệnh chờ day qua G2·G3·G4, Hồi chặn G1",
+  "🔎 Kỳ trước: ĐÚNG · lệnh chờ A1 khớp (#144, BTC 59.328), đáy thật 58.938 nằm trong vùng 58.700–59.270, chưa thủng dừng 58.550",
+  "📊 12h qua: lệnh thật 3 đóng (thắng 2 · thua 1 · tổng −0,93%) + #144 đang giữ ~−0,3% · quyết định: đúng 6 · sai 8 · bỏ lỡ 2 · siết: giữ lệnh chờ day chỉ sau nến 2h ĐÓNG bật, Hồi chỉ qua G1 · đề xuất Ba: bỏ lỡ 0915/1015 (đã nêu)",
+  "🌅 Ngày từ 07:00 XUỐNG kiểm đáy → 58.952 (09:08) rồi Đáy 2 58.938 (11:51) đã dừng · tìm Đỉnh hồi theo RSI 2h · còn ~0,9% → M7 4h ~59.500–59.830",
+  "🧭 3D#34 đầu nến XUỐNG vì nến Ngày (64.603) · M7 4h 59.826 (giá cách −0,9%) · gặp M7 4h ~19:00–23:00 ngày 25/11 quanh 59,45–59,5k · TRH 4h nến #13 → Bộ 15 19:00 ngày 25/11",
+  "📐 M7 8h 60.698 (giá cách −2,4%) · Bộ 5 12h XUỐNG nến #3 · chưa kết → kết ~23:00 ngày 25/11–07:00 ngày 26/11 quanh 59,6–59,9k",
+  "🎯 Bộ 5 chuẩn: RSI 2h 39,0 lúc 07:00 → Bộ 5 Ngày (nến #2) · vùng 58.700–59.270 · dừng 58.550 · hạn 13:45",
+  "⏳ Chờ khớp KH-2026-11-25-1115-A1 (day, DH 2h): BTC 59.060–59.260 · 12:15–13:45 · dừng 58.550 · mục tiêu 1,1% (khớp thẳng; ETH đã khớp #144)",
+  "4h #5/Bộ 5 🟡 XUỐNG · 2h #15/Bộ 15 🟡 NGANG · 1h #15/Bộ 15 🟡 NGANG · 30m #12/Bộ 15 🟡 NGANG · 15m #2/Bộ 5 🟢 LÊN",
+  "Giá BTC 59.268 sát trên vùng → bot sẵn sàng · vùng **58.700–59.270** · dừng 58.550 · day_sau mở",
+  "🗺️🛒 D7_KH: nến 1d · cửa sổ 07:00 24/11–07:00 30/11 · râu nến lớn · mục tiêu 0,85%",
+  "🌾 Thu lúa: vùng bán 59.580–59.830 (chưa có cực trị trên M99 — trần M99 5m 59.580, rồi M7 4h 59.826) · tầng tối thiểu 1h",
+  "Chấm kỳ trước: lệnh chờ khớp đúng Đáy 2 (đang giữ) · lộ trình 12:15: 1 đúng, 1 một phần, 1 sai",
+  "➡️ Giữ #144, giữ lệnh chờ A1 + vùng Day1, không mua hồi (G1), không bán khẩn cấp."
  ],
- "ghi_chu": "Vì nến Ngày (RSI 2h 39,0 → bật 40,6 khi đáy thấp hơn 58.952); đáy 58.952 là đáy Bộ 5 Ngày + Bộ 5 12h (RSI 1h 36,5 → 37,3) + đáy Tuần 23/11, Đáy 1; 59.032 (10:03) đáy cao dần; không nén; điểm nối: nến 12h 07:00 #3 của 3D#34, Bộ 15 TRH 4h 19:00; RSI thấp vì nến nào: 5m 20,7 07:15 = đáy Bộ 5 2h (bỏ), 1h 36,5 23:00 = 12h (lấy), 2h 39,0 07:00 = Ngày (lấy); luật tạm: siết 0915 đã thoả"
+ "ghi_chu": "Vì nến Ngày (RSI 2h 39,0 → nến đang chạy 39,5 với đáy thấp hơn 58.938); 58.952/58.938 là Đáy 1–2 Bộ 5 Ngày + đáy Bộ 5 12h (RSI 1h 36,5 → 38,2) + đáy Tuần 23/11; không nén; điểm nối: nến 12h 07:00 #3 của 3D#34, Bộ 15 TRH 4h 19:00; RSI thấp vì nến nào: 5m 20,7 07:15 = Bộ 5 2h (bỏ), 1h 36,5 23:00 = 12h (lấy), 2h 39,0 07:00 = Ngày (lấy); luật tạm: LT-B1-2, LT-B7-6, LT-B7-7, siết 0915"
 }
