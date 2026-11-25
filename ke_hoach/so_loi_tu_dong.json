@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-25T09:15:00+07:00",
+ "cap_nhat": "2026-11-25T10:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2747,6 +2747,38 @@
    "ma_loi": "G1",
    "ket_qua": "SAI",
    "ghi": "5m dưới M99, chỉ 1m/3m lên, −1,53%"
+  },
+  {
+   "luc": "2026-11-25T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0915",
+   "moc": "không mở vùng mua",
+   "ma_loi": "BO_LO",
+   "ket_qua": "SAI",
+   "ghi": "hồi +0,70% 58.952→59.366 (09:08→09:36) bị mục C chặn (2h chưa bật) — chỉ ghi, không nới"
+  },
+  {
+   "luc": "2026-11-25T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0615",
+   "moc": "+4h 10:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "thủng mức đổi 59.000"
+  },
+  {
+   "luc": "2026-11-25T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-0215",
+   "moc": "+8h 10:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "thủng mức đổi 59.200"
+  },
+  {
+   "luc": "2026-11-25T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-24-2215",
+   "moc": "+12h 10:15",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "giá 59.208 dưới biên 60.300"
   }
  ],
  "luat_tam": [
@@ -3459,7 +3491,9 @@
    "so_lan_dung": 12,
    "tu": "2026-11-23T10:15:00+07:00",
    "het_han": "2026-11-26T10:15:00+07:00",
-   "de_xuat_ba_chot": true
+   "de_xuat_ba_chot": true,
+   "trang_thai": "da_bo",
+   "ly_do_bo": "10:15 25/11: 3 mốc lộ trình tới hạn 10:15 SAI liền (2215 +12h, 0215 +8h, 0615 +4h) — không còn đúng theo giá thật"
   },
   {
    "cach": "Hoi/Day1 mở sau khi RSI 5m/3m/1m đã bật ở đáy → hồi ≥1,04% không thủng dừng 4/4",
@@ -3750,21 +3784,21 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-24T21:15:00+07:00",
-  "den": "2026-11-25T09:15:00+07:00",
-  "tong": 39,
-  "dung": 10,
-  "sai": 28,
-  "bo_lo": 0,
-  "cho": 1,
-  "ty_le_dung_pct": 25,
+  "tu": "2026-11-24T22:15:00+07:00",
+  "den": "2026-11-25T10:15:00+07:00",
+  "tong": 20,
+  "dung": 3,
+  "sai": 15,
+  "bo_lo": 1,
+  "cho": 2,
+  "ty_le_dung_pct": 33,
   "lenh_that": {
-   "so_lenh": 4,
+   "so_lenh": 3,
    "thang": 1,
-   "thua": 3,
-   "tong_pct": -2.91,
+   "thua": 2,
+   "tong_pct": -1.38,
    "loi_theo_cong": {
-    "G1": 2,
+    "G1": 1,
     "G2": 0,
     "G3": 1,
     "G4": 0,
@@ -3789,6 +3823,12 @@
    "cach": "Kỳ trước ghi 'đã khớp' cho 9 lệnh chờ mà ket_qua_lenh không có lệnh · SIẾT: chỉ chấm bằng lệnh thật, không ghi lại id cũ",
    "tu": "2026-11-25T09:15:00+07:00",
    "het_han": "2026-11-25T21:15:00+07:00",
+   "kieu": "SIET"
+  },
+  {
+   "cach": "Lộ trình sai 3/3 vì đặt biên trên giá khi Ngày còn kiểm đáy · SIẾT: RSI 2h còn làm cực trị thì mốc +4h/+8h không LEN, tâm ≤ giá hiện tại (hạn 22:15 25/11)",
+   "tu": "2026-11-25T10:15:00+07:00",
+   "het_han": "2026-11-25T22:15:00+07:00",
    "kieu": "SIET"
   }
  ]
