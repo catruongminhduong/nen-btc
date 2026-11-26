@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T15:20:00+07:00",
+ "cap_nhat": "2026-11-26T16:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -2728,7 +2728,7 @@
    "luc": "2026-11-25T09:15:00+07:00",
    "ke_hoach": "KH-2026-11-25-0115",
    "moc": "lệnh thật #142",
-   "ma_loi": "G1",
+   "ma_loi": "C1",
    "ket_qua": "SAI",
    "ghi": "mua cuối hồi Bộ 5 2h (1,44/1,6%), −1,64% stop_loss 08:32"
   },
@@ -2736,7 +2736,7 @@
    "luc": "2026-11-25T09:15:00+07:00",
    "ke_hoach": "KH-2026-11-24-2115",
    "moc": "lệnh thật #140",
-   "ma_loi": "G3",
+   "ma_loi": "C3",
    "ket_qua": "SAI",
    "ghi": "khớp sau nến 5m xả dài 3,0×TB20 cắt M99 5m, −0,11%"
   },
@@ -2744,7 +2744,7 @@
    "luc": "2026-11-25T09:15:00+07:00",
    "ke_hoach": "KH-2026-11-24-2015",
    "moc": "lệnh thật #139",
-   "ma_loi": "G1",
+   "ma_loi": "C1",
    "ket_qua": "SAI",
    "ghi": "5m dưới M99, chỉ 1m/3m lên, −1,53%"
   },
@@ -2882,9 +2882,9 @@
    "luc": "2026-11-25T15:15:00+07:00",
    "ke_hoach": "KH-2026-11-25-1415",
    "moc": "giữ #144",
-   "ma_loi": "G5",
+   "ma_loi": "C5",
    "ket_qua": "SAI",
-   "ghi": "#144 (mua 1115-A1 khi RSI 12h ở đáy) đóng force_exit 14:24 −0,78%, giá còn xuống 58.633 — cổng G5 bắt được"
+   "ghi": "#144 (mua 1115-A1 khi RSI 12h ở đáy) đóng force_exit 14:24 −0,78%, giá còn xuống 58.633 — chặn cũ C5 bắt được"
   },
   {
    "luc": "2026-11-25T16:15:00+07:00",
@@ -2945,10 +2945,10 @@
   {
    "luc": "2026-11-25T19:15:00+07:00",
    "ke_hoach": "KH-2026-11-25-1815",
-   "moc": "không mở (G5)",
+   "moc": "không mở (C5)",
    "ma_loi": "BO_LO",
    "ket_qua": "BO_LO",
-   "ghi": "đáy mới 58.456 18:31 rồi hồi 0,62% tới 58.820 — G5 chặn đúng luật, chỉ ghi + đề xuất Ba"
+   "ghi": "đáy mới 58.456 18:31 rồi hồi 0,62% tới 58.820 — C5 chặn đúng luật, chỉ ghi + đề xuất Ba"
   },
   {
    "luc": "2026-11-25T20:15:00+07:00",
@@ -3002,9 +3002,9 @@
    "luc": "2026-11-25T22:15:00+07:00",
    "ke_hoach": "KH-2026-11-25-2115",
    "moc": "không mở vùng",
-   "ma_loi": "G5 (bỏ lỡ đúng luật)",
+   "ma_loi": "C5 (bỏ lỡ đúng luật)",
    "ket_qua": "MOT_PHAN",
-   "ghi": "C/G5/G1 chặn; đáy 57.780–57.448 trước 07:00 26/11 · thật đáy 57.300 lúc 21:45 (dưới mức 75% 0,26%, trên dừng 56.400), hồi +1,88% tới 58.378"
+   "ghi": "C/C5/C1 chặn; đáy 57.780–57.448 trước 07:00 26/11 · thật đáy 57.300 lúc 21:45 (dưới mức 75% 0,26%, trên dừng 56.400), hồi +1,88% tới 58.378"
   },
   {
    "luc": "2026-11-25T22:15:00+07:00",
@@ -3098,7 +3098,7 @@
    "luc": "2026-11-26T01:15:00+07:00",
    "ke_hoach": "KH-2026-11-26-0015",
    "moc": "quyết định không mở",
-   "ma_loi": "G1 (bỏ lỡ)",
+   "ma_loi": "C1 (bỏ lỡ)",
    "ket_qua": "SAI",
    "ghi": "hồi 2h hết, không mua · thật 58.605 → 59.950 (+2,3%)"
   },
@@ -3170,9 +3170,9 @@
    "luc": "2026-11-26T02:15:00+07:00",
    "ke_hoach": "KH-2026-11-26-0115",
    "moc": "không mở",
-   "ma_loi": "G1 (bỏ lỡ)",
+   "ma_loi": "C1 (bỏ lỡ)",
    "ket_qua": "BO_LO",
-   "ghi": "59.538→60.112 +0,96% bị G1 chặn đúng luật (cuối hồi, trần 0,5%)"
+   "ghi": "59.538→60.112 +0,96% bị C1 chặn đúng luật (cuối hồi, trần 0,5%)"
   },
   {
    "luc": "2026-11-26T03:15:00+07:00",
@@ -3186,17 +3186,17 @@
    "luc": "2026-11-26T03:15:00+07:00",
    "ke_hoach": "KH-2026-11-26-0215",
    "moc": "không mở",
-   "ma_loi": "G1 (bỏ lỡ)",
+   "ma_loi": "C1 (bỏ lỡ)",
    "ket_qua": "BO_LO",
-   "ghi": "59.728→60.405 +1,13% bị G1 chặn đúng luật"
+   "ghi": "59.728→60.405 +1,13% bị C1 chặn đúng luật"
   },
   {
    "luc": "2026-11-26T04:15:00+07:00",
    "ke_hoach": "KH-2026-11-26-0315",
    "moc": "không mở",
-   "ma_loi": "G1 (bỏ lỡ)",
+   "ma_loi": "C1 (bỏ lỡ)",
    "ket_qua": "BO_LO",
-   "ghi": "59.795→60.381 +0,98% bị G1 chặn đúng luật (cuối hồi, trần M99 1h)"
+   "ghi": "59.795→60.381 +0,98% bị C1 chặn đúng luật (cuối hồi, trần M99 1h)"
   },
   {
    "luc": "2026-11-26T04:15:00+07:00",
@@ -3258,9 +3258,9 @@
    "luc": "2026-11-26T07:15:00+07:00",
    "ke_hoach": "KH-2026-11-26-0615",
    "moc": "không mở",
-   "ma_loi": "G1",
+   "ma_loi": "C1",
    "ket_qua": "BO_LO",
-   "ghi": "G1 chặn đúng luật (cuối hồi), giá +0,95%"
+   "ghi": "C1 chặn đúng luật (cuối hồi), giá +0,95%"
   },
   {
    "luc": "2026-11-26T08:15:00+07:00",
@@ -3290,7 +3290,7 @@
    "luc": "2026-11-26T09:15:00+07:00",
    "ke_hoach": "KH-2026-11-26-0815",
    "ma_loi": "B4",
-   "mo_ta": "gọi đỉnh 61.622 là ĐẦU nhịp xuống 12h; giá chững 60,46–60,97k, RSI 1h lên 66,5 — hồi Ngày chưa kết; 12h qua bỏ lỡ 7 kỳ vì tự chặn cổng (Ba bỏ cổng 07:53 26/11)"
+   "mo_ta": "gọi đỉnh 61.622 là ĐẦU nhịp xuống 12h; giá chững 60,46–60,97k, RSI 1h lên 66,5 — hồi Ngày chưa kết; 12h qua bỏ lỡ 7 kỳ vì tự chặn chặn cũ (Ba bỏ chặn cũ 07:53 26/11)"
   },
   {
    "luc": "2026-11-26T10:15:00+07:00",
@@ -3330,6 +3330,33 @@
    "moc": "vung_mua",
    "ket_qua": "DUNG",
    "ghi": "chạm mép vùng 1 (60.484), không thủng dừng; đi ngang 60.416–60.666 đúng dự"
+  },
+  {
+   "luc": "2026-11-26T16:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1515",
+   "moc": "vung_mua",
+   "ket_qua": "SAI",
+   "ma_loi": "BO_LO",
+   "ghi": "vùng mua dưới biên nén không chạm, giá lên 60.637→61.070 (+0,71%) — chỉ ghi, không nới",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T16:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0815",
+   "moc": "+8h",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "ghi": "NGANG 59.200–60.300, đóng 60.901",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T16:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0415",
+   "moc": "+12h",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "ghi": "chạm đổi 61.300 (đỉnh 61.622) rồi về 60.901",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -3482,7 +3509,8 @@
     "13:15 24/11: kích cho KH-1315 — M99 1h 60.406 trong vùng Hồi, dừng 59.630 (−1,28%)",
     "14:15 24/11: KH-1315 A1 khớp 60.460, chưa thủng 59.630 — chờ chấm; kỳ này áp lại dừng 59.620",
     "22:15 24/11: không kích — dừng Hồi 59.700 dưới Đáy 4",
-    "08:15 25/11: không kích — M99 1h 60.264 trên giá"
+    "08:15 25/11: không kích — M99 1h 60.264 trên giá",
+    "16:25 26/11: áp — dừng 59.250 = M99 15m 59.788 − 0,87%"
    ],
    "de_xuat_ba_duyet": true
   },
@@ -3956,7 +3984,8 @@
     "22:15 24/11: không kích — dừng Hồi 59.700 dưới Đáy 4",
     "05:15 25/11: áp — không có M99 khung lớn hơn trong vùng (M99 1h 60.225 trên giá)",
     "08:15 25/11: không kích — M99 1h 60.264 trên giá",
-    "12:15 25/11: áp cho KH-1215"
+    "12:15 25/11: áp cho KH-1215",
+    "16:25 26/11: áp — dừng 59.250 = M99 15m 59.788 − 0,87%"
    ]
   },
   {
@@ -4061,7 +4090,7 @@
    "tu": "2026-11-23T13:15:00+07:00",
    "het_han": "2026-11-26T13:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Vùng bán 1h sát đỉnh nến gần nhất + 2h/4h tới mức 90% → kỳ 1215 trúng 2/2",
@@ -4081,7 +4110,7 @@
    "tu": "2026-11-23T16:15:00+07:00",
    "het_han": "2026-11-26T16:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Vùng bán Bộ 5 8h (RSI 30m) chứa đỉnh nhỏ 61.960, dưới trần M99 2h 6/6 kỳ",
@@ -4095,7 +4124,7 @@
    "tu": "2026-11-23T17:15:00+07:00",
    "het_han": "2026-11-26T17:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Lệnh chờ khớp thẳng ở M7 4h chiếu sau đáy cao dần: A1 khớp 61.292 (17:43) trong vùng, không thủng dừng 1/1",
@@ -4116,7 +4145,7 @@
    "het_han": "2026-11-26T21:15:00+07:00",
    "ghi_nhan_2315": "áp lại A1 cụm M 62,0–62,3k",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Vùng bán tính từ RSI cực trị mới khung lớn nhất (2h → Bộ 5 Ngày 64.211–64.518) chứa Đỉnh 2 64.603",
@@ -4130,7 +4159,7 @@
    "tu": "2026-11-24T00:15:00+07:00",
    "het_han": "2026-11-27T00:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Vùng Hoi/lệnh chờ ở cụm M7 4h khi đáy RSI 5m/3m đã bật (Bộ 5 12h LÊN) đúng 8/8",
@@ -4139,7 +4168,7 @@
    "het_han": "2026-11-27T01:15:00+07:00",
    "de_xuat_ba_chot": true,
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Bán khẩn cấp khi mức chạm dự kiến (M7 8h) thấp hơn mức cắt lỗ lệnh đang giữ → giá còn xuống 1% sau khi bán",
@@ -4154,7 +4183,7 @@
    "het_han": "2026-11-27T04:15:00+07:00",
    "de_xuat_ba_chot": true,
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Giữ vùng mua dưới biên nén 15m <1% (không mua giữa biên): kỳ 0415 không vào lệnh lỗ, nén giữ 61,06–61,47k",
@@ -4174,7 +4203,7 @@
    "tu": "2026-11-24T09:15:00+07:00",
    "het_han": "2026-11-27T09:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Bán khẩn cấp ngay khi BTC thủng điểm dừng kỳ trước (0215 đúng; 1015 áp lại)",
@@ -4182,7 +4211,7 @@
    "tu": "2026-11-24T10:15:00+07:00",
    "het_han": "2026-11-27T10:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Lệnh chờ khớp thẳng ở M99 30m / biên dưới nén sau khi RSI đã bật (0115–0715 hồi +0,6–0,8%) — dùng lại ở điểm chạm lại sau đáy 59.455",
@@ -4191,7 +4220,7 @@
    "het_han": "2026-11-27T11:15:00+07:00",
    "de_xuat_ba_chot": true,
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Vùng Hồi bao cụm M sau phân kỳ RSI khung lớn nhất (KH-1115 vào 60.282, hồi +0,68%)",
@@ -4199,7 +4228,7 @@
    "tu": "2026-11-24T12:15:00+07:00",
    "het_han": "2026-11-27T12:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Đáy khung lớn (RSI 1h → Bộ 5 12h) đã bật + giá trên M99 1h → vùng Hồi sát giá tới M99 1h + lệnh chờ ở M99 1h (thay vì chỉ chờ rũ dưới nén)",
@@ -4207,7 +4236,7 @@
    "tu": "2026-11-24T13:15:00+07:00",
    "het_han": "2026-11-27T13:15:00+07:00",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Chỉ mua rũ biên dưới nén 15m <1% trùng cụm M (M99 1h/M7 12h/M25 4h), không mua giữa biên",
@@ -4228,7 +4257,7 @@
    "tu": "2026-11-24T17:15:00+07:00",
    "het_han": "2026-11-27T17:15:00+07:00",
    "ghi_chu": "1815: Đáy 3 59.391 trong vùng, không bán khẩn cấp, chưa thủng dừng (chờ chấm hồi 0,6%)",
-   "ghi_chu_0915": "giữ: lệnh chờ loai day ở Bộ 5 Ngày, vẫn phải qua 4 cổng"
+   "ghi_chu_0915": "giữ: lệnh chờ loai day ở Bộ 5 Ngày, vẫn phải qua 4 chặn cũ"
   },
   {
    "cach": "Lệnh chờ ở mức chạm lại Đáy 1 ≈ mức 75% Bộ 5 Ngày khớp đúng Đáy 3 rũ; điểm dừng theo mức Bộ 5 12h (không sát dưới đáy giá)",
@@ -4236,7 +4265,7 @@
    "tu": "2026-11-24T18:15:00+07:00",
    "het_han": "2026-11-27T18:15:00+07:00",
    "ghi_chu": "1615-A1 khớp 17:46, đáy 59.391 lúc 17:53 (chờ chấm hồi)",
-   "ghi_chu_0915": "giữ: lệnh chờ loai day ở Bộ 5 Ngày, vẫn phải qua 4 cổng"
+   "ghi_chu_0915": "giữ: lệnh chờ loai day ở Bộ 5 Ngày, vẫn phải qua 4 chặn cũ"
   },
   {
    "cach": "Vùng bán đầu dưới = cụm M gần nhất trúng đỉnh nhỏ 60.454 (1515/1615/1715/1815)",
@@ -4253,7 +4282,7 @@
    "so_lan_dung": 2,
    "tu": "2026-11-24T19:15:00+07:00",
    "het_han": "2026-11-27T19:15:00+07:00",
-   "ghi_chu_0915": "giữ: lệnh chờ loai day ở Bộ 5 Ngày, vẫn phải qua 4 cổng"
+   "ghi_chu_0915": "giữ: lệnh chờ loai day ở Bộ 5 Ngày, vẫn phải qua 4 chặn cũ"
   },
   {
    "cach": "Lệnh chờ ở cụm M chạm lại sau đỉnh nhỏ Bộ 5 2h (M7 1h ≈ M99 1h ≈ M99 5m) khớp rồi lên ≥0,6% (1915-A1: 60.167 → 60.643)",
@@ -4262,7 +4291,7 @@
    "het_han": "2026-11-27T20:15:00+07:00",
    "ghi_nhan_2215": "2015-A1 khớp ~60,2k → 60.687",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Không bán khẩn cấp ở cuối nhịp xuống nhỏ có đáy cao dần (RSI khung lớn cao hơn) — giữ lệnh, mua ở vùng Bộ 5",
@@ -4295,7 +4324,7 @@
    "ghi_chu": "0115-A1 đã khớp ~60,0k, chưa thủng dừng — chờ chấm hồi ≥0,6%",
    "ghi_chu_0315": "0215-A1 khớp 02:37 ở Đáy 2, chưa thủng — chờ chấm",
    "trang_thai": "da_bo",
-   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CỔNG 25/11; mua hồi chỉ khi qua G1"
+   "ly_do_bo": "09:15 25/11: luật NỚI (thêm vùng hồi/chạm lại/mua theo cụm M hoặc bán khẩn cấp vì thủng điểm dừng) chưa Ba chốt — bỏ theo 🚦 4 CHẶN CŨ 25/11; mua hồi chỉ khi qua C1"
   },
   {
    "cach": "Đầu dưới vùng bán = M99 của khung lớn hơn gần nhất mà giá còn dưới (M99 1h) — tự sửa từ 0115 trượt 60.450",
@@ -4340,7 +4369,7 @@
    "ghi_chu_1215": "1215 áp: không mở Hồi (5m dưới M99 5m), chỉ giữ lệnh chờ Đáy 2"
   },
   {
-   "cach": "Lệnh chờ 'day' ở Đáy 2/3 Bộ 5 Ngày khi nhịp Ngày đã đi ≥ mức thấp 6,1% (qua G4): #137 +0,57%, #141 +0,37% (lệnh thật)",
+   "cach": "Lệnh chờ 'day' ở Đáy 2/3 Bộ 5 Ngày khi nhịp Ngày đã đi ≥ mức thấp 6,1% (qua C4): #137 +0,57%, #141 +0,37% (lệnh thật)",
    "so_lan_dung": 3,
    "tu": "2026-11-25T09:15:00+07:00",
    "het_han": "2026-11-28T09:15:00+07:00",
@@ -4348,7 +4377,7 @@
    "ghi_chu_1215": "#144 (1115-A1) khớp 11:26 BTC 59.328, đáy thật 58.938 trong vùng — chờ chấm lời/lỗ; giữ A1"
   },
   {
-   "cach": "Không mở vùng khi G1 (5m dưới M99) và G5 (RSI 12h ở đáy) cùng chặn ở cuối nhịp Ngày — chờ nến 2h/12h đóng",
+   "cach": "Không mở vùng khi C1 (5m dưới M99) và C5 (RSI 12h ở đáy) cùng chặn ở cuối nhịp Ngày — chờ nến 2h/12h đóng",
    "so_lan_dung": 8,
    "tu": "2026-11-25T14:15:00+07:00",
    "het_han": "2026-11-28T14:15:00+07:00",
@@ -4356,7 +4385,7 @@
    "ghi_chu_1515": "1415 đúng: không mở, giá còn xuống 58.633, hồi +0,52% <0,6%",
    "ghi_chu_1715": "1615 đúng: không mở, giá xuống 58.805, hồi +0,54% <0,6%",
    "ghi_chu_0015": "2315 đúng: không lệnh, hồi chỉ trong nến 2h đã hết, không lỗ",
-   "ghi_chu_0315": "0215 không mở: đúng luật (G1/G5), bỏ lỡ +1,1% ghi lại",
+   "ghi_chu_0315": "0215 không mở: đúng luật (C1/C5), bỏ lỡ +1,1% ghi lại",
    "ghi_chu_0415": "0315 không mở: đúng luật, bỏ lỡ +0,98% ghi lại, không lệnh lỗ",
    "de_xuat_ba_chot": true
   },
@@ -4371,18 +4400,19 @@
    "so_lan_dung": 1,
    "tu": "2026-11-26T02:15:00+07:00",
    "het_han": "2026-11-29T02:15:00+07:00",
-   "ghi_chu": "chỉ dùng cho vùng bán/mức đổi lộ trình, không nới cổng mua"
+   "ghi_chu": "chỉ dùng cho vùng bán/mức đổi lộ trình, không nới chặn cũ mua"
   },
   {
    "cach": "Đỉnh = râu đâm qua trần M99 khung DH kế trên rồi đóng dưới (00:42, 01:17, 02:23)",
-   "so_lan_dung": 9,
+   "so_lan_dung": 10,
    "tu": "2026-11-26T03:15:00+07:00",
    "het_han": "2026-11-29T03:15:00+07:00",
    "ghi_chu": "chỉ dùng vùng bán; trần phải cập nhật khi khung trần đóng vượt",
    "ghi_chu_0415": "03:58 Đỉnh 2 60.381 râu qua M99 1h 60.364, 1h đóng dưới; vùng bán 0315 trúng",
    "de_xuat_ba_chot": true,
    "ghi_chu_0815": "07:17 Đỉnh 61.622 râu qua M99 2h 61.106, 1h đóng 60.520 dưới; vùng bán 0715 chạm",
-   "ghi_chu_1215": "11:41 râu 61.126 qua M99 2h 61,04k; 2h 11:00 chưa đóng — theo dõi đóng 13:00"
+   "ghi_chu_1215": "11:41 râu 61.126 qua M99 2h 61,04k; 2h 11:00 chưa đóng — theo dõi đóng 13:00",
+   "ghi_chu_1615": "15:50 râu 61.070 qua M99 2h 60.961; 2h 15:00 chờ đóng 17:00"
   },
   {
    "cach": "Không mua khi hồi đã vượt HOI[K_len] (cuối hồi) — tránh mua sát đỉnh",
@@ -4393,18 +4423,18 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T00:15:00+07:00",
-  "den": "2026-11-26T12:15:00+07:00",
+  "tu": "2026-11-26T04:15:00+07:00",
+  "den": "2026-11-26T16:15:00+07:00",
   "lenh_that": 0,
-  "tong": 12,
-  "dung": 6,
+  "tong": 24,
+  "dung": 15,
   "sai": 1,
-  "bo_lo": 5,
-  "ty_le_dung_pct": 50
+  "bo_lo": 6,
+  "ty_le_dung_pct": 62
  },
  "tu_sua": [
   {
-   "cach": "Mở vùng/lệnh chờ sai 7/10 · gọi Ngày đã dừng khi nến 2h chưa ĐÓNG bật, và lệnh chờ hồi khi 5m dưới M99 · kỳ này SIẾT: lệnh chờ 'day' chỉ đặt khi có nến 2h ĐÓNG có RSI không thấp hơn cực trị; mọi hồi phải qua G1 (hạn 21:15 25/11)",
+   "cach": "Mở vùng/lệnh chờ sai 7/10 · gọi Ngày đã dừng khi nến 2h chưa ĐÓNG bật, và lệnh chờ hồi khi 5m dưới M99 · kỳ này SIẾT: lệnh chờ 'day' chỉ đặt khi có nến 2h ĐÓNG có RSI không thấp hơn cực trị; mọi hồi phải qua C1 (hạn 21:15 25/11)",
    "tu": "2026-11-25T09:15:00+07:00",
    "het_han": "2026-11-25T21:15:00+07:00",
    "kieu": "SIET"
@@ -4476,6 +4506,6 @@
   }
  ],
  "thong_ke_ghi_chu": [
-  "09:15 26/11: Ba bỏ 5 cổng G1–G5 (07:53) — kế hoạch không còn tự chặn bằng cổng"
+  "09:15 26/11: Ba bỏ 5 chặn cũ C1–C5 (07:53) — kế hoạch không còn tự chặn bằng chặn cũ"
  ]
 }
