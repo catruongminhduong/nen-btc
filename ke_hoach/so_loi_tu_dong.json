@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T21:20:00+07:00",
+ "cap_nhat": "2026-11-26T22:20:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3501,6 +3501,42 @@
    "ma_loi": "",
    "ghi": "ngang 60.786–60.956, không hồi ≥ 0,6%, chưa chạm vùng",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T22:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1015",
+   "moc": "+12h 22:15",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.658 lúc 22:01",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T22:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1415",
+   "moc": "+8h 22:20",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.658",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T22:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1815",
+   "moc": "+4h 22:20",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "ghi": "BTC 60.658, đã chạm mức đổi 60.900 (60.989 lúc 19:41) rồi quay lại",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T22:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-2115",
+   "moc": "lệnh chờ 60,33–60,50k / không mua giữa nén",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "rũ 60.967 → 60.657, không chạm vùng, không hồi ≥ 0,6%",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4589,14 +4625,14 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T09:15:00+07:00",
-  "den": "2026-11-26T21:15:00+07:00",
+  "tu": "2026-11-26T10:15:00+07:00",
+  "den": "2026-11-26T22:15:00+07:00",
   "lenh_that": 1,
   "tong": 32,
-  "dung": 19,
+  "dung": 20,
   "sai": 4,
   "bo_lo": 4,
-  "ty_le_dung_pct": 70
+  "ty_le_dung_pct": 71
  },
  "tu_sua": [
   {
