@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T07:15:00+07:00",
+ "cap_nhat": "2026-11-26T08:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3261,6 +3261,30 @@
    "ma_loi": "G1",
    "ket_qua": "BO_LO",
    "ghi": "G1 chặn đúng luật (cuối hồi), giá +0,95%"
+  },
+  {
+   "luc": "2026-11-26T08:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0015",
+   "moc": "+8h",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 57,5–59,0k, thật 60.520 (hồi Ngày vượt HOI 12h)"
+  },
+  {
+   "luc": "2026-11-26T08:15:00+07:00",
+   "ke_hoach": "KH-2026-11-25-2015",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "ket_qua": "SAI",
+   "ghi": "NGANG 58,4–59,2k, thật 60.520"
+  },
+  {
+   "luc": "2026-11-26T08:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0415",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "ket_qua": "MOT_PHAN",
+   "ghi": "trong vùng ±0,3%, chạm đổi 60.700 rồi quay lại"
   }
  ],
  "luat_tam": [
@@ -4306,17 +4330,25 @@
   },
   {
    "cach": "Đỉnh = râu đâm qua trần M99 khung DH kế trên rồi đóng dưới (00:42, 01:17, 02:23)",
-   "so_lan_dung": 5,
+   "so_lan_dung": 6,
    "tu": "2026-11-26T03:15:00+07:00",
    "het_han": "2026-11-29T03:15:00+07:00",
    "ghi_chu": "chỉ dùng vùng bán; trần phải cập nhật khi khung trần đóng vượt",
    "ghi_chu_0415": "03:58 Đỉnh 2 60.381 râu qua M99 1h 60.364, 1h đóng dưới; vùng bán 0315 trúng",
-   "de_xuat_ba_chot": true
+   "de_xuat_ba_chot": true,
+   "ghi_chu_0815": "07:17 Đỉnh 61.622 râu qua M99 2h 61.106, 1h đóng 60.520 dưới; vùng bán 0715 chạm"
+  },
+  {
+   "cach": "Không mua khi hồi đã vượt HOI[K_len] (cuối hồi) — tránh mua sát đỉnh",
+   "so_lan_dung": 1,
+   "tu": "2026-11-26T08:15:00+07:00",
+   "het_han": "2026-11-29T08:15:00+07:00",
+   "ghi_chu": "0715: giá 60.983 sát đỉnh 61.622 rồi −1,9%"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T19:15:00+07:00",
-  "den": "2026-11-26T07:15:00+07:00",
+  "tu": "2026-11-25T20:15:00+07:00",
+  "den": "2026-11-26T08:15:00+07:00",
   "lenh_that": {
    "so_lenh": 0,
    "thang": 0,
@@ -4331,29 +4363,29 @@
     "LOI_MOI": 0
    }
   },
-  "tong": 37,
-  "dung": 8,
-  "sai": 17,
+  "tong": 20,
+  "dung": 7,
+  "sai": 2,
   "bo_lo": 11,
-  "cho": 1,
-  "ty_le_dung_pct": 22,
+  "cho": 0,
+  "ty_le_dung_pct": 35,
   "theo_loai": {
    "mo_vung_mua": "0/1 (2215 không chạm → bỏ lỡ)",
-   "khong_mo": "1/11 (bỏ lỡ 10 — G1/G5 đúng luật; 0415 đúng)",
-   "vung_ban": "6/12 (2215–0215 và 0615 trượt đỉnh)",
+   "khong_mo": "2/12 (bỏ lỡ 10 — G1/G5 chặn đúng luật; 0415, 0715 đúng)",
+   "vung_ban": "4/6 (0615 trượt đỉnh; 0715 chạm, đỉnh râu trên trần)",
    "ban_khan_cap": "0/0",
-   "huong_nen": "1/12 (chỉ 1915 +4h đúng)",
-   "huong_dau_ngay": "chờ (0615 đoán rũ, đầu ngày đang lên)"
+   "huong_nen": "0/0 (không nén)",
+   "huong_dau_ngay": "1/1 (0715 đầu LÊN rồi rũ)"
   },
   "phat_huy": [
-   "Không mở vùng khi G1 và G5 cùng chặn (không lệnh lỗ 12h) — kỳ này dùng lại cho G1"
+   "Không mua khi hồi đã vượt HOI[K_len] (0715: giá sát đỉnh 61.622 rồi −1,9%) — kỳ này dùng lại",
+   "Đỉnh = râu đâm qua trần M99 khung kế trên rồi đóng dưới (61.622 qua M99 2h) — đúng lần 6"
   ],
   "tu_sua": [
-   "Vùng bán sai 6/12 vì giữ trần M99 1h khi nến 1h sắp đóng vượt · SIẾT cách tính: trần M99 chỉ giữ khi nến khung trần ĐÓNG dưới; đóng trên → vùng bán lên Bộ 5 khung đó (1h → 12h) dưới trần kế M99 2h (hạn 19:15 26/11)",
-   "Giữ tự sửa 01:15: mức đổi lộ trình theo râu hồi Ngày (hạn 13:15)"
+   "Lộ trình 2015 +12h / 0015 +8h NGANG ở vùng đáy cũ SAI (giá hồi lên 60,5k) · SIẾT: tâm lộ trình = giá hiện tại, không giữ vùng đáy cũ (hạn 20:15 26/11)"
   ],
   "de_xuat_ba": [
-   "Bỏ lỡ 11 lần/12h trong hồi Ngày 57.300 → 60.568 (+5,7%): G1 lấy HOI theo K_len (8h 3,2% / 12h 4,6%) nhỏ hơn râu hồi Ngày 4,9% (mức cao 6,6%) — Ba xem có chốt HOI theo râu Ngày khi Ngày đã dừng (con không tự nới)"
+   "Bỏ lỡ 11 lần/12h trong hồi Ngày 57.300 → 61.622 (+7,5%): G1 lấy HOI theo K_len (12h 4,6%) nhỏ hơn hồi thật của Ngày — Ba xem có chốt HOI theo râu Ngày khi Ngày đã dừng (con không tự nới)"
   ]
  },
  "tu_sua": [
@@ -4420,6 +4452,12 @@
    "tu": "2026-11-26T07:15:00+07:00",
    "het_han": "2026-11-26T19:15:00+07:00",
    "sua": "Vùng bán sai 6/12 vì giữ trần M99 1h khi nến 1h sắp đóng vượt · SIẾT cách tính: trần M99 chỉ giữ khi nến khung trần ĐÓNG dưới; đóng trên → vùng bán lên Bộ 5 khung đó (1h → 12h) dưới trần kế",
+   "kieu": "SIET"
+  },
+  {
+   "tu": "2026-11-26T08:15:00+07:00",
+   "het_han": "2026-11-26T20:15:00+07:00",
+   "sua": "Lộ trình 2015 +12h / 0015 +8h NGANG ở vùng đáy cũ SAI (giá hồi lên 60,5k) · SIẾT: tâm lộ trình = giá hiện tại, không giữ vùng đáy cũ (hạn 20:15 26/11)",
    "kieu": "SIET"
   }
  ]
