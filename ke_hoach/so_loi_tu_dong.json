@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T10:15:00+07:00",
+ "cap_nhat": "2026-11-26T11:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4360,44 +4360,14 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-25T22:15:00+07:00",
-  "den": "2026-11-26T10:15:00+07:00",
-  "lenh_that": {
-   "so_lenh": 0,
-   "thang": 0,
-   "thua": 0,
-   "tong_pct": 0,
-   "loi_theo_cong": {
-    "G1": 0,
-    "G2": 0,
-    "G3": 0,
-    "G4": 0,
-    "G5": 0,
-    "LOI_MOI": 0
-   }
-  },
+  "tu": "2026-11-25T23:15:00+07:00",
+  "den": "2026-11-26T11:15:00+07:00",
+  "lenh_that": 0,
   "tong": 12,
-  "dung": 6,
+  "dung": 7,
   "sai": 0,
-  "bo_lo": 6,
-  "cho": 0,
-  "ty_le_dung_pct": 50,
-  "theo_loai": {
-   "mo_vung_mua": "0/2 (2215 không chạm → bỏ lỡ; 0915 chưa chạm)",
-   "khong_mo": "5/10 (bỏ lỡ 5 đêm qua vì tự chặn G1/G5)",
-   "vung_ban": "5/7 (0915 chứa Đỉnh 2 61.106)",
-   "ban_khan_cap": "0/0",
-   "huong_nen": "0/0 (không nén)",
-   "huong_dau_ngay": "1/1"
-  },
-  "phat_huy": [
-   "Đỉnh = râu đâm qua trần M99 khung kế trên rồi đóng dưới — đúng lần 8 (61.622, 61.106 qua M99 2h), kỳ này giữ vùng bán sát trần",
-   "Không mua quanh giá khi còn < 0,6% tới trần M99 2h (0715, 0815, 0915 đúng)"
-  ],
-  "tu_sua": [],
-  "de_xuat_ba": [
-   "Lời dặn kế hoạch NGẮN còn mục 🚦 5 CỔNG / trường cong — Ba xem sửa lời dặn cho khớp chốt 07:53 ngày 26/11 (con ghi cong chỉ làm thông tin)"
-  ]
+  "bo_lo": 5,
+  "ty_le_dung_pct": 58
  },
  "tu_sua": [
   {
