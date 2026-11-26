@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T12:15:00+07:00",
+ "cap_nhat": "2026-11-26T13:20:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -352,7 +352,7 @@
    "da_sua": "đặt LT-B10-1, Thu lúa tính lại từ 70.688 (1h 71.514)"
   },
   {
-   "luc": "2026-11-13T13:25:00+07:00",
+   "luc": "2026-11-13T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-0925",
    "moc": "+4h",
    "ma_loi": "B1",
@@ -362,7 +362,7 @@
    "da_sua": "KH-1325: hạ vùng mua 66.800–67.950, điểm dừng 66.400, 3 mốc NGANG, đặt LT-B1-1 và LT-B7-2"
   },
   {
-   "luc": "2026-11-13T13:25:00+07:00",
+   "luc": "2026-11-13T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-0525",
    "moc": "+8h",
    "ma_loi": "B2",
@@ -372,7 +372,7 @@
    "da_sua": "KH-1325: hạ vùng mua 66.800–67.950, điểm dừng 66.400, 3 mốc NGANG, đặt LT-B1-1 và LT-B7-2"
   },
   {
-   "luc": "2026-11-13T13:25:00+07:00",
+   "luc": "2026-11-13T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-0125",
    "moc": "+12h",
    "ma_loi": "B5",
@@ -382,7 +382,7 @@
    "da_sua": "KH-1325: hạ vùng mua 66.800–67.950, điểm dừng 66.400, 3 mốc NGANG, đặt LT-B1-1 và LT-B7-2"
   },
   {
-   "luc": "2026-11-13T13:25:00+07:00",
+   "luc": "2026-11-13T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-0925",
    "moc": "vung_mua",
    "ma_loi": "B7",
@@ -392,7 +392,7 @@
    "da_sua": "KH-1325: hạ vùng mua 66.800–67.950, điểm dừng 66.400, 3 mốc NGANG, đặt LT-B1-1 và LT-B7-2"
   },
   {
-   "luc": "2026-11-13T13:25:00+07:00",
+   "luc": "2026-11-13T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-0925",
    "moc": "thu_lua",
    "ma_loi": "B1",
@@ -402,7 +402,7 @@
    "da_sua": "KH-1325: hạ vùng mua 66.800–67.950, điểm dừng 66.400, 3 mốc NGANG, đặt LT-B1-1 và LT-B7-2"
   },
   {
-   "luc": "2026-11-13T13:25:00+07:00",
+   "luc": "2026-11-13T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-0925",
    "moc": "diem_dung",
    "ma_loi": "B7",
@@ -582,7 +582,7 @@
    "da_sua": "KH-0925: Thu lúa từ Đáy 4 67.865 (1h 68.332), vùng mua hạ 67.600–67.920 theo LT-B10-1"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-14-0925",
    "moc": "+4h",
    "ma_loi": "B2",
@@ -592,7 +592,7 @@
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-14-0525",
    "moc": "+8h",
    "ma_loi": "B2",
@@ -602,7 +602,7 @@
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-14-0125",
    "moc": "+12h",
    "ma_loi": "B2",
@@ -612,7 +612,7 @@
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-13-2225",
    "moc": "+12h",
    "ma_loi": "B2",
@@ -622,7 +622,7 @@
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-14-0925",
    "moc": "vung_mua",
    "ma_loi": "B7",
@@ -632,7 +632,7 @@
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-14-0925",
    "moc": "thu_lua",
    "ma_loi": "B10",
@@ -642,7 +642,7 @@
    "da_sua": "KH-1325: +8h/+12h không LEN khi tầng 12h còn ĐIỂM SAI; vùng mua hạ 66.150–67.300; Thu lúa tính lại từ 66.456; 🌊 mo; điểm dừng 65.600"
   },
   {
-   "luc": "2026-11-14T13:25:00+07:00",
+   "luc": "2026-11-14T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-14-0525",
    "moc": "thu_lua",
    "ma_loi": "B10",
@@ -882,7 +882,7 @@
    "da_sua": "KH-2026-11-15-0925: 🌊 'chay' (đáy 62.006 thấp hơn kèm RSI 2h/4h/12h thấp hơn = đang xả), vùng mua rỗng tới lần chạm lại có RSI 2h/4h cao hơn; +4h ghi XUONG (luật chống lỳ + LT-B6-1); điểm dừng 60.900 dưới đích q75 Bộ 5 3D 61.318; Thu lúa từ đáy 62.006 (1h 63.470 / 2h 64.574)"
   },
   {
-   "luc": "2026-11-15T13:25:00+07:00",
+   "luc": "2026-11-15T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-15-0925",
    "moc": "+4h",
    "ma_loi": "B8",
@@ -892,7 +892,7 @@
    "da_sua": "KH-2026-11-15-1325: 🌊 'mo', vùng 63.450–64.180 (2h/4h), điểm dừng 61.250, Thu lúa tối thiểu 2h 64.574, +4h NGANG (chống lỳ)"
   },
   {
-   "luc": "2026-11-15T13:25:00+07:00",
+   "luc": "2026-11-15T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-15-0525",
    "moc": "+8h",
    "ma_loi": "B6",
@@ -902,7 +902,7 @@
    "da_sua": "KH-2026-11-15-1325: 🌊 'mo', vùng 63.450–64.180 (2h/4h), điểm dừng 61.250, Thu lúa tối thiểu 2h 64.574, +4h NGANG (chống lỳ)"
   },
   {
-   "luc": "2026-11-15T13:25:00+07:00",
+   "luc": "2026-11-15T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-15-0125",
    "moc": "+12h",
    "ma_loi": "B6",
@@ -912,7 +912,7 @@
    "da_sua": "KH-2026-11-15-1325: 🌊 'mo', vùng 63.450–64.180 (2h/4h), điểm dừng 61.250, Thu lúa tối thiểu 2h 64.574, +4h NGANG (chống lỳ)"
   },
   {
-   "luc": "2026-11-15T13:25:00+07:00",
+   "luc": "2026-11-15T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-15-0925",
    "moc": "vung_mua",
    "ma_loi": "B8",
@@ -1112,7 +1112,7 @@
    "da_sua": "LT-B10-2: Thu lúa tối thiểu = min(đỉnh nến xả 1h, max(M7 1h, M7 2h)) = 64.983"
   },
   {
-   "luc": "2026-11-16T13:25:00+07:00",
+   "luc": "2026-11-16T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-16-0925",
    "moc": "chieu",
    "ma_loi": "B6",
@@ -1232,7 +1232,7 @@
    "da_sua": "KH-0925: Day2 64.250–64.540, Thu lúa 64.932 từ đáy 64.454, lộ trình NGANG nghiêng xuống, mức vượt trên 2 đỉnh nén"
   },
   {
-   "luc": "2026-11-17T13:25:00+07:00",
+   "luc": "2026-11-17T13:20:00+07:00",
    "ke_hoach": "KH-2026-11-17-0525",
    "moc": "+8h",
    "ma_loi": "B6",
@@ -3305,6 +3305,13 @@
    "moc": "vung_ban",
    "ket_qua": "DUNG",
    "ghi": "vùng bán sát trần M99 2h chạm, râu 61.126 qua trần 0,08%"
+  },
+  {
+   "luc": "2026-11-26T13:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1215",
+   "moc": "vung_ban",
+   "ket_qua": "DUNG",
+   "ghi": "vùng bán sát trần M99 2h chạm 61.074, rồi rũ; vùng mua chưa chạm"
   }
  ],
  "luat_tam": [
@@ -3425,11 +3432,11 @@
   },
   {
    "id": "LT-B1-1",
-   "tu": "2026-11-13T13:25:00+07:00",
+   "tu": "2026-11-13T13:20:00+07:00",
    "ma_loi": "B1",
    "luat": "Khi nến Tuần đang chạy mở TRÊN M25 Tuần mà giá đang DƯỚI M25 Tuần (hoặc Tháng mở trên M7 Tháng mà giá dưới): (1) câu 'vì nến nào' phải nêu nến Tuần/Tháng; (2) đáy 2h/4h chỉ ghi 'đáy dừng' khi RSI 30m VÀ RSI 1h tại đáy mới đều cao hơn đáy trước, không thì 'đáy tạm', tang_mo chỉ 1h/2h, tối thiểu 1h; (3) điểm dừng đặt DƯỚI mức trung vị Bộ 5 Tuần tính từ đỉnh nhịp Tháng",
    "can_cu": "KH-0925 +4h SAI, KH-0925 thu_lua SAI (13/11): đáy 70.688 bị phá vì Tuần 09/11 cắt M25 Tuần",
-   "het_han": "2026-11-16T13:25:00+07:00",
+   "het_han": "2026-11-16T13:20:00+07:00",
    "trang_thai": "het_han",
    "ket_qua": {
     "giup": 15,
@@ -3463,11 +3470,11 @@
   },
   {
    "id": "LT-B7-2",
-   "tu": "2026-11-13T13:25:00+07:00",
+   "tu": "2026-11-13T13:20:00+07:00",
    "ma_loi": "B7",
    "luat": "Khi % nến lớn đang chạy (Tuần hoặc 3D) đã vượt q75 biên độ Bộ 5 của khung nhỏ kế tiếp (Tuần > q75 Bộ 5 Ngày; 3D > q75 Bộ 5 12h), mục tiêu đáy và điểm dừng lấy theo Bộ 5 khung lớn hơn một bậc (Tuần → trung vị Bộ 5 Tuần từ đỉnh nhịp Tháng; 3D → q75 Bộ 5 3D từ đỉnh nhịp xuống dài); mép dưới vùng mua thường cách điểm dừng ≥ 0,6%",
    "can_cu": "B7 ≥ 17 lần/48h; KH-0925 vung_mua SAI + diem_dung SAI (13/11): lấy % Bộ 5 Ngày/12h khi Tuần đã dài 10,6%",
-   "het_han": "2026-11-16T13:25:00+07:00",
+   "het_han": "2026-11-16T13:20:00+07:00",
    "trang_thai": "het_han",
    "ket_qua": {
     "giup": 15,
@@ -3675,11 +3682,11 @@
   },
   {
    "id": "LT-B7-3",
-   "tu": "2026-11-16T13:25:00+07:00",
+   "tu": "2026-11-16T13:20:00+07:00",
    "ma_loi": "B7",
    "luat": "(a) doi_neu_thung của mọi mốc lộ trình đặt DƯỚI đáy gần nhất của nén/tam giác ít nhất 0,3% VÀ dưới gia_tu của mốc đó; doi_neu_vuot đặt TRÊN đỉnh gần nhất của nén ít nhất 0,2%; (b) diem_dung_btc phải nằm dưới đích % riêng của nến 3D đang chạy = đỉnh nến 3D × (1 − q75 biên độ Bộ 5 12h); (c) mép dưới vùng mua thường cách điểm dừng ≥ 0,6%",
    "can_cu": "B7 10 lần/48h: KH-2125 14/11 +4h (mức đổi kẹp sát đáy dự kiến), KH-2125 14/11 diem_dung, KH-0125 15/11 vung_mua+diem_dung, KH-0525 15/11 vung_mua+diem_dung+12h (chưa tính % riêng nến 3D mới), KH-1725 15/11 +12h (mức thủng 64.300 kẹp sát cạnh nén 64.258); LT-B7-2 hết hạn 13:25 16/11",
-   "het_han": "2026-11-19T13:25:00+07:00",
+   "het_han": "2026-11-19T13:20:00+07:00",
    "trang_thai": "het_han",
    "ket_qua": {
     "giup": 25,
