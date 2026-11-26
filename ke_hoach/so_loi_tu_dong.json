@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T22:20:00+07:00",
+ "cap_nhat": "2026-11-26T23:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3537,6 +3537,42 @@
    "ma_loi": "",
    "ghi": "rũ 60.967 → 60.657, không chạm vùng, không hồi ≥ 0,6%",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T23:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1115",
+   "moc": "+12h 23:15",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.619 (đóng 1h 22:00), không chạm 58.850/61.500",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T23:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1515",
+   "moc": "+8h 23:20",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.619, thấp nhất 59.915 > mức đổi 59.500",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T23:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1915",
+   "moc": "+4h 23:20",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.619, thấp nhất 59.915 > mức đổi 59.800",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T23:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-2215",
+   "moc": "lệnh chờ 1915-A1 / 1115-A1",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "22:05–22:08 rũ tới 59.915; #146 khớp 60.383 (+0,21%); hồi 60.772",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4166,7 +4202,8 @@
     "08:15 25/11: không kích — M99 1h 60.264 trên giá",
     "12:15 25/11: áp cho KH-1215",
     "16:25 26/11: áp — dừng 59.250 = M99 15m 59.788 − 0,87%",
-    "17:15 26/11: áp cho KH-1715 (dừng 59.330 = M99 15m 59.856 − 0,87%)"
+    "17:15 26/11: áp cho KH-1715 (dừng 59.330 = M99 15m 59.856 − 0,87%)",
+    "23:25 26/11: áp cho 2315-A1 (M99 1h 60,48k trong vùng) → dừng 59.700"
    ]
   },
   {
@@ -4605,10 +4642,12 @@
   },
   {
    "cach": "Vùng mua Đáy 2 ở cụm M trùng (M7 4h ≈ M99 15m ≈ M99 30m ≈ M7 8h) — 1215–1415 chạm rồi hồi ≥0,6%",
-   "so_lan_dung": 4,
+   "so_lan_dung": 5,
    "tu": "2026-11-26T18:20:00+07:00",
    "het_han": "2026-11-29T18:20:00+07:00",
-   "ghi_chu": "thêm 1715 (20:25 26/11)"
+   "ghi_chu": "thêm 1715 (20:25 26/11)",
+   "ghi_chu_2315": "2215: đáy 59.915 trong cụm M7 8h ≈ M25 2h ≈ M99 30m (vùng 59.800–60.100), lệnh chờ 1915-A1 khớp #146",
+   "de_xuat_ba_chot": true
   },
   {
    "cach": "Vùng bán Thu lúa 1h sát M99 5m/M99 1h (1815: 60.760, đỉnh hồi 60.791)",
@@ -4619,20 +4658,27 @@
   },
   {
    "cach": "Không mua giữa nén khi hồi còn < 0,6% (sát trần) — kỳ 2015 đúng",
-   "so_lan_dung": 1,
+   "so_lan_dung": 3,
    "tu": "2026-11-26T21:20:00+07:00",
-   "het_han": "2026-11-29T21:20:00+07:00"
+   "het_han": "2026-11-29T21:20:00+07:00",
+   "ghi_chu_2315": "2115, 2215 đúng"
+  },
+  {
+   "cach": "Nhánh A theo % Bộ 5 2h NGANG từ đỉnh nén (tv 1,65%) trùng cụm M7 8h — dự 59.961, thật 59.915",
+   "so_lan_dung": 1,
+   "tu": "2026-11-26T23:25:00+07:00",
+   "het_han": "2026-11-29T23:25:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T10:15:00+07:00",
-  "den": "2026-11-26T22:15:00+07:00",
-  "lenh_that": 1,
-  "tong": 32,
-  "dung": 20,
+  "tu": "2026-11-26T11:15:00+07:00",
+  "den": "2026-11-26T23:15:00+07:00",
+  "lenh_that": 2,
+  "tong": 35,
+  "dung": 25,
   "sai": 4,
   "bo_lo": 4,
-  "ty_le_dung_pct": 71
+  "ty_le_dung_pct": 76
  },
  "tu_sua": [
   {
