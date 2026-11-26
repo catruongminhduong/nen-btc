@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T17:20:00+07:00",
+ "cap_nhat": "2026-11-26T18:20:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3375,6 +3375,60 @@
    "ma_loi": "B7",
    "ghi": "2h đóng 60.936 trên M99 2h mới 60.925 (M99 tụt), không phải đỉnh râu",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T18:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1715",
+   "moc": "vung_ban",
+   "ket_qua": "SAI",
+   "ma_loi": "B7",
+   "ghi": "đỉnh 61.000 lúc 17:10 rồi xuống 60.466",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T18:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1715",
+   "moc": "nen",
+   "ket_qua": "SAI",
+   "ma_loi": "B5",
+   "ghi": "thoát XUỐNG 17:35 tới 60.466",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T18:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1715",
+   "moc": "vung_mua",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "",
+   "ghi": "chạm Hồi 17:40, xuyên 60.466 (−0,07%), chưa hồi; Đáy 2 / A1 chưa chạm; không thủng dừng",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T18:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0615",
+   "moc": "+12h",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "1h đóng 60.518",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T18:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1015",
+   "moc": "+8h",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "đóng 60.518, cao nhất 61.070",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T18:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1415",
+   "moc": "+4h",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "ghi": "chạm 61.070 (vượt mức đổi) rồi về 60.518",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4440,16 +4494,22 @@
    "tu": "2026-11-26T08:15:00+07:00",
    "het_han": "2026-11-29T08:15:00+07:00",
    "ghi_chu": "0715: giá 60.983 sát đỉnh 61.622 rồi −1,9%"
+  },
+  {
+   "cach": "Vùng mua Đáy 2 ở cụm M trùng (M7 4h ≈ M99 15m ≈ M99 30m ≈ M7 8h) — 1215–1415 chạm rồi hồi ≥0,6%",
+   "so_lan_dung": 3,
+   "tu": "2026-11-26T18:20:00+07:00",
+   "het_han": "2026-11-29T18:20:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T05:15:00+07:00",
-  "den": "2026-11-26T17:15:00+07:00",
+  "tu": "2026-11-26T06:15:00+07:00",
+  "den": "2026-11-26T18:15:00+07:00",
   "lenh_that": 1,
-  "tong": 24,
+  "tong": 27,
   "dung": 16,
-  "sai": 2,
-  "bo_lo": 5,
+  "sai": 4,
+  "bo_lo": 4,
   "ty_le_dung_pct": 67
  },
  "tu_sua": [
@@ -4528,6 +4588,12 @@
    "tu": "2026-11-26T17:20:00+07:00",
    "het_han": "2026-11-27T05:15:00+07:00",
    "sua": "Lệnh #145 (D7_DC2 13:05 −0,12%) mua đầu nến 2h rũ · SIẾT: vùng Hồi trong nén 15m <1% chỉ đặt dưới biên dưới (rũ thủng), không giữa biên",
+   "kieu": "SIET"
+  },
+  {
+   "tu": "2026-11-26T18:20:00+07:00",
+   "het_han": "2026-11-27T06:15:00+07:00",
+   "sua": "Hướng thoát nén sai 2 lần (1615, 1715) · vì nén dưới Đỉnh 1 mà RSI 30m đã phân kỳ đỉnh · SIẾT: nén như vậy ghi CHUA_RO, vùng mua chỉ ở cụm M dưới, vùng bán ở biên trên nén / M99 khung nhỏ (hạn 06:15 27/11)",
    "kieu": "SIET"
   }
  ],
