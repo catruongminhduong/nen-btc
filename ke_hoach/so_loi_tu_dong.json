@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-27T04:20:00+07:00",
+ "cap_nhat": "2026-11-27T05:25:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3780,6 +3780,60 @@
    "ma_loi": "",
    "ghi": "BTC 60.810, không chạm 59.700/62.200",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1715",
+   "moc": "+12h 05:20",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.740, không chạm 59.700/62.300",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-2015",
+   "moc": "+8h 04:25",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "1h 04:00 đóng 60.821, đỉnh 61.006 < 61.130",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-2115",
+   "moc": "+8h 05:20",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.740, không chạm 60.300/61.800",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0015",
+   "moc": "+4h 04:25",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "1h 04:00 đóng 60.821",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0420",
+   "moc": "vùng Hồi 60.640–60.830 + A2 60.620–60.760",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "",
+   "ghi": "chạm 60.740 lúc 05:00 sau đỉnh 61.006; lệnh thật chưa về sổ",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T05:25:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0420",
+   "moc": "thoát nén LEN / 2h đóng trên M99 2h",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "lên 61.006 lúc 04:31, 2h 03:00 đóng 60.821 > 60.711",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4410,7 +4464,8 @@
     "12:15 25/11: áp cho KH-1215",
     "16:25 26/11: áp — dừng 59.250 = M99 15m 59.788 − 0,87%",
     "17:15 26/11: áp cho KH-1715 (dừng 59.330 = M99 15m 59.856 − 0,87%)",
-    "23:25 26/11: áp cho 2315-A1 (M99 1h 60,48k trong vùng) → dừng 59.700"
+    "23:25 26/11: áp cho 2315-A1 (M99 1h 60,48k trong vùng) → dừng 59.700",
+    "05:25 27/11: áp cho dừng A2 60.140 (M99 15m 60.670 −0,87%) — chờ chấm"
    ]
   },
   {
@@ -4887,52 +4942,59 @@
    "so_lan_dung": 2,
    "tu": "2026-11-27T02:25:00+07:00",
    "het_han": "2026-11-30T02:25:00+07:00"
+  },
+  {
+   "cach": "Hướng thoát nén theo nến U (U 1h lên, nửa trên 90%) — 0420 đúng, lên 61.006",
+   "so_lan_dung": 1,
+   "tu": "2026-11-27T05:25:00+07:00",
+   "het_han": "2026-11-30T05:25:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T16:20:00+07:00",
-  "den": "2026-11-27T04:20:00+07:00",
+  "tu": "2026-11-26T17:25:00+07:00",
+  "den": "2026-11-27T05:25:00+07:00",
   "lenh_that": {
    "so_lenh": 2,
    "thang": 2,
    "thua": 0,
    "tong_pct": 1.07,
    "loi_theo_nhom": {
-    "cuoi_nhip_dung_nen": 0,
-    "mua_hoi_du": 2,
+    "cuoi_nhip_dung_nen": 1,
+    "mua_hoi_du": 1,
     "day_nho_giua_nhip_lon": 0,
     "cuoi_hoi": 0,
     "dau_nhip_xuong": 0,
     "LOI_MOI": 0
    }
   },
-  "tong": 38,
-  "dung": 25,
+  "tong": 41,
+  "dung": 27,
   "sai": 4,
   "bo_lo": 2,
-  "cho": 7,
-  "ty_le_dung_pct": 81,
+  "cho": 8,
+  "ty_le_dung_pct": 82,
   "theo_loai": {
-   "mo_vung_mua": "6/11 (1715, 2015, 2115, 2215×2, 2315 #147 đúng; 1815, 1915 bỏ lỡ; 0015, 0125, 0225, 0320 chờ)",
+   "mo_vung_mua": "6/11 (2015, 2115, 2215×2, 2315 #147, 1915-A1 #146 đúng; 1815, 1915 bỏ lỡ; 0125, 0225, 0320, 0420 chờ)",
    "khong_mo": "5/5",
-   "vung_ban": "11/14 (0320 trượt — giá lên 60.828)",
+   "vung_ban": "11/14 (0320 trượt; 0420 chờ)",
    "ban_khan_cap": "0/0",
-   "huong_nen": "3/6",
+   "huong_nen": "4/7 (0420 thoát LÊN đúng)",
    "huong_dau_ngay": "1/1"
   },
   "phat_huy": [
-   "Bán hồi sau khi chạm M99 5m (#146 +0,40%, #147 +0,67%) — giữ cách bán",
-   "Lệnh chờ ở mức chạm lại M (M7/M25/M99 trùng) khớp thẳng rồi hồi đủ — kỳ này dùng cho A2 retest M7 2h/M99 2h",
-   "Không mua giữa nén 15m < 1% khi chưa rõ hướng — giữ (kỳ này U 1h lên, mua Hồi theo xu hướng)"
+   "Lệnh chờ ở mức chạm lại cụm M (M7/M25/M99 trùng) khớp thẳng — #146 +0,40%, #147 +0,67%; kỳ này giữ A2 retest M7 2h/M99 5m",
+   "Bán hồi sau khi chạm M99 5m — giữ cách bán",
+   "Hướng thoát nén theo nến U (U 1h lên, nửa trên) — đúng lần nữa (04:30 lên 61.006)"
   ],
   "tu_sua": [
-   "(giữ, hạn 05:15) vùng mua trong nén 15m < 1% chỉ ở rũ thủng biên dưới — 60.110–60.340",
-   "(giữ, hạn 15:20) hướng thoát nén đọc lại nến U mỗi kỳ — kỳ này U 1h #3 lên, nửa trên 90% → LEN",
-   "(siết, hạn 16:20) vùng bán không đặt tại trần M99 2h khi nến 2h đang chạy đã vượt trần — đặt theo Bộ 5 2h lên (61.353–61.769)"
+   "(giữ, hạn 15:20) hướng thoát nén đọc lại nến U mỗi kỳ",
+   "(siết, hạn 16:20) vùng bán theo Bộ 5 2h, không đặt ở trần M99 đã vượt — kỳ này 61.175–61.395",
+   "(LT-B1-1, hạn 10:15) vùng Hồi DH 5m sát M99 15m 60.670: dừng dưới mức 75% Bộ 5 4h từ M99 15m = 60.140"
   ],
   "de_xuat_ba": [
    "Bỏ lỡ 2 lần (1815, 1915): vùng Đáy 2 B3 — Ba xem cho đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau",
-   "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE"
+   "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE",
+   "ket_qua_lenh.json chưa cập nhật từ 01:32 — Ba xem bot đẩy sổ lệnh"
   ]
  },
  "tu_sua": [
@@ -4950,6 +5012,11 @@
    "tu": "2026-11-27T04:20:00+07:00",
    "het_han": "2026-11-27T16:20:00+07:00",
    "sua": "(siết, hạn 16:20) vùng bán không đặt tại trần M99 2h khi nến 2h đang chạy đã vượt trần — đặt theo Bộ 5 2h lên (61.353–61.769)"
+  },
+  {
+   "tu": "2026-11-27T05:25:00+07:00",
+   "het_han": "2026-11-27T17:25:00+07:00",
+   "sua": "(siết) 4h đếm từ nến 1 = nến cắt M7 (23:00 25/11) → 03:00 27/11 là #8, không #9"
   }
  ],
  "thong_ke_ghi_chu": [
