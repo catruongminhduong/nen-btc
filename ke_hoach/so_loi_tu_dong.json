@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-27T03:20:00+07:00",
+ "cap_nhat": "2026-11-27T04:20:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3744,6 +3744,42 @@
    "ma_loi": "",
    "ghi": "BTC 60.685, không chạm 59.880/61.320",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T04:20:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0320",
+   "moc": "vùng bán 60.643–60.710",
+   "ket_qua": "SAI",
+   "ma_loi": "B7",
+   "ghi": "giá lên qua trần tới 60.828 lúc 03:43, 2h 03:00 đang chạy 60.810 > M99 2h",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T04:20:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0320",
+   "moc": "vùng mua 60.110–60.340 / 59.800–60.100",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "",
+   "ghi": "thấp nhất sau 03:20 là 60.676 — không chạm; không bỏ lỡ (0,25%)",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T04:20:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0320",
+   "moc": "hướng thoát nén LEN",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "giá lên nửa trên 90%, chưa phá 60.860",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T04:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1615",
+   "moc": "+12h 04:15",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "BTC 60.810, không chạm 59.700/62.200",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4854,119 +4890,73 @@
   }
  ],
  "thong_ke_12h": {
-  "luc": "2026-11-27T03:20:00+07:00",
+  "tu": "2026-11-26T16:20:00+07:00",
+  "den": "2026-11-27T04:20:00+07:00",
   "lenh_that": {
    "so_lenh": 2,
    "thang": 2,
    "thua": 0,
-   "tong_pct": 1.07
+   "tong_pct": 1.07,
+   "loi_theo_nhom": {
+    "cuoi_nhip_dung_nen": 0,
+    "mua_hoi_du": 2,
+    "day_nho_giua_nhip_lon": 0,
+    "cuoi_hoi": 0,
+    "dau_nhip_xuong": 0,
+    "LOI_MOI": 0
+   }
   },
-  "tong": 36,
-  "dung": 24,
+  "tong": 38,
+  "dung": 25,
   "sai": 4,
-  "bo_lo": 3,
-  "cho": 5,
-  "ty_le_dung_pct": 77
+  "bo_lo": 2,
+  "cho": 7,
+  "ty_le_dung_pct": 81,
+  "theo_loai": {
+   "mo_vung_mua": "6/11 (1715, 2015, 2115, 2215×2, 2315 #147 đúng; 1815, 1915 bỏ lỡ; 0015, 0125, 0225, 0320 chờ)",
+   "khong_mo": "5/5",
+   "vung_ban": "11/14 (0320 trượt — giá lên 60.828)",
+   "ban_khan_cap": "0/0",
+   "huong_nen": "3/6",
+   "huong_dau_ngay": "1/1"
+  },
+  "phat_huy": [
+   "Bán hồi sau khi chạm M99 5m (#146 +0,40%, #147 +0,67%) — giữ cách bán",
+   "Lệnh chờ ở mức chạm lại M (M7/M25/M99 trùng) khớp thẳng rồi hồi đủ — kỳ này dùng cho A2 retest M7 2h/M99 2h",
+   "Không mua giữa nén 15m < 1% khi chưa rõ hướng — giữ (kỳ này U 1h lên, mua Hồi theo xu hướng)"
+  ],
+  "tu_sua": [
+   "(giữ, hạn 05:15) vùng mua trong nén 15m < 1% chỉ ở rũ thủng biên dưới — 60.110–60.340",
+   "(giữ, hạn 15:20) hướng thoát nén đọc lại nến U mỗi kỳ — kỳ này U 1h #3 lên, nửa trên 90% → LEN",
+   "(siết, hạn 16:20) vùng bán không đặt tại trần M99 2h khi nến 2h đang chạy đã vượt trần — đặt theo Bộ 5 2h lên (61.353–61.769)"
+  ],
+  "de_xuat_ba": [
+   "Bỏ lỡ 2 lần (1815, 1915): vùng Đáy 2 B3 — Ba xem cho đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau",
+   "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE"
+  ]
  },
  "tu_sua": [
   {
-   "cach": "Mở vùng/lệnh chờ sai 7/10 · gọi Ngày đã dừng khi nến 2h chưa ĐÓNG bật, và lệnh chờ hồi khi 5m dưới M99 · kỳ này SIẾT: lệnh chờ 'day' chỉ đặt khi có nến 2h ĐÓNG có RSI không thấp hơn cực trị; mọi hồi phải qua C1 (hạn 21:15 25/11)",
-   "tu": "2026-11-25T09:15:00+07:00",
-   "het_han": "2026-11-25T21:15:00+07:00",
-   "kieu": "SIET"
+   "tu": "2026-11-27T04:20:00+07:00",
+   "het_han": "2026-11-27T16:20:00+07:00",
+   "sua": "(giữ, hạn 05:15) vùng mua trong nén 15m < 1% chỉ ở rũ thủng biên dưới — 60.110–60.340"
   },
   {
-   "cach": "Vùng bán sai 17/24 · đặt trên đỉnh hồi thấp dần · SIẾT: mức 1h = min(M gần nhất phía trên, đỉnh hồi trước − 0,1%) (hạn 21:15 25/11)",
-   "tu": "2026-11-25T09:15:00+07:00",
-   "het_han": "2026-11-25T21:15:00+07:00",
-   "kieu": "SIET"
+   "tu": "2026-11-27T04:20:00+07:00",
+   "het_han": "2026-11-27T16:20:00+07:00",
+   "sua": "(giữ, hạn 15:20) hướng thoát nén đọc lại nến U mỗi kỳ — kỳ này U 1h #3 lên, nửa trên 90% → LEN"
   },
   {
-   "cach": "Kỳ trước ghi 'đã khớp' cho 9 lệnh chờ mà ket_qua_lenh không có lệnh · SIẾT: chỉ chấm bằng lệnh thật, không ghi lại id cũ",
-   "tu": "2026-11-25T09:15:00+07:00",
-   "het_han": "2026-11-25T21:15:00+07:00",
-   "kieu": "SIET"
-  },
-  {
-   "cach": "Lộ trình sai 3/3 vì đặt biên trên giá khi Ngày còn kiểm đáy · SIẾT: RSI 2h còn làm cực trị thì mốc +4h/+8h không LEN, tâm ≤ giá hiện tại (hạn 22:15 25/11)",
-   "tu": "2026-11-25T10:15:00+07:00",
-   "het_han": "2026-11-25T22:15:00+07:00",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-25T13:15:00+07:00",
-   "het_han": "2026-11-26T01:15:00+07:00",
-   "sua": "da_dung và tín hiệu dừng chỉ tính trên nến 2h/12h ĐÃ ĐÓNG (siết)",
-   "vi": "KH-1215 đọc nến 2h đang chạy"
-  },
-  {
-   "tu": "2026-11-25T18:15:00+07:00",
-   "het_han": "2026-11-26T06:15:00+07:00",
-   "sua": "Mốc +12h gọi LEN khi Ngày kiểm đáy sai 3 lần liền (0415/0515/0615) · SIẾT: RSI 2h/12h còn cực trị thì mọi mốc lộ trình không LEN, tâm ≤ giá",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-25T21:15:00+07:00",
-   "het_han": "2026-11-26T09:15:00+07:00",
-   "sua": "Lộ trình biên dưới hẹp khi RSI 2h còn ra cực trị (1315 +8h, 1715 +4h) · SIẾT: biên dưới mốc lộ trình tới đáy Bộ 5 chuẩn dự kiến của khung DH lớn nhất, không LEN",
-   "kieu": "SIET"
-  },
-  {
-   "cach": "Lộ trình 1015 +12h / 1415 +8h / 1815 +4h SAI B7 (biên NGANG quanh 58,6–59,4k, giá xả tới 57.300) · SIẾT: khi RSI 8h/12h còn cực trị, biên dưới mốc lộ trình đặt tới mức 90% Bộ 5 chuẩn của khung lớn nhất có cực trị, mức đổi ngoài đó (hạn 10:15 26/11)",
-   "tu": "2026-11-25T22:15:00+07:00",
-   "het_han": "2026-11-26T10:15:00+07:00"
-  },
-  {
-   "tu": "2026-11-26T01:15:00+07:00",
-   "het_han": "2026-11-26T13:15:00+07:00",
-   "sua": "Lộ trình 2115 +4h SAI (biên 57,6–58,4k, giá 59,6k) · vì Ngày đã dừng mà mức đổi trên chỉ đặt sát M7 4h · SIẾT cách tính: khi Ngày đã dừng, mức đổi trên lộ trình đặt ở râu hồi Ngày (đáy × 1,049) / M7 8h (hạn 13:15 26/11)",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-26T03:15:00+07:00",
-   "het_han": "2026-11-26T15:15:00+07:00",
-   "sua": "Vùng bán sát trần M99 trượt đỉnh 2 kỳ (0115, 0215) · SIẾT: mỗi nến khung trần đóng phải kiểm lại; đóng trên M99 → trần lên M99 khung kế, không gọi đỉnh trước khi râu qua trần mới",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-26T07:15:00+07:00",
-   "het_han": "2026-11-26T19:15:00+07:00",
-   "sua": "Vùng bán sai 6/12 vì giữ trần M99 1h khi nến 1h sắp đóng vượt · SIẾT cách tính: trần M99 chỉ giữ khi nến khung trần ĐÓNG dưới; đóng trên → vùng bán lên Bộ 5 khung đó (1h → 12h) dưới trần kế",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-26T08:15:00+07:00",
-   "het_han": "2026-11-26T20:15:00+07:00",
-   "sua": "Lộ trình 2015 +12h / 0015 +8h NGANG ở vùng đáy cũ SAI (giá hồi lên 60,5k) · SIẾT: tâm lộ trình = giá hiện tại, không giữ vùng đáy cũ (hạn 20:15 26/11)",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-26T17:20:00+07:00",
-   "het_han": "2026-11-27T05:15:00+07:00",
-   "sua": "Lệnh #145 (D7_DC2 13:05 −0,12%) mua đầu nến 2h rũ · SIẾT: vùng Hồi trong nén 15m <1% chỉ đặt dưới biên dưới (rũ thủng), không giữa biên",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-26T18:20:00+07:00",
-   "het_han": "2026-11-27T06:15:00+07:00",
-   "sua": "Hướng thoát nén sai 2 lần (1615, 1715) · vì nén dưới Đỉnh 1 mà RSI 30m đã phân kỳ đỉnh · SIẾT: nén như vậy ghi CHUA_RO, vùng mua chỉ ở cụm M dưới, vùng bán ở biên trên nén / M99 khung nhỏ (hạn 06:15 27/11)",
-   "kieu": "SIET"
-  },
-  {
-   "tu": "2026-11-27T03:20:00+07:00",
-   "het_han": "2026-11-27T15:20:00+07:00",
-   "sua": "Hướng thoát nén đọc lại nến U mỗi kỳ (kỳ 0225 dùng U 1h #6 cũ) · SIẾT cách tính, không mở thêm vùng",
-   "kieu": "SIET"
+   "tu": "2026-11-27T04:20:00+07:00",
+   "het_han": "2026-11-27T16:20:00+07:00",
+   "sua": "(siết, hạn 16:20) vùng bán không đặt tại trần M99 2h khi nến 2h đang chạy đã vượt trần — đặt theo Bộ 5 2h lên (61.353–61.769)"
   }
  ],
  "thong_ke_ghi_chu": [
   "09:15 26/11: Ba bỏ 5 chặn cũ C1–C5 (07:53) — kế hoạch không còn tự chặn bằng chặn cũ"
  ],
  "de_xuat_ba": [
-  {
-   "luc": "2026-11-26T20:25:00+07:00",
-   "noi_dung": "Bỏ lỡ 4 lần trong 12h (1515, 1615, 1815, 1915): vùng Đáy đặt dưới đáy thật 0,1–0,2% — đề xuất Ba chốt: khi đủ Đáy 2 dừng (B3) thì đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau; con KHÔNG tự nới",
-   "trang_thai": "cho_ba"
-  }
+  "Bỏ lỡ 2 lần (1815, 1915): vùng Đáy 2 B3 — Ba xem cho đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau",
+  "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE"
  ]
 }
