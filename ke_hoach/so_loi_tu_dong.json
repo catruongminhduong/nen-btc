@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T14:20:00+07:00",
+ "cap_nhat": "2026-11-26T15:20:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3323,6 +3323,13 @@
    "nguyen_nhan": "nén nằm trong rũ 12h đã dự — hướng thoát theo nến 12h đang rũ",
    "da_sua": "kỳ 1415 đọc hướng thoát theo nến lớn đang chạy",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T15:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1415",
+   "moc": "vung_mua",
+   "ket_qua": "DUNG",
+   "ghi": "chạm mép vùng 1 (60.484), không thủng dừng; đi ngang 60.416–60.666 đúng dự"
   }
  ],
  "luat_tam": [
