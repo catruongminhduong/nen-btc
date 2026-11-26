@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-26T16:25:00+07:00",
+ "cap_nhat": "2026-11-26T17:20:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3357,6 +3357,24 @@
    "ma_loi": "B7",
    "ghi": "chạm đổi 61.300 (đỉnh 61.622) rồi về 60.901",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T17:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0515",
+   "moc": "+12h",
+   "ket_qua": "SAI",
+   "ma_loi": "B7",
+   "ghi": "NGANG 59.100–60.500, đóng 60.936, chạm 61.622",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T17:20:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1615",
+   "moc": "dinh_rau_2h",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "ghi": "2h đóng 60.936 trên M99 2h mới 60.925 (M99 tụt), không phải đỉnh râu",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -3985,7 +4003,8 @@
     "05:15 25/11: áp — không có M99 khung lớn hơn trong vùng (M99 1h 60.225 trên giá)",
     "08:15 25/11: không kích — M99 1h 60.264 trên giá",
     "12:15 25/11: áp cho KH-1215",
-    "16:25 26/11: áp — dừng 59.250 = M99 15m 59.788 − 0,87%"
+    "16:25 26/11: áp — dừng 59.250 = M99 15m 59.788 − 0,87%",
+    "17:15 26/11: áp cho KH-1715 (dừng 59.330 = M99 15m 59.856 − 0,87%)"
    ]
   },
   {
@@ -4412,7 +4431,8 @@
    "de_xuat_ba_chot": true,
    "ghi_chu_0815": "07:17 Đỉnh 61.622 râu qua M99 2h 61.106, 1h đóng 60.520 dưới; vùng bán 0715 chạm",
    "ghi_chu_1215": "11:41 râu 61.126 qua M99 2h 61,04k; 2h 11:00 chưa đóng — theo dõi đóng 13:00",
-   "ghi_chu_1615": "15:50 râu 61.070 qua M99 2h 60.961; 2h 15:00 chờ đóng 17:00"
+   "ghi_chu_1615": "15:50 râu 61.070 qua M99 2h 60.961; 2h 15:00 chờ đóng 17:00",
+   "ghi_chu_1715": "2h 15:00 đóng 60.936 TRÊN M99 2h mới 60.925 → không phải đỉnh râu, trần hết; vùng bán 1615 vẫn chạm 60.990"
   },
   {
    "cach": "Không mua khi hồi đã vượt HOI[K_len] (cuối hồi) — tránh mua sát đỉnh",
@@ -4423,14 +4443,14 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T04:15:00+07:00",
-  "den": "2026-11-26T16:15:00+07:00",
-  "lenh_that": 0,
+  "tu": "2026-11-26T05:15:00+07:00",
+  "den": "2026-11-26T17:15:00+07:00",
+  "lenh_that": 1,
   "tong": 24,
-  "dung": 15,
-  "sai": 1,
-  "bo_lo": 6,
-  "ty_le_dung_pct": 62
+  "dung": 16,
+  "sai": 2,
+  "bo_lo": 5,
+  "ty_le_dung_pct": 67
  },
  "tu_sua": [
   {
@@ -4502,6 +4522,12 @@
    "tu": "2026-11-26T08:15:00+07:00",
    "het_han": "2026-11-26T20:15:00+07:00",
    "sua": "Lộ trình 2015 +12h / 0015 +8h NGANG ở vùng đáy cũ SAI (giá hồi lên 60,5k) · SIẾT: tâm lộ trình = giá hiện tại, không giữ vùng đáy cũ (hạn 20:15 26/11)",
+   "kieu": "SIET"
+  },
+  {
+   "tu": "2026-11-26T17:20:00+07:00",
+   "het_han": "2026-11-27T05:15:00+07:00",
+   "sua": "Lệnh #145 (D7_DC2 13:05 −0,12%) mua đầu nến 2h rũ · SIẾT: vùng Hồi trong nén 15m <1% chỉ đặt dưới biên dưới (rũ thủng), không giữa biên",
    "kieu": "SIET"
   }
  ],
