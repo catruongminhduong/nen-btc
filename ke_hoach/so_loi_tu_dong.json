@@ -3285,6 +3285,12 @@
    "ma_loi": "B7",
    "ket_qua": "MOT_PHAN",
    "ghi": "trong vùng ±0,3%, chạm đổi 60.700 rồi quay lại"
+  },
+  {
+   "luc": "2026-11-26T09:15:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0815",
+   "ma_loi": "B4",
+   "mo_ta": "gọi đỉnh 61.622 là ĐẦU nhịp xuống 12h; giá chững 60,46–60,97k, RSI 1h lên 66,5 — hồi Ngày chưa kết; 12h qua bỏ lỡ 7 kỳ vì tự chặn cổng (Ba bỏ cổng 07:53 26/11)"
   }
  ],
  "luat_tam": [
@@ -4330,7 +4336,7 @@
   },
   {
    "cach": "Đỉnh = râu đâm qua trần M99 khung DH kế trên rồi đóng dưới (00:42, 01:17, 02:23)",
-   "so_lan_dung": 6,
+   "so_lan_dung": 7,
    "tu": "2026-11-26T03:15:00+07:00",
    "het_han": "2026-11-29T03:15:00+07:00",
    "ghi_chu": "chỉ dùng vùng bán; trần phải cập nhật khi khung trần đóng vượt",
@@ -4460,5 +4466,8 @@
    "sua": "Lộ trình 2015 +12h / 0015 +8h NGANG ở vùng đáy cũ SAI (giá hồi lên 60,5k) · SIẾT: tâm lộ trình = giá hiện tại, không giữ vùng đáy cũ (hạn 20:15 26/11)",
    "kieu": "SIET"
   }
+ ],
+ "thong_ke_ghi_chu": [
+  "09:15 26/11: Ba bỏ 5 cổng G1–G5 (07:53) — kế hoạch không còn tự chặn bằng cổng"
  ]
 }
