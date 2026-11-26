@@ -3429,6 +3429,42 @@
    "ma_loi": "B7",
    "ghi": "chạm 61.070 (vượt mức đổi) rồi về 60.518",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T20:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-0815",
+   "moc": "+12h",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "đóng 60.825",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T20:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1215",
+   "moc": "+8h",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "đóng 60.825",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T20:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1615",
+   "moc": "+4h",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "ghi": "đóng 60.825",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-26T20:25:00+07:00",
+   "ke_hoach": "KH-2026-11-26-1915",
+   "moc": "vung_mua",
+   "ket_qua": "SAI",
+   "ma_loi": "B8",
+   "ghi": "BO_LO: gọi Đáy 2 dừng 17:45 thành Đáy 1, vùng ≤60.500, đáy 60.591 rồi hồi +0,66%",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4497,15 +4533,17 @@
   },
   {
    "cach": "Vùng mua Đáy 2 ở cụm M trùng (M7 4h ≈ M99 15m ≈ M99 30m ≈ M7 8h) — 1215–1415 chạm rồi hồi ≥0,6%",
-   "so_lan_dung": 3,
+   "so_lan_dung": 4,
    "tu": "2026-11-26T18:20:00+07:00",
-   "het_han": "2026-11-29T18:20:00+07:00"
+   "het_han": "2026-11-29T18:20:00+07:00",
+   "ghi_chu": "thêm 1715 (20:25 26/11)"
   },
   {
    "cach": "Vùng bán Thu lúa 1h sát M99 5m/M99 1h (1815: 60.760, đỉnh hồi 60.791)",
-   "so_lan_dung": 1,
+   "so_lan_dung": 2,
    "tu": "2026-11-26T19:20:00+07:00",
-   "het_han": "2026-11-29T19:20:00+07:00"
+   "het_han": "2026-11-29T19:20:00+07:00",
+   "ghi_chu": "thêm 1915: 60.800 trúng (đỉnh 60.989)"
   }
  ],
  "thong_ke_12h": {
@@ -4605,5 +4643,12 @@
  ],
  "thong_ke_ghi_chu": [
   "09:15 26/11: Ba bỏ 5 chặn cũ C1–C5 (07:53) — kế hoạch không còn tự chặn bằng chặn cũ"
+ ],
+ "de_xuat_ba": [
+  {
+   "luc": "2026-11-26T20:25:00+07:00",
+   "noi_dung": "Bỏ lỡ 4 lần trong 12h (1515, 1615, 1815, 1915): vùng Đáy đặt dưới đáy thật 0,1–0,2% — đề xuất Ba chốt: khi đủ Đáy 2 dừng (B3) thì đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau; con KHÔNG tự nới",
+   "trang_thai": "cho_ba"
+  }
  ]
 }
