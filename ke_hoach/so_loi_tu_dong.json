@@ -3875,6 +3875,39 @@
    "nguyen_nhan": "đầu trên vùng Day2 sát Đáy 2 (+0,10%)",
    "da_sua": "chỉ ghi lại + đề xuất Ba (không nới); kỳ này mở Hoi theo xu hướng",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0920",
+   "moc": "vung_ban",
+   "ma_loi": "B7",
+   "du": "61.200–61.420 (2h ngang)",
+   "that": "đỉnh 61.881 (+0,75%)",
+   "nguyen_nhan": "so % dạng ngang khi Bộ 5 2h thẳng",
+   "da_sua": "siết: vùng bán theo dạng THẲNG + bảng Đỉnh khung DH lớn nhất (hạn 22:15)",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0920",
+   "moc": "lenh_cho A3",
+   "ma_loi": "BO_LO",
+   "du": "retest 60.640–60.730",
+   "that": "không chạm, lên +1,1%",
+   "nguyen_nhan": "nhịp lên thẳng không retest",
+   "da_sua": "chỉ ghi lại (không nới)",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T10:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0815",
+   "moc": "#149",
+   "ma_loi": "B7",
+   "du": "hồi tới 61,2k",
+   "that": "đóng 09:05 −0,05% bán sàn",
+   "nguyen_nhan": "mua retest sau Đỉnh nhỏ, hồi không tới M99 5m trước khi rút",
+   "da_sua": "siết: không lệnh chờ hồi sau Đỉnh 2 phân kỳ 30m/1h (hạn 22:15)",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -4489,7 +4522,7 @@
    "luat": "Khi vùng mua/lệnh chờ đặt theo khung DH nhỏ (VD 15m → Bộ 5 4h) mà M99 của khung DH lớn hơn kế tiếp (30m/1h) nằm trong hoặc dưới vùng ≤ 0,8% và giá còn trên M99 đó: điểm dừng đặt dưới mức 75% Bộ 5 của khung lớn hơn tính từ M99 đó (1h: −1,28%), vùng mua kéo xuống phần thấp sát M99; không cấm mua",
    "can_cu": "6 lần sai trong 12h (2215, 2315, 0015, 0115-A1, 0715-A1, 0915) — giá phá M99 2h rồi M99 1h, cực trị dịch lên khung lớn",
    "het_han": "2026-11-27T10:15:00+07:00",
-   "trang_thai": "dang_ap",
+   "trang_thai": "het_han",
    "ket_qua": {
     "giup": 0,
     "khong_giup": 0
@@ -5032,7 +5065,15 @@
    "Lệnh chờ ở cụm M trùng khớp thẳng (#146 +0,40%, #147 +0,67%; #149 đang +0,36% BTC) — kỳ này A3 ở cụm M7 2h/M7 4h/M99 5m",
    "Đáy 2 dừng B3 (RSI 5m không thấp hơn) — không đếm lại",
    "Bán hồi sau khi chạm M99 5m — giữ"
-  ]
+  ],
+  "KH-2026-11-27-1015": {
+   "luc": "2026-11-27T10:15:00+07:00",
+   "lenh_that": "4 (2 thắng, 2 thua, 0,00%)",
+   "dung": 28,
+   "sai": 7,
+   "bo_lo": 3,
+   "cho": 6
+  }
  },
  "tu_sua": [
   {
@@ -5054,6 +5095,16 @@
    "tu": "2026-11-27T05:25:00+07:00",
    "het_han": "2026-11-27T17:25:00+07:00",
    "sua": "(siết) 4h đếm từ nến 1 = nến cắt M7 (23:00 25/11) → 03:00 27/11 là #8, không #9"
+  },
+  {
+   "tu": "2026-11-27T10:15:00+07:00",
+   "het_han": "2026-11-27T22:15:00+07:00",
+   "sua": "(siết) vùng bán theo bảng Đỉnh khung DH lớn nhất + dạng THẲNG khi Bộ 5 NH thẳng"
+  },
+  {
+   "tu": "2026-11-27T10:15:00+07:00",
+   "het_han": "2026-11-27T22:15:00+07:00",
+   "sua": "(siết) không ghi lệnh chờ hồi khi 30m/1h vừa phân kỳ Đỉnh 2 — chờ đáy RSI dưới M99"
   }
  ],
  "thong_ke_ghi_chu": [
