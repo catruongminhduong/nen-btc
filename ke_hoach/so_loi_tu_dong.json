@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-27T14:15:00+07:00",
+ "cap_nhat": "2026-11-27T15:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4024,6 +4024,26 @@
    "that": "61.52k → 62.025 (+0,8%)",
    "ket_qua": "BO_LO",
    "nguyen_nhan": "1015 gọi đỉnh Bộ 5 2h ở nến #2–3 trong khi Bộ 5 2h thẳng lên còn nến #4 (đỉnh chính thật 13:14 nến #4); chấm lại 1015/1115 'không mở' là bỏ lỡ +0,8%"
+  },
+  {
+   "luc": "2026-11-27T15:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0715",
+   "moc": "+8h",
+   "ma_loi": "B2",
+   "du": "NGANG 59.950–61.000",
+   "that": "61.673, vượt mức đổi 61.400 không quay lại",
+   "ket_qua": "SAI",
+   "nguyen_nhan": "0715 +8h gọi NGANG khi Bộ 5 2h vừa mở nến #1 thẳng lên (T1 07:00) và Bộ 5 8h còn nến #5 chưa có đỉnh chính — cùng lỗi 1015 (B2 lặp 2 lần/48h)"
+  },
+  {
+   "luc": "2026-11-27T15:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0320",
+   "moc": "+12h",
+   "ma_loi": "B7",
+   "du": "LEN 60.200–61.600",
+   "that": "61.673, râu chạm mức đổi 61.800 rồi quay lại",
+   "ket_qua": "MOT_PHAN",
+   "nguyen_nhan": "mức đổi vượt đặt sát giá (trước LT-B7-27-1215)"
   }
  ],
  "luat_tam": [
@@ -4742,6 +4762,22 @@
     "khong_giup": 0
    },
    "ghi_nhan": []
+  },
+  {
+   "id": "LT-B2-27-1515",
+   "tu": "2026-11-27T15:15:00+07:00",
+   "ma_loi": "B2",
+   "luat": "Mốc lo_trinh: chiều theo Bộ 5 2h/8h đang chạy; chỉ ghi NGANG/XUỐNG (hoặc NGANG/LÊN khi đang xuống) khi Bộ 5 đó đã có đỉnh/đáy chính phân kỳ ở nến #3–5 — chỉ áp lộ trình, không đụng vùng mua",
+   "can_cu": "B2 lặp 2 lần trong 48h: KH-1015 +4h XUỐNG, KH-0715 +8h NGANG — cả hai gọi đổi chiều khi Bộ 5 2h thẳng lên chưa có đỉnh chính",
+   "het_han": "2026-11-30T15:15:00+07:00",
+   "trang_thai": "dang_ap",
+   "ket_qua": {
+    "giup": 0,
+    "khong_giup": 0
+   },
+   "ghi_nhan": [
+    "15:15 27/11: áp cho KH-1515 (đỉnh chính 62.025 nến #4 đã phân kỳ → ghi XUỐNG)"
+   ]
   }
  ],
  "phat_huy": [
@@ -5188,31 +5224,29 @@
    "so_lan_dung": 4,
    "tu": "2026-11-27T14:15:00+07:00",
    "het_han": "2026-11-30T14:15:00+07:00"
+  },
+  {
+   "cach": "Không mua khi chưa có đáy của nhịp ngược (1215, 1315, 1415)",
+   "so_lan_dung": 3,
+   "tu": "2026-11-27T15:15:00+07:00",
+   "het_han": "2026-11-30T15:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-27T02:15:00+07:00",
-  "den": "2026-11-27T14:15:00+07:00",
+  "tu": "2026-11-27T03:15:00+07:00",
+  "den": "2026-11-27T15:15:00+07:00",
   "lenh_that": {
    "so_lenh": 2,
    "thang": 0,
    "thua": 2,
    "tong_pct": -1.07
   },
-  "tong": 18,
-  "dung": 8,
-  "sai": 4,
+  "tong": 22,
+  "dung": 10,
+  "sai": 5,
   "bo_lo": 3,
-  "cho": 3,
-  "ty_le_dung_pct": 0,
-  "KH-2026-11-27-1415": {
-   "luc": "2026-11-27T14:15:00+07:00",
-   "lenh_that": "2 (0 thắng, 2 thua, −1,07%)",
-   "dung": 8,
-   "sai": 4,
-   "bo_lo": 3,
-   "cho": 3
-  }
+  "cho": 4,
+  "ty_le_dung_pct": 0
  },
  "tu_sua": [
   {
@@ -5249,6 +5283,11 @@
    "tu": "2026-11-27T12:15:00+07:00",
    "het_han": "2026-11-28T00:15:00+07:00",
    "sua": "(siết) mức đổi vượt lộ trình = mức 75% Bộ 5 2h thẳng lên 62.670"
+  },
+  {
+   "tu": "2026-11-27T15:15:00+07:00",
+   "het_han": "2026-11-28T03:15:00+07:00",
+   "sua": "(siết) mốc NGANG/XUỐNG chỉ ghi khi Bộ 5 2h/8h đã có đỉnh chính phân kỳ (LT-B2-27-1515)"
   }
  ],
  "thong_ke_ghi_chu": [
@@ -5265,6 +5304,10 @@
   {
    "luc": "2026-11-27T14:15:00+07:00",
    "de_xuat": "Bỏ lỡ 10:15/11:15 (+0,8%): hồi tầng lớn đã đủ nhưng Bộ 5 2h thẳng lên chưa tới cuối nến 4 → tính hồi theo Bộ 5 2h — luật nới, chờ Ba chốt"
+  },
+  {
+   "luc": "2026-11-27T15:15:00+07:00",
+   "de_xuat": "B2 lặp 2 lần/48h (0715 +8h, 1015 +4h): lộ trình theo chiều Bộ 5 2h/8h đang chạy tới khi có đỉnh/đáy chính phân kỳ — Ba chốt"
   }
  ]
 }
