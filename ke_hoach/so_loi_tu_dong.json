@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T02:15:00+07:00",
+ "cap_nhat": "2026-11-28T03:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4369,6 +4369,15 @@
    "ket_qua": "MOT_PHAN",
    "ma_loi": "B7",
    "luc": "2026-11-28T02:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-27-1915",
+   "moc": "+8h",
+   "du": "XUONG 60.500–61.250, đổi 59.983",
+   "that": "thủng mức đổi không quay lại",
+   "ket_qua": "SAI",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T03:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -5646,7 +5655,7 @@
   },
   {
    "cach": "Mua ngay sau đáy cao dần (RSI mọi khung cao hơn) khi hồi còn ≥ 0,6% tới cụm M7 2h ≈ M99 1h/2h",
-   "so_lan_dung": 1,
+   "so_lan_dung": 2,
    "tu": "2026-11-28T01:15:00+07:00",
    "het_han": "2026-12-01T01:15:00+07:00"
   }
