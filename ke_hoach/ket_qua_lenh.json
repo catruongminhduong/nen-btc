@@ -1,6 +1,6 @@
 {
  "phien_ban": 1,
- "cap_nhat_luc": "2026-11-27T19:29:56+07:00",
+ "cap_nhat_luc": "2026-11-27T23:42:46+07:00",
  "cua_so_gio": 48,
  "ghi_chu": "lệnh bot tự mua mở trong 48 giờ; loi_pct_sau_phi = close_profit Freqtrade (đã trừ phí 2 chiều)",
  "lenh": [
@@ -76,6 +76,21 @@
    "dong_luc": "2026-11-27T09:05:12+07:00",
    "gia_dong": 1701.36,
    "loi_pct_sau_phi": -0.05,
+   "ly_do_dong": "d7kh_hoi_san",
+   "trang_thai": "da_dong"
+  },
+  {
+   "trade_id": 150,
+   "cap": "ETH/USDT",
+   "enter_tag": "D7KH_NGAY:KH-2026-11-27-2315-N1",
+   "lenh_cho_id": "KH-2026-11-27-2315-N1",
+   "ma_ke_hoach": "KH-2026-11-27-2315",
+   "mo_luc": "2026-11-27T23:26:07+07:00",
+   "gia_mo": 1673.53,
+   "btc_luc_mo": 60054.91,
+   "dong_luc": "2026-11-27T23:39:51+07:00",
+   "gia_dong": 1679.11,
+   "loi_pct_sau_phi": 0.13,
    "ly_do_dong": "d7kh_hoi_san",
    "trang_thai": "da_dong"
   }
