@@ -1,6 +1,6 @@
 {
  "phien_ban": 1,
- "cap_nhat_luc": "2026-11-27T05:59:36+07:00",
+ "cap_nhat_luc": "2026-11-27T06:58:11+07:00",
  "cua_so_gio": 48,
  "ghi_chu": "lệnh bot tự mua mở trong 48 giờ; loi_pct_sau_phi = close_profit Freqtrade (đã trừ phí 2 chiều)",
  "lenh": [
@@ -42,7 +42,7 @@
    "ma_ke_hoach": null,
    "mo_luc": "2026-11-26T13:05:03+07:00",
    "gia_mo": 1687.53,
-   "btc_luc_mo": 60652.0,
+   "btc_luc_mo": null,
    "dong_luc": "2026-11-26T13:38:13+07:00",
    "gia_dong": 1688.91,
    "loi_pct_sau_phi": -0.12,
@@ -88,12 +88,11 @@
    "mo_luc": "2026-11-27T05:01:03+07:00",
    "gia_mo": 1702.57,
    "btc_luc_mo": 60766.01,
-   "dong_luc": null,
-   "gia_dong": null,
-   "loi_pct_sau_phi": null,
-   "ly_do_dong": null,
-   "trang_thai": "dang_mo",
-   "loi_pct_hien_tai": -0.72
+   "dong_luc": "2026-11-27T06:56:06+07:00",
+   "gia_dong": 1688.56,
+   "loi_pct_sau_phi": -1.02,
+   "ly_do_dong": "d7kh_hoi_san",
+   "trang_thai": "da_dong"
   }
  ],
  "lenh_cho_bi_chan": [
