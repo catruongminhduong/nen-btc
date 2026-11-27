@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T00:15:00+07:00",
+ "cap_nhat": "2026-11-28T01:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4306,6 +4306,42 @@
    "that": "59.958 (thủng 59.600 tới 58.792 rồi quay lại)",
    "ket_qua": "MOT_PHAN",
    "ma_loi": "B7"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0015",
+   "moc": "ban_khan_cap",
+   "du": "đầu nhịp xuống, còn 1,4–1,9% tới 58,8–59,1k",
+   "that": "#151 bán 00:25 (BTC ~59.660, −0,23% sau phí); đáy 59.513 (−0,25% thêm) rồi hồi 59.969",
+   "ket_qua": "SAI",
+   "ma_loi": "B7 (nhịp ngược là Bộ 5 1h, không phải Đáy 2 2h)",
+   "luc": "2026-11-28T01:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0015",
+   "moc": "lenh_cho A1",
+   "du": "58.820–59.100",
+   "that": "không chạm (thấp nhất 59.513)",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T01:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0015",
+   "moc": "không mở Hồi",
+   "du": "không hồi",
+   "that": "hồi 59.513→59.969 (+0,77%)",
+   "ket_qua": "SAI",
+   "ma_loi": "B10 bỏ lỡ",
+   "luc": "2026-11-28T01:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-27-2115",
+   "moc": "+4h",
+   "du": "XUONG/NGANG, mức đổi 58.400/61.010",
+   "that": "đóng 1h 01:00 59.928",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T01:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -5577,19 +5613,25 @@
    "tu": "2026-11-28T00:15:00+07:00",
    "het_han": "2026-12-01T00:15:00+07:00",
    "de_xuat_ba_chot": true
+  },
+  {
+   "cach": "Mua ngay sau đáy cao dần (RSI mọi khung cao hơn) khi hồi còn ≥ 0,6% tới cụm M7 2h ≈ M99 1h/2h",
+   "so_lan_dung": 1,
+   "tu": "2026-11-28T01:15:00+07:00",
+   "het_han": "2026-12-01T01:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-27T12:15:00+07:00",
-  "den": "2026-11-28T00:15:00+07:00",
-  "lenh_that": 1,
+  "tu": "2026-11-27T13:15:00+07:00",
+  "den": "2026-11-28T01:15:00+07:00",
+  "lenh_that": 2,
   "thang": 1,
-  "tong_pct": 0.13,
-  "tong": 42,
-  "dung": 26,
-  "sai": 15,
-  "bo_lo": 1,
-  "ty_le_dung_pct": 61.9
+  "tong_pct": -0.1,
+  "tong": 43,
+  "dung": 24,
+  "sai": 16,
+  "bo_lo": 2,
+  "ty_le_dung_pct": 55.8
  },
  "tu_sua": [
   {
@@ -5626,6 +5668,11 @@
    "tu": "2026-11-28T00:15:00+07:00",
    "het_han": "2026-11-28T12:15:00+07:00",
    "sua": "(siết) không ghi lại / không giữ lệnh chờ hồi khi giá đã chạm mục tiêu hồi của chính lệnh; lệnh chờ kế đặt ở Đáy 2 Bộ 5 2h (A1 23:15 khớp sau đỉnh)"
+  },
+  {
+   "tu": "2026-11-28T01:15:00+07:00",
+   "het_han": "2026-11-28T13:15:00+07:00",
+   "sua": "Bán khẩn cấp 00:15 SAI · vì lấy Đáy 2 B3 sát Đáy 1 làm nhịp kế thay cho nhịp ngược đúng tầng · kỳ này SIẾT: sau đỉnh hồi đủ % tầng 2h, nhịp ngược = Bộ 5 1h thẳng xuống từ đỉnh (tv 1,69% / 75% 2,56%) → vùng đáy 59.536–59.009 (thật 59.513); chỉ gọi ĐẦU nhịp khi giá còn trên mức tv đó và vùng tv–75% nằm dưới mức cắt lỗ lệnh giữ (hạn 12 giờ)"
   }
  ],
  "thong_ke_ghi_chu": [
@@ -5666,6 +5713,10 @@
   {
    "luc": "2026-11-28T00:15:00+07:00",
    "de_xuat": "Bot tự huỷ lệnh chờ loại 'hoi' khi BTC đã chạm muc_tieu của chính lệnh (A1 23:15 khớp 23:55 sau đỉnh 60.559)"
+  },
+  {
+   "luc": "2026-11-28T01:15:00+07:00",
+   "de_xuat": "Bỏ lỡ 2 lần (22:15, 00:15) hồi ≥ 0,6% sau đáy nhỏ — Ba xem có chốt: ban_khan_cap chỉ ghi khi vùng tv–75% nhịp ngược (bước 6) nằm dưới mức cắt lỗ lệnh đang giữ"
   }
  ]
 }
