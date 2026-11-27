@@ -3864,6 +3864,17 @@
    "that": "#148 đóng −1,02% lúc 06:56 (d7kh_hoi_san), rũ tới 60.391",
    "nguyen_nhan": "mua đầu rũ — % Bộ 5 15m thay nhịp ngược Bộ 5 2h",
    "da_sua": "đã siết từ 06:25 (vùng retest theo nhịp ngược 50–60% Bộ 5 NH)"
+  },
+  {
+   "luc": "2026-11-27T08:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0715",
+   "moc": "vung_mua_Day2",
+   "ma_loi": "B7",
+   "du": "60.080–60.450",
+   "that": "retest 60.473 lúc 07:12 hụt 0,05%, hồi +0,47%",
+   "nguyen_nhan": "đầu trên vùng Day2 sát Đáy 2 (+0,10%)",
+   "da_sua": "chỉ ghi lại + đề xuất Ba (không nới); kỳ này mở Hoi theo xu hướng",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -5061,6 +5072,10 @@
  "de_xuat_ba": [
   "Bỏ lỡ 2 lần (1815, 1915): vùng Đáy 2 B3 — Ba xem cho đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau",
   "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE",
-  "Vùng Day2 có Đáy 2 dừng B3 chạm đúng đáy mà bot không bóp cò (0625, đáy 60.391) — Ba xem có cho khớp thẳng (luật nới, chưa áp)"
+  "Vùng Day2 có Đáy 2 dừng B3 chạm đúng đáy mà bot không bóp cò (0625, đáy 60.391) — Ba xem có cho khớp thẳng (luật nới, chưa áp)",
+  {
+   "luc": "2026-11-27T08:15:00+07:00",
+   "de_xuat": "Đầu trên vùng Day2 = Đáy 2 +0,3% (hụt <0,1% hai lần: KH-0125, KH-0715) — luật nới, chờ Ba chốt"
+  }
  ]
 }
