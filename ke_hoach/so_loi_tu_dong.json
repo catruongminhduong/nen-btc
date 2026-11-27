@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T03:15:00+07:00",
+ "cap_nhat": "2026-11-28T04:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4378,6 +4378,24 @@
    "ket_qua": "SAI",
    "ma_loi": "B7",
    "luc": "2026-11-28T03:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-27-2015",
+   "moc": "+8h",
+   "du": "XUONG 60.450–61.200",
+   "that": "59.853 đúng chiều thấp hơn vùng",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T04:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-27-1615",
+   "moc": "+12h",
+   "du": "XUONG 60.250–60.900",
+   "that": "59.853 đúng chiều thấp hơn vùng",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T04:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -5658,20 +5676,26 @@
    "so_lan_dung": 2,
    "tu": "2026-11-28T01:15:00+07:00",
    "het_han": "2026-12-01T01:15:00+07:00"
+  },
+  {
+   "cach": "Không mua giữa nén 15m < 1%; rũ có RSI 1m thấp hơn thì không mua (03:12 chỉ hồi 0,25%)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-28T04:15:00+07:00",
+   "het_han": "2026-12-01T04:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-27T14:15:00+07:00",
-  "den": "2026-11-28T02:15:00+07:00",
-  "lenh_that": 2,
-  "thang": 1,
-  "tong_pct": -0.1,
-  "tong": 49,
-  "dung": 24,
-  "sai": 18,
+  "tu": "2026-11-27T16:15:00+07:00",
+  "den": "2026-11-28T04:15:00+07:00",
+  "lenh_that": 3,
+  "thang": 2,
+  "tong_pct": 0.11,
+  "tong": 53,
+  "dung": 27,
+  "sai": 20,
   "bo_lo": 2,
   "cho": 4,
-  "ty_le_dung_pct": 53.3
+  "ty_le_dung_pct": 55.1
  },
  "tu_sua": [
   {
@@ -5718,6 +5742,11 @@
    "tu": "2026-11-28T02:15:00+07:00",
    "het_han": "2026-11-28T14:15:00+07:00",
    "sua": "(siết) mốc +4h theo nến 5 Bộ 5 2h khi đã có đáy cao dần phân kỳ ở nến #3; đáy Bộ 5 8h/Ngày chỉ đặt cho mốc trong cửa sổ cuối nến 4 8h"
+  },
+  {
+   "tu": "2026-11-28T04:15:00+07:00",
+   "het_han": "2026-11-28T16:15:00+07:00",
+   "sua": "(siết) mốc lộ trình quanh giá nén ± 0,7 × Bộ 5 1h/2h, chiều theo Bộ 5 8h, không đặt theo cụm M7 4h/8h xa (1615 +12h, 2015 +8h MỘT PHẦN B7)"
   }
  ],
  "thong_ke_ghi_chu": [
