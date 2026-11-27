@@ -3854,6 +3854,16 @@
    "that": "đáy 60.398 hụt 0,08% rồi hồi +1,0%",
    "nguyen_nhan": "đầu trên vùng thấp hơn cụm M99 1h",
    "da_sua": "chỉ ghi lại + đề xuất Ba (không nới)"
+  },
+  {
+   "luc": "2026-11-27T07:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0420",
+   "moc": "lenh_cho A2 (#148)",
+   "ma_loi": "B7",
+   "du": "retest 60.766 rồi lên",
+   "that": "#148 đóng −1,02% lúc 06:56 (d7kh_hoi_san), rũ tới 60.391",
+   "nguyen_nhan": "mua đầu rũ — % Bộ 5 15m thay nhịp ngược Bộ 5 2h",
+   "da_sua": "đã siết từ 06:25 (vùng retest theo nhịp ngược 50–60% Bộ 5 NH)"
   }
  ],
  "luat_tam": [
@@ -4971,7 +4981,7 @@
   },
   {
    "cach": "Đáy 2 dừng B3: RSI 5m không thấp hơn Đáy 1 → mua, không đếm lại",
-   "so_lan_dung": 1,
+   "so_lan_dung": 2,
    "tu": "2026-11-27T06:25:00+07:00",
    "het_han": "2026-11-30T06:25:00+07:00"
   }
@@ -5050,6 +5060,7 @@
  ],
  "de_xuat_ba": [
   "Bỏ lỡ 2 lần (1815, 1915): vùng Đáy 2 B3 — Ba xem cho đầu trên vùng = giá lúc RSI 5m cực trị lần chạm sau",
-  "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE"
+  "Lệnh chờ chỉ khớp ETH, chưa thấy DOGE — Ba xem bot DOGE",
+  "Vùng Day2 có Đáy 2 dừng B3 chạm đúng đáy mà bot không bóp cò (0625, đáy 60.391) — Ba xem có cho khớp thẳng (luật nới, chưa áp)"
  ]
 }
