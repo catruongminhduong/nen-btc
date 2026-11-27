@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-27T09:20:00+07:00",
+ "cap_nhat": "2026-11-27T11:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -3908,6 +3908,28 @@
    "nguyen_nhan": "mua retest sau Đỉnh nhỏ, hồi không tới M99 5m trước khi rút",
    "da_sua": "siết: không lệnh chờ hồi sau Đỉnh 2 phân kỳ 30m/1h (hạn 22:15)",
    "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-1015",
+   "moc": "vị trí",
+   "ma_loi": "B4",
+   "du": "ĐẦU nhịp xuống, Bộ 5 1h xuống tv 60.835",
+   "that": "đi ngang 61.40–61.72k, 1h RSI đóng 67,4 cao hơn",
+   "nguyen_nhan": "gọi đầu nhịp xuống khi Bộ 5 2h lên mới nến #2 (Đỉnh 1)",
+   "da_sua": "gọi CUỐI nhịp lên; đầu nhịp xuống khi 1h đóng dưới M7 1h hoặc 2h nến 5 chạm M7 2h",
+   "nguon": "tu_dong"
+  },
+  {
+   "luc": "2026-11-27T11:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0715",
+   "moc": "+4h",
+   "ma_loi": "B7",
+   "du": "NGANG 60.300–60.950",
+   "that": "61.409 (vượt mức đổi 61.100)",
+   "nguyen_nhan": "không tính nhịp 8h thẳng lên còn đủ tới 75% 61.598",
+   "da_sua": "đã sửa từ 10:15 (dạng THẲNG)",
+   "nguon": "tu_dong"
   }
  ],
  "luat_tam": [
@@ -5028,51 +5050,36 @@
    "so_lan_dung": 2,
    "tu": "2026-11-27T06:25:00+07:00",
    "het_han": "2026-11-30T06:25:00+07:00"
+  },
+  {
+   "cach": "Không mua khi hồi Ngày đã đủ và chưa có đáy (kỳ 10:15 → giá ngang, không mất gì)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-27T11:15:00+07:00",
+   "het_han": "2026-11-30T11:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-26T21:20:00+07:00",
-  "den": "2026-11-27T09:20:00+07:00",
+  "tu": "2026-11-26T23:15:00+07:00",
+  "den": "2026-11-27T11:15:00+07:00",
   "lenh_that": {
-   "so_lenh": 4,
-   "thang": 2,
-   "thua": 1,
-   "tong_pct": 0.05,
-   "loi_theo_nhom": {
-    "cuoi_nhip_dung_nen": 1,
-    "mua_hoi_du": 2,
-    "day_nho_giua_nhip_lon": 0,
-    "cuoi_hoi": 0,
-    "dau_nhip_xuong": 1,
-    "LOI_MOI": 0
-   }
+   "so_lenh": 3,
+   "thang": 1,
+   "thua": 2,
+   "tong_pct": -0.4
   },
   "tong": 44,
-  "dung": 29,
-  "sai": 5,
-  "bo_lo": 2,
+  "dung": 26,
+  "sai": 7,
+  "bo_lo": 3,
   "cho": 8,
-  "ty_le_dung_pct": 81,
-  "theo_loai": {
-   "mo_vung_mua": "6/8 (2115 Day2+A1, 2215, 2315 #147, 0015, 0625 đúng; 0420 #148, 0525 sai; 0815 chờ #149)",
-   "khong_mo": "6/6",
-   "vung_ban": "12/14",
-   "ban_khan_cap": "0/0",
-   "huong_nen": "6/9",
-   "huong_dau_ngay": "2/2"
-  },
-  "phat_huy": [
-   "Lệnh chờ ở cụm M trùng khớp thẳng (#146 +0,40%, #147 +0,67%; #149 đang +0,36% BTC) — kỳ này A3 ở cụm M7 2h/M7 4h/M99 5m",
-   "Đáy 2 dừng B3 (RSI 5m không thấp hơn) — không đếm lại",
-   "Bán hồi sau khi chạm M99 5m — giữ"
-  ],
-  "KH-2026-11-27-1015": {
-   "luc": "2026-11-27T10:15:00+07:00",
-   "lenh_that": "4 (2 thắng, 2 thua, 0,00%)",
-   "dung": 28,
+  "ty_le_dung_pct": 33,
+  "KH-2026-11-27-1115": {
+   "luc": "2026-11-27T11:15:00+07:00",
+   "lenh_that": "3 (1 thắng, 2 thua, −0,40%)",
+   "dung": 26,
    "sai": 7,
    "bo_lo": 3,
-   "cho": 6
+   "cho": 8
   }
  },
  "tu_sua": [
