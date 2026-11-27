@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-27T17:15:00+07:00",
+ "cap_nhat": "2026-11-27T18:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4054,6 +4054,51 @@
    "that": "61.730, vượt mức đổi 61.700 không quay lại",
    "ket_qua": "SAI",
    "nguyen_nhan": "gọi NGANG khi Bộ 5 2h vừa mở nến #1 thẳng lên — lần 3 trong 48h (0715, 1015, 0815)"
+  },
+  {
+   "luc": "2026-11-27T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-1715",
+   "moc": "không mở vùng mua",
+   "du": "đầu–giữa nhịp xuống, không mua",
+   "that": "17:15 61.654 → cao 61.748 (+0,15%) → thấp 61.586",
+   "ket_qua": "DUNG",
+   "ma_loi": ""
+  },
+  {
+   "luc": "2026-11-27T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0525",
+   "moc": "+12h",
+   "du": "NGANG 60.000–61.600",
+   "that": "17:25 ~61.63 (trong ±0,3%), không chạm 59.330/62.300",
+   "ket_qua": "DUNG",
+   "ma_loi": ""
+  },
+  {
+   "luc": "2026-11-27T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-1415",
+   "moc": "+4h",
+   "du": "XUONG 60.900–61.600",
+   "that": "18:00 61.593 trong vùng, không chạm 60.390/62.670",
+   "ket_qua": "DUNG",
+   "ma_loi": ""
+  },
+  {
+   "luc": "2026-11-27T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-0920",
+   "moc": "+8h",
+   "du": "NGANG 60.550–61.400",
+   "that": "17:20 ~61.63; râu 62.249 chạm mức đổi 61.850 rồi quay lại",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7"
+  },
+  {
+   "luc": "2026-11-27T18:15:00+07:00",
+   "ke_hoach": "KH-2026-11-27-1015",
+   "moc": "+8h",
+   "du": "NGANG 60.450–61.150",
+   "that": "18:00 61.593 trên vùng; râu 62.249 chạm mức đổi 61.900 rồi quay lại",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B2"
   }
  ],
  "luat_tam": [
@@ -4647,7 +4692,7 @@
    "luat": "Khi đã có đáy (RSI cực trị khung DH lớn nhất dưới M99 đã bật lên) vùng mua Hoi phải có mép trên sát giá hiện tại (trong giới hạn LT-B10-3) và mép dưới tới điểm chạm lại gần nhất (M7 NH/M99 15m); không được đặt vùng sâu hơn chạm lại khi nhịp hồi tính ra ≥0,6%",
    "can_cu": "5 lần bỏ lỡ nhịp hồi trong 12h (KH-0215..0615), Ba chốt ĐI CHỢ MẠNH DẠN 23/11",
    "het_han": "2026-11-26T10:15:00+07:00",
-   "trang_thai": "da_bo",
+   "trang_thai": "het_han",
    "ket_qua": {
     "giup": 1,
     "khong_giup": 4
@@ -4695,7 +4740,7 @@
    "luat": "Khi chưa có RSI cực trị trên M99 ở khung DH ≥5m: đầu dưới vùng bán / mức Thu lúa tầng tối thiểu = M gần nhất phía trên giá lúc chạm (M99 5m / M7 1h / M25 30m, tính M lúc chạm), không đặt theo % vùng xa hơn",
    "can_cu": "B7 vùng bán trượt đỉnh 8 kỳ trong 12h (0215–0915, đặt 61,6–61,95k, đỉnh thật 61.682)",
    "het_han": "2026-11-27T14:15:00+07:00",
-   "trang_thai": "dang_ap",
+   "trang_thai": "het_han",
    "ket_qua": {
     "giup": 2,
     "khong_giup": 3
@@ -4768,12 +4813,13 @@
    "het_han": "2026-11-30T12:15:00+07:00",
    "trang_thai": "dang_ap",
    "ket_qua": {
-    "giup": 2,
+    "giup": 3,
     "khong_giup": 0
    },
    "ghi_nhan": [
     "16:15 27/11: 1215 +4h DUNG, mức đổi 62.670 không chạm dù râu 62.249 → giup +1",
-    "17:15 27/11: KH-1315 +4h DUNG, mức đổi 75% (60.900/62.670) không chạm → giup +1"
+    "17:15 27/11: KH-1315 +4h DUNG, mức đổi 75% (60.900/62.670) không chạm → giup +1",
+    "18:15 27/11: KH-1415 +4h (áp luật) ĐÚNG → giup +1; áp cho KH-1815"
    ]
   },
   {
@@ -4785,12 +4831,13 @@
    "het_han": "2026-11-30T15:15:00+07:00",
    "trang_thai": "dang_ap",
    "ket_qua": {
-    "giup": 0,
+    "giup": 1,
     "khong_giup": 0
    },
    "ghi_nhan": [
     "15:15 27/11: áp cho KH-1515 (đỉnh chính 62.025 nến #4 đã phân kỳ → ghi XUỐNG)",
-    "16:15 27/11: áp cho KH-1615 — đỉnh chính 62.249 nến #5 phân kỳ → ghi XUỐNG; 0815 +8h SAI lập trước luật (không cộng)"
+    "16:15 27/11: áp cho KH-1615 — đỉnh chính 62.249 nến #5 phân kỳ → ghi XUỐNG; 0815 +8h SAI lập trước luật (không cộng)",
+    "18:15 27/11: KH-1415 +4h (áp luật) ĐÚNG → giup +1; áp cho KH-1815"
    ]
   }
  ],
@@ -5258,22 +5305,27 @@
    "tu": "2026-11-27T17:15:00+07:00",
    "het_han": "2026-11-30T17:15:00+07:00",
    "de_xuat_ba_chot": true
+  },
+  {
+   "cach": "Không mua khi chưa có đáy của nhịp ngược (1215–1715)",
+   "so_lan_dung": 6,
+   "tu": "2026-11-27T18:15:00+07:00",
+   "het_han": "2026-11-30T18:15:00+07:00",
+   "de_xuat_ba_chot": true
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-27T05:15:00+07:00",
-  "den": "2026-11-27T17:15:00+07:00",
-  "lenh_that": {
-   "so_lenh": 2,
-   "thang": 0,
-   "thua": 2,
-   "tong_pct": -1.07
-  },
-  "tong": 24,
-  "dung": 14,
-  "sai": 5,
+  "tu": "2026-11-27T06:15:00+07:00",
+  "den": "2026-11-27T18:15:00+07:00",
+  "lenh_that": 2,
+  "thang": 0,
+  "thua": 2,
+  "tong_pct": -1.07,
+  "tong": 29,
+  "dung": 18,
+  "sai": 8,
   "bo_lo": 3,
-  "cho": 2,
+  "cho": 0,
   "ty_le_dung_pct": 0
  },
  "tu_sua": [
