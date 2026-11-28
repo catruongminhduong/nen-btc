@@ -4737,6 +4737,24 @@
    "ket_qua": "DUNG",
    "ma_loi": "",
    "luc": "2026-11-28T18:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1715",
+   "moc": "lệnh thật #153",
+   "du": "mua Day2 vùng 8h, bán hồi",
+   "that": "mua 59.355 (17:21) → force_exit 18:33 −0,60%",
+   "ket_qua": "SAI",
+   "ma_loi": "LOI_MOI: force_exit không rõ nguồn; mua giữa nén trên biên dưới",
+   "luc": "2026-11-28T19:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1115",
+   "moc": "+8h 19:15",
+   "du": "NGANG 59.450–60.350",
+   "that": "1h đóng 59.238 (dưới biên −0,36%), không chạm 58.950",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T19:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -5473,7 +5491,7 @@
    "het_han": "2026-11-30T15:15:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 5,
+    "giup": 6,
     "khong_giup": 1
    },
    "ghi_nhan": [
@@ -5486,7 +5504,8 @@
     "22:15 27/11: áp cho KH-2215 — Bộ 5 2h/8h đang xuống, chưa có đáy chính → ghi XUỐNG",
     "02:15 28/11: 2215 +4h XUỐNG (theo đỉnh chính phân kỳ) SAI — đáy tới sớm rồi đáy cao dần → khong_giup +1; kỳ 0215 +4h ghi LÊN theo đáy cao dần phân kỳ nến #3",
     "16:15 28/11: 1215 +4h NGANG đúng khi Bộ 5 2h đã có Đáy 2 dừng → giup +1",
-    "18:15 28/11: áp cho KH-1815 — Bộ 5 2h/8h đã có đáy chính phân kỳ ở nến #4 → lộ trình +4h/+8h ghi LÊN"
+    "18:15 28/11: áp cho KH-1815 — Bộ 5 2h/8h đã có đáy chính phân kỳ ở nến #4 → lộ trình +4h/+8h ghi LÊN",
+    "19:15 28/11: KH-1515 +4h NGANG DUNG, KH-0715 +12h XUONG DUNG → giup +1"
    ]
   },
   {
@@ -6183,6 +6202,11 @@
    "tu": "2026-11-28T14:15:00+07:00",
    "het_han": "2026-11-29T02:15:00+07:00",
    "sua": "Lệnh chờ A1 kỳ trước còn ghi DOGE dù KHD-0558 cảnh báo DOGE không theo BTC · vì chép lại cap mặc định · kỳ này SIẾT: cap chỉ ETH khi KHD có canh_bao (hạn 12 giờ)"
+  },
+  {
+   "tu": "2026-11-28T19:15:00+07:00",
+   "het_han": "2026-11-29T07:15:00+07:00",
+   "sua": "#153 mua 59.355 giữa nén 15m / đầu trên vùng · vì vùng Day2 mép trên đặt trên biên dưới nén · kỳ này SIẾT: có nén 15m < 1% sát đáy thì mép trên vùng Day2 = biên dưới nén + ~0,1% (59.100), hạn 12 giờ"
   }
  ],
  "thong_ke_ghi_chu": [
@@ -6239,6 +6263,10 @@
   {
    "luc": "2026-11-28T18:15:00+07:00",
    "de_xuat": "A1 (58.820–59.100) chạm 59.048 lúc 17:50 nhưng bot không khớp vì ETH đang giữ lệnh #153 (mua 17:21 BTC 59.355) — Ba xem có cho lệnh chờ khớp thêm khi đã có lệnh cùng cặp"
+  },
+  {
+   "luc": "2026-11-28T19:15:00+07:00",
+   "de_xuat": "#153 đóng force_exit 18:33 −0,60% — Ba xem nguồn force_exit (tay / bot khởi động lại?)"
   }
  ]
 }
