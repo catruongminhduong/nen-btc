@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T08:15:00+07:00",
+ "cap_nhat": "2026-11-28T09:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4480,6 +4480,28 @@
    "ma_loi": "B7",
    "luc": "2026-11-28T08:15:00+07:00",
    "nguyen_nhan": "tính hồi tới trần xa, bot bán ở M99 5m"
+  },
+  {
+   "ke_hoach": "KH-2026-11-27-2115",
+   "moc": "+12h",
+   "du": "NGANG 60.450–61.300",
+   "that": "60.187, chạm mức đổi 59.983 rồi quay lại",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T09:15:00+07:00",
+   "nguyen_nhan": "lập trước khi xả 22:05, biên theo nến 2h lên",
+   "da_sua": "lộ trình theo Ngày/8h (LT-B1-27-2215)"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0715",
+   "moc": "không mở Hồi",
+   "du": "chỉ mua rũ dưới 59.580",
+   "that": "59.834 → 60.229 (+0,66%)",
+   "ket_qua": "BO_LO",
+   "ma_loi": "BO_LO",
+   "luc": "2026-11-28T09:15:00+07:00",
+   "nguyen_nhan": "hồi từ cụm M99 5m khi 5m cắt lên M99; bot bán hồi ở M99 5m nên lời thực nhỏ",
+   "da_sua": "chỉ ghi lại + đề xuất Ba (không nới)"
   }
  ],
  "luat_tam": [
@@ -5246,7 +5268,8 @@
     "23:15 27/11: đáy 58.792 = tv tầng 8h (5,33%) như luật tính → giúp 1",
     "00:15 28/11: đáy 58.792 đúng tầng 8h, mức đổi lộ trình theo Ngày/8h (58.400) áp kỳ này",
     "02:15 28/11: 2215 +4h đáy theo Ngày 58,0–59,2k không tới (SAI) → khong_giup +1; vẫn áp cho đáy +12h Bộ 5 8h",
-    "07:15 28/11: 1915 +12h SAI (lập trước luật) — luật giữ, lộ trình kỳ này theo Ngày/8h"
+    "07:15 28/11: 1915 +12h SAI (lập trước luật) — luật giữ, lộ trình kỳ này theo Ngày/8h",
+    "09:15 28/11: 2115 +12h MỘT PHẦN (lập trước luật); kỳ này lộ trình theo Ngày/8h"
    ]
   }
  ],
@@ -5565,7 +5588,8 @@
    "tu": "2026-11-25T09:15:00+07:00",
    "het_han": "2026-11-28T09:15:00+07:00",
    "ghi_chu_1115": "#143 (lane T2, cuối nhịp Ngày) +0,34% → 3 lần theo lệnh thật; dùng lại cho 1115-A1",
-   "ghi_chu_1215": "#144 (1115-A1) khớp 11:26 BTC 59.328, đáy thật 58.938 trong vùng — chờ chấm lời/lỗ; giữ A1"
+   "ghi_chu_1215": "#144 (1115-A1) khớp 11:26 BTC 59.328, đáy thật 58.938 trong vùng — chờ chấm lời/lỗ; giữ A1",
+   "trang_thai": "het_han"
   },
   {
    "cach": "Không mở vùng khi C1 (5m dưới M99) và C5 (RSI 12h ở đáy) cùng chặn ở cuối nhịp Ngày — chờ nến 2h/12h đóng",
@@ -5631,10 +5655,11 @@
   },
   {
    "cach": "Không mua giữa nén khi hồi còn < 0,6% (sát trần) — kỳ 2015 đúng",
-   "so_lan_dung": 3,
+   "so_lan_dung": 4,
    "tu": "2026-11-26T21:20:00+07:00",
    "het_han": "2026-11-29T21:20:00+07:00",
-   "ghi_chu_2315": "2115, 2215 đúng"
+   "ghi_chu_2315": "2115, 2215 đúng",
+   "ghi_chu_0915": "0815 đúng (sau 08:15 chỉ +0,26%); kỳ 0915 dùng lại ở trần M99 1h"
   },
   {
    "cach": "Nhánh A theo % Bộ 5 2h NGANG từ đỉnh nén (tv 1,65%) trùng cụm M7 8h — dự 59.961, thật 59.915",
@@ -5780,17 +5805,17 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-27T20:15:00+07:00",
-  "den": "2026-11-28T08:15:00+07:00",
+  "tu": "2026-11-27T21:15:00+07:00",
+  "den": "2026-11-28T09:15:00+07:00",
   "lenh_that": 3,
   "thang": 2,
   "tong_pct": 0.11,
-  "tong": 29,
-  "dung": 13,
-  "sai": 12,
-  "bo_lo": 3,
-  "cho": 1,
-  "ty_le_dung_pct": 46.4
+  "tong": 32,
+  "dung": 15,
+  "sai": 13,
+  "bo_lo": 4,
+  "cho": 0,
+  "ty_le_dung_pct": 46.9
  },
  "tu_sua": [
   {
@@ -5905,6 +5930,10 @@
   {
    "luc": "2026-11-28T08:15:00+07:00",
    "de_xuat": "Bỏ lỡ 3 lần sau đáy lớn (2115 đáy 58.792 hồi 3,0%; 2215 hồi 1,9%; 0015 hồi 0,9%) — lặp ≥ 2 lần/48h: Ba xem có chốt lệnh chờ Đáy 2 B3 ngay khi Đáy 1 có RSI 5m cực trị (luật nới, chưa áp)"
+  },
+  {
+   "luc": "2026-11-28T09:15:00+07:00",
+   "de_xuat": "Bỏ lỡ 4 lần/12h (2115 hồi 3,0%; 2215 1,9%; 0015 0,9%; 0715 +0,66% từ 59.834 lúc 08:01) — Ba xem có chốt lệnh chờ ở cụm M99 5m ngay khi 5m vừa đóng cắt lên M99 5m sau đáy cao dần (luật nới, chưa áp)"
   }
  ]
 }
