@@ -4863,6 +4863,42 @@
    "ket_qua": "DUNG",
    "ma_loi": "",
    "luc": "2026-11-28T22:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-2215",
+   "moc": "vùng bán 59.634–59.760, không mở Hoi, lệnh chờ bán BAN_HET",
+   "du": "hồi tới trần M99 15m",
+   "that": "đỉnh 59.574 (22:47) chưa tới vùng bán; #154 bán mốc B 22:26 +0,07%; không thủng 57.910",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T23:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1915",
+   "moc": "+4h 23:15",
+   "du": "LEN 59.150–59.700",
+   "that": "1h 22:00 đóng 59.497 (trong biên)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T23:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1515",
+   "moc": "+8h 23:15",
+   "du": "NGANG 59.100–59.950",
+   "that": "1h đóng 59.497 (trong biên)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T23:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1115",
+   "moc": "+12h 23:15",
+   "du": "XUONG 59.000–60.000",
+   "that": "1h đóng 59.497 (trong biên, thấp hơn lúc lập)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T23:15:00+07:00"
   }
  ],
  "luat_tam": [
