@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T15:15:00+07:00",
+ "cap_nhat": "2026-11-28T16:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4665,6 +4665,42 @@
    "that": "low 59.188 lúc 14:08 rồi đóng 59.832",
    "nguyen_nhan": "đáy Bộ 5 2h tới ở nến #2 sớm hơn cửa sổ cuối nến 4",
    "da_sua": "vùng đáy không gắn giờ cuối nến 4 (hạn 03:15 29/11)"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1215",
+   "moc": "+4h 16:15",
+   "du": "NGANG 59.700–60.400, đổi nếu thủng 59.300",
+   "that": "đóng 59.572 (trong ±0,3%), low 59.508",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T16:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0815",
+   "moc": "+8h 16:15",
+   "du": "NGANG 59.300–60.200",
+   "that": "đóng 59.572",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T16:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0415",
+   "moc": "+12h 16:15",
+   "du": "XUONG 58.800–59.800",
+   "that": "đóng 59.572",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T16:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1515",
+   "moc": "khong_mo_mua_duoi",
+   "du": "cuối râu hồi, không mua đuổi 59,83k",
+   "that": "giá rơi về 59.508 (−0,6%)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T16:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -5379,7 +5415,7 @@
    "het_han": "2026-11-30T12:15:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 4,
+    "giup": 5,
     "khong_giup": 3
    },
    "ghi_nhan": [
@@ -5388,7 +5424,8 @@
     "18:15 27/11: KH-1415 +4h (áp luật) ĐÚNG → giup +1; áp cho KH-1815",
     "21:15 27/11: KH-1715 +4h (áp luật) ĐÚNG, mức đổi 59.983/62.670 không chạm → giup +1",
     "22:15 27/11: KH-1815 +4h mức đổi 59.983 (75% 2h) bị thủng — tầng sai (nhịp Ngày), khong_giup +1",
-    "02:15 28/11: 1815 +8h SAI (mức đổi 59.983 thủng), 1415 +12h MOT_PHAN (chạm 59.770 rồi quay lại) → khong_giup +2"
+    "02:15 28/11: 1815 +8h SAI (mức đổi 59.983 thủng), 1415 +12h MOT_PHAN (chạm 59.770 rồi quay lại) → khong_giup +2",
+    "16:15 28/11: 1215 +4h DUNG, mức đổi 59.300/60.700 không chạm → giup +1"
    ]
   },
   {
@@ -5400,7 +5437,7 @@
    "het_han": "2026-11-30T15:15:00+07:00",
    "trang_thai": "de_xuat_ba_duyet",
    "ket_qua": {
-    "giup": 4,
+    "giup": 5,
     "khong_giup": 1
    },
    "ghi_nhan": [
@@ -5411,7 +5448,8 @@
     "20:15 27/11: KH-1615 +4h XUỐNG (áp luật) ĐÚNG → giup +1",
     "21:15 27/11: KH-1715 +4h (áp luật) ĐÚNG, mức đổi 59.983/62.670 không chạm → giup +1",
     "22:15 27/11: áp cho KH-2215 — Bộ 5 2h/8h đang xuống, chưa có đáy chính → ghi XUỐNG",
-    "02:15 28/11: 2215 +4h XUỐNG (theo đỉnh chính phân kỳ) SAI — đáy tới sớm rồi đáy cao dần → khong_giup +1; kỳ 0215 +4h ghi LÊN theo đáy cao dần phân kỳ nến #3"
+    "02:15 28/11: 2215 +4h XUỐNG (theo đỉnh chính phân kỳ) SAI — đáy tới sớm rồi đáy cao dần → khong_giup +1; kỳ 0215 +4h ghi LÊN theo đáy cao dần phân kỳ nến #3",
+    "16:15 28/11: 1215 +4h NGANG đúng khi Bộ 5 2h đã có Đáy 2 dừng → giup +1"
    ]
   },
   {
@@ -5976,7 +6014,7 @@
   },
   {
    "cach": "Không mua giữa nén/giữa đường khi hồi tới M99 5m < 0,6%",
-   "so_lan_dung": 7,
+   "so_lan_dung": 8,
    "tu": "2026-11-28T06:15:00+07:00",
    "het_han": "2026-12-01T14:15:00+07:00",
    "de_xuat_ba_chot": true
@@ -5989,16 +6027,16 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-28T02:15:00+07:00",
-  "den": "2026-11-28T14:15:00+07:00",
+  "tu": "2026-11-28T04:15:00+07:00",
+  "den": "2026-11-28T16:15:00+07:00",
   "lenh_that": {
-   "so_lenh": 1,
-   "thang": 1,
+   "so_lenh": 0,
+   "thang": 0,
    "thua": 0,
-   "tong_pct": 0.21,
+   "tong_pct": 0,
    "loi_theo_nhom": {
     "cuoi_nhip_dung_nen": 0,
-    "mua_hoi_du": 1,
+    "mua_hoi_du": 0,
     "day_nho_giua_nhip_lon": 0,
     "cuoi_hoi": 0,
     "dau_nhip_xuong": 0,
@@ -6006,30 +6044,29 @@
    }
   },
   "tong": 20,
-  "dung": 15,
-  "sai": 3,
+  "dung": 17,
+  "sai": 1,
   "bo_lo": 1,
   "cho": 1,
-  "ty_le_dung_pct": 78.9,
+  "ty_le_dung_pct": 89.5,
   "theo_loai": {
-   "mo_vung_mua": "1/4 (0515 hồi 0,61%; 0215/0315/0415 vùng Hồi < 0,6%) · lệnh thật #152 (mua ngay 0115) +0,21%",
-   "khong_mo": "7/8 (0615, 0815–1315 đúng; 0715 bỏ lỡ +0,66%)",
-   "vung_ban": "1/1 (0915 trần M99 1h chứa đỉnh 60.266; 1215–1315 chờ)",
+   "mo_vung_mua": "2/3 (0515 hồi 0,61%, 1415 vùng 12h chứa đáy 59.188; 0415 vùng Hồi < 0,6%)",
+   "khong_mo": "8/9 (0615, 0815–1315, 1515 đúng; 0715 bỏ lỡ +0,66%)",
+   "vung_ban": "1/1 (0915 trần M99 1h chứa đỉnh 60.266)",
    "ban_khan_cap": "0/0",
-   "huong_nen": "5/5 mốc tới hạn (0515 +8h, 0915 +4h lúc 13:15; 0215 +12h, 0615 +8h, 1015 +4h lúc 14:15)",
+   "huong_nen": "5/6 mốc tới hạn 16:15 (1215 +4h, 0815 +8h, 0415 +12h ĐÚNG)",
    "huong_dau_ngay": "1/1"
   },
   "phat_huy": [
-   "Không mua giữa nén/giữa đường khi hồi tới M99 5m < 0,6% — đúng 7 lần (0615–1315), kỳ này dùng lại: còn 0,34%",
-   "Lộ trình NGANG/XUỐNG quanh nén theo đáy cao dần — 5 mốc tới hạn ĐÚNG"
+   "Không mua giữa nén/giữa đường khi hồi tới M99 5m < 0,6% hoặc giá giữa nén 15m — đúng 8 lần, kỳ này dùng lại",
+   "Vùng Bộ 5 12h theo P0 30m (P0 → P0−1,3%) — giữ nguyên"
   ],
   "tu_sua": [
-   "Vùng Hồi giữa nén SAI 3 lần (0215/0315/0415) · giữ SIẾT: hồi tính tới M99 5m lúc chạm, < 0,6% không mở (hạn 20:15 28/11)",
-   "Mốc lộ trình không đặt dưới Đáy 1 58.792 (hạn 18:15 28/11)",
-   "Lệnh chờ A1 bỏ DOGE theo cảnh báo kế hoạch dài (DOGE không theo BTC) — kỳ trước còn ghi DOGE"
+   "Giờ đáy Bộ 5 2h tới sớm (nến #2) · SIẾT: vùng đáy giữ cả kỳ, không gắn giờ cuối nến 4 (hạn 03:15 29/11)"
   ],
   "de_xuat_ba": [
-   "Bỏ lỡ 0715 (+0,66% sau 5m cắt lên M99 5m) — Ba xem có chốt lệnh chờ ở cụm M99 5m sau đáy cao dần (luật nới, chưa áp)"
+   "Bỏ lỡ 0715 (+0,66%) — Ba xem lệnh chờ cụm M99 5m sau đáy cao dần (luật nới, chưa áp)",
+   "Lệnh thật: ket_qua_lenh.json cập nhật lần cuối 13:05, chưa có lệnh mới để chấm"
   ]
  },
  "tu_sua": [
