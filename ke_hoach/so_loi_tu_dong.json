@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T22:15:00+07:00",
+ "cap_nhat": "2026-11-29T00:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4899,6 +4899,42 @@
    "ket_qua": "DUNG",
    "ma_loi": "",
    "luc": "2026-11-28T23:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-2315",
+   "moc": "vùng bán 59.677–59.729, không mở Hoi, lệnh chờ bán BAN_HET",
+   "du": "hồi tới trần M99 15m",
+   "that": "đỉnh 59.688 (23:47) trong vùng bán, dưới trần 59.708; không vào vùng mua (thấp nhất 59.388)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-29T00:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-2015",
+   "moc": "+4h 00:15",
+   "du": "NGANG 58.950–59.450",
+   "that": "1h đóng 59.588 (trong biên +0,3%)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-29T00:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1615",
+   "moc": "+8h 00:15",
+   "du": "NGANG 59.200–59.850",
+   "that": "1h đóng 59.588",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-29T00:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1215",
+   "moc": "+12h 00:15",
+   "du": "XUONG 59.000–60.050",
+   "that": "1h đóng 59.588 (trong biên)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-29T00:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -6226,7 +6262,7 @@
   },
   {
    "cach": "Không mua giữa nén/giữa đường khi hồi tới M99 5m < 0,6%",
-   "so_lan_dung": 12,
+   "so_lan_dung": 13,
    "tu": "2026-11-28T06:15:00+07:00",
    "het_han": "2026-12-01T14:15:00+07:00",
    "de_xuat_ba_chot": true,
@@ -6248,50 +6284,55 @@
    "so_lan_dung": 1,
    "tu": "2026-11-28T22:15:00+07:00",
    "het_han": "2026-12-01T22:15:00+07:00"
+  },
+  {
+   "cach": "Vùng bán hồi cỡ 2h cắt theo trần M99 15m chứa đỉnh (59.688 trong 59.677–59.729)",
+   "so_lan_dung": 1,
+   "tu": "2026-11-29T00:15:00+07:00",
+   "het_han": "2026-12-02T00:15:00+07:00"
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-28T10:15:00+07:00",
-  "den": "2026-11-28T22:15:00+07:00",
+  "tu": "2026-11-28T12:15:00+07:00",
+  "den": "2026-11-29T00:15:00+07:00",
   "lenh_that": {
    "so_lenh": 3,
-   "thang": 1,
+   "thang": 2,
    "thua": 1,
-   "tong_pct": -0.43,
+   "tong_pct": -0.36,
    "loi_theo_nhom": {
-    "cuoi_nhip_dung_nen": 0,
+    "cuoi_nhip_dung_nen": 2,
     "mua_hoi_du": 0,
     "day_nho_giua_nhip_lon": 0,
     "cuoi_hoi": 0,
     "dau_nhip_xuong": 0,
     "LOI_MOI": 1
    },
-   "ghi_chu": "đóng: #153 ETH −0,60% force_exit (giữa nén, LOI_MOI) · #155 DOGE +0,17% d7kh_hoi_san (cuối nhịp đúng nến, Đáy 3 dừng Bộ 5 8h; hồi chạm M99 5m 59.450 rồi bán sàn) · đang giữ #154 ETH (BTC TB 59.120) +0,14%"
+   "ghi_chu": "#153 ETH −0,60% force_exit (giữa nén, LOI_MOI) · #155 DOGE +0,17% d7kh_hoi_san · #154 ETH +0,07% d7kh_mocb_ban_het (2 lệnh cuối nhịp đúng nến Bộ 5 8h) · không lệnh mới từ 22:26"
   },
-  "tong": 27,
-  "dung": 25,
+  "tong": 28,
+  "dung": 27,
   "sai": 1,
   "bo_lo": 0,
-  "cho": 1,
-  "ty_le_dung_pct": 50.0,
-  "ty_le_quyet_dinh_pct": 96.2,
+  "cho": 0,
+  "ty_le_dung_pct": 66.7,
   "theo_loai": {
-   "mo_vung_mua": "2/3 (#155 lời, #154 đang lời, #153 thua)",
-   "khong_mo": "10/10 (không mua giữa nén / giữa đường)",
-   "vung_ban": "2/2 (mục tiêu M99 5m 59,33–59,47k → đỉnh 59.450)",
+   "mo_vung_mua": "2/3 (#155, #154 lời; #153 thua)",
+   "khong_mo": "12/12 (không mua giữa nén / giữa đường / cuối hồi)",
+   "vung_ban": "3/3 (vùng 59.677–59.729 chứa đỉnh 59.688)",
    "ban_khan_cap": "0/0",
-   "huong_nen": "16/17 mốc (22:15: 1815 +4h, 1415 +8h, 1015 +12h DUNG)",
+   "huong_nen": "22/23 mốc (00:15: 2015 +4h, 1615 +8h, 1215 +12h DUNG)",
    "huong_dau_ngay": "1/1"
   },
   "phat_huy": [
-   "Vùng bán hồi = M99 5m đang hạ (59,33–59,47k) chứa đỉnh hồi 59.450 — dùng lại: mục tiêu hồi cỡ 2h = M99 5m, cỡ 8h = M7 8h",
-   "Không mở Hoi giữa đường khi hồi còn < 0,6% tới vùng bán K (11+1 lần)"
+   "Vùng bán hồi cỡ 2h cắt theo trần M99 15m → chứa đỉnh 59.688 (dùng lại: vùng bán 59.650–59.708)",
+   "Không mở Hoi khi hồi còn < 0,6% tới trần M99 gần nhất (13 lần)"
   ],
   "tu_sua": [
-   "Giữ siết 1915: mép trên Day2 = biên dưới nén + ~0,1% (59.100), hạn 07:15 29/11"
+   "Kỳ trước vẫn ghi DOGE trong vùng mua/A2 dù KHD-1758 cảnh báo DOGE không theo BTC · vì chép cap cũ · kỳ này SIẾT: cap chỉ ETH (theo tự sửa 14:15, hạn 02:15 29/11)"
   ],
   "de_xuat_ba": [
-   "#154 ETH: BTC đã chạm M99 5m (59.450, RSI 1m 74,4) mà bot chưa bán vì lệnh chờ A1 ghi ban_theo_nen 8h — đúng ý 'bán theo cỡ'; nếu Ba muốn chốt hồi cỡ 2h thì đổi ban_theo_nen A1 về 2h"
+   "Lệnh hồi lời nhỏ (#154 +0,07%, #155 +0,17%) vì bán Đỉnh 1 cỡ 2h trong khi mua theo cỡ 8h — Ba xem lệnh cỡ 8h có giữ tới vùng bán cỡ 8h (M7 8h ~60k) không"
   ]
  },
  "tu_sua": [
