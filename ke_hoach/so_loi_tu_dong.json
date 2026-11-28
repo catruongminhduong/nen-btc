@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-28T18:15:00+07:00",
+ "cap_nhat": "2026-11-28T20:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4755,6 +4755,42 @@
    "ket_qua": "MOT_PHAN",
    "ma_loi": "B7",
    "luc": "2026-11-28T19:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1915",
+   "moc": "vùng mua 58.800–59.100 + A1/A2",
+   "du": "chờ rũ biên dưới nén, không mua giữa nén",
+   "that": "thấp nhất 59.194 (19:49), không vào vùng, không thủng 57.910; hồi 59.408 (+0,29%) — chờ",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T20:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1615",
+   "moc": "+4h 20:15",
+   "du": "XUONG 59.150–59.700",
+   "that": "1h 19:00 đóng 59.204, giá 59.210 (trong biên), không chạm 58.820",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T20:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-1215",
+   "moc": "+8h 20:15",
+   "du": "NGANG 59.450–60.300",
+   "that": "1h đóng 59.204 (dưới biên −0,41%), không chạm 58.950",
+   "ket_qua": "MOT_PHAN",
+   "ma_loi": "B7",
+   "luc": "2026-11-28T20:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-0815",
+   "moc": "+12h 20:15",
+   "du": "XUONG 58.850–59.800",
+   "that": "1h đóng 59.204 (trong biên)",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-28T20:15:00+07:00"
   }
  ],
  "luat_tam": [
@@ -5663,11 +5699,12 @@
   },
   {
    "cach": "Không mua giữa nén 15m <1%, chỉ chờ rũ dưới biên: 0415/0515/0615 đúng 3/3",
-   "so_lan_dung": 10,
+   "so_lan_dung": 11,
    "tu": "2026-11-24T07:15:00+07:00",
    "het_han": "2026-11-27T07:15:00+07:00",
    "ghi_chu_0615": "05:13 rũ 59.580 có phân kỳ → hồi 59.863 chạm M99 5m (+0,48%)",
-   "ghi_chu_1815": "17:15→18:15 không mở Hoi giữa đường 59,53k, giá về 59.048 → đúng"
+   "ghi_chu_1815": "17:15→18:15 không mở Hoi giữa đường 59,53k, giá về 59.048 → đúng",
+   "ghi_chu_2015": "19:15→20:15 không mua giữa nén 59,24k, hồi chỉ +0,29% → đúng"
   },
   {
    "cach": "Lệnh chờ khớp thẳng ở cụm M99 30m / biên dưới nén sau khi RSI đã bật (A1 0415 khớp 61.005 lúc 09:00) — chờ chấm hồi",
@@ -6051,20 +6088,22 @@
   },
   {
    "cach": "Không mua giữa nén 15m < 1%; rũ có RSI 1m thấp hơn thì không mua (03:12 chỉ hồi 0,25%)",
-   "so_lan_dung": 10,
+   "so_lan_dung": 11,
    "tu": "2026-11-28T04:15:00+07:00",
    "het_han": "2026-12-01T04:15:00+07:00",
    "ghi_chu_0515": "04:15→05:15 không mua giữa nén, giá ngang 59,74–59,88k → đúng",
    "ghi_chu_0615": "05:13 rũ 59.580 có phân kỳ → hồi 59.863 chạm M99 5m (+0,48%)",
    "ghi_chu_0715": "06:15→07:15 không mua giữa nén; nén giữ biên rồi lên biên trên 59.926 → đúng",
-   "ghi_chu_1815": "17:15→18:15 không mở Hoi giữa đường 59,53k, giá về 59.048 → đúng"
+   "ghi_chu_1815": "17:15→18:15 không mở Hoi giữa đường 59,53k, giá về 59.048 → đúng",
+   "ghi_chu_2015": "19:15→20:15 không mua giữa nén 59,24k, hồi chỉ +0,29% → đúng"
   },
   {
    "cach": "Không mua giữa nén 15m < 1%, chỉ mua rũ có phân kỳ",
-   "so_lan_dung": 10,
+   "so_lan_dung": 11,
    "tu": "2026-11-28T08:15:00+07:00",
    "het_han": "2026-12-01T08:15:00+07:00",
-   "ghi_chu_1815": "17:15→18:15 không mở Hoi giữa đường 59,53k, giá về 59.048 → đúng"
+   "ghi_chu_1815": "17:15→18:15 không mở Hoi giữa đường 59,53k, giá về 59.048 → đúng",
+   "ghi_chu_2015": "19:15→20:15 không mua giữa nén 59,24k, hồi chỉ +0,29% → đúng"
   },
   {
    "cach": "Nhịp ngược = Bộ 5 15m thẳng xuống về cụm M99 5m ≈ M7 1h ≈ M25 15m",
@@ -6090,46 +6129,47 @@
   }
  ],
  "thong_ke_12h": {
-  "tu": "2026-11-28T05:15:00+07:00",
-  "den": "2026-11-28T17:15:00+07:00",
+  "tu": "2026-11-28T08:15:00+07:00",
+  "den": "2026-11-28T20:15:00+07:00",
   "lenh_that": {
-   "so_lenh": 0,
+   "so_lenh": 1,
    "thang": 0,
-   "thua": 0,
-   "tong_pct": 0,
+   "thua": 1,
+   "tong_pct": -0.6,
    "loi_theo_nhom": {
     "cuoi_nhip_dung_nen": 0,
     "mua_hoi_du": 0,
     "day_nho_giua_nhip_lon": 0,
     "cuoi_hoi": 0,
     "dau_nhip_xuong": 0,
-    "LOI_MOI": 0
-   }
+    "LOI_MOI": 1
+   },
+   "ghi_chu": "#153 ETH D7KH_T1_12h mua 17:21 (BTC 59.355, giữa nén) → force_exit 18:33 −0,60%; không lệnh mới sau 18:34"
   },
-  "tong": 23,
-  "dung": 20,
-  "sai": 0,
-  "bo_lo": 1,
+  "tong": 24,
+  "dung": 21,
+  "sai": 1,
+  "bo_lo": 0,
   "cho": 2,
-  "ty_le_dung_pct": 95.2,
+  "ty_le_dung_pct": 0.0,
+  "ty_le_quyet_dinh_pct": 95.5,
   "theo_loai": {
-   "mo_vung_mua": "2/2 (0515 hồi 0,61%, 1415 vùng 12h chứa đáy 59.188) · 1615 vùng + A1/A2 chưa chạm → chờ",
-   "khong_mo": "9/10 (0615, 0815–1315, 1515, 1615 đúng; 0715 bỏ lỡ +0,66%)",
+   "mo_vung_mua": "1/2 theo lệnh thật (#153 −0,60%) · vùng 1715–1915 chứa đáy 59.048 về giá; 1815/1915 vùng + A1/A2 chưa chạm → chờ",
+   "khong_mo": "9/9 (0815–1315, 1515, 1615, 1815, 1915 đúng; 1915 không mua giữa nén, hồi chỉ +0,29%)",
    "vung_ban": "1/1 (0915 trần M99 1h chứa đỉnh 60.266)",
    "ban_khan_cap": "0/0",
-   "huong_nen": "6/6 mốc 16:15–17:15 (1315 +4h, 0915 +8h, 0515 +12h ĐÚNG)",
+   "huong_nen": "10/11 mốc (1215 +8h MOT_PHAN)",
    "huong_dau_ngay": "1/1"
   },
   "phat_huy": [
-   "Không mua giữa nén/giữa đường khi hồi tới M99 5m < 0,6% — đúng 9 lần, kỳ này dùng lại",
-   "Vùng Bộ 5 12h theo P0 30m (P0 → P0−1,3%) — giữ nguyên"
+   "Không mua giữa nén 15m < 1%, chỉ mua rũ biên dưới (11 lần) — kỳ này giữ vùng 58.800–59.100",
+   "Vùng Bộ 5 12h theo P0 30m (P0 → P0−1,3%) chứa đáy thật (2 lần) — giữ 58.490–59.050"
   ],
   "tu_sua": [
-   "Giờ đáy Bộ 5 2h tới sớm (nến #2) · SIẾT: vùng đáy giữ cả kỳ, không gắn giờ cuối nến 4 (hạn 03:15 29/11)"
+   "Giữ siết 1915: mép trên vùng Day2 = biên dưới nén + ~0,1% (59.100), hạn tới 07:15 29/11"
   ],
   "de_xuat_ba": [
-   "Bỏ lỡ 0715 (+0,66%) — Ba xem lệnh chờ cụm M99 5m sau đáy cao dần (luật nới, chưa áp)",
-   "Lệnh thật: ket_qua_lenh.json cập nhật lần cuối 13:05, chưa có lệnh mới"
+   "#153 force_exit 18:33 −0,60% — Ba xem nguồn force_exit (lần 2 trong 2 ngày, #151 cũng force_exit)"
   ]
  },
  "tu_sua": [
