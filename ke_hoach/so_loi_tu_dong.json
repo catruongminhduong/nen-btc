@@ -1,6 +1,6 @@
 {
  "ghi_chu": "Sổ lỗi tự động của kế hoạch 4 giờ (Ba chốt 13/11). Dòng 'nguon: chep_lai' chép từ phần chấm các kế hoạch trong lich_su/ trong 48 giờ trước khi lập sổ.",
- "cap_nhat": "2026-11-29T02:15:00+07:00",
+ "cap_nhat": "2026-11-29T03:15:00+07:00",
  "loi": [
   {
    "luc": "2026-11-11T17:20:00+07:00",
@@ -4971,6 +4971,15 @@
    "ket_qua": "DUNG",
    "ma_loi": "",
    "luc": "2026-11-29T01:15:00+07:00"
+  },
+  {
+   "ke_hoach": "KH-2026-11-28-2315",
+   "moc": "+4h 03:15",
+   "du": "NGANG 59.150–59.850",
+   "that": "1h đóng 59.343",
+   "ket_qua": "DUNG",
+   "ma_loi": "",
+   "luc": "2026-11-29T03:15:00+07:00"
   }
  ],
  "luat_tam": [
